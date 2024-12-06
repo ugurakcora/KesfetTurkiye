@@ -50,7 +50,7 @@ const PlaceDetails = ({ route }) => {
                 key={index}
                 style={[
                   styles.dot,
-                  { backgroundColor: index === activeSlide ? '#000' : '#ccc' }
+                  { backgroundColor: index === activeSlide ? '#2196F3' : '#BBDEFB' }
                 ]}
               />
             ))}

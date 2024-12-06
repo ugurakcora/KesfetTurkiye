@@ -8,7 +8,6 @@ import {
   FlatList,
   Pressable 
 } from 'react-native';
-import { AntDesign } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 
 export default function SelectBox({ 
