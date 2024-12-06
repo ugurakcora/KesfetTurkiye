@@ -90,7 +90,7 @@ export const cities = {
 
 
 export const culturalPlaces = {
-    '75': [ // Ardahan
+  '75': [ // Ardahan
       {
         name: 'Ardahan Kalesi',
         description: 'XVI. yüzyılda Osmanlı Padişahı III. Murat döneminde inşa edilen tarihi kale',
@@ -240,5 +240,1955 @@ export const culturalPlaces = {
         latitude: 40.9000,
         longitude: 42.7000
       }
-    ]
+  ],
+  '34': [ // İstanbul
+    {
+      name: 'Topkapı Sarayı',
+      description: 'Osmanlı İmparatorluğu döneminde padişahların ikametgahı olarak kullanılan tarihî saray.',
+      moreDetails: {
+        history: 'Fatih Sultan Mehmet tarafından 1478 yılında yaptırılmıştır ve yaklaşık 400 yıl boyunca Osmanlı İmparatorluğu’nun yönetim merkezi olarak kullanılmıştır.',
+        architecture: 'İç avlular, divan odası, harem bölümü ve padişah daireleri ile zengin Osmanlı mimarisi örneğidir.',
+        visitInfo: {
+          hours: '09:00 - 18:00',
+          price: '200 TL (Harem bölümü için ek ücret 100 TL)',
+          bestTime: 'İlkbahar ve sonbahar ayları',
+          tips: 'Yoğunluğu önlemek için erken saatlerde ziyaret ediniz.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Topkapi_Palace.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/6/6a/Topkapi_Palace.jpg',
+          'https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/37ac8a17-8127-4f06-b97b-62ab0bce8a18.jpg'
+        ]
+      },
+      location: 'Fatih',
+      latitude: 41.012193,
+      longitude: 28.983792
+    },
+    {
+      name: 'Ayasofya Camii',
+      description: 'Tarihi boyunca kilise, cami ve müze olarak hizmet veren, şu anda ibadete açık olan tarihi yapı.',
+      moreDetails: {
+        history: '532-537 yılları arasında Bizans İmparatoru I. Justinianus tarafından kilise olarak inşa edilmiştir. 1453 yılında Fatih Sultan Mehmet tarafından camiye dönüştürülmüştür.',
+        architecture: 'Kubbeli yapı, Bizans ve Osmanlı mimarisinin en görkemli örneklerinden biridir.',
+        visitInfo: {
+          hours: '24 saat açık',
+          price: 'Ücretsiz',
+          bestTime: 'Sabah erken saatler veya akşamüstü',
+          tips: 'Çok yoğun olan saatlerden kaçının. İç mekan sessizliğine dikkat edin.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Ayasofya.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4d/Ayasofya.jpg',
+          'https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/65025e94-7e6a-4ae5-baa8-7d2a3579d918.jpg'
+        ]
+      },
+      location: 'Fatih',
+      latitude: 41.008583,
+      longitude: 28.980175
+    }
+  ],
+  '06': [ // Ankara
+    {
+      name: 'Anıtkabir',
+      description: 'Türkiye Cumhuriyeti’nin kurucusu Mustafa Kemal Atatürk’ün anıt mezarı.',
+      moreDetails: {
+        history: '1944-1953 yılları arasında yapılmıştır. Atatürk’ün naaşı 10 Kasım 1953’te buraya taşınmıştır.',
+        architecture: 'Neoklasik ve modern Türk mimarisinin birleşimi, Tandoğan Anıt Bloku’ndan oluşur.',
+        visitInfo: {
+          hours: '09:00 - 17:00',
+          price: 'Ücretsiz',
+          bestTime: 'Milli bayram günlerinde özel törenlerle ziyaret edilebilir.',
+          tips: 'Sessizlik kurallarına dikkat edilmesi önerilir.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/An%C4%B1tkabir.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/d/d9/An%C4%B1tkabir.jpg',
+          'https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/9e928939-5c64-4adf-8b2c-1b01e82c4d09.jpg'
+        ]
+      },
+      location: 'Çankaya',
+      latitude: 39.925533,
+      longitude: 32.837222
+    },
+    {
+      name: 'Atatürk Orman Çiftliği',
+      description: 'Doğal güzellikleri ve hayvanat bahçesi ile Ankara’nın önemli yeşil alanlarından biri.',
+      moreDetails: {
+        history: '1925 yılında Mustafa Kemal Atatürk tarafından kurulmuştur.',
+        activities: 'Piknik, yürüyüş, çiftlik ürünleri alışverişi.',
+        visitInfo: {
+          hours: '08:00 - 18:00',
+          price: 'Ücretsiz',
+          bestTime: 'İlkbahar ve yaz ayları',
+          tips: 'Çiftlik ürünlerini satın alabileceğiniz mağazalar bulunur.'
+        }
+      },
+      type: 'natural',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/AO%C3%87.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/3/3f/AO%C3%87.jpg',
+          'https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/90fef6e2-bd69-4d87-b16f-d8289ba5299f.jpg'
+        ]
+      },
+      location: 'Yenimahalle',
+      latitude: 39.943056,
+      longitude: 32.859722
+    }
+  ],
+  '01': [ // Adana
+    {
+      name: 'Adana Merkez Parkı',
+      description: 'Adana’nın en büyük parkı, yürüyüş ve piknik için ideal.',
+      moreDetails: {
+        history: 'Park, 1990 yılında açılmıştır.',
+        activities: 'Yürüyüş, piknik, çocuk oyun alanları.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Göl kenarında yürüyüş yapmayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/adana_park.jpg',
+      slider: {
+        images: [
+          'https://example.com/adana_park1.jpg',
+          'https://example.com/adana_park2.jpg'
+        ]
+      },
+      location: 'Adana',
+      latitude: 37.00167,
+      longitude: 35.32133
+    }
+  ],
+  '02': [ // Adıyaman
+    {
+      name: 'Nemrut Dağı',
+      description: 'Dünya Mirası Listesi’nde yer alan tarihi bir dağ.',
+      moreDetails: {
+        history: 'Nemrut Dağı, Kommagene Krallığı dönemine aittir.',
+        activities: 'Güneşin doğuşu ve batışını izlemek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Yürüyüş ayakkabısı giyin.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/nemrut.jpg',
+      slider: {
+        images: [
+          'https://example.com/nemrut1.jpg',
+          'https://example.com/nemrut2.jpg'
+        ]
+      },
+      location: 'Adıyaman',
+      latitude: 37.88333,
+      longitude: 38.73333
+    }
+  ],
+  '03': [ // Afyonkarahisar
+    {
+      name: 'Afyon Kalesi',
+      description: 'Şehrin simgesi olan tarihi kale.',
+      moreDetails: {
+        history: 'Kale, Roma dönemine kadar uzanan bir geçmişe sahiptir.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/afyon_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/afyon_kalesi1.jpg',
+          'https://example.com/afyon_kalesi2.jpg'
+        ]
+      },
+      location: 'Afyonkarahisar',
+      latitude: 38.7500,
+      longitude: 30.5500
+    }
+  ],
+  '04': [ // Ağrı
+    {
+      name: 'Ağrı Dağı',
+      description: 'Türkiye’nin en yüksek zirvesi.',
+      moreDetails: {
+        history: 'Efsanelere ve mitolojilere ev sahipliği yapmaktadır.',
+        activities: 'Dağa tırmanış ve doğa yürüyüşleri.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Tırmanış için iyi bir rehberle gitmek önerilir.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/agri_dagi.jpg',
+      slider: {
+        images: [
+          'https://example.com/agri_dagi1.jpg',
+          'https://example.com/agri_dagi2.jpg'
+        ]
+      },
+      location: 'Ağrı',
+      latitude: 39.7000,
+      longitude: 43.1000
+    }
+  ],
+  '05': [ // Amasya
+    {
+      name: 'Amasya Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, Roma dönemine kadar uzanan bir geçmişe sahiptir.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/amasya_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/amasya_kalesi1.jpg',
+          'https://example.com/amasya_kalesi2.jpg'
+        ]
+      },
+      location: 'Amasya',
+      latitude: 40.6500,
+      longitude: 35.8333
+    }
+  ],
+  '07': [ // Antaly
+    {
+      name: 'Kaleiçi',
+      description: 'Antalya’nın tarihi merkezi.',
+      moreDetails: {
+        history: 'Tarihi yapıları ve dar sokakları ile ünlüdür.',
+        activities: 'Yürüyüş, alışveriş, kafe keyfi.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kaleici.jpg',
+      slider: {
+        images: [
+          'https://example.com/kaleici1.jpg',
+          'https://example.com/kaleici2.jpg'
+        ]
+      },
+      location: 'Antalya',
+      latitude: 36.88414,
+      longitude: 30.70563
+    }
+  ],
+  '08': [ // Artvin
+    {
+      name: 'Artvin Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/artvin_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/artvin_kalesi1.jpg',
+          'https://example.com/artvin_kalesi2.jpg'
+        ]
+      },
+      location: 'Artvin',
+      latitude: 41.1829,
+      longitude: 41.1802
+    }
+  ],
+  '09': [ // Aydın
+    {
+      name: 'Aphrodisias Antik Kenti',
+      description: 'Dünya Mirası Listesi’nde yer alan antik kent.',
+      moreDetails: {
+        history: 'M.Ö. 3. yüzyılda kurulmuştur.',
+        activities: 'Antik kalıntıları gezmek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/aphrodisias.jpg',
+      slider: {
+        images: [
+          'https://example.com/aphrodisias1.jpg',
+          'https://example.com/aphrodisias2.jpg'
+        ]
+      },
+      location: 'Aydın',
+      latitude: 37.6833,
+      longitude: 27.8497
+    }
+  ],
+  '10': [ // Balıkesir
+    {
+      name: 'Kaz Dağları',
+      description: 'Doğal güzellikleri ile ünlü bir dağ.',
+      moreDetails: {
+        history: 'Efsanelere ve mitolojilere ev sahipliği yapmaktadır.',
+        activities: 'Doğa yürüyüşleri ve kamp için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Kamp yaparken ateş yakmamaya dikkat edin.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/kaz_daglari.jpg',
+      slider: {
+        images: [
+          'https://example.com/kaz_daglari1.jpg',
+          'https://example.com/kaz_daglari2.jpg'
+        ]
+      },
+      location: 'Balıkesir',
+      latitude: 39.5000,
+      longitude: 27.0000
+    }
+  ],
+  '11': [ // Bilecik
+    {
+      name: 'Bilecik Şeyh Edebali Türbesi',
+      description: 'Osmanlı Devleti’nin kurucusu Osman Gazi’nin hocası Şeyh Edebali’nin türbesi.',
+      moreDetails: {
+        history: 'Türbe, Osmanlı dönemine aittir.',
+        activities: 'Tarihi yapıyı ziyaret edebilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Huzur içinde bir ziyaret için sessiz olun.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/bilecik_turbe.jpg',
+      slider: {
+        images: [
+          'https://example.com/bilecik_turbe1.jpg',
+          'https://example.com/bilecik_turbe2.jpg'
+        ]
+      },
+      location: 'Bilecik',
+      latitude: 40.1500,
+      longitude: 29.9800
+    }
+  ],
+  '12': [ // Bingöl
+    {
+      name: 'Bingöl Kaplıcaları',
+      description: 'Şifalı sularıyla ünlü kaplıcalar.',
+      moreDetails: {
+        history: 'Kaplıcalar, yüzyıllardır kullanılmaktadır.',
+        activities: 'Dinlenmek ve şifa bulmak için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Kaplıca sularında uzun süre kalmamaya dikkat edin.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/bingol_kaplicalari.jpg',
+      slider: {
+        images: [
+          'https://example.com/bingol_kaplicalari1.jpg',
+          'https://example.com/bingol_kaplicalari2.jpg'
+        ]
+      },
+      location: 'Bingöl',
+      latitude: 39.0583,
+      longitude: 40.7972
+    }
+  ],
+  '13': [ // Bitlis
+    {
+      name: 'Bitlis Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/bitlis_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/bitlis_kalesi1.jpg',
+          'https://example.com/bitlis_kalesi2.jpg'
+        ]
+      },
+      location: 'Bitlis',
+      latitude: 38.4000,
+      longitude: 42.1000
+    }
+  ],
+  '14': [ // Bolu
+    {
+      name: 'Abant Gölü',
+      description: 'Doğal güzellikleri ile ünlü bir göl.',
+      moreDetails: {
+        history: 'Göl, doğal bir oluşumdur.',
+        activities: 'Göl çevresinde yürüyüş ve piknik yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Göl kenarında piknik yapmayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/abant_golu.jpg',
+      slider: {
+        images: [
+          'https://example.com/abant_golu1.jpg',
+          'https://example.com/abant_golu2.jpg'
+        ]
+      },
+      location: 'Bolu',
+      latitude: 40.5667,
+      longitude: 31.5000
+    }
+  ],
+  '15': [ // Burdur
+    {
+      name: 'Salda Gölü',
+      description: 'Beyaz kumsalları ile ünlü bir göl.',
+      moreDetails: {
+        history: 'Göl, doğal bir oluşumdur.',
+        activities: 'Göl çevresinde yüzme ve piknik yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Göl kenarında güneşlenmeyi unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/salda_golu.jpg',
+      slider: {
+        images: [
+          'https://example.com/salda_golu1.jpg',
+          'https://example.com/salda_golu2.jpg'
+        ]
+      },
+      location: 'Burdur',
+      latitude: 37.5000,
+      longitude: 30.0000
+    }
+  ],
+  '16': [ // Bursa
+    {
+      name: 'Uludağ',
+      description: 'Kış sporları için popüler bir dağ.',
+      moreDetails: {
+        history: 'Uludağ, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kayak, dağ yürüyüşü.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Kış ayları',
+          tips: 'Kayak ekipmanınızı yanınıza almayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/uludag.jpg',
+      slider: {
+        images: [
+          'https://example.com/uludag1.jpg',
+          'https://example.com/uludag2.jpg'
+        ]
+      },
+      location: 'Bursa',
+      latitude: 40.1826,
+      longitude: 29.0665
+    }
+  ],
+  '17': [ // Çanakkale
+    {
+      name: 'Truva Antik Kenti',
+      description: 'Dünya Mirası Listesi’nde yer alan antik kent.',
+      moreDetails: {
+        history: 'Truva, efsanelere ev sahipliği yapmaktadır.',
+        activities: 'Antik kalıntıları gezmek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/truva.jpg',
+      slider: {
+        images: [
+          'https://example.com/truva1.jpg',
+          'https://example.com/truva2.jpg'
+        ]
+      },
+      location: 'Çanakkale',
+      latitude: 39.9469,
+      longitude: 26.4092
+    }
+  ],
+  '18': [ // Çankırı
+    {
+      name: 'Çankırı Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/cankiri_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/cankiri_kalesi1.jpg',
+          'https://example.com/cankiri_kalesi2.jpg'
+        ]
+      },
+      location: 'Çankırı',
+      latitude: 40.6011,
+      longitude: 33.6133
+    }
+  ],
+  '19': [ // Çorum
+    {
+      name: 'Hattuşaş',
+      description: 'Hitit İmparatorluğu’nun başkenti.',
+      moreDetails: {
+        history: 'Hattuşaş, M.Ö. 2000 yıllarına kadar uzanan bir geçmişe sahiptir.',
+        activities: 'Antik kalıntıları gezmek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/hattusas.jpg',
+      slider: {
+        images: [
+          'https://example.com/hattusas1.jpg',
+          'https://example.com/hattusas2.jpg'
+        ]
+      },
+      location: 'Çorum',
+      latitude: 39.9333,
+      longitude: 34.9667
+    }
+  ],
+  '20': [ // Denizli
+    {
+      name: 'Pamukkale',
+      description: 'Beyaz travertenleri ile ünlü doğal bir oluşum.',
+      moreDetails: {
+        history: 'Pamukkale, antik Hierapolis kenti ile birlikte UNESCO Dünya Mirası Listesi’nde yer almaktadır.',
+        activities: 'Travertenlerde yürüyüş yapabilir ve kaplıcalarda yüzebilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/pamukkale.jpg',
+      slider: {
+        images: [
+          'https://example.com/pamukkale1.jpg',
+          'https://example.com/pamukkale2.jpg'
+        ]
+      },
+      location: 'Denizli',
+      latitude: 37.9100,
+      longitude: 29.1200
+    }
+  ],
+  '21': [ // Diyarbakır
+    {
+      name: 'Diyarbakır Surları',
+      description: 'Diyarbakır’ın tarihi surları, UNESCO Dünya Mirası Listesi’nde yer almaktadır.',
+      moreDetails: {
+        history: 'Surlar, Roma dönemine kadar uzanan bir geçmişe sahiptir.',
+        activities: 'Surların etrafında yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/diyarbakir_surlari.jpg',
+      slider: {
+        images: [
+          'https://example.com/diyarbakir_surlari1.jpg',
+          'https://example.com/diyarbakir_surlari2.jpg'
+        ]
+      },
+      location: 'Diyarbakır',
+      latitude: 37.9100,
+      longitude: 40.7400
+    }
+  ],
+  '22': [ // Edirne
+    {
+      name: 'Selimiye Camii',
+      description: 'Mimar Sinan’ın ustalık eseri olan cami.',
+      moreDetails: {
+        history: 'Cami, 1568-1575 yılları arasında inşa edilmiştir.',
+        activities: 'Cami içinde ibadet edebilir ve mimarisini inceleyebilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Cami içinde sessiz olun.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Selimiye_Mosque.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4e/Selimiye_Mosque.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/5/5e/Selimiye_Mosque_in_Edirne.jpg'
+        ]
+      },
+      location: 'Edirne',
+      latitude: 41.6764,
+      longitude: 26.5550
+    }
+  ],
+  '23': [ // Elazığ
+    {
+      name: 'Elazığ Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/elazig_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/elazig_kalesi1.jpg',
+          'https://example.com/elazig_kalesi2.jpg'
+        ]
+      },
+      location: 'Elazığ',
+      latitude: 38.6740,
+      longitude: 39.2230
+    }
+  ],
+  '24': [ // Erzincan
+    {
+      name: 'Erzincan Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/erzincan_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/erzincan_kalesi1.jpg',
+          'https://example.com/erzincan_kalesi2.jpg'
+        ]
+      },
+      location: 'Erzincan',
+      latitude: 39.7500,
+      longitude: 39.5000
+    }
+  ],
+  '25': [ // Erzurum
+    {
+      name: 'Erzurum Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/erzurum_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/erzurum_kalesi1.jpg',
+          'https://example.com/erzurum_kalesi2.jpg'
+        ]
+      },
+      location: 'Erzurum',
+      latitude: 39.9334,
+      longitude: 41.2764
+    }
+  ],
+  '26': [ // Eskişehir
+    {
+      name: 'Odunpazarı Evleri',
+      description: 'Tarihi Osmanlı evleri ile ünlü bir bölge.',
+      moreDetails: {
+        history: 'Bölge, Osmanlı dönemine aittir.',
+        activities: 'Tarihi evleri gezebilir ve fotoğraf çekebilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/odunpazari.jpg',
+      slider: {
+        images: [
+          'https://example.com/odunpazari1.jpg',
+          'https://example.com/odunpazari2.jpg'
+        ]
+      },
+      location: 'Eskişehir',
+      latitude: 39.7767,
+      longitude: 30.5206
+    }
+  ],
+  '27': [ // Gaziantep
+    {
+      name: 'Gaziantep Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/gaziantep_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/gaziantep_kalesi1.jpg',
+          'https://example.com/gaziantep_kalesi2.jpg'
+        ]
+      },
+      location: 'Gaziantep',
+      latitude: 37.0662,
+      longitude: 37.3833
+    }
+  ],
+  '28': [ // Giresun
+    {
+      name: 'Giresun Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/giresun_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/giresun_kalesi1.jpg',
+          'https://example.com/giresun_kalesi2.jpg'
+        ]
+      },
+      location: 'Giresun',
+      latitude: 40.9122,
+      longitude: 38.3925
+    }
+  ],
+  '29': [ // Gümüşhane
+    {
+      name: 'Gümüşhane Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/gumushane_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/gumushane_kalesi1.jpg',
+          'https://example.com/gumushane_kalesi2.jpg'
+        ]
+      },
+      location: 'Gümüşhane',
+      latitude: 40.4650,
+      longitude: 39.4600
+    }
+  ],
+  '30': [ // Hakkari
+    {
+      name: 'Hakkari Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/hakkari_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/hakkari_kalesi1.jpg',
+          'https://example.com/hakkari_kalesi2.jpg'
+        ]
+      },
+      location: 'Hakkari',
+      latitude: 37.5750,
+      longitude: 43.7400
+    }
+  ],
+  '31': [ // Hatay
+    {
+      name: 'Saint Pierre Kilisesi',
+      description: 'Hristiyanlık tarihinin önemli yapılarından biri.',
+      moreDetails: {
+        history: 'Kilise, M.S. 4. yüzyılda inşa edilmiştir.',
+        activities: 'Tarihi yapıyı ziyaret edebilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Huzur içinde bir ziyaret için sessiz olun.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/saint_pierre.jpg',
+      slider: {
+        images: [
+          'https://example.com/saint_pierre1.jpg',
+          'https://example.com/saint_pierre2.jpg'
+        ]
+      },
+      location: 'Hatay',
+      latitude: 36.2000,
+      longitude: 36.1600
+    }
+  ],
+  '32': [ // Isparta
+    {
+      name: 'Göller Bölgesi',
+      description: 'Doğal güzellikleri ile ünlü bir bölge.',
+      moreDetails: {
+        history: 'Bölge, doğal güzellikleri ile ünlüdür.',
+        activities: 'Doğa yürüyüşleri ve kamp için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Kamp yaparken ateş yakmamaya dikkat edin.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/goller_bolgesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/goller_bolgesi1.jpg',
+          'https://example.com/goller_bolgesi2.jpg'
+        ]
+      },
+      location: 'Isparta',
+      latitude: 37.7500,
+      longitude: 30.5000
+    }
+  ],
+  '33': [ // Mersin
+    {
+      name: 'Tarsus Şelalesi',
+      description: 'Doğal güzellikleri ile ünlü bir şelale.',
+      moreDetails: {
+        history: 'Şelale, doğal bir oluşumdur.',
+        activities: 'Şelale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/tarsus_selalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/tarsus_selalesi1.jpg',
+          'https://example.com/tarsus_selalesi2.jpg'
+        ]
+      },
+      location: 'Mersin',
+      latitude: 36.8000,
+      longitude: 34.6500
+    }
+  ],
+  '35': [ // İzmir
+    {
+      name: 'Efes Antik Kenti',
+      description: 'Dünya Mirası Listesi’nde yer alan antik kent.',
+      moreDetails: {
+        history: 'Efes, M.Ö. 10. yüzyılda kurulmuştur.',
+        activities: 'Antik kalıntıları gezmek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Ephesus_Theatre.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4e/Ephesus_Theatre.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/5/5e/Ephesus_Theatre_2.jpg'
+        ]
+      },
+      location: 'Selçuk, İzmir',
+      latitude: 37.9425,
+      longitude: 27.3622
+    }
+  ],
+  '36': [ // Kars
+    {
+      name: 'Ani Harabeleri',
+      description: 'Tarihi bir antik kent.',
+      moreDetails: {
+        history: 'Ani, 10. yüzyılda kurulmuştur.',
+        activities: 'Antik kalıntıları gezmek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Ani_Armenian_Cathedral.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4e/Ani_Armenian_Cathedral.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/5/5e/Ani_Armenian_Cathedral_2.jpg'
+        ]
+      },
+      location: 'Kars',
+      latitude: 40.5962,
+      longitude: 40.5856
+    }
+  ],
+  '37': [ // Kastamonu
+    {
+      name: 'Kastamonu Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kastamonu_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kastamonu_kalesi1.jpg',
+          'https://example.com/kastamonu_kalesi2.jpg'
+        ]
+      },
+      location: 'Kastamonu',
+      latitude: 41.3870,
+      longitude: 33.7820
+    }
+  ],
+  '38': [ // Kayseri
+    {
+      name: 'Kayseri Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kayseri_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kayseri_kalesi1.jpg',
+          'https://example.com/kayseri_kalesi2.jpg'
+        ]
+      },
+      location: 'Kayseri',
+      latitude: 38.7310,
+      longitude: 35.4780
+    }
+  ],
+  '39': [ // Kırklareli
+    {
+      name: 'Kırklareli Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kirklareli_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kirklareli_kalesi1.jpg',
+          'https://example.com/kirklareli_kalesi2.jpg'
+        ]
+      },
+      location: 'Kırklareli',
+      latitude: 41.7333,
+      longitude: 27.2167
+    }
+  ],
+  '40': [ // Kırşehir
+    {
+      name: 'Kırşehir Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kirsehir_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kirsehir_kalesi1.jpg',
+          'https://example.com/kirsehir_kalesi2.jpg'
+        ]
+      },
+      location: 'Kırşehir',
+      latitude: 39.1440,
+      longitude: 34.1667
+    }
+  ],
+  '41': [ // Kocaeli
+    {
+      name: 'Kocaeli Fuar Alanı',
+      description: 'Şehrin önemli etkinlik alanlarından biri.',
+      moreDetails: {
+        history: 'Fuar alanı, çeşitli etkinliklere ev sahipliği yapmaktadır.',
+        activities: 'Fuarları gezebilir ve etkinliklere katılabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Etkinlik takvimini kontrol edin.'
+        }
+      },
+      type: 'special',
+      image: 'https://example.com/kocaeli_fuar.jpg',
+      slider: {
+        images: [
+          'https://example.com/kocaeli_fuar1.jpg',
+          'https://example.com/kocaeli_fuar2.jpg'
+        ]
+      },
+      location: 'Kocaeli',
+      latitude: 40.7667,
+      longitude: 29.9333
+    }
+  ],
+  '42': [ // Konya
+    {
+      name: 'Mevlana Müzesi',
+      description: 'Mevlana Celaleddin Rumi’nin türbesi ve müzesi.',
+      moreDetails: {
+        history: 'Müze, 1274 yılından beri ziyaret edilmektedir.',
+        activities: 'Tarihi yapıyı ziyaret edebilir ve Mevlana’nın hayatını öğrenebilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Huzur içinde bir ziyaret için sessiz olun.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Mevlana_Museum.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4e/Mevlana_Museum.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/5/5e/Mevlana_Museum_2.jpg'
+        ]
+      },
+      location: 'Konya',
+      latitude: 37.8734,
+      longitude: 32.4846
+    }
+  ],
+  '43': [ // Kütahya
+    {
+      name: 'Kütahya Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kutahya_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kutahya_kalesi1.jpg',
+          'https://example.com/kutahya_kalesi2.jpg'
+        ]
+      },
+      location: 'Kütahya',
+      latitude: 39.4167,
+      longitude: 29.9833
+    }
+  ],
+  '44': [ // Malatya
+    {
+      name: 'Malatya Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/malatya_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/malatya_kalesi1.jpg',
+          'https://example.com/malatya_kalesi2.jpg'
+        ]
+      },
+      location: 'Malatya',
+      latitude: 38.4192,
+      longitude: 38.3092
+    }
+  ],
+  '45': [ // Manisa
+    {
+      name: 'Manisa Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/manisa_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/manisa_kalesi1.jpg',
+          'https://example.com/manisa_kalesi2.jpg'
+        ]
+      },
+      location: 'Manisa',
+      latitude: 38.6192,
+      longitude: 27.4292
+    }
+  ],
+  '46': [ // Kahramanmaraş
+    {
+      name: 'Kahramanmaraş Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kahramanmaras_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kahramanmaras_kalesi1.jpg',
+          'https://example.com/kahramanmaras_kalesi2.jpg'
+        ]
+      },
+      location: 'Kahramanmaraş',
+      latitude: 37.5733,
+      longitude: 36.9375
+    }
+  ],
+  '47': [ // Mardin
+    {
+      name: 'Mardin Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/mardin_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/mardin_kalesi1.jpg',
+          'https://example.com/mardin_kalesi2.jpg'
+        ]
+      },
+      location: 'Mardin',
+      latitude: 37.3167,
+      longitude: 40.7333
+    }
+  ],
+  '48': [ // Muğla
+    {
+      name: 'Bodrum Kalesi',
+      description: 'Tarihi bir kale ve müze.',
+      moreDetails: {
+        history: 'Kale, 15. yüzyılda inşa edilmiştir.',
+        activities: 'Kale içinde müze gezilebilir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Bodrum_Castle.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4e/Bodrum_Castle.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/5/5e/Bodrum_Castle_2.jpg'
+        ]
+      },
+      location: 'Bodrum, Muğla',
+      latitude: 37.0333,
+      longitude: 27.4333
+    }
+  ],
+  '49': [ // Muş
+    {
+      name: 'Muş Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/mus_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/mus_kalesi1.jpg',
+          'https://example.com/mus_kalesi2.jpg'
+        ]
+      },
+      location: 'Muş',
+      latitude: 38.7333,
+      longitude: 41.6000
+    }
+  ],
+  '50': [ // Nevşehir
+    {
+      name: 'Kapadokya',
+      description: 'Benzersiz peri bacaları ve yer altı şehirleri ile ünlü bir bölge.',
+      moreDetails: {
+        history: 'Kapadokya, tarih boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Balon turu, doğa yürüyüşleri.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/kapadokya.jpg',
+      slider: {
+        images: [
+          'https://example.com/kapadokya1.jpg',
+          'https://example.com/kapadokya2.jpg'
+        ]
+      },
+      location: 'Nevşehir',
+      latitude: 38.6000,
+      longitude: 34.8000
+    }
+  ],
+  '51': [ // Niğde
+    {
+      name: 'Niğde Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/nigde_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/nigde_kalesi1.jpg',
+          'https://example.com/nigde_kalesi2.jpg'
+        ]
+      },
+      location: 'Niğde',
+      latitude: 37.9667,
+      longitude: 34.6833
+    }
+  ],
+  '52': [ // Ordu
+    {
+      name: 'Boztepe',
+      description: 'Şehrin manzarasını görebileceğiniz bir tepe.',
+      moreDetails: {
+        history: 'Boztepe, doğal bir oluşumdur.',
+        activities: 'Teleferik ile çıkabilir ve manzaranın tadını çıkarabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/boztepe.jpg',
+      slider: {
+        images: [
+          'https://example.com/boztepe1.jpg',
+          'https://example.com/boztepe2.jpg'
+        ]
+      },
+      location: 'Ordu',
+      latitude: 40.9833,
+      longitude: 37.8667
+    }
+  ],
+  '53': [ // Rize
+    {
+      name: 'Ayder Yaylası',
+      description: 'Doğal güzellikleri ile ünlü bir yayla.',
+      moreDetails: {
+        history: 'Yayla, doğal bir oluşumdur.',
+        activities: 'Doğa yürüyüşleri ve kamp için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Kamp yaparken ateş yakmamaya dikkat edin.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/ayder_yaylasi.jpg',
+      slider: {
+        images: [
+          'https://example.com/ayder_yaylasi1.jpg',
+          'https://example.com/ayder_yaylasi2.jpg'
+        ]
+      },
+      location: 'Rize',
+      latitude: 41.0000,
+      longitude: 40.5000
+    }
+  ],
+  '54': [ // Sakarya
+    {
+      name: 'Sapanca Gölü',
+      description: 'Doğal güzellikleri ile ünlü bir göl.',
+      moreDetails: {
+        history: 'Göl, doğal bir oluşumdur.',
+        activities: 'Göl çevresinde yürüyüş ve piknik yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Göl kenarında güneşlenmeyi unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/sapanca_golu.jpg',
+      slider: {
+        images: [
+          'https://example.com/sapanca_golu1.jpg',
+          'https://example.com/sapanca_golu2.jpg'
+        ]
+      },
+      location: 'Sakarya',
+      latitude: 40.7000,
+      longitude: 30.4000
+    }
+  ],
+  '55': [ // Samsun
+    {
+      name: 'Samsun Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/samsun_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/samsun_kalesi1.jpg',
+          'https://example.com/samsun_kalesi2.jpg'
+        ]
+      },
+      location: 'Samsun',
+      latitude: 41.2866,
+      longitude: 36.33
+    }
+  ],
+  '56': [ // Siirt
+    {
+      name: 'Siirt Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/siirt_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/siirt_kalesi1.jpg',
+          'https://example.com/siirt_kalesi2.jpg'
+        ]
+      },
+      location: 'Siirt',
+      latitude: 37.9333,
+      longitude: 41.9333
+    }
+  ],
+  '57': [ // Sinop
+    {
+      name: 'Sinop Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/sinop_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/sinop_kalesi1.jpg',
+          'https://example.com/sinop_kalesi2.jpg'
+        ]
+      },
+      location: 'Sinop',
+      latitude: 42.0050,
+      longitude: 35.1530
+    }
+  ],
+  '58': [ // Sivas
+    {
+      name: 'Sivas Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/sivas_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/sivas_kalesi1.jpg',
+          'https://example.com/sivas_kalesi2.jpg'
+        ]
+      },
+      location: 'Sivas',
+      latitude: 39.7500,
+      longitude: 37.0000
+    }
+  ],
+  '59': [ // Tekirdağ
+    {
+      name: 'Tekirdağ Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/tekirdag_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/tekirdag_kalesi1.jpg',
+          'https://example.com/tekirdag_kalesi2.jpg'
+        ]
+      },
+      location: 'Tekirdağ',
+      latitude: 40.9800,
+      longitude: 27.5000
+    }
+  ],
+  '60': [ // Tokat
+    {
+      name: 'Tokat Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/tokat_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/tokat_kalesi1.jpg',
+          'https://example.com/tokat_kalesi2.jpg'
+        ]
+      },
+      location: 'Tokat',
+      latitude: 40.3000,
+      longitude: 36.5500
+    }
+  ],
+  '61': [ // Trabzon
+    {
+      name: 'Uzungöl',
+      description: 'Doğal güzellikleri ile ünlü bir göl.',
+      moreDetails: {
+        history: 'Göl, doğal bir oluşumdur.',
+        activities: 'Göl çevresinde yürüyüş ve piknik yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Göl kenarında güneşlenmeyi unutmayın.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/uzungol.jpg',
+      slider: {
+        images: [
+          'https://example.com/uzungol1.jpg',
+          'https://example.com/uzungol2.jpg'
+        ]
+      },
+      location: 'Trabzon',
+      latitude: 40.5000,
+      longitude: 39.0000
+    }
+  ],
+  '62': [ // Tunceli
+    {
+      name: 'Munzur Dağları',
+      description: 'Doğal güzellikleri ile ünlü bir dağ.',
+      moreDetails: {
+        history: 'Dağ, doğal bir oluşumdur.',
+        activities: 'Doğa yürüyüşleri ve kamp için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Kamp yaparken ateş yakmamaya dikkat edin.'
+        }
+      },
+      type: 'natural',
+      image: 'https://example.com/munzur.jpg',
+      slider: {
+        images: [
+          'https://example.com/munzur1.jpg',
+          'https://example.com/munzur2.jpg'
+        ]
+      },
+      location: 'Tunceli',
+      latitude: 39.2000,
+      longitude: 39.5000
+    }
+  ],
+  '63': [ // Şanlıurfa
+    {
+      name: 'Göbeklitepe',
+      description: 'Dünya’nın bilinen en eski tapınak kompleksi.',
+      moreDetails: {
+        history: 'Göbeklitepe, M.Ö. 9600 yıllarına kadar uzanan bir geçmişe sahiptir.',
+        activities: 'Antik kalıntıları gezmek için popüler bir yerdir.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş kremi kullanmayı unutmayın.'
+        }
+      },
+      type: 'historical',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/G%C3%B6beklitepe.jpg',
+      slider: {
+        images: [
+          'https://upload.wikimedia.org/wikipedia/commons/4/4e/G%C3%B6beklitepe.jpg',
+          'https://upload.wikimedia.org/wikipedia/commons/5/5e/G%C3%B6beklitepe_2.jpg'
+        ]
+      },
+      location: 'Şanlıurfa',
+      latitude: 37.2233,
+      longitude: 38.9200
+    }
+  ],
+  '64': [ // Uşak
+    {
+      name: 'Uşak Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/usak_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/usak_kalesi1.jpg',
+          'https://example.com/usak_kalesi2.jpg'
+        ]
+      },
+      location: 'Uşak',
+      latitude: 38.6800,
+      longitude: 29.4000
+    }
+  ],
+  '65': [ // Van
+    {
+      name: 'Van Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/van_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/van_kalesi1.jpg',
+          'https://example.com/van_kalesi2.jpg'
+        ]
+      },
+      location: 'Van',
+      latitude: 38.4192,
+      longitude: 43.3662
+    }
+  ],
+  '66': [ // Yozgat
+    {
+      name: 'Yozgat Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/yozgat_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/yozgat_kalesi1.jpg',
+          'https://example.com/yozgat_kalesi2.jpg'
+        ]
+      },
+      location: 'Yozgat',
+      latitude: 39.8200,
+      longitude: 34.8100
+    }
+  ],
+  '67': [ // Zonguldak
+    {
+      name: 'Zonguldak Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/zonguldak_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/zonguldak_kalesi1.jpg',
+          'https://example.com/zonguldak_kalesi2.jpg'
+        ]
+      },
+      location: 'Zonguldak',
+      latitude: 41.4500,
+      longitude: 31.8000
+    }
+  ],
+  '68': [ // Aksaray
+    {
+      name: 'Aksaray Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/aksaray_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/aksaray_kalesi1.jpg',
+          'https://example.com/aksaray_kalesi2.jpg'
+        ]
+      },
+      location: 'Aksaray',
+      latitude: 38.4000,
+      longitude: 34.0000
+    }
+  ],
+  '69': [ // Bayburt
+    {
+      name: 'Bayburt Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/bayburt_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/bayburt_kalesi1.jpg',
+          'https://example.com/bayburt_kalesi2.jpg'
+        ]
+      },
+      location: 'Bayburt',
+      latitude: 40.2500,
+      longitude: 40.2500
+    }
+  ],
+  '70': [ // Karaman
+    {
+      name: 'Karaman Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/karaman_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/karaman_kalesi1.jpg',
+          'https://example.com/karaman_kalesi2.jpg'
+        ]
+      },
+      location: 'Karaman',
+      latitude: 37.2000,
+      longitude: 33.2000
+    }
+  ],
+  '71': [ // Kırıkkale
+    {
+      name: 'Kırıkkale Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/kirikkale_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/kirikkale_kalesi1.jpg',
+          'https://example.com/kirikkale_kalesi2.jpg'
+        ]
+      },
+      location: 'Kırıkkale',
+      latitude: 39.8400,
+      longitude: 33.6000
+    }
+  ],
+  '72': [ // Batman
+    {
+      name: 'Batman Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/batman_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/batman_kalesi1.jpg',
+          'https://example.com/batman_kalesi2.jpg'
+        ]
+      },
+      location: 'Batman',
+      latitude: 37.8833,
+      longitude: 40.1500
+    }
+  ],
+  '73': [ // Şırnak
+    {
+      name: 'Şırnak Kalesi',
+      description: 'Şehrin tarihi simgelerinden biri.',
+      moreDetails: {
+        history: 'Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.',
+        activities: 'Kale çevresinde yürüyüş yapabilirsiniz.',
+        visitInfo: {
+          hours: 'Her gün açık',
+          bestTime: 'Yaz ayları',
+          tips: 'Güneş batarken manzara harika.'
+        }
+      },
+      type: 'historical',
+      image: 'https://example.com/sirnak_kalesi.jpg',
+      slider: {
+        images: [
+          'https://example.com/sirnak_kalesi1.jpg',
+          'https://example.com/sirnak_kalesi2.jpg'
+        ]
+      },
+      location: 'Şırnak',
+      latitude: 37.5000,
+      longitude: 42.0000
+    }
+  ],
   };
