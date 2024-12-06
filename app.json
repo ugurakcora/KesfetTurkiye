@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "kultur",
+    "slug": "kultur",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/p.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/p.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/p.jpg",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/p.jpg"
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
