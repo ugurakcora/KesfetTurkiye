@@ -3,6 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CitySelect from './screens/CountryAndCitySelect';
 import CulturalPlaces from './screens/CulturalPlaces';
 import PlaceDetails from './screens/PlaceDetails';
+import { translate } from './translations';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,8 +24,8 @@ export default function App() {
           options={{
             headerTransparent: false,
             headerTintColor: '#000', // Geri butonunun rengi siyah
-            headerTitle: 'Kültürel Yerler',
-            headerBackTitle: 'Geri',
+            headerTitle: translate('culturalPlaces'),
+            headerBackTitle: translate('back'),
             headerShadowVisible: true,
             headerBlurEffect: 'light',
             headerBackTitleStyle: { color: '#000' }, // Geri butonunun yazı rengi siyah
@@ -37,7 +38,7 @@ export default function App() {
             headerTransparent: true,
             headerTintColor: '#000', // Geri butonunun rengi siyah
             headerTitle: '',
-            headerBackTitle: 'Geri',
+            headerBackTitle: translate('back'),
             headerShadowVisible: false,
             headerBlurEffect: 'dark',
             headerBackTitleStyle: { color: '#000' }, // Geri butonunun yazı rengi siyah

@@ -10,7 +10,8 @@ const translations = {
     culturalPlaces: "Cultural Places",
     homepageTitle: "Discover Cultural Places",
     notFound: "Cultural place information has not been added for this city yet.",
-    code: "Code"
+    code: "Code",
+    back: "Back"
   }, 
   tr: {
     citySelect: {
@@ -20,7 +21,8 @@ const translations = {
     culturalPlaces: "Kültürel Yerler",
     homepageTitle: "Kültürel Yerleri Keşfet",
     notFound: "Bu şehir için henüz kültürel yer bilgisi eklenmemiş.",
-    code: "Kod"
+    code: "Kod",
+    back: 'Geri'
   },
 };
 
