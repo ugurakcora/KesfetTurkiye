@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { culturalPlaces } from '../data/dummyData';
@@ -23,7 +23,7 @@ const CulturalPlaces = ({ route, navigation }) => {
             >
               <Image 
                 source={{ uri: place.image }} 
-                style={styles.placeImage} 
+                style={styles.placeImage}
               />
               <Text style={styles.placeName}>{place.name}</Text>
               <Text style={styles.placeDescription}>{place.description}</Text>
@@ -38,7 +38,11 @@ const CulturalPlaces = ({ route, navigation }) => {
   };
 
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      screenOptions={{
+        headerShown: false, // Tüm ekranlar için başlıkları gizler
+      }}
+    >
       <Tab.Screen 
         name="Historical" 
         children={() => renderPlaces('historical')} 
@@ -59,7 +63,7 @@ const CulturalPlaces = ({ route, navigation }) => {
       />
       <Tab.Screen
         name="Food"
-        children={() => renderPlaces('food')}
+        children={() => renderPlaces('food')} 
         options={{
           tabBarIcon: ({color, size}) => (
             <Icon name='restaurant' color={color} size={size} />
