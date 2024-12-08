@@ -1,43 +1,73 @@
 import React from 'react';
 import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image } from 'react-native';
-import { useNavigation } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { culturalPlaces } from '../data/dummyData';
-import { Ionicons } from '@expo/vector-icons';
-import { translate } from '../translations';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
-const CulturalPlaces = ({ route }) => {
+const Tab = createBottomTabNavigator();
+
+const CulturalPlaces = ({ route, navigation }) => {
   const { cityCode } = route.params;
   const places = culturalPlaces[cityCode] || [];
-  const navigation = useNavigation();
 
-  if (!places || places.length === 0) {
+  const renderPlaces = (type) => {
+    const filteredPlaces = places.filter(place => place.type === type);
     return (
-      <View style={styles.container}>
-        <Text style={styles.noDataText}>
-          {translate('notFound')} ({translate('code')}: {cityCode})
-        </Text>
-      </View>
+      <ScrollView style={styles.container}>
+        {filteredPlaces.length > 0 ? (
+          filteredPlaces.map((place, index) => (
+            <TouchableOpacity 
+              key={index} 
+              style={styles.placeCard}
+              onPress={() => navigation.navigate('PlaceDetails', { place })}
+            >
+              <Image 
+                source={{ uri: place.image }} 
+                style={styles.placeImage} 
+              />
+              <Text style={styles.placeName}>{place.name}</Text>
+              <Text style={styles.placeDescription}>{place.description}</Text>
+              <Text style={styles.placeLocation}>Konum: {place.location}</Text>
+            </TouchableOpacity>
+          ))
+        ) : (
+          <Text style={styles.noDataText}>Bu kategori için veri bulunmamaktadır.</Text>
+        )}
+      </ScrollView>
     );
-  }
+  };
 
   return (
-    <ScrollView style={styles.container}>
-      {places.map((place, index) => (
-        <TouchableOpacity 
-          key={index} 
-          style={styles.placeCard}
-          onPress={() => navigation.navigate('PlaceDetails', { place })}
-        >
-            <Image 
-            source={{ uri: place.image }} // Görseli ekle
-            style={styles.placeImage} // Stil ekle
-          />
-          <Text style={styles.placeName}>{place.name}</Text>
-          <Text style={styles.placeDescription}>{place.description}</Text>
-          <Text style={styles.placeLocation}>Konum: {place.location}</Text>
-        </TouchableOpacity>
-      ))}
-    </ScrollView>
+    <Tab.Navigator>
+      <Tab.Screen 
+        name="Historical" 
+        children={() => renderPlaces('historical')} 
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Icon name="history" color={color} size={size} />
+          ),
+        }} 
+      />
+      <Tab.Screen 
+        name="Natural" 
+        children={() => renderPlaces('natural')} 
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <Icon name="nature" color={color} size={size} />
+          ),
+        }} 
+      />
+      <Tab.Screen
+        name="Food"
+        children={() => renderPlaces('food')}
+        options={{
+          tabBarIcon: ({color, size}) => (
+            <Icon name='restaurant' color={color} size={size} />
+          ),
+        }}
+      />
+      {/* Diğer türler için ekleyin */}
+    </Tab.Navigator>
   );
 };
 
@@ -47,11 +77,11 @@ const styles = StyleSheet.create({
     padding: 16,
     backgroundColor: '#f5f5f5',
   },
-    placeImage: {
-    width: '100%', // Görselin genişliği
-    height: 200, // Görselin yüksekliği
-    borderRadius: 8, // Kenar yuvarlama
-    marginBottom: 8, // Alt boşluk
+  placeImage: {
+    width: '100%',
+    height: 200,
+    borderRadius: 8,
+    marginBottom: 8,
   },
   placeCard: {
     backgroundColor: 'white',

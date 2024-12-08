@@ -239,6 +239,53 @@ export const culturalPlaces = {
         location: 'Damal',
         latitude: 40.9000,
         longitude: 42.7000
+      },
+      {
+        "name": "Ardahan Ketesi",
+        "description": "Ardahan'ın meşhur kete yemeği, hamur işi sevenler için vazgeçilmezdir.",
+        "moreDetails": {
+          "history": "Ardahan ketesi, Osmanlı döneminden bu yana tüketilen yöresel bir hamur işidir. Çoğunlukla kahvaltılarda tercih edilir.",
+          "ingredients": [
+            "Un",
+            "Tereyağı",
+            "Süt",
+            "Maya",
+            "Tuz"
+          ],
+          "preparation": "Hamur yoğurulduktan sonra tereyağı ile açılır ve katlanır. Fırında pişirilir.",
+          "tips": "Sıcak servis edilmesi lezzetini artırır."
+        },
+        "type": "food",
+        "image": "https://i.ytimg.com/vi/TaJ8CYeJFMk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBaEJMFEOaVjUBCIyRSNZpm2RavAg",
+        "slider": {
+          "images": [
+            "https://i.ytimg.com/vi/TaJ8CYeJFMk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBaEJMFEOaVjUBCIyRSNZpm2RavAg",
+            "https://www.shopsa.com.tr/news/kete.jpg"
+          ]
+        }
+      },
+      {
+        "name": "Kazak Usulü Kavurma",
+        "description": "Kazak geleneklerinden gelen ve Ardahan'da özel günlerde yapılan et yemeği.",
+        "moreDetails": {
+          "history": "Bu yemek, bölgedeki Kazak kökenli halklar tarafından yüzyıllardır yapılmaktadır.",
+          "ingredients": [
+            "Dana veya kuzu eti",
+            "Soğan",
+            "Tereyağı",
+            "Baharatlar"
+          ],
+          "preparation": "Et, tereyağı ve soğanla birlikte kısık ateşte pişirilir.",
+          "tips": "Yanında lavaş ekmeği ile servis edilebilir."
+        },
+        "type": "food",
+        "image": "https://www.turkmutfagi.com/uploads/images/kavurma.jpg",
+        "slider": {
+          "images": [
+            "https://www.turkmutfagi.com/uploads/images/kavurma.jpg",
+            "https://cdn.kavurmayemekleri.com/kazak-kavurma.jpg"
+          ]
+        }
       }
   ],
   '34': [ // İstanbul

@@ -78,49 +78,80 @@ const PlaceDetails = ({ route }) => {
               </View>
             )}
 
-            <View style={styles.section}>
-              <Text style={styles.sectionTitle}>Ziyaret Bilgileri</Text>
-              <View style={styles.visitInfo}>
-                <Text style={styles.visitInfoText}>
-                  🕒 Ziyaret Saatleri: {place.moreDetails.visitInfo.hours}
-                </Text>
-                <Text style={styles.visitInfoText}>
-                  💰 Giriş Ücreti: {place.moreDetails.visitInfo.price}
-                </Text>
-                <Text style={styles.visitInfoText}>
-                  📅 En İyi Ziyaret Dönemi: {place.moreDetails.visitInfo.bestTime}
-                </Text>
-                <Text style={styles.visitInfoText}>
-                  💡 İpuçları: {place.moreDetails.visitInfo.tips}
-                </Text>
+            {place.moreDetails.visitInfo && (
+              <View style={styles.section}>
+                <Text style={styles.sectionTitle}>Ziyaret Bilgileri</Text>
+                
+                <View style={styles.visitInfo}>
+                  
+                    <View style={styles.visitInfo}>
+                      {place.moreDetails.visitInfo.hours && (
+                        <Text style={styles.visitInfoText}>
+                          🕒 Ziyaret Saatleri: {place.moreDetails.visitInfo.hours}
+                        </Text>
+                      )}
+                      {place.moreDetails.visitInfo.price && (
+                        <Text style={styles.visitInfoText}>
+                          💰 Giriş Ücreti: {place.moreDetails.visitInfo.price}
+                        </Text>
+                      )}
+                      {place.moreDetails.visitInfo.bestTime && (
+                        <Text style={styles.visitInfoText}>
+                          📅 En İyi Ziyaret Dönemi: {place.moreDetails.visitInfo.bestTime}
+                        </Text>
+                      )}
+                      {place.moreDetails.visitInfo.tips && (
+                        <Text style={styles.visitInfoText}>
+                          💡 İpuçları: {place.moreDetails.visitInfo.tips}
+                        </Text>
+                      )}
+                    </View>
+                
+                </View>
+                
               </View>
-            </View>
+            )}
+
+            {place.moreDetails.ingredients && (
+              <View style={styles.ingredientsContainer}>
+                <Text style={styles.sectionTitle}>Malzemeler</Text>
+                {place.moreDetails.ingredients.map((ingredient, index) => (
+                  <Text key={index} style={styles.ingredientText}>
+                    {'\u25CB'} {ingredient} 
+                  </Text>
+                ))}
+              </View>
+            )}
           </View>
         )}
 
-        <View style={styles.mapContainer}>
-          <MapView
-            style={styles.map}
-            initialRegion={coordinates}
-          >
-            <Marker
-              coordinate={{
-                latitude: coordinates.latitude,
-                longitude: coordinates.longitude
-              }}
-              title={place.name}
-            />
-          </MapView>
-          
-          <TouchableOpacity 
-            style={styles.directionsButton}
-            onPress={openInMaps}
-          >
-            <Text style={styles.directionsButtonText}>Yol Tarifi Al</Text>
-          </TouchableOpacity>
-        </View>
+        {place.type !== 'food' && (
+          <>
+            <View style={styles.mapContainer}>
+              <MapView
+                style={styles.map}
+                initialRegion={coordinates}
+              >
+                <Marker
+                  coordinate={{
+                    latitude: coordinates.latitude,
+                    longitude: coordinates.longitude
+                  }}
+                  title={place.name}
+                />
+              </MapView>
+              
+              <TouchableOpacity 
+                style={styles.directionsButton}
+                onPress={openInMaps}
+              >
+                <Text style={styles.directionsButtonText}>Yol Tarifi Al</Text>
+              </TouchableOpacity>
+            </View>
+          <Text style={styles.location}>Adres: {place.location}</Text>
+          </>
+        )}
 
-        <Text style={styles.location}>Adres: {place.location}</Text>
       </View>
     </ScrollView>
   );
@@ -167,6 +198,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 3,
     elevation: 5,
+    minHeight: '100%',
   },
   name: {
     fontSize: 24,
@@ -243,6 +275,14 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#444',
     fontStyle: 'italic',
+  },
+  ingredientsContainer: {
+    marginTop: 20,
+  },
+  ingredientText: {
+    fontSize: 16,
+    color: '#444',
+    lineHeight: 24,
   },
 });
 
