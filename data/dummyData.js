@@ -916,6 +916,30 @@ export const culturalPlaces = {
       latitude: 40.1826,
       longitude: 29.0665,
     },
+    {
+      name: "Bursa Ulu Camii",
+      description: "Bursa’nın en büyük camisi.",
+      moreDetails: {
+        history: "1396 yılında yapılmıştır.",
+        activities: "Camiyi ziyaret edebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Her zaman",
+          tips: "Camiyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/bursa_ulu_camii.jpg",
+      slider: {
+        images: [
+          "https://example.com/bursa_ulu_camii1.jpg",
+          "https://example.com/bursa_ulu_camii2.jpg",
+        ],
+      },
+      location: "Bursa",
+      latitude: 40.1826,
+      longitude: 29.0665,
+    },
   ],
   17: [
     // Çanakkale
