@@ -533,6 +533,105 @@ export const culturalPlaces = {
       latitude: 37.00167,
       longitude: 35.32133,
     },
+    {
+      name: "Seyhan Nehri",
+      description: "Adana’nın en önemli nehirlerinden biri, şehir manzarası.",
+      moreDetails: {
+        history: "Seyhan Nehri, tarihi boyunca şehre hayat vermiştir.",
+        activities: "Tekne turu, nehir kenarında yürüyüş.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Tekne turu yaparken fotoğraf makinenizi yanınıza alın.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/seyhan_nehri.jpg",
+      slider: {
+        images: [
+          "https://example.com/seyhan_nehri1.jpg",
+          "https://example.com/seyhan_nehri2.jpg",
+        ],
+      },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
+    },
+    {
+      name: "Kapıkaya Kanyonu",
+      description:
+        "Adana’nın doğal güzelliklerinden biri, doğa yürüyüşü. Doğa yürüyüşleri ve kamp yapmak için mükemmel bir yer.",
+      moreDetails: {
+        history: "Kanyon, doğal oluşumlu bir vadidir.",
+        activities: "Doğa yürüyüşü, kamp yapma, fotoğraf çekme.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Kanyon içinde yürüyüş yaparken dikkatli olun.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/kapikaya_kanyonu.jpg",
+      slider: {
+        images: [
+          "https://example.com/kapikaya_kanyonu1.jpg",
+          "https://example.com/kapikaya_kanyonu2.jpg",
+        ],
+      },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
+    },
+    {
+      name: "Yumurtalık Lagünü Milli Parkı",
+      description:
+        "Adana’nın doğal güzelliklerinden biri, kuş gözlemciliği için ideal.",
+      moreDetails: {
+        history: "Milli park, 2004 yılında koruma altına alınmıştır.",
+        activities: "Kuş gözlemciliği, doğa yürüyüşü.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Kuş gözlemi yaparken dürbün kullanman önerilir.",
+        },
+        type: "natural",
+        image: "https://example.com/yumurtalik_lagunu.jpg",
+        slider: {
+          images: [
+            "https://example.com/yumurtalik_lagunu1.jpg",
+            "https://example.com/yumurtalik_lagunu2.jpg",
+          ],
+        },
+        location: "Adana",
+        latitude: 36.9,
+        longitude: 35.5,
+      },
+    },
+    {
+      name: "Karataş Plajları",
+      description:
+        "Adana’nın sahil beldesi, deniz ve güneş keyfi yapmak için ideal.",
+      moreDetails: {
+        history: "Karataş, tarihi boyunca önemli bir liman kenti olmuştur.",
+        activities: "Deniz, kum, güneş, yüzme.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş kremi kullanmayı unutmayın.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/karatas_plaj.jpg",
+      slider: {
+        images: [
+          "https://example.com/karatas_plaj1.jpg",
+          "https://example.com/karatas_plaj2.jpg",
+        ],
+      },
+      location: "Adana",
+      latitude: 36.5,
+      longitude: 35.3,
+    },
   ],
   "02": [
     // Adıyaman
