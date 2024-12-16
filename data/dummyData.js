@@ -760,6 +760,225 @@ export const culturalPlaces = {
         ],
       },
     },
+    {
+      name: "Adana Kebap",
+      description: "Adana’nın meşhur kebap çeşidi, acılı ve lezzetli.",
+      moreDetails: {
+        history:
+          "Adana kebap, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
+        ingredients: ["Kuzu eti", "Kuyruk yağı", "Acı biber", "Tuz"],
+        preparation:
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pişirilir.",
+        tips: "Kebabın yanında ayran ve salata servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/adana_kebap.jpg",
+      slider: {
+        images: [
+          "https://example.com/adana_kebap1.jpg",
+          "https://example.com/adana_kebap2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Ciğer Kebap",
+      description: "Adana’nın lezzetli kebap çeşidi, ciğer sevenler için.",
+      moreDetails: {
+        history:
+          "Ciğer kebap, Adana mutfağının en sevilen yemeklerinden biridir.",
+        ingredients: ["Kuzu ciğeri", "Kuyruk yağı", "Tuz", "Baharatlar"],
+        preparation:
+          "Ciğerler, baharatlarla harmanlanır, şişe dizilir ve mangalda pişirilir.",
+        tips: "Kebabın yanında ayran ve salata servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/ciger_kebap.jpg",
+      slider: {
+        images: [
+          "https://example.com/ciger_kebap1.jpg",
+          "https://example.com/ciger_kebap2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Şırdan Dolması",
+      description:
+        "Adana’nın geleneksel lezzeti, içi doldurulmuş kuzu bağırsağı.",
+      moreDetails: {
+        history:
+          "Şırdan dolması, Adana mutfağının en özel yemeklerinden biridir.",
+        ingredients: ["Kuzu şırdanı", "Pirinç", "Baharatlar", "Tuz"],
+        preparation:
+          "Şırdanlar temizlenir, içleri doldurulur ve pişirilir. Üzerine sos dökülür.",
+        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/sirdan_dolma.jpg",
+      slider: {
+        images: [
+          "https://example.com/sirdan_dolma1.jpg",
+          "https://example.com/sirdan_dolma2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Adana Usulü Mercimek Çorbası",
+      description: "Adana’nın geleneksel çorbası, lezzetli ve doyurucu.",
+      moreDetails: {
+        history:
+          "Mercimek çorbası, Adana mutfağının en sevilen çorbalarından biridir.",
+        ingredients: ["Kırmızı mercimek", "Soğan", "Tereyağı", "Baharatlar"],
+        preparation:
+          "Mercimekler haşlanır, baharatlar eklenir ve blenderdan geçirilir.",
+        tips: "Çorbanın yanında limon ve ekmek servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/mercimek_corbasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/mercimek_corbasi1.jpg",
+          "https://example.com/mercimek_corbasi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Beyran Çorbası",
+      description:
+        "Adana’nın geleneksel çorbası, kuzu eti ve pirinçle yapılır.",
+      moreDetails: {
+        history:
+          "Beyran çorbası, Adana mutfağının en özel çorbalarından biridir.",
+        ingredients: ["Kuzu eti", "Pirinç", "Baharatlar", "Tereyağı"],
+        preparation: "Et ve pirinç haşlanır, baharatlar eklenir ve pişirilir.",
+        tips: "Çorbanın yanında sarımsak ve limon servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/beyran_corbasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/beyran_corbasi1.jpg",
+          "https://example.com/beyran_corbasi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Bici Bici",
+      description: "Adana’nın geleneksel tatlısı, dondurma ve nişasta.",
+      moreDetails: {
+        history:
+          "Bici Bici, Adana mutfağının en sevilen tatlılarından biridir.",
+        ingredients: ["Dondurma", "Nişasta", "Şerbet", "Çeşitli soslar"],
+        preparation:
+          "Nişasta pişirilir, soğuduktan sonra dondurma ve şerbet eklenir.",
+        tips: "Tatlıyı soğuk servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/bici_bici.jpg",
+      slider: {
+        images: [
+          "https://example.com/bici_bici1.jpg",
+          "https://example.com/bici_bici2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Karakuş Tatlısı",
+      description: "Adana’nın geleneksel tatlısı, ceviz ve şerbet.",
+      moreDetails: {
+        history:
+          "Karakuş tatlısı, Adana mutfağının en özel tatlılarından biridir.",
+        ingredients: ["Ceviz", "Şerbet", "Nişasta", "Çeşitli soslar"],
+        preparation:
+          "Nişasta pişirilir, soğuduktan sonra ceviz ve şerbet eklenir.",
+        tips: "Tatlıyı soğuk servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/karakus_tatlisi.jpg",
+      slider: {
+        images: [
+          "https://example.com/karakus_tatlisi1.jpg",
+          "https://example.com/karakus_tatlisi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Analı Kızlı",
+      description: "Adana’nın geleneksel tatlısı, ceviz ve şerbet.",
+      moreDetails: {
+        history: "Analı Kızlı, Adana mutfağının en özel tatlılarından biridir.",
+        ingredients: ["Ceviz", "Şerbet", "Nişasta", "Çeşitli soslar"],
+        preparation:
+          "Nişasta pişirilir, soğuduktan sonra ceviz ve şerbet eklenir.",
+        tips: "Tatlıyı soğuk servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/anali_kizli.jpg",
+      slider: {
+        images: [
+          "https://example.com/anali_kizli1.jpg",
+          "https://example.com/anali_kizli2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Fellah Köftesi",
+      description: "Adana’nın geleneksel yemeği, bulgur ve kıyma.",
+      moreDetails: {
+        history:
+          "Fellah köftesi, Adana mutfağının en sevilen yemeklerinden biridir.",
+        ingredients: ["Bulgur", "Kıyma", "Soğan", "Baharatlar"],
+        preparation: "Bulgur ve kıyma yoğrulur, şekil verilir ve pişirilir.",
+        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/fellah_koftesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/fellah_koftesi1.jpg",
+          "https://example.com/fellah_koftesi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Humus ve Babagannuş",
+      description: "Adana’nın geleneksel mezeleri, lezzetli ve sağlıklı.",
+      moreDetails: {
+        history:
+          "Humus ve babagannuş, Adana mutfağının en sevilen mezelerinden biridir.",
+        ingredients: ["Nohut", "Patlıcan", "Sarımsak", "Limon"],
+        preparation:
+          "Malzemeler blenderdan geçirilir, baharatlar eklenir ve servis edilir.",
+        tips: "Mezeleri ekmek veya lavaş ile servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/humus_babagannus.jpg",
+      slider: {
+        images: [
+          "https://example.com/humus_babagannus1.jpg",
+          "https://example.com/humus_babagannus2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Taş Kadayıf",
+      description: "Adana’nın geleneksel tatlısı, ceviz ve şerbet.",
+      moreDetails: {
+        history: "Taş kadayıf, Adana mutfağının en özel tatlılarından biridir.",
+        ingredients: ["Ceviz", "Şerbet", "Nişasta", "Çeşitli soslar"],
+        preparation:
+          "Nişasta pişirilir, soğuduktan sonra ceviz ve şerbet eklenir.",
+        tips: "Tatlıyı soğuk servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/tas_kadayif.jpg",
+      slider: {
+        images: [
+          "https://example.com/tas_kadayif1.jpg",
+          "https://example.com/tas_kadayif2.jpg",
+        ],
+      },
+    },
+    {},
   ],
   "02": [
     // Adıyaman
