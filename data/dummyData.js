@@ -632,6 +632,134 @@ export const culturalPlaces = {
       latitude: 36.5,
       longitude: 35.3,
     },
+    {
+      name: "Taşköprü",
+      description: "Adana’nın simgelerinden biri, tarihi taş köprü.",
+      moreDetails: {
+        history: "Taşköprü, Roma döneminde inşa edilmiştir.",
+        activities: "Köprü üzerinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/taskopru.jpg",
+      slider: {
+        images: [
+          "https://example.com/taskopru1.jpg",
+          "https://example.com/taskopru2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Adana Ulu Camii",
+      description: "Adana’nın en büyük camisi, şehir merkezinde.",
+      moreDetails: {
+        history: "Ulu Camii, 1541 yılında inşa edilmiştir.",
+        activities: "Camiyi ziyaret edebilir, ibadet yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Her zaman",
+          tips: "Camiyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/ulu_camii.jpg",
+      slider: {
+        images: [
+          "https://example.com/ulu_camii1.jpg",
+          "https://example.com/ulu_camii2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Varda Köprüsü",
+      description: "Adana’nın tarihi köprüsü, Seyhan Nehri üzerinde.",
+      moreDetails: {
+        history: "Varda Köprüsü, Roma döneminde inşa edilmiştir.",
+        activities: "Köprü üzerinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/varda_koprusu.jpg",
+      slider: {
+        images: [
+          "https://example.com/varda_koprusu1.jpg",
+          "https://example.com/varda_koprusu2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Bebekli Kilise",
+      description: "Adana’nın tarihi kilisesi, Roma döneminden kalma.",
+      moreDetails: {
+        history: "Bebekli Kilise, 5. yüzyılda inşa edilmiştir.",
+        activities: "Kiliseyi ziyaret edebilir, tarihi dokuyu görebilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Her zaman",
+          tips: "Kiliseyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
+        },
+        type: "historical",
+        image: "https://example.com/bebekli_kilise.jpg",
+        slider: {
+          images: [
+            "https://example.com/bebekli_kilise1.jpg",
+            "https://example.com/bebekli_kilise2.jpg",
+          ],
+        },
+      },
+    },
+    {
+      name: "Anavarza Antik Kenti",
+      description: "Adana’nın antik kenti, tarihi kalıntılar.",
+      moreDetails: {
+        history: "Anavarza, Roma döneminde önemli bir kentti.",
+        activities:
+          "Antik kenti ziyaret edebilir, tarihi kalıntıları görebilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Her zaman",
+          tips: "Antik kenti ziyaret ederken rahat ayakkabı giymeniz önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/anavarza.jpg",
+      slider: {
+        images: [
+          "https://example.com/anavarza1.jpg",
+          "https://example.com/anavarza2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Misis Mozaik Müzesi",
+      description: "Adana’nın mozaik müzesi, antik mozaikler.",
+      moreDetails: {
+        history: "Misis Mozaik Müzesi, 2015 yılında açılmıştır.",
+        activities:
+          "Müze koleksiyonunu ziyaret edebilir, mozaikleri görebilirsiniz.",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          bestTime: "Her zaman",
+          tips: "Müze ziyaretlerinde sessiz olunması önemlidir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/misis_mozaik.jpg",
+      slider: {
+        images: [
+          "https://example.com/misis_mozaik1.jpg",
+          "https://example.com/misis_mozaik2.jpg",
+        ],
+      },
+    },
   ],
   "02": [
     // Adıyaman
