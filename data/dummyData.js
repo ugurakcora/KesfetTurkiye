@@ -652,6 +652,9 @@ export const culturalPlaces = {
           "https://example.com/taskopru2.jpg",
         ],
       },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
     },
     {
       name: "Adana Ulu Camii",
@@ -673,6 +676,9 @@ export const culturalPlaces = {
           "https://example.com/ulu_camii2.jpg",
         ],
       },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
     },
     {
       name: "Varda Köprüsü",
@@ -694,6 +700,9 @@ export const culturalPlaces = {
           "https://example.com/varda_koprusu2.jpg",
         ],
       },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
     },
     {
       name: "Bebekli Kilise",
@@ -715,6 +724,9 @@ export const culturalPlaces = {
           ],
         },
       },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
     },
     {
       name: "Anavarza Antik Kenti",
@@ -737,6 +749,9 @@ export const culturalPlaces = {
           "https://example.com/anavarza2.jpg",
         ],
       },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
     },
     {
       name: "Misis Mozaik Müzesi",
@@ -759,6 +774,9 @@ export const culturalPlaces = {
           "https://example.com/misis_mozaik2.jpg",
         ],
       },
+      location: "Adana",
+      latitude: 37.0,
+      longitude: 35.32133,
     },
     {
       name: "Adana Kebap",
