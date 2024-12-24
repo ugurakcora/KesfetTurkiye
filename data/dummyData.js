@@ -1025,6 +1025,181 @@ export const culturalPlaces = {
       latitude: 37.88333,
       longitude: 38.73333,
     },
+    {
+      name: "Cendere Köprüsü",
+      description: "Roma döneminden kalma tarihi bir köprü.",
+      moreDetails: {
+        history:
+          "Köprü, Roma İmparatoru Septimius Severus tarafından yaptırılmıştır.",
+        activities: "Köprü üzerinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/cendere_koprusu.jpg",
+      slider: {
+        images: [
+          "https://example.com/cendere_koprusu1.jpg",
+          "https://example.com/cendere_koprusu2.jpg",
+        ],
+      },
+      location: "Adıyaman / Kahta",
+      latitude: 37.75,
+      longitude: 38.41667,
+    },
+    {
+      name: "Adıyaman Müzesi",
+      description: "Adıyaman’ın arkeoloji ve etnografya müzesi.",
+      moreDetails: {
+        history: "Müze, 1971 yılında kurulmuştur.",
+        activities: "Müzede arkeolojik ve etnografik eserleri görebilirsiniz.",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          bestTime: "Her zaman",
+          tips: "Müze ziyaretlerinde sessiz olunması önemlidir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/adiyaman_muzesi.jpg",
+      slider: {
+        images: ["https://example.com/adiyaman_muzesi1.jpg"],
+      },
+      location: "Adıyaman",
+      latitude: 37.76444,
+      longitude: 38.27639,
+    },
+    {
+      name: "Kahta Kalesi",
+      description: "Kahta ilçesinde bulunan tarihi bir kale.",
+      moreDetails: {
+        history: "Kale, Roma dönemine aittir.",
+        activities: "Kaleyi ziyaret edebilir, tarihi dokuyu görebilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Kaleye çıkmak için rahat ayakkabı giymeniz önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/kahta_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kahta_kalesi1.jpg",
+          "https://example.com/kahta_kalesi2.jpg",
+        ],
+      },
+      location: "Adıyaman / Kahta",
+      latitude: 37.75,
+      longitude: 38.41667,
+    },
+    {
+      name: "Arsemia Antik Kenti",
+      description: "Kahta ilçesinde bulunan antik bir kent.",
+      moreDetails: {
+        history: "Arsemia, Kommagene Krallığı dönemine aittir.",
+        activities:
+          "Antik kenti ziyaret edebilir, tarihi kalıntıları görebilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Her zaman",
+          tips: "Antik kenti ziyaret ederken rahat ayakkabı giymeniz önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/arsemia.jpg",
+      slider: {
+        images: [
+          "https://example.com/arsemia1.jpg",
+          "https://example.com/arsemia2.jpg",
+        ],
+      },
+      location: "Adıyaman / Kahta",
+      latitude: 37.75,
+    },
+    {
+      name: "Adıyaman Kebabı",
+      description: "Adıyaman’ın meşhur kebap çeşidi, lezzetli ve doyurucu.",
+      moreDetails: {
+        history:
+          "Adıyaman kebabı, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
+        ingredients: ["Kuzu eti", "Kuyruk yağı", "Tuz", "Baharatlar"],
+        preparation:
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pişirilir.",
+        tips: "Kebabın yanında ayran ve salata servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/adiyaman_kebap.jpg",
+      slider: {
+        images: [
+          "https://example.com/adiyaman_kebap1.jpg",
+          "https://example.com/adiyaman_kebap2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kaburga Dolması",
+      description: "Adıyaman’ın geleneksel yemeği, lezzetli ve doyurucu.",
+      moreDetails: {
+        history:
+          "Kaburga dolması, Adıyaman mutfağının en sevilen yemeklerinden biridir.",
+        ingredients: ["Kuzu kaburga", "Pirinç", "Baharatlar", "Tuz"],
+        preparation:
+          "Kaburgalar temizlenir, içleri doldurulur ve pişirilir. Üzerine sos dökülür.",
+        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/kaburga_dolmasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kaburga_dolmasi1.jpg",
+          "https://example.com/kaburga_dolmasi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kuzu Tandır",
+      description:
+        "Adıyaman mutfağının geleneksel yemeği, lezzetli ve doyurucu.",
+      moreDetails: {
+        history:
+          "Kuzu tandır, Adıyaman mutfağının en sevilen yemeklerinden biridir.",
+        ingredients: ["Kuzu eti", "Tuz", "Baharatlar", "Kuyruk yağı"],
+        preparation:
+          "Et, tuz ve baharatlarla harmanlanır, fırında pişirilir ve servis edilir.",
+        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/kuzu_tandir.jpg",
+      slider: {
+        images: [
+          "https://example.com/kuzu_tandir1.jpg",
+          "https://example.com/kuzu_tandir2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kabak Borani",
+      description: "Adıyaman’ın geleneksel yemeği, lezzetli ve doyurucu.",
+      moreDetails: {
+        history:
+          "Kabak borani, Adıyaman mutfağının en sevilen yemeklerinden biridir.",
+        ingredients: ["Kabak", "Yoğurt", "Tereyağı", "Baharatlar"],
+        preparation:
+          "Kabaklar haşlanır, yoğurt ve baharatlar eklenir ve tereyağında kızartılır.",
+        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
+      },
+      type: "food",
+      image: "https://example.com/kabak_borani.jpg",
+      slider: {
+        images: [
+          "https://example.com/kabak_borani1.jpg",
+          "https://example.com/kabak_borani2.jpg",
+        ],
+      },
+    },
   ],
   "03": [
     // Afyonkarahisar
