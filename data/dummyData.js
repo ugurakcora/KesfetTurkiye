@@ -1936,6 +1936,185 @@ export const culturalPlaces = {
       latitude: 40.5962,
       longitude: 40.5856,
     },
+    {
+      name: "Ani Antik Kenti",
+      description: "UNESCO Dünya Mirası Listesi'nde yer alan tarihi İpek Yolu şehri.",
+      moreDetails: {
+        history: "M.Ö. 5. yüzyılda kurulmuş, Orta Çağ'da önemli bir ticaret merkezi olmuştur.",
+        architecture: "Ermeni, Selçuklu ve Gürcü mimarisinin izlerini taşıyan kilise, cami ve surlar",
+        visitInfo: {
+          hours: "08:00 - 19:00",
+          price: "20 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Geniş alan için rahat ayakkabı ve su almanız önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/ani-antik-kenti.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/ani-antik-kenti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20ANI%20ANTIK%20KENTI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.5086,
+      longitude: 43.5728
+    },
+    {
+      name: "Kars Kalesi",
+      description: "Şehrin simgesi olan tarihi kale.",
+      moreDetails: {
+        history: "M.S. 1153 yılında Saltuklu Sultanı tarafından yaptırılmıştır.",
+        architecture: "Bazalt taştan yapılmış, iç ve dış kale bölümlerinden oluşur",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün doğumu ve batımı",
+          tips: "Kaleye çıkış yolu dik, uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-kalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KALESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.6167,
+      longitude: 43.1000
+    },
+    {
+      name: "Baltık Mimarisi",
+      description: "Rus döneminden kalma özgün mimari yapılar.",
+      moreDetails: {
+        history: "1878-1918 yılları arasında Rus yönetimi döneminde inşa edilmiştir.",
+        architecture: "Bazalt taştan yapılmış, Baltık tarzı binalar",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gündüz saatleri",
+          tips: "Fotoğraf çekmek için sabah saatleri idealdir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/baltik-mimarisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/baltik-mimarisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BALTIK%20MIMARISI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.6042,
+      longitude: 43.0975
+    },
+    {
+      name: "Sarıkamış Kayak Merkezi",
+      description: "Kristal kar yapısıyla ünlü kayak merkezi.",
+      moreDetails: {
+        history: "1960'lardan beri aktif bir kayak merkezi",
+        activities: "Kayak, snowboard, doğa yürüyüşü",
+        visitInfo: {
+          hours: "08:00 - 17:00",
+          price: "Sezona göre değişken",
+          bestTime: "Aralık-Mart arası",
+          tips: "Ekipman kiralama imkanı mevcuttur.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/sarikamis-kayak.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sarikamis-kayak.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20SARIKAMIS.jpg"
+        ],
+      },
+      location: "Sarıkamış",
+      latitude: 40.3333,
+      longitude: 42.5833
+    },
+    {
+      name: "Kars Müzesi",
+      description: "Bölgenin tarihini ve etnografik eserlerini sergileyen müze.",
+      moreDetails: {
+        history: "1964 yılında açılmıştır.",
+        exhibitions: "Arkeolojik eserler, etnografik malzemeler, el yazmaları",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20MUZESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.6042,
+      longitude: 43.0975
+    },
+    {
+      name: "Kars Kaşarı",
+      description: "Yörenin meşhur gravyer tipi peyniri.",
+      moreDetails: {
+        history: "1800'lü yıllardan beri üretilen geleneksel peynir",
+        production: "Yüksek rakımlı meralarda otlayan ineklerin sütünden yapılır",
+        aging: "En az 3 ay olgunlaştırılır",
+        tips: "Orijinal Kars kaşarı için güvenilir üreticileri tercih edin.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-kasari.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-kasari.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KASAR.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kars Kazı",
+      description: "Yöresel kaz yemeği.",
+      moreDetails: {
+        history: "Geleneksel kış yemeği",
+        ingredients: ["Kaz eti", "Bulgur", "Sarımsak"],
+        preparation: "Kaz eti fırında pişirilir, bulgur pilavı ile servis edilir",
+        tips: "Kış aylarında tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-kazi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-kazi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KAZ.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kars Balı",
+      description: "Yüksek rakımlı çiçeklerden elde edilen organik bal.",
+      moreDetails: {
+        history: "Bölgenin zengin flora yapısından elde edilen doğal bal",
+        production: "Yaz aylarında üretilir",
+        characteristics: "Açık renkli, kristalize olmaya yatkın",
+        tips: "Sertifikalı üreticilerden alınması önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-bali.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-bali.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BAL.jpg"
+        ],
+      }
+    }
   ],
   37: [
     // Kastamonu
@@ -1972,7 +2151,7 @@ export const culturalPlaces = {
       description: "Şehrin tarihi simgelerinden biri.",
       moreDetails: {
         history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipli��i yapmıştır.",
+          "Kale, tarihi boyunca birçok medeniyete ev sahiplii yapmıştır.",
         activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
@@ -2500,7 +2679,7 @@ export const culturalPlaces = {
     // Sinop
     {
       name: "Sinop Kalesi",
-      description: "��ehrin tarihi simgelerinden biri.",
+      description: "ehrin tarihi simgelerinden biri.",
       moreDetails: {
         history:
           "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
