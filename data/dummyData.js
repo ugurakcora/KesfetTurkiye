@@ -786,7 +786,7 @@ export const culturalPlaces = {
           "Adana kebap, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
         ingredients: ["Kuzu eti", "Kuyruk yağı", "Acı biber", "Tuz"],
         preparation:
-          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi��irilir.",
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi�����irilir.",
         tips: "Kebabın yanında ayran ve salata servis edilir.",
       },
       type: "food",
@@ -2500,7 +2500,7 @@ export const culturalPlaces = {
     // Sinop
     {
       name: "Sinop Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
+      description: "��ehrin tarihi simgelerinden biri.",
       moreDetails: {
         history:
           "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
@@ -3425,5 +3425,1098 @@ export const culturalPlaces = {
       latitude: 41.6344,
       longitude: 32.3375
     }
+  ],
+  76: [
+    {
+      name: "Ağrı Dağı Manzarası",
+      description: "Iğdır'dan Ağrı Dağı'nın eşsiz manzarası.",
+      moreDetails: {
+        history: "5137 metre yüksekliğindeki Ağrı Dağı, Iğdır Ovası'ndan net bir şekilde görülebilmektedir.",
+        activities: "Fotoğrafçılık, manzara seyri",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Sabah erken saatler ve gün batımı",
+          tips: "Net görüntü için açık hava tercih edilmeli.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/agri-dagi-igdir.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/agri-dagi-igdir.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20AGRI%20DAGI%20MANZARASI.jpg"
+        ],
+      },
+      location: "Iğdır Ovası",
+      latitude: 39.7016,
+      longitude: 44.2988
+    },
+    {
+      name: "Iğdır Soykırım Anıt ve Müzesi",
+      description: "1915-1920 yılları arasında yaşanan olayları anlatan müze.",
+      moreDetails: {
+        history: "2010 yılında açılan müze, tarihi belgeleri ve eserleri sergiliyor.",
+        exhibitions: "Tarihi belgeler, fotoğraflar ve eserler",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar için önceden randevu alınabilir.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/soykirim-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/soykirim-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20SOYKIRIM%20MUZESI.jpg"
+        ],
+      },
+      location: "Iğdır Merkez",
+      latitude: 39.9167,
+      longitude: 44.0333
+    },
+    {
+      name: "Korhan Kalesi",
+      description: "Urartu döneminden kalma tarihi kale.",
+      moreDetails: {
+        history: "M.Ö. 9. yüzyılda Urartular tarafından inşa edilmiştir.",
+        architecture: "Kayalık bir tepe üzerine inşa edilmiş savunma yapısı",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları",
+          tips: "Kaleye ulaşım için arazi aracı önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/korhan-kalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/korhan-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KORHAN%20KALESI.jpg"
+        ],
+      },
+      location: "Karakoyunlu",
+      latitude: 39.9833,
+      longitude: 43.6333
+    },
+    {
+      name: "Meteor Çukuru",
+      description: "Dünyada nadir görülen meteor çarpma kraterlerinden biri.",
+      moreDetails: {
+        history: "Binlerce yıl önce düşen meteorun oluşturduğu doğal oluşum",
+        activities: "Jeolojik inceleme, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Çukura inmek için uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/meteor-cukuru.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/meteor-cukuru.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20METEOR%20CUKURU.jpg"
+        ],
+      },
+      location: "Melekli",
+      latitude: 39.9167,
+      longitude: 44.0500
+    },
+    {
+      name: "Iğdır Kervansarayı",
+      description: "Tarihi İpek Yolu üzerinde bulunan kervansaray kalıntısı.",
+      moreDetails: {
+        history: "13. yüzyılda inşa edilmiş tarihi ticaret yapısı",
+        architecture: "Selçuklu mimarisi örneği",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gündüz saatleri",
+          tips: "Fotoğraf çekmek için sabah saatleri ideal.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/kervansaray.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kervansaray.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KERVANSARAY.jpg"
+        ],
+      },
+      location: "Iğdır Merkez",
+      latitude: 39.9167,
+      longitude: 44.0333
+    },
+    {
+      name: "Iğdır Boz Helva",
+      description: "Iğdır'ın meşhur geleneksel tatlısı.",
+      moreDetails: {
+        history: "Yüzyıllardır yapılan geleneksel bir tatlı",
+        ingredients: ["Un", "Tereyağı", "Şeker", "Ceviz"],
+        preparation: "Un kavrulur, tereyağı ve şekerle karıştırılır, içine ceviz konur.",
+        tips: "Taze yapıldığında daha lezzetlidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/boz-helva.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/boz-helva.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20BOZ%20HELVA.jpg"
+        ],
+      }
+    },
+    {
+      name: "Iğdır Taş Köfte",
+      description: "Iğdır'ın özel köfte yemeği.",
+      moreDetails: {
+        history: "Geleneksel bir Iğdır yemeği",
+        ingredients: ["Kıyma", "Bulgur", "Soğan", "Baharatlar"],
+        preparation: "Malzemeler yoğrulur, şekil verilir ve taş fırında pişirilir.",
+        tips: "Yanında ayran ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/tas-kofte.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/tas-kofte.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20TAS%20KOFTE.jpg"
+        ],
+      }
+    },
+    {
+      name: "Iğdır Kayısısı",
+      description: "Iğdır'ın meşhur kayısıları ve kayısı ürünleri.",
+      moreDetails: {
+        history: "Bölgenin mikroklima özelliği sayesinde özel bir tada sahip",
+        products: ["Taze kayısı", "Kuru kayısı", "Kayısı reçeli", "Kayısı pestili"],
+        season: "Haziran-Temmuz ayları",
+        tips: "Taze kayısı mevsiminde tadılmalıdır.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/igdir-kayisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/igdir-kayisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KAYISI.jpg"
+        ],
+      }
+    }
+  ],
+  77: [
+    {
+      name: "Yürüyen Köşk",
+      description: "Atatürk'ün emriyle ağaç kesilmesin diye raylar üzerinde kaydırılan tarihi köşk.",
+      moreDetails: {
+        history: "1929 yılında Atatürk'ün talimatıyla, çınar ağacına zarar vermemek için 4.80 metre kaydırılmıştır.",
+        architecture: "İki katlı ahşap yapı, cumbalı ve geniş pencereli",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar için önceden randevu alınabilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/yuruyen-kosk.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/yuruyen-kosk.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20YURUYEN%20KOSK.jpg"
+        ],
+      },
+      location: "Yalova Merkez",
+      latitude: 40.6573,
+      longitude: 29.2773
+    },
+    {
+      name: "Termal Kaplıcaları",
+      description: "Roma döneminden beri kullanılan şifalı kaplıcalar.",
+      moreDetails: {
+        history: "Antik çağlardan beri şifa kaynağı olarak kullanılmaktadır.",
+        activities: "Kaplıca, SPA, termal tedavi",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Tesise göre değişken",
+          bestTime: "Tüm yıl",
+          tips: "Rezervasyon yaptırmanız önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/termal-kaplicalari.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/termal-kaplicalari.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20TERMAL.jpg"
+        ],
+      },
+      location: "Termal",
+      latitude: 40.6333,
+      longitude: 29.2333
+    },
+    {
+      name: "Karaca Arboretumu",
+      description: "Türkiye'nin ilk özel arboretumu, zengin bitki koleksiyonu.",
+      moreDetails: {
+        history: "1980 yılında Hayrettin Karaca tarafından kurulmuştur.",
+        activities: "Botanik gezisi, fotoğrafçılık, doğa yürüyüşü",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "30 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Fotoğraf makinesi getirmeniz önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/karaca-arboretum.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/karaca-arboretum.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20KARACA%20ARBORETUM.jpg"
+        ],
+      },
+      location: "Yalova Merkez",
+      latitude: 40.6559,
+      longitude: 29.2862
+    },
+    {
+      name: "Yalova Kent Müzesi",
+      description: "Yalova'nın tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "2012 yılında açılmıştır.",
+        exhibitions: "Kent tarihi, etnografik eserler, fotoğraflar",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/yalova-kent-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/yalova-kent-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20KENT%20MUZESI.jpg"
+        ],
+      },
+      location: "Yalova Merkez",
+      latitude: 40.6550,
+      longitude: 29.2767
+    },
+    {
+      name: "Sudüşen Şelalesi",
+      description: "Doğal güzelliği ile ünlü şelale.",
+      moreDetails: {
+        history: "Doğal oluşumlu şelale",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, piknik",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yürüyüş için uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/sudusen-selalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sudusen-selalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20SUDUSEN%20SELALESI.jpg"
+        ],
+      },
+      location: "Çınarcık",
+      latitude: 40.6431,
+      longitude: 29.3097
+    },
+    {
+      name: "Yalova Enginar",
+      description: "Yalova'nın meşhur enginarı ve enginar yemekleri.",
+      moreDetails: {
+        history: "Bölgenin özel iklimi sayesinde lezzetli enginarlar yetişir.",
+        preparation: "Zeytinyağlı, etli veya dolma olarak pişirilir.",
+        season: "İlkbahar ayları",
+        tips: "Taze enginar mevsiminde tadılmalıdır.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/yalova-enginar.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/yalova-enginar.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20ENGINAR.jpg"
+        ],
+      }
+    },
+    {
+      name: "Yalova Böreği",
+      description: "Yöresel börek çeşidi.",
+      moreDetails: {
+        history: "Geleneksel bir Yalova lezzeti",
+        ingredients: ["Un", "Yumurta", "Süt", "Peynir", "Maydanoz"],
+        preparation: "İnce açılan yufkalar arasına peynirli harç konur ve fırında pişirilir.",
+        tips: "Sıcak servis edilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/yalova-boregi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/yalova-boregi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20BOREGI.jpg"
+        ],
+      }
+    }
+  ],
+  78: [
+    {
+      name: "Safranbolu Evleri",
+      description: "UNESCO Dünya Mirası Listesi'nde yer alan tarihi Osmanlı evleri.",
+      moreDetails: {
+        history: "18. ve 19. yüzyılda inşa edilmiş, Türk mimarisinin en güzel örnekleri.",
+        architecture: "Üç katlı, ahşap ve taş yapı, çıkmalı cumbalar, avlulu sistem",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz (Müze evler için ayrı ücret)",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Fotoğraf çekmek için sabah saatleri idealdir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/safranbolu-evleri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/safranbolu-evleri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20SAFRANBOLU%20EVLERI.jpg"
+        ],
+      },
+      location: "Safranbolu",
+      latitude: 41.2533,
+      longitude: 32.6933
+    },
+    {
+      name: "Kristal Teras",
+      description: "Tokatlı Kanyonu üzerinde bulunan cam teras.",
+      moreDetails: {
+        history: "2012 yılında yapılmış modern bir yapı.",
+        activities: "Manzara seyri, fotoğraf çekimi, kafe",
+        visitInfo: {
+          hours: "09:00 - 19:00",
+          price: "20 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Yükseklik korkusu olanlar için uygun değildir.",
+        },
+      },
+      type: "cultural",
+      image: "https://www.kulturportali.gov.tr/contents/images/kristal-teras.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kristal-teras.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KRISTAL%20TERAS.jpg"
+        ],
+      },
+      location: "Safranbolu",
+      latitude: 41.2486,
+      longitude: 32.6842
+    },
+    {
+      name: "İncekaya Su Kemeri",
+      description: "Tarihi Osmanlı su kemeri.",
+      moreDetails: {
+        history: "1798 yılında inşa edilmiş tarihi su kemeri.",
+        architecture: "Kesme taştan yapılmış, 6 kemerli yapı",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün doğumu ve batımı",
+          tips: "Fotoğraf çekmek için tripod önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/incekaya-su-kemeri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/incekaya-su-kemeri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20INCEKAYA%20SU%20KEMERI.jpg"
+        ],
+      },
+      location: "Safranbolu",
+      latitude: 41.2500,
+      longitude: 32.6833
+    },
+    {
+      name: "Karabük Demir Çelik Müzesi",
+      description: "Türkiye'nin ilk ağır sanayi müzesi.",
+      moreDetails: {
+        history: "2937 yılında kurulan fabrikanın tarihini anlatır.",
+        exhibitions: "Sanayi tarihi, makineler, fotoğraflar",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/demir-celik-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/demir-celik-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20DEMIR%20CELIK%20MUZESI.jpg"
+        ],
+      },
+      location: "Karabük Merkez",
+      latitude: 41.2000,
+      longitude: 32.6333
+    },
+    {
+      name: "Safranbolu Kent Tarihi Müzesi",
+      description: "Safranbolu'nun tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "Eski bir hükümet konağında hizmet vermektedir.",
+        exhibitions: "Kent tarihi, etnografik eserler, geleneksel yaşam",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "15 TL",
+          bestTime: "Hafta içi",
+          tips: "Fotoğraf çekmek için izin alınmalıdır.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/kent-tarihi-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kent-tarihi-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KENT%20TARIHI%20MUZESI.jpg"
+        ],
+      },
+      location: "Safranbolu",
+      latitude: 41.2533,
+      longitude: 32.6933
+    },
+    {
+      name: "Yenice Ormanları",
+      description: "Doğal güzellikleri ile ünlü yürüyüş parkurları.",
+      moreDetails: {
+        history: "Dünya Doğayı Koruma Vakfı tarafından koruma altına alınmıştır.",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, kamp",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yürüyüş için uygun ayakkabı ve ekipman gereklidir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/yenice-ormanlari.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/yenice-ormanlari.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20YENICE%20ORMANLARI.jpg"
+        ],
+      },
+      location: "Yenice",
+      latitude: 41.2000,
+      longitude: 32.3333
+    },
+    {
+      name: "Safranbolu Safranı",
+      description: "Dünyanın en kaliteli safranlarından biri.",
+      moreDetails: {
+        history: "Yüzyıllardır bölgede yetiştirilen değerli baharat",
+        cultivation: "Ekim ayında hasat edilir, elle toplanır",
+        usage: "Yemeklerde, tatlılarda ve geleneksel tıpta kullanılır",
+        tips: "Orijinal safran satın almak için güvenilir satıcıları tercih edin.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/safran.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/safran.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20SAFRAN.jpg"
+        ],
+      }
+    },
+    {
+      name: "Safranbolu Lokumu",
+      description: "Geleneksel Safranbolu lokumu, safran aromalı çeşitleri meşhur.",
+      moreDetails: {
+        history: "Yüzyıllardır üretilen geleneksel şekerleme",
+        ingredients: ["Nişasta", "Şeker", "Su", "Safran"],
+        preparation: "Geleneksel yöntemlerle, bakır kazanlarda pişirilir",
+        tips: "Taze üretilmiş lokum tercih edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/safranbolu-lokumu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/safranbolu-lokumu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20LOKUM.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kuyu Kebabı",
+      description: "Safranbolu'nun geleneksel et yemeği.",
+      moreDetails: {
+        history: "Geleneksel pişirme yöntemiyle hazırlanan yöresel yemek",
+        ingredients: ["Kuzu eti", "Baharatlar", "Soğan"],
+        preparation: "Kuyuda uzun süre pişirilerek hazırlanır",
+        tips: "Önceden sipariş vermek gerekebilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kuyu-kebabi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kuyu-kebabi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KUYU%20KEBABI.jpg"
+        ],
+      }
+    }
+  ],
+  79: [
+    {
+      name: "Ravanda Kalesi",
+      description: "Kilis'in en önemli tarihi kalelerinden biri.",
+      moreDetails: {
+        history: "12. yüzyılda Eyyubiler döneminde inşa edilmiştir.",
+        architecture: "Kesme taştan yapılmış, surları ve burçları bulunan kale",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Sabah saatleri",
+          tips: "Kaleye çıkış yolu engebeli, uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/ravanda-kalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/ravanda-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20RAVANDA%20KALESI.jpg"
+        ],
+      },
+      location: "Polateli",
+      latitude: 36.8167,
+      longitude: 37.1167
+    },
+    {
+      name: "Kilis Mevlevihanesi",
+      description: "Tarihi Mevlevihane ve müze.",
+      moreDetails: {
+        history: "17. yüzyılda inşa edilmiş önemli bir Mevlevi merkezi",
+        architecture: "Osmanlı dönemi mimarisi, semahane ve derviş hücreleri",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/mevlevihane.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/mevlevihane.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20MEVLEVIHANE.jpg"
+        ],
+      },
+      location: "Kilis Merkez",
+      latitude: 36.7167,
+      longitude: 37.1167
+    },
+    {
+      name: "Kilis Kent Müzesi",
+      description: "Kilis'in tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "Tarihi bir konakta hizmet vermektedir.",
+        exhibitions: "Etnografik eserler, kent tarihi, geleneksel yaşam",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Fotoğraf çekmek için izin alınmalıdır.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/kilis-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kilis-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KENT%20MUZESI.jpg"
+        ],
+      },
+      location: "Kilis Merkez",
+      latitude: 36.7167,
+      longitude: 37.1167
+    },
+    {
+      name: "Beşkazalı Konağı",
+      description: "Geleneksel Kilis mimarisinin en güzel örneklerinden.",
+      moreDetails: {
+        history: "19. yüzyılda inşa edilmiş tarihi konak",
+        architecture: "İki katlı, avlulu, geleneksel taş işçiliği",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Gündüz saatleri",
+          tips: "Fotoğraf çekmek için izin alınmalıdır.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/beskazali-konagi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/beskazali-konagi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20BESKAZALI%20KONAGI.jpg"
+        ],
+      },
+      location: "Kilis Merkez",
+      latitude: 36.7167,
+      longitude: 37.1167
+    },
+    {
+      name: "Kilis Kartalsuyu Şelalesi",
+      description: "Doğal güzelliği ile ünlü şelale ve mesire alanı.",
+      moreDetails: {
+        history: "Doğal oluşumlu şelale",
+        activities: "Piknik, doğa yürüyüşü, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz ayları",
+          tips: "Piknik malzemelerinizi götürmeniz önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/kartalsuyu-selalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kartalsuyu-selalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KARTALSUYU%20SELALESI.jpg"
+        ],
+      },
+      location: "Musabeyli",
+      latitude: 36.8833,
+      longitude: 36.9500
+    },
+    {
+      name: "Kilis Tava",
+      description: "Kilis'in meşhur et yemeği.",
+      moreDetails: {
+        history: "Geleneksel Kilis mutfağının en önemli yemeklerinden",
+        ingredients: ["Kuzu eti", "Patlıcan", "Domates", "Biber", "Sarımsak"],
+        preparation: "Özel bakır tavalarda pişirilir",
+        tips: "Yanında bulgur pilavı ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kilis-tava.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kilis-tava.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20TAVA.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kilis Katmeri",
+      description: "Geleneksel Kilis tatlısı.",
+      moreDetails: {
+        history: "Yüzyıllardır yapılan geleneksel bir hamur tatlısı",
+        ingredients: ["Un", "Tereyağı", "Antep fıstığı", "Şeker"],
+        preparation: "İnce açılan hamur katları arasına fıstık ve şeker konur",
+        tips: "Sıcak servis edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kilis-katmeri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kilis-katmeri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KATMER.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kilis Cennet Kahvesi",
+      description: "Özel yapım tekniği ile hazırlanan geleneksel Kilis kahvesi.",
+      moreDetails: {
+        history: "Yöreye özgü kahve hazırlama tekniği",
+        preparation: "Özel değirmenlerde çekilen kahve, köz üzerinde pişirilir",
+        serving: "Yanında lokum veya şeker ile servis edilir",
+        tips: "Geleneksel kahvehanelerde tadılması önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kilis-kahvesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kilis-kahvesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KAHVE.jpg"
+        ],
+      }
+    }
+  ],
+  80: [
+    {
+      name: "Karatepe-Aslantaş Açık Hava Müzesi",
+      description: "Hitit dönemine ait kalıntıların sergilendiği açık hava müzesi.",
+      moreDetails: {
+        history: "M.Ö. 8. yüzyılda Geç Hitit döneminde inşa edilmiştir.",
+        exhibitions: "Hitit kabartmaları, yazıtlar ve arkeolojik buluntular",
+        visitInfo: {
+          hours: "08:00 - 17:00",
+          price: "15 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yürüyüş için rahat ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/karatepe-aslantas.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/karatepe-aslantas.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KARATEPE%20ASLANTAS.jpg"
+        ],
+      },
+      location: "Kadirli",
+      latitude: 37.2964,
+      longitude: 36.2547
+    },
+    {
+      name: "Kastabala Antik Kenti",
+      description: "Roma döneminden kalma antik kent kalıntıları.",
+      moreDetails: {
+        history: "M.Ö. 1. yüzyılda kurulmuş, Roma ve Bizans dönemlerinde gelişmiştir.",
+        architecture: "Sütunlu cadde, tiyatro, hamam ve tapınak kalıntıları",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Sabah saatleri",
+          tips: "Fotoğraf çekmek için tripod önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/kastabala.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kastabala.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KASTABALA.jpg"
+        ],
+      },
+      location: "Osmaniye Merkez",
+      latitude: 37.1500,
+      longitude: 36.1833
+    },
+    {
+      name: "Zorkun Yaylası",
+      description: "Doğal güzellikleri ile ünlü yayla.",
+      moreDetails: {
+        history: "Geleneksel yaylacılık kültürünün yaşatıldığı bölge",
+        activities: "Doğa yürüyüşü, kamp, fotoğrafçılık, ATV safari",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Haziran-Eylül arası",
+          tips: "Yüksek rakım nedeniyle hava değişkendir, hazırlıklı olunmalı.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/zorkun-yaylasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/zorkun-yaylasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20ZORKUN%20YAYLASI.jpg"
+        ],
+      },
+      location: "Osmaniye Merkez",
+      latitude: 37.0556,
+      longitude: 36.2611
+    },
+    {
+      name: "Osmaniye Kent Müzesi",
+      description: "Osmaniye'nin tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "2010 yılında açılmıştır.",
+        exhibitions: "Kent tarihi, etnografik eserler, fotoğraflar",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/osmaniye-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/osmaniye-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KENT%20MUZESI.jpg"
+        ],
+      },
+      location: "Osmaniye Merkez",
+      latitude: 37.0741,
+      longitude: 36.2463
+    },
+    {
+      name: "Düziçi Haruniye Kaplıcaları",
+      description: "Şifalı suları ile ünlü kaplıca.",
+      moreDetails: {
+        history: "Roma döneminden beri kullanılan şifalı su kaynağı",
+        activities: "Termal tedavi, kaplıca, SPA",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Tesise göre değişken",
+          bestTime: "Tüm yıl",
+          tips: "Rezervasyon yaptırmanız önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/haruniye-kaplicalari.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/haruniye-kaplicalari.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20HARUNIYE%20KAPLICALARI.jpg"
+        ],
+      },
+      location: "Düziçi",
+      latitude: 37.2508,
+      longitude: 36.4447
+    },
+    {
+      name: "Osmaniye Fıstığı",
+      description: "Osmaniye'nin meşhur yer fıstığı.",
+      moreDetails: {
+        history: "Bölgenin özel iklimi sayesinde yetişen kaliteli fıstık",
+        cultivation: "Mayıs ayında ekilir, Eylül-Ekim aylarında hasat edilir",
+        usage: "Çerez olarak, tatlılarda ve yemeklerde kullanılır",
+        tips: "Taze kavrulmuş fıstık tercih edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/osmaniye-fistigi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/osmaniye-fistigi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20FISTIK.jpg"
+        ],
+      }
+    },
+    {
+      name: "Osmaniye Tirşik Çorbası",
+      description: "Yöresel çorba çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Osmaniye mutfağının önemli lezzeti",
+        ingredients: ["Tirşik otu", "Bulgur", "Nohut", "Et suyu"],
+        preparation: "Tirşik otu haşlanır, diğer malzemelerle pişirilir",
+        tips: "Kış aylarında içilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/tirsik-corbasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/tirsik-corbasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20TIRSIK.jpg"
+        ],
+      }
+    },
+    {
+      name: "Osmaniye Kömbe",
+      description: "Geleneksel hamur tatlısı.",
+      moreDetails: {
+        history: "Yöresel bir tatlı çeşidi",
+        ingredients: ["Un", "Ceviz", "Şeker", "Tereyağı"],
+        preparation: "Hamur açılır, içine ceviz konur ve fırında pişirilir",
+        tips: "Taze pişmiş olarak tüketilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kombe.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kombe.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KOMBE.jpg"
+        ],
+      }
+    }
+  ],
+  81: [
+    {
+      name: "Konuralp Antik Tiyatro",
+      description: "Roma döneminden kalma antik tiyatro kalıntıları.",
+      moreDetails: {
+        history: "M.S. 2. yüzyılda inşa edilmiş, Prusias ad Hypium antik kentinin tiyatrosu.",
+        architecture: "3000 kişilik oturma kapasitesi, yarım daire formunda",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Sabah saatleri",
+          tips: "Fotoğraf çekmek için tripod önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/konuralp-tiyatro.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/konuralp-tiyatro.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KONURALP%20ANTIK%20TIYATRO.jpg"
+        ],
+      },
+      location: "Konuralp",
+      latitude: 40.9039,
+      longitude: 31.1486
+    },
+    {
+      name: "Konuralp Müzesi",
+      description: "Bölgenin tarihini ve arkeolojik eserlerini sergileyen müze.",
+      moreDetails: {
+        history: "2003 yılında açılmıştır.",
+        exhibitions: "Roma dönemi eserleri, etnografik eserler, sikke koleksiyonu",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/konuralp-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/konuralp-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KONURALP%20MUZESI.jpg"
+        ],
+      },
+      location: "Konuralp",
+      latitude: 40.9039,
+      longitude: 31.1486
+    },
+    {
+      name: "Güzeldere Şelalesi",
+      description: "Düzce'nin en yüksek şelalesi.",
+      moreDetails: {
+        history: "Doğal oluşumlu şelale",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, piknik",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz ayları",
+          tips: "Yürüyüş parkurunda uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/guzeldere-selalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/guzeldere-selalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20GUZELDERE%20SELALESI.jpg"
+        ],
+      },
+      location: "Gölyaka",
+      latitude: 40.7333,
+      longitude: 31.0000
+    },
+    {
+      name: "Efteni Gölü",
+      description: "Kuş gözlemciliği için önemli bir sulak alan.",
+      moreDetails: {
+        history: "Doğal oluşumlu göl, önemli bir kuş cenneti",
+        activities: "Kuş gözlemciliği, fotoğrafçılık, doğa yürüyüşü",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Dürbün ve fotoğraf makinesi getirmeniz önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/efteni-golu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/efteni-golu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20EFTENI%20GOLU.jpg"
+        ],
+      },
+      location: "Gölyaka",
+      latitude: 40.7667,
+      longitude: 31.0333
+    },
+    {
+      name: "Samandere Şelalesi",
+      description: "Tabiat anıtı olarak koruma altına alınmış şelale.",
+      moreDetails: {
+        history: "1988 yılında tabiat anıtı ilan edilmiştir",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, piknik",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz ayları",
+          tips: "Yürüyüş parkurunda dikkatli olunmalıdır.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/samandere-selalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/samandere-selalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20SAMANDERE%20SELALESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.7000,
+      longitude: 31.2667
+    },
+    {
+      name: "Düzce Acıka",
+      description: "Yöresel bir kahvaltılık/meze çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Düzce mutfağının önemli lezzetlerinden",
+        ingredients: ["Biber", "Domates", "Ceviz", "Sarımsak", "Baharat"],
+        preparation: "Malzemeler dövülerek macun kıvamına getirilir",
+        tips: "Kahvaltıda veya meze olarak tüketilebilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/acika.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/acika.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20ACIKA.jpg"
+        ],
+      }
+    },
+    {
+      name: "Düzce Kestane Balı",
+      description: "Yörenin meşhur organik kestane balı.",
+      moreDetails: {
+        history: "Bölgedeki kestane ormanlarından elde edilen özel bal",
+        production: "Sonbahar aylarında üretilir",
+        characteristics: "Koyu renkli, keskin aromalı",
+        tips: "Kahvaltıda veya şifa amaçlı tüketilebilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kestane-bali.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kestane-bali.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KESTANE%20BALI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Düzce Köftesi",
+      description: "Yöreye özgü köfte çeşidi.",
+      moreDetails: {
+        history: "Geleneksel bir Düzce lezzeti",
+        ingredients: ["Dana kıyma", "Soğan", "Sarımsak", "Baharatlar"],
+        preparation: "Özel harmanlanmış kıyma ile hazırlanır ve kömür ateşinde pişirilir",
+        tips: "Yanında piyaz ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/duzce-kofte.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/duzce-kofte.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KOFTE.jpg"
+        ],
+      }
+    }
   ]
-}; // Dosyanın en sonuna kapanış parantezi ve noktalı virgül eklendi
+}; 
