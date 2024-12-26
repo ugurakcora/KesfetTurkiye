@@ -786,7 +786,7 @@ export const culturalPlaces = {
           "Adana kebap, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
         ingredients: ["Kuzu eti", "Kuyruk yağı", "Acı biber", "Tuz"],
         preparation:
-          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi�������irilir.",
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi���������irilir.",
         tips: "Kebabın yanında ayran ve salata servis edilir.",
       },
       type: "food",
@@ -3206,6 +3206,185 @@ export const culturalPlaces = {
       latitude: 39.82,
       longitude: 34.81,
     },
+    {
+      name: "Çapanoğlu Camii",
+      description: "Osmanlı döneminin en önemli camilerinden biri.",
+      moreDetails: {
+        history: "1779 yılında Çapanoğlu Mustafa Bey tarafından yaptırılmıştır.",
+        architecture: "Klasik Osmanlı mimarisi, tek kubbeli ve çift minareli",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Namaz vakitleri dışında",
+          tips: "Ziyaret sırasında uygun kıyafet giyilmelidir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/capanoglu-camii.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/capanoglu-camii.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20CAPANOGLU%20CAMII.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 39.8197,
+      longitude: 34.8089
+    },
+    {
+      name: "Yozgat Saat Kulesi",
+      description: "Şehrin simgesi haline gelmiş tarihi saat kulesi.",
+      moreDetails: {
+        history: "1908 yılında II. Abdülhamit döneminde inşa edilmiştir.",
+        architecture: "Kesme taştan yapılmış, dört katlı kule",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Fotoğraf çekmek için ideal bir noktadır.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/saat-kulesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/saat-kulesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20SAAT%20KULESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 39.8200,
+      longitude: 34.8086
+    },
+    {
+      name: "Kazankaya Kanyonu",
+      description: "Doğal güzellikleriyle ünlü kanyon.",
+      moreDetails: {
+        history: "Doğal oluşumlu kanyon",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, kamp",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yürüyüş için uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/kazankaya-kanyonu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kazankaya-kanyonu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20KAZANKAYA%20KANYONU.jpg"
+        ],
+      },
+      location: "Aydıncık",
+      latitude: 40.1167,
+      longitude: 35.3000
+    },
+    {
+      name: "Çamlık Milli Parkı",
+      description: "Türkiye'nin ilk milli parklarından biri.",
+      moreDetails: {
+        history: "1958 yılında milli park ilan edilmiştir.",
+        activities: "Piknik, doğa yürüyüşü, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları",
+          tips: "Piknik malzemelerinizi götürmeniz önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/camlik-milli-parki.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/camlik-milli-parki.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20CAMLIK%20MILLI%20PARKI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 39.8000,
+      longitude: 34.8167
+    },
+    {
+      name: "Yozgat Müzesi",
+      description: "Bölgenin tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "1982 yılında açılmıştır.",
+        exhibitions: "Arkeolojik eserler, etnografik malzemeler",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/yozgat-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/yozgat-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20MUZESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 39.8197,
+      longitude: 34.8089
+    },
+    {
+      name: "Yozgat Testi Kebabı",
+      description: "Yöreye özgü pişirme tekniği ile hazırlanan kebap.",
+      moreDetails: {
+        history: "Geleneksel Yozgat mutfağının en önemli yemeği",
+        ingredients: ["Kuzu eti", "Soğan", "Domates", "Biber"],
+        preparation: "Testide pişirilen et özel bir teknikle servis edilir",
+        tips: "Servis sırasında testi kırılarak sunulur.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/testi-kebabi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/testi-kebabi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20TESTI%20KEBABI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Yozgat Arabaşı",
+      description: "Kış aylarının vazgeçilmez çorbası.",
+      moreDetails: {
+        history: "Geleneksel bir kış yemeği",
+        ingredients: ["Un", "Tavuk suyu", "Hamur"],
+        preparation: "Özel hamuru tavuk suyu ile pişirilir",
+        tips: "Sabah erken saatlerde tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/arabasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/arabasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20ARABASI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Yozgat Parmak Çöreği",
+      description: "Geleneksel hamur işi.",
+      moreDetails: {
+        history: "Yöresel bir hamur işi çeşidi",
+        ingredients: ["Un", "Yağ", "Şeker", "Yumurta"],
+        preparation: "Parmak şeklinde açılıp kızartılır",
+        tips: "Çay ile servis edilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/parmak-coregi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/parmak-coregi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20PARMAK%20COREGI.jpg"
+        ],
+      }
+    }
   ],
   67: [
     // Zonguldak
