@@ -310,7 +310,7 @@ export const culturalPlaces = {
         "Osmanlı İmparatorluğu döneminde padişahların ikametgahı olarak kullanılan tarihî saray.",
       moreDetails: {
         history:
-          "Fatih Sultan Mehmet tarafından 1478 yılında yaptırılmıştır ve yaklaşık 400 yıl boyunca Osmanlı İmparatorluğu’nun yönetim merkezi olarak kullanılmıştır.",
+          "Fatih Sultan Mehmet tarafından 1478 yılında yaptırılmıştır ve yaklaşık 400 yıl boyunca Osmanlı İmparatorluğu'nun yönetim merkezi olarak kullanılmıştır.",
         architecture:
           "İç avlular, divan odası, harem bölümü ve padişah daireleri ile zengin Osmanlı mimarisi örneğidir.",
         visitInfo: {
@@ -367,12 +367,12 @@ export const culturalPlaces = {
     {
       name: "Anıtkabir",
       description:
-        "Türkiye Cumhuriyeti’nin kurucusu Mustafa Kemal Atatürk’ün anıt mezarı.",
+        "Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'ün anıt mezarı.",
       moreDetails: {
         history:
-          "1944-1953 yılları arasında yapılmıştır. Atatürk’ün naaşı 10 Kasım 1953’te buraya taşınmıştır.",
+          "1944-1953 yılları arasında yapılmıştır. Atatürk'ün naaşı 10 Kasım 1953'te buraya taşınmıştır.",
         architecture:
-          "Neoklasik ve modern Türk mimarisinin birleşimi, Tandoğan Anıt Bloku’ndan oluşur.",
+          "Neoklasik ve modern Türk mimarisinin birleşimi, Tandoğan Anıt Bloku'ndan oluşur.",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "Ücretsiz",
@@ -397,7 +397,7 @@ export const culturalPlaces = {
     {
       name: "Atatürk Orman Çiftliği",
       description:
-        "Doğal güzellikleri ve hayvanat bahçesi ile Ankara’nın önemli yeşil alanlarından biri.",
+        "Doğal güzellikleri ve hayvanat bahçesi ile Ankara'nın önemli yeşil alanlarından biri.",
       moreDetails: {
         history: "1925 yılında Mustafa Kemal Atatürk tarafından kurulmuştur.",
         activities: "Piknik, yürüyüş, çiftlik ürünleri alışverişi.",
@@ -422,10 +422,10 @@ export const culturalPlaces = {
     },
     {
       name: "Kocatepe Camii",
-      description: "Ankara’nın en büyük camisi, şehrin simgelerinden biri.",
+      description: "Ankara'nın en büyük camisi, şehrin simgelerinden biri.",
       moreDetails: {
         history:
-          "1987 yılında tamamlanmıştır. 24 bin kişilik kapasitesi ile Türkiye’nin en büyük camisidir.",
+          "1987 yılında tamamlanmıştır. 24 bin kişilik kapasitesi ile Türkiye'nin en büyük camisidir.",
         architecture:
           "Modern Türk mimarisinin en önemli örneklerinden biridir.",
         visitInfo: {
@@ -451,7 +451,7 @@ export const culturalPlaces = {
     {
       name: "Ankara Kalesi",
       description:
-        "Şehrin tarihi simgelerinden biri, Ankara’nın en eski yerleşim alanı.",
+        "Şehrin tarihi simgelerinden biri, Ankara'nın en eski yerleşim alanı.",
       moreDetails: {
         history:
           "M.Ö. 2. yüzyılda Galatlar tarafından yapılmıştır. Roma, Bizans ve Osmanlı dönemlerinde kullanılmıştır.",
@@ -480,10 +480,10 @@ export const culturalPlaces = {
     {
       name: "Atatürk Evi Müzesi",
       description:
-        "Mustafa Kemal Atatürk’ün Ankara’da yaşadığı ev, müze olarak ziyarete açılmıştır.",
+        "Mustafa Kemal Atatürk'ün Ankara'da yaşadığı ev, müze olarak ziyarete açılmıştır.",
       moreDetails: {
         history:
-          "1930-1938 yılları arasında Atatürk’ün ikametgahı olarak kullanılmıştır.",
+          "1930-1938 yılları arasında Atatürk'ün ikametgahı olarak kullanılmıştır.",
         activities:
           "Atatürk'ün kişisel eşyalarını ve yaşam alanlarını görebilirsiniz.",
         visitInfo: {
@@ -511,7 +511,7 @@ export const culturalPlaces = {
     // Adana
     {
       name: "Adana Merkez Parkı",
-      description: "Adana’nın en büyük parkı, yürüyüş ve piknik için ideal.",
+      description: "Adana'nın en büyük parkı, yürüyüş ve piknik için ideal.",
       moreDetails: {
         history: "Park, 1990 yılında açılmıştır.",
         activities: "Yürüyüş, piknik, çocuk oyun alanları.",
@@ -535,7 +535,7 @@ export const culturalPlaces = {
     },
     {
       name: "Seyhan Nehri",
-      description: "Adana’nın en önemli nehirlerinden biri, şehir manzarası.",
+      description: "Adana'nın en önemli nehirlerinden biri, şehir manzarası.",
       moreDetails: {
         history: "Seyhan Nehri, tarihi boyunca şehre hayat vermiştir.",
         activities: "Tekne turu, nehir kenarında yürüyüş.",
@@ -560,7 +560,7 @@ export const culturalPlaces = {
     {
       name: "Kapıkaya Kanyonu",
       description:
-        "Adana’nın doğal güzelliklerinden biri, doğa yürüyüşü. Doğa yürüyüşleri ve kamp yapmak için mükemmel bir yer.",
+        "Adana'nın doğal güzelliklerinden biri, doğa yürüyüşü. Doğa yürüyüşleri ve kamp yapmak için mükemmel bir yer.",
       moreDetails: {
         history: "Kanyon, doğal oluşumlu bir vadidir.",
         activities: "Doğa yürüyüşü, kamp yapma, fotoğraf çekme.",
@@ -585,7 +585,7 @@ export const culturalPlaces = {
     {
       name: "Yumurtalık Lagünü Milli Parkı",
       description:
-        "Adana’nın doğal güzelliklerinden biri, kuş gözlemciliği için ideal.",
+        "Adana'nın doğal güzelliklerinden biri, kuş gözlemciliği için ideal.",
       moreDetails: {
         history: "Milli park, 2004 yılında koruma altına alınmıştır.",
         activities: "Kuş gözlemciliği, doğa yürüyüşü.",
@@ -610,7 +610,7 @@ export const culturalPlaces = {
     {
       name: "Karataş Plajları",
       description:
-        "Adana’nın sahil beldesi, deniz ve güneş keyfi yapmak için ideal.",
+        "Adana'nın sahil beldesi, deniz ve güneş keyfi yapmak için ideal.",
       moreDetails: {
         history: "Karataş, tarihi boyunca önemli bir liman kenti olmuştur.",
         activities: "Deniz, kum, güneş, yüzme.",
@@ -634,7 +634,7 @@ export const culturalPlaces = {
     },
     {
       name: "Taşköprü",
-      description: "Adana’nın simgelerinden biri, tarihi taş köprü.",
+      description: "Adana'nın simgelerinden biri, tarihi taş köprü.",
       moreDetails: {
         history: "Taşköprü, Roma döneminde inşa edilmiştir.",
         activities: "Köprü üzerinde yürüyüş yapabilirsiniz.",
@@ -658,7 +658,7 @@ export const culturalPlaces = {
     },
     {
       name: "Adana Ulu Camii",
-      description: "Adana’nın en büyük camisi, şehir merkezinde.",
+      description: "Adana'nın en büyük camisi, şehir merkezinde.",
       moreDetails: {
         history: "Ulu Camii, 1541 yılında inşa edilmiştir.",
         activities: "Camiyi ziyaret edebilir, ibadet yapabilirsiniz.",
@@ -682,7 +682,7 @@ export const culturalPlaces = {
     },
     {
       name: "Varda Köprüsü",
-      description: "Adana’nın tarihi köprüsü, Seyhan Nehri üzerinde.",
+      description: "Adana'nın tarihi köprüsü, Seyhan Nehri üzerinde.",
       moreDetails: {
         history: "Varda Köprüsü, Roma döneminde inşa edilmiştir.",
         activities: "Köprü üzerinde yürüyüş yapabilirsiniz.",
@@ -706,7 +706,7 @@ export const culturalPlaces = {
     },
     {
       name: "Bebekli Kilise",
-      description: "Adana’nın tarihi kilisesi, Roma döneminden kalma.",
+      description: "Adana'nın tarihi kilisesi, Roma döneminden kalma.",
       moreDetails: {
         history: "Bebekli Kilise, 5. yüzyılda inşa edilmiştir.",
         activities: "Kiliseyi ziyaret edebilir, tarihi dokuyu görebilirsiniz.",
@@ -730,7 +730,7 @@ export const culturalPlaces = {
     },
     {
       name: "Anavarza Antik Kenti",
-      description: "Adana’nın antik kenti, tarihi kalıntılar.",
+      description: "Adana'nın antik kenti, tarihi kalıntılar.",
       moreDetails: {
         history: "Anavarza, Roma döneminde önemli bir kentti.",
         activities:
@@ -755,7 +755,7 @@ export const culturalPlaces = {
     },
     {
       name: "Misis Mozaik Müzesi",
-      description: "Adana’nın mozaik müzesi, antik mozaikler.",
+      description: "Adana'nın mozaik müzesi, antik mozaikler.",
       moreDetails: {
         history: "Misis Mozaik Müzesi, 2015 yılında açılmıştır.",
         activities:
@@ -780,13 +780,13 @@ export const culturalPlaces = {
     },
     {
       name: "Adana Kebap",
-      description: "Adana’nın meşhur kebap çeşidi, acılı ve lezzetli.",
+      description: "Adana'nın meşhur kebap çeşidi, acılı ve lezzetli.",
       moreDetails: {
         history:
           "Adana kebap, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
         ingredients: ["Kuzu eti", "Kuyruk yağı", "Acı biber", "Tuz"],
         preparation:
-          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pişirilir.",
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi��irilir.",
         tips: "Kebabın yanında ayran ve salata servis edilir.",
       },
       type: "food",
@@ -800,7 +800,7 @@ export const culturalPlaces = {
     },
     {
       name: "Ciğer Kebap",
-      description: "Adana’nın lezzetli kebap çeşidi, ciğer sevenler için.",
+      description: "Adana'nın lezzetli kebap çeşidi, ciğer sevenler için.",
       moreDetails: {
         history:
           "Ciğer kebap, Adana mutfağının en sevilen yemeklerinden biridir.",
@@ -821,7 +821,7 @@ export const culturalPlaces = {
     {
       name: "Şırdan Dolması",
       description:
-        "Adana’nın geleneksel lezzeti, içi doldurulmuş kuzu bağırsağı.",
+        "Adana'nın geleneksel lezzeti, içi doldurulmuş kuzu bağırsağı.",
       moreDetails: {
         history:
           "Şırdan dolması, Adana mutfağının en özel yemeklerinden biridir.",
@@ -841,7 +841,7 @@ export const culturalPlaces = {
     },
     {
       name: "Adana Usulü Mercimek Çorbası",
-      description: "Adana’nın geleneksel çorbası, lezzetli ve doyurucu.",
+      description: "Adana'nın geleneksel çorbası, lezzetli ve doyurucu.",
       moreDetails: {
         history:
           "Mercimek çorbası, Adana mutfağının en sevilen çorbalarından biridir.",
@@ -862,7 +862,7 @@ export const culturalPlaces = {
     {
       name: "Beyran Çorbası",
       description:
-        "Adana’nın geleneksel çorbası, kuzu eti ve pirinçle yapılır.",
+        "Adana'nın geleneksel çorbası, kuzu eti ve pirinçle yapılır.",
       moreDetails: {
         history:
           "Beyran çorbası, Adana mutfağının en özel çorbalarından biridir.",
@@ -881,7 +881,7 @@ export const culturalPlaces = {
     },
     {
       name: "Bici Bici",
-      description: "Adana’nın geleneksel tatlısı, dondurma ve nişasta.",
+      description: "Adana'nın geleneksel tatlısı, dondurma ve nişasta.",
       moreDetails: {
         history:
           "Bici Bici, Adana mutfağının en sevilen tatlılarından biridir.",
@@ -901,7 +901,7 @@ export const culturalPlaces = {
     },
     {
       name: "Karakuş Tatlısı",
-      description: "Adana’nın geleneksel tatlısı, ceviz ve şerbet.",
+      description: "Adana'nın geleneksel tatlısı, ceviz ve şerbet.",
       moreDetails: {
         history:
           "Karakuş tatlısı, Adana mutfağının en özel tatlılarından biridir.",
@@ -921,7 +921,7 @@ export const culturalPlaces = {
     },
     {
       name: "Analı Kızlı",
-      description: "Adana’nın geleneksel tatlısı, ceviz ve şerbet.",
+      description: "Adana'nın geleneksel tatlısı, ceviz ve şerbet.",
       moreDetails: {
         history: "Analı Kızlı, Adana mutfağının en özel tatlılarından biridir.",
         ingredients: ["Ceviz", "Şerbet", "Nişasta", "Çeşitli soslar"],
@@ -940,7 +940,7 @@ export const culturalPlaces = {
     },
     {
       name: "Fellah Köftesi",
-      description: "Adana’nın geleneksel yemeği, bulgur ve kıyma.",
+      description: "Adana'nın geleneksel yemeği, bulgur ve kıyma.",
       moreDetails: {
         history:
           "Fellah köftesi, Adana mutfağının en sevilen yemeklerinden biridir.",
@@ -959,7 +959,7 @@ export const culturalPlaces = {
     },
     {
       name: "Humus ve Babagannuş",
-      description: "Adana’nın geleneksel mezeleri, lezzetli ve sağlıklı.",
+      description: "Adana'nın geleneksel mezeleri, lezzetli ve sağlıklı.",
       moreDetails: {
         history:
           "Humus ve babagannuş, Adana mutfağının en sevilen mezelerinden biridir.",
@@ -979,7 +979,7 @@ export const culturalPlaces = {
     },
     {
       name: "Taş Kadayıf",
-      description: "Adana’nın geleneksel tatlısı, ceviz ve şerbet.",
+      description: "Adana'nın geleneksel tatlısı, ceviz ve şerbet.",
       moreDetails: {
         history: "Taş kadayıf, Adana mutfağının en özel tatlılarından biridir.",
         ingredients: ["Ceviz", "Şerbet", "Nişasta", "Çeşitli soslar"],
@@ -1002,7 +1002,7 @@ export const culturalPlaces = {
     // Adıyaman
     {
       name: "Nemrut Dağı",
-      description: "Dünya Mirası Listesi’nde yer alan tarihi bir dağ.",
+      description: "Dünya Mirası Listesi'nde yer alan tarihi bir dağ.",
       moreDetails: {
         history: "Nemrut Dağı, Kommagene Krallığı dönemine aittir.",
         activities:
@@ -1026,180 +1026,8 @@ export const culturalPlaces = {
       longitude: 38.73333,
     },
     {
-      name: "Cendere Köprüsü",
-      description: "Roma döneminden kalma tarihi bir köprü.",
-      moreDetails: {
-        history:
-          "Köprü, Roma İmparatoru Septimius Severus tarafından yaptırılmıştır.",
-        activities: "Köprü üzerinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her zaman açık",
-          bestTime: "Gün batımı",
-          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/cendere_koprusu.jpg",
-      slider: {
-        images: [
-          "https://example.com/cendere_koprusu1.jpg",
-          "https://example.com/cendere_koprusu2.jpg",
-        ],
-      },
-      location: "Adıyaman / Kahta",
-      latitude: 37.75,
-      longitude: 38.41667,
-    },
-    {
-      name: "Adıyaman Müzesi",
-      description: "Adıyaman’ın arkeoloji ve etnografya müzesi.",
-      moreDetails: {
-        history: "Müze, 1971 yılında kurulmuştur.",
-        activities: "Müzede arkeolojik ve etnografik eserleri görebilirsiniz.",
-        visitInfo: {
-          hours: "09:00 - 17:00",
-          bestTime: "Her zaman",
-          tips: "Müze ziyaretlerinde sessiz olunması önemlidir.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/adiyaman_muzesi.jpg",
-      slider: {
-        images: ["https://example.com/adiyaman_muzesi1.jpg"],
-      },
-      location: "Adıyaman",
-      latitude: 37.76444,
-      longitude: 38.27639,
-    },
-    {
-      name: "Kahta Kalesi",
-      description: "Kahta ilçesinde bulunan tarihi bir kale.",
-      moreDetails: {
-        history: "Kale, Roma dönemine aittir.",
-        activities: "Kaleyi ziyaret edebilir, tarihi dokuyu görebilirsiniz.",
-        visitInfo: {
-          hours: "Her zaman açık",
-          bestTime: "Gün batımı",
-          tips: "Kaleye çıkmak için rahat ayakkabı giymeniz önerilir.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/kahta_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/kahta_kalesi1.jpg",
-          "https://example.com/kahta_kalesi2.jpg",
-        ],
-      },
-      location: "Adıyaman / Kahta",
-      latitude: 37.75,
-      longitude: 38.41667,
-    },
-    {
-      name: "Arsemia Antik Kenti",
-      description: "Kahta ilçesinde bulunan antik bir kent.",
-      moreDetails: {
-        history: "Arsemia, Kommagene Krallığı dönemine aittir.",
-        activities:
-          "Antik kenti ziyaret edebilir, tarihi kalıntıları görebilirsiniz.",
-        visitInfo: {
-          hours: "Her zaman açık",
-          bestTime: "Her zaman",
-          tips: "Antik kenti ziyaret ederken rahat ayakkabı giymeniz önerilir.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/arsemia.jpg",
-      slider: {
-        images: [
-          "https://example.com/arsemia1.jpg",
-          "https://example.com/arsemia2.jpg",
-        ],
-      },
-      location: "Adıyaman / Kahta",
-      latitude: 37.75,
-    },
-    {
-      name: "Adıyaman Kebabı",
-      description: "Adıyaman’ın meşhur kebap çeşidi, lezzetli ve doyurucu.",
-      moreDetails: {
-        history:
-          "Adıyaman kebabı, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
-        ingredients: ["Kuzu eti", "Kuyruk yağı", "Tuz", "Baharatlar"],
-        preparation:
-          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pişirilir.",
-        tips: "Kebabın yanında ayran ve salata servis edilir.",
-      },
-      type: "food",
-      image: "https://example.com/adiyaman_kebap.jpg",
-      slider: {
-        images: [
-          "https://example.com/adiyaman_kebap1.jpg",
-          "https://example.com/adiyaman_kebap2.jpg",
-        ],
-      },
-    },
-    {
-      name: "Kaburga Dolması",
-      description: "Adıyaman’ın geleneksel yemeği, lezzetli ve doyurucu.",
-      moreDetails: {
-        history:
-          "Kaburga dolması, Adıyaman mutfağının en sevilen yemeklerinden biridir.",
-        ingredients: ["Kuzu kaburga", "Pirinç", "Baharatlar", "Tuz"],
-        preparation:
-          "Kaburgalar temizlenir, içleri doldurulur ve pişirilir. Üzerine sos dökülür.",
-        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
-      },
-      type: "food",
-      image: "https://example.com/kaburga_dolmasi.jpg",
-      slider: {
-        images: [
-          "https://example.com/kaburga_dolmasi1.jpg",
-          "https://example.com/kaburga_dolmasi2.jpg",
-        ],
-      },
-    },
-    {
-      name: "Kuzu Tandır",
-      description:
-        "Adıyaman mutfağının geleneksel yemeği, lezzetli ve doyurucu.",
-      moreDetails: {
-        history:
-          "Kuzu tandır, Adıyaman mutfağının en sevilen yemeklerinden biridir.",
-        ingredients: ["Kuzu eti", "Tuz", "Baharatlar", "Kuyruk yağı"],
-        preparation:
-          "Et, tuz ve baharatlarla harmanlanır, fırında pişirilir ve servis edilir.",
-        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
-      },
-      type: "food",
-      image: "https://example.com/kuzu_tandir.jpg",
-      slider: {
-        images: [
-          "https://example.com/kuzu_tandir1.jpg",
-          "https://example.com/kuzu_tandir2.jpg",
-        ],
-      },
-    },
-    {
-      name: "Kabak Borani",
-      description: "Adıyaman’ın geleneksel yemeği, lezzetli ve doyurucu.",
-      moreDetails: {
-        history:
-          "Kabak borani, Adıyaman mutfağının en sevilen yemeklerinden biridir.",
-        ingredients: ["Kabak", "Yoğurt", "Tereyağı", "Baharatlar"],
-        preparation:
-          "Kabaklar haşlanır, yoğurt ve baharatlar eklenir ve tereyağında kızartılır.",
-        tips: "Yemeği sıcak servis etmek lezzetini artırır.",
-      },
-      type: "food",
-      image: "https://example.com/kabak_borani.jpg",
-      slider: {
-        images: [
-          "https://example.com/kabak_borani1.jpg",
-          "https://example.com/kabak_borani2.jpg",
-        ],
-      },
-    },
+      name: "Cendere Köprüsü"
+    }
   ],
   "03": [
     // Afyonkarahisar
@@ -1232,7 +1060,7 @@ export const culturalPlaces = {
     // Ağrı
     {
       name: "Ağrı Dağı",
-      description: "Türkiye’nin en yüksek zirvesi.",
+      description: "Türkiye'nin en yüksek zirvesi.",
       moreDetails: {
         history: "Efsanelere ve mitolojilere ev sahipliği yapmaktadır.",
         activities: "Dağa tırmanış ve doğa yürüyüşleri.",
@@ -1286,7 +1114,7 @@ export const culturalPlaces = {
     // Antaly
     {
       name: "Kaleiçi",
-      description: "Antalya’nın tarihi merkezi.",
+      description: "Antalya'nın tarihi merkezi.",
       moreDetails: {
         history: "Tarihi yapıları ve dar sokakları ile ünlüdür.",
         activities: "Yürüyüş, alışveriş, kafe keyfi.",
@@ -1341,7 +1169,7 @@ export const culturalPlaces = {
     // Aydın
     {
       name: "Aphrodisias Antik Kenti",
-      description: "Dünya Mirası Listesi’nde yer alan antik kent.",
+      description: "Dünya Mirası Listesi'nde yer alan antik kent.",
       moreDetails: {
         history: "M.Ö. 3. yüzyılda kurulmuştur.",
         activities: "Antik kalıntıları gezmek için popüler bir yerdir.",
@@ -1396,7 +1224,7 @@ export const culturalPlaces = {
     {
       name: "Bilecik Şeyh Edebali Türbesi",
       description:
-        "Osmanlı Devleti’nin kurucusu Osman Gazi’nin hocası Şeyh Edebali’nin türbesi.",
+        "Osmanlı Devleti'nin kurucusu Osman Gazi'nin hocası Şeyh Edebali'nin türbesi.",
       moreDetails: {
         history: "Türbe, Osmanlı dönemine aittir.",
         activities: "Tarihi yapıyı ziyaret edebilirsiniz.",
@@ -1557,7 +1385,7 @@ export const culturalPlaces = {
     },
     {
       name: "Bursa Ulu Camii",
-      description: "Bursa’nın en büyük camisi.",
+      description: "Bursa'nın en büyük camisi.",
       moreDetails: {
         history: "1396 yılında yapılmıştır.",
         activities: "Camiyi ziyaret edebilirsiniz.",
@@ -1584,7 +1412,7 @@ export const culturalPlaces = {
     // Çanakkale
     {
       name: "Truva Antik Kenti",
-      description: "Dünya Mirası Listesi’nde yer alan antik kent.",
+      description: "Dünya Mirası Listesi'nde yer alan antik kent.",
       moreDetails: {
         history: "Truva, efsanelere ev sahipliği yapmaktadır.",
         activities: "Antik kalıntıları gezmek için popüler bir yerdir.",
@@ -1639,7 +1467,7 @@ export const culturalPlaces = {
     // Çorum
     {
       name: "Hattuşaş",
-      description: "Hitit İmparatorluğu’nun başkenti.",
+      description: "Hitit İmparatorluğu'nun başkenti.",
       moreDetails: {
         history:
           "Hattuşaş, M.Ö. 2000 yıllarına kadar uzanan bir geçmişe sahiptir.",
@@ -1670,7 +1498,7 @@ export const culturalPlaces = {
       description: "Beyaz travertenleri ile ünlü doğal bir oluşum.",
       moreDetails: {
         history:
-          "Pamukkale, antik Hierapolis kenti ile birlikte UNESCO Dünya Mirası Listesi’nde yer almaktadır.",
+          "Pamukkale, antik Hierapolis kenti ile birlikte UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
         activities:
           "Travertenlerde yürüyüş yapabilir ve kaplıcalarda yüzebilirsiniz.",
         visitInfo: {
@@ -1697,7 +1525,7 @@ export const culturalPlaces = {
     {
       name: "Diyarbakır Surları",
       description:
-        "Diyarbakır’ın tarihi surları, UNESCO Dünya Mirası Listesi’nde yer almaktadır.",
+        "Diyarbakır'ın tarihi surları, UNESCO Dünya Mirası Listesi'nde yer almaktadır.",
       moreDetails: {
         history: "Surlar, Roma dönemine kadar uzanan bir geçmişe sahiptir.",
         activities: "Surların etrafında yürüyüş yapabilirsiniz.",
@@ -1724,7 +1552,7 @@ export const culturalPlaces = {
     // Edirne
     {
       name: "Selimiye Camii",
-      description: "Mimar Sinan’ın ustalık eseri olan cami.",
+      description: "Mimar Sinan'ın ustalık eseri olan cami.",
       moreDetails: {
         history: "Cami, 1568-1575 yılları arasında inşa edilmiştir.",
         activities:
@@ -2057,7 +1885,7 @@ export const culturalPlaces = {
     // İzmir
     {
       name: "Efes Antik Kenti",
-      description: "Dünya Mirası Listesi’nde yer alan antik kent.",
+      description: "Dünya Mirası Listesi'nde yer alan antik kent.",
       moreDetails: {
         history: "Efes, M.Ö. 10. yüzyılda kurulmuştur.",
         activities: "Antik kalıntıları gezmek için popüler bir yerdir.",
@@ -2144,7 +1972,7 @@ export const culturalPlaces = {
       description: "Şehrin tarihi simgelerinden biri.",
       moreDetails: {
         history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+          "Kale, tarihi boyunca birçok medeniyete ev sahipli��i yapmıştır.",
         activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
@@ -2252,11 +2080,11 @@ export const culturalPlaces = {
     // Konya
     {
       name: "Mevlana Müzesi",
-      description: "Mevlana Celaleddin Rumi’nin türbesi ve müzesi.",
+      description: "Mevlana Celaleddin Rumi'nin türbesi ve müzesi.",
       moreDetails: {
         history: "Müze, 1274 yılından beri ziyaret edilmektedir.",
         activities:
-          "Tarihi yapıyı ziyaret edebilir ve Mevlana’nın hayatını öğrenebilirsiniz.",
+          "Tarihi yapıyı ziyaret edebilir ve Mevlana'nın hayatını öğrenebilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
           bestTime: "Yaz ayları",
@@ -2835,7 +2663,7 @@ export const culturalPlaces = {
     },
     {
       name: "Atatürk Köşkü",
-      description: "Atatürk’ün Trabzon’da kaldığı köşk.",
+      description: "Atatürk'ün Trabzon'da kaldığı köşk.",
       moreDetails: {
         history: "Köşk, 20. yüzyılda inşa edilmiştir.",
         activities: "Köşkü ziyaret edebilir ve tarihi yapıyı gezebilirsiniz.",
@@ -2939,7 +2767,7 @@ export const culturalPlaces = {
     // Şanlıurfa
     {
       name: "Göbeklitepe",
-      description: "Dünya’nın bilinen en eski tapınak kompleksi.",
+      description: "Dünya'nın bilinen en eski tapınak kompleksi.",
       moreDetails: {
         history:
           "Göbeklitepe, M.Ö. 9600 yıllarına kadar uzanan bir geçmişe sahiptir.",
@@ -3244,4 +3072,358 @@ export const culturalPlaces = {
       longitude: 42.0,
     },
   ],
-};
+  74: [
+    // Bartın
+    {
+      name: "Amasra Kalesi",
+      description: "Antik dönemden kalma tarihi kale ve liman kenti.",
+      moreDetails: {
+        history: "M.Ö. 3. yüzyılda Romalılar tarafından inşa edilmiş, Cenevizliler ve Osmanlılar döneminde de kullanılmıştır.",
+        architecture: "Kale, iki ana bölümden oluşur: Sormagir ve Boztepe. Surları ve burçları hala ayaktadır.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Gün batımında manzara fotoğrafı çekmek için ideal. Kale içindeki müzeyi de ziyaret edebilirsiniz.",
+        },
+      },
+      type: "historical",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amasra_Castle_and_Port.jpg/1280px-Amasra_Castle_and_Port.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amasra_Castle_and_Port.jpg/1280px-Amasra_Castle_and_Port.jpg",
+          "https://live.staticflickr.com/65535/49890485878_7f63d6c6d8_b.jpg"
+        ],
+      },
+      location: "Amasra",
+      latitude: 41.7458,
+      longitude: 32.3867,
+    },
+    {
+      name: "Kuşkayası Yol Anıtı",
+      description: "Roma döneminden kalma kaya üzerine işlenmiş yol anıtı.",
+      moreDetails: {
+        history: "M.S. 1. yüzyılda Roma İmparatoru Claudius döneminde yapılmıştır.",
+        architecture: "Kayaya oyulmuş bir Roma askeri figürü ve Latin yazıtlar içerir.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gündüz saatleri",
+          tips: "Anıta ulaşmak için kısa bir yürüyüş gerekiyor. Rahat ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://kulturportali.gov.tr/repoKulturPortali/large/23022013/c05c2ad3-576c-4193-ae90-575490d210f4.jpg",
+      slider: {
+        images: [
+          "https://kulturportali.gov.tr/repoKulturPortali/large/23022013/c05c2ad3-576c-4193-ae90-575490d210f4.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KUSKAYASI%20YOL%20ANITI%20(3).jpg"
+        ],
+      },
+      location: "Bartın Merkez",
+      latitude: 41.6333,
+      longitude: 32.3375,
+    },
+    {
+      name: "İnkumu Plajı",
+      description: "Bartın'ın en popüler plajlarından biri, doğal güzelliği ile ünlü.",
+      moreDetails: {
+        history: "Doğal bir kumsal olan İnkumu, adını ince kumlarından almıştır.",
+        activities: "Yüzme, güneşlenme, su sporları ve kamp yapılabilir.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Haziran-Eylül arası",
+          tips: "Yaz aylarında oldukça kalabalık olabilir. Sabah erken saatler daha sakin.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/inkumu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/inkumu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20INKUMU%20(1).jpg"
+        ],
+      },
+      location: "Bartın Merkez",
+      latitude: 41.7492,
+      longitude: 32.2964,
+    },
+    {
+      name: "Uluyayla",
+      description: "Doğal güzellikleri ve yaylacılık kültürü ile ünlü yayla.",
+      moreDetails: {
+        history: "Geleneksel yaylacılık kültürünün yaşatıldığı önemli bir bölge.",
+        activities: "Doğa yürüyüşü, kamp, fotoğrafçılık, piknik yapılabilir.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Mayıs-Eylül arası",
+          tips: "Yüksek rakım nedeniyle hava değişkendir, kalın giysiler bulundurulmalı.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/uluyayla.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/uluyayla.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20ULUYAYLA%20(2).jpg"
+        ],
+      },
+      location: "Ulus",
+      latitude: 41.5847,
+      longitude: 32.6375,
+    },
+    {
+      name: "Gürcüoluk Mağarası",
+      description: "Doğal oluşumlu mağara ve çevresi.",
+      moreDetails: {
+        history: "Doğal yollarla oluşmuş kireçtaşı mağarası.",
+        activities: "Mağara gezisi, doğa yürüyüşü, fotoğrafçılık.",
+        visitInfo: {
+          hours: "Gündüz saatleri",
+          price: "Ücretsiz",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Mağara içi nemli ve kaygan olabilir, uygun ayakkabı giyilmeli.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/gurcoluk-magarasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/gurcoluk-magarasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20GURCOLUK%20MAGARASI.jpg"
+        ],
+      },
+      location: "Ulus",
+      latitude: 41.5722,
+      longitude: 32.6389,
+    },
+    {
+      name: "Bartın Evleri",
+      description: "Geleneksel Osmanlı mimarisinin örnekleri olan tarihi evler.",
+      moreDetails: {
+        history: "19. yüzyıl sonları ve 20. yüzyıl başlarında inşa edilmiş tarihi konutlar.",
+        architecture: "İki veya üç katlı, ahşap ve taş malzeme kullanılarak yapılmış evler.",
+        visitInfo: {
+          hours: "Dışarıdan görülebilir",
+          price: "Ücretsiz",
+          bestTime: "Her zaman",
+          tips: "Fotoğraf çekerken ev sahiplerinin mahremiyetine saygı gösterilmeli.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/bartin-evleri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/bartin-evleri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20EVLERI%20(1).jpg"
+        ],
+      },
+      location: "Bartın Merkez",
+      latitude: 41.6344,
+      longitude: 32.3375,
+    },
+    {
+      name: "Bartın Tel Kırma",
+      description: "Geleneksel Bartın el sanatı, özel teknikle yapılan işleme.",
+      moreDetails: {
+        history: "Yüzyıllardır devam eden geleneksel el sanatı.",
+        technique: "Gümüş veya altın renkli teller kullanılarak yapılan özel bir işleme tekniği.",
+        visitInfo: {
+          hours: "Hediyelik eşya dükkanlarında bulunabilir",
+          price: "Ürüne göre değişken",
+          bestTime: "Her zaman",
+          tips: "Otantik hediyelik eşya arayanlar için ideal.",
+        },
+      },
+      type: "cultural",
+      image: "https://www.kulturportali.gov.tr/contents/images/tel-kirma.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/tel-kirma.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20TEL%20KIRMA.jpg"
+        ],
+      },
+    },
+    {
+      name: "Bartın Çilek Tatlısı",
+      description: "Bartın'ın meşhur tatlısı, taze çilek ve kaymak ile yapılır.",
+      moreDetails: {
+        history: "Yöresel bir tatlı olarak uzun yıllardır yapılmaktadır.",
+        ingredients: ["Taze çilek", "Kaymak", "Şeker", "Un"],
+        preparation: "Çilekler şekerle kaynatılır, hamur ile birlikte pişirilir ve üzerine kaymak konulur.",
+        tips: "Taze çilek mevsiminde yapılması önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/bartin-cilek-tatlisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/bartin-cilek-tatlisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20CILEK%20TATLISI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Bartın Pirinçli Mantısı",
+      description: "Geleneksel Bartın mantısı, pirinç ile yapılır.",
+      moreDetails: {
+        history: "Yöreye özgü bir mantı çeşidi olarak bilinir.",
+        ingredients: ["Un", "Pirinç", "Kıyma", "Soğan", "Yoğurt"],
+        preparation: "Hamur açılır, içine pirinçli harç konur ve üçgen şeklinde kapatılır. Haşlanıp üzerine yoğurt ve tereyağı dökülür.",
+        tips: "Sıcak servis edilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/bartin-mantisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/bartin-mantisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20MANTISI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kabak Burması",
+      description: "Bartın'ın geleneksel tatlısı, kabak ve ceviz ile yapılır.",
+      moreDetails: {
+        history: "Geleneksel bir Bartın tatlısıdır.",
+        ingredients: ["Kabak", "Ceviz", "Un", "Tereyağı", "Şeker"],
+        preparation: "İnce açılan yufkanın içine kabak ve ceviz konur, rulo yapılır ve kızartılır.",
+        tips: "Üzerine pudra şekeri serpilerek servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kabak-burmasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kabak-burmasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KABAK%20BURMASI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Bartın Kent Müzesi",
+      description: "Bartın'ın tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "2013 yılında açılan müze, tarihi bir konakta hizmet vermektedir.",
+        exhibitions: "Etnografik eserler, geleneksel kıyafetler, el sanatları.",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar için önceden randevu alınabilir.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/bartin-kent-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/bartin-kent-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KENT%20MUZESI.jpg"
+        ],
+      },
+      location: "Bartın Merkez",
+      latitude: 41.6344,
+      longitude: 32.3375
+    },
+    {
+      name: "Amasra Müzesi",
+      description: "Arkeolojik ve etnografik eserlerin sergilendiği müze.",
+      moreDetails: {
+        history: "1982'de kurulmuş olup, bölgenin zengin tarihini yansıtmaktadır.",
+        exhibitions: "Roma, Bizans ve Osmanlı dönemlerine ait eserler.",
+        visitInfo: {
+          hours: "08:30 - 17:30",
+          price: "30 TL",
+          bestTime: "Hafta içi",
+          tips: "Fotoğraf çekmek için izin alınması gerekebilir.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/amasra-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/amasra-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20AMASRA%20MUZESI.jpg"
+        ],
+      },
+      location: "Amasra",
+      latitude: 41.7458,
+      longitude: 32.3867
+    },
+    {
+      name: "Hasankadı Kanyonu",
+      description: "Doğal güzellikleri ile ünlü kanyon.",
+      moreDetails: {
+        history: "Doğal oluşumlu bir kanyon.",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, kamp.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yürüyüş için uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/hasankadi-kanyonu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/hasankadi-kanyonu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20HASANKADI%20KANYONU.jpg"
+        ],
+      },
+      location: "Hasankadı",
+      latitude: 41.5833,
+      longitude: 32.4167
+    },
+    {
+      name: "Çobanoğlu Çeşmesi",
+      description: "Tarihi Osmanlı çeşmesi.",
+      moreDetails: {
+        history: "18. yüzyılda inşa edilmiş Osmanlı dönemi eseri.",
+        architecture: "Klasik Osmanlı çeşme mimarisi örneği.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Her zaman",
+          tips: "Çeşmenin tarihi dokusuna zarar vermemeye özen gösterilmeli.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/cobanoglu-cesmesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/cobanoglu-cesmesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20COBANOGLU%20CESMESI.jpg"
+        ],
+      },
+      location: "Bartın Merkez",
+      latitude: 41.6344,
+      longitude: 32.3375
+    },
+    {
+      name: "Sipahiler Konağı",
+      description: "Geleneksel Bartın mimarisinin önemli örneklerinden.",
+      moreDetails: {
+        history: "19. yüzyılda inşa edilmiş tarihi konak.",
+        architecture: "Geleneksel Osmanlı konak mimarisi.",
+        visitInfo: {
+          hours: "10:00 - 16:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi",
+          tips: "Fotoğraf çekmek için izin alınması gerekebilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/sipahiler-konagi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sipahiler-konagi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20SIPAHILER%20KONAGI.jpg"
+        ],
+      },
+      location: "Bartın Merkez",
+      latitude: 41.6344,
+      longitude: 32.3375
+    }
+  ]
+}; // Dosyanın en sonuna kapanış parantezi ve noktalı virgül eklendi
