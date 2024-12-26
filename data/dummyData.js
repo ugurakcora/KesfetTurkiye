@@ -786,7 +786,7 @@ export const culturalPlaces = {
           "Adana kebap, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
         ingredients: ["Kuzu eti", "Kuyruk yağı", "Acı biber", "Tuz"],
         preparation:
-          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi�����irilir.",
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi�������irilir.",
         tips: "Kebabın yanında ayran ve salata servis edilir.",
       },
       type: "food",
@@ -2256,33 +2256,185 @@ export const culturalPlaces = {
     },
   ],
   42: [
-    // Konya
     {
       name: "Mevlana Müzesi",
-      description: "Mevlana Celaleddin Rumi'nin türbesi ve müzesi.",
+      description: "Hz. Mevlana'nın türbesi ve dergahı, UNESCO Dünya Mirası Listesi'nde.",
       moreDetails: {
-        history: "Müze, 1274 yılından beri ziyaret edilmektedir.",
-        activities:
-          "Tarihi yapıyı ziyaret edebilir ve Mevlana'nın hayatını öğrenebilirsiniz.",
+        history: "13. yüzyılda Mevlana'nın türbesi olarak inşa edilmiş, sonrasında dergah olarak genişletilmiştir.",
+        architecture: "Kubbeli türbe, semahane, derviş hücreleri ve müze bölümleri",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Huzur içinde bir ziyaret için sessiz olun.",
+          hours: "09:00 - 17:00",
+          price: "45 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Şeb-i Arus döneminde özel törenler düzenlenir.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/mevlana-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/mevlana-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20MEVLANA%20MUZESI.jpg"
+        ],
+      },
+      location: "Karatay",
+      latitude: 37.8714,
+      longitude: 32.5050
+    },
+    {
+      name: "Çatalhöyük",
+      description: "Neolitik dönemden kalma yerleşim yeri, UNESCO Dünya Mirası Listesi'nde.",
+      moreDetails: {
+        history: "M.Ö. 7400 yıllarında kurulmuş, dünyanın en eski yerleşim yerlerinden biri.",
+        exhibitions: "Neolitik dönem evleri, duvar resimleri, arkeolojik buluntular",
+        visitInfo: {
+          hours: "08:00 - 19:00",
+          price: "30 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Rehberli turlar önerilir.",
         },
       },
       type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mevlana_Museum.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/catalhoyuk.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/4/4e/Mevlana_Museum.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mevlana_Museum_2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/catalhoyuk.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20CATALHOYUK.jpg"
         ],
       },
-      location: "Konya",
-      latitude: 37.8734,
-      longitude: 32.4846,
+      location: "Çumra",
+      latitude: 37.6667,
+      longitude: 32.8267
     },
+    {
+      name: "Alâeddin Camii",
+      description: "Selçuklu döneminin en önemli camilerinden biri.",
+      moreDetails: {
+        history: "12. yüzyılda Selçuklu Sultanı Alâeddin Keykubad döneminde inşa edilmiştir.",
+        architecture: "Selçuklu mimarisinin özgün örneklerinden, ahşap direkli cami",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Namaz vakitleri dışında",
+          tips: "Ziyaret sırasında uygun kıyafet giyilmelidir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/alaeddin-camii.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/alaeddin-camii.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ALAEDDIN%20CAMII.jpg"
+        ],
+      },
+      location: "Selçuklu",
+      latitude: 37.8719,
+      longitude: 32.4925
+    },
+    {
+      name: "Beyşehir Gölü",
+      description: "Türkiye'nin en büyük tatlı su gölü.",
+      moreDetails: {
+        history: "Tektonik kökenli doğal göl",
+        activities: "Su sporları, balıkçılık, kuş gözlemciliği, kamp",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları",
+          tips: "Göl çevresinde kamp alanları mevcuttur.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/beysehir-golu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/beysehir-golu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20BEYSEHIR%20GOLU.jpg"
+        ],
+      },
+      location: "Beyşehir",
+      latitude: 37.7500,
+      longitude: 31.5000
+    },
+    {
+      name: "Konya Arkeoloji Müzesi",
+      description: "Bölgenin zengin arkeolojik mirasını sergileyen müze.",
+      moreDetails: {
+        history: "1901 yılında kurulmuştur.",
+        exhibitions: "Neolitik dönemden Osmanlı'ya uzanan eserler koleksiyonu",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ARKEOLOJI%20MUZESI.jpg"
+        ],
+      },
+      location: "Meram",
+      latitude: 37.8714,
+      longitude: 32.4925
+    },
+    {
+      name: "Etli Ekmek",
+      description: "Konya'nın meşhur pide çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Konya mutfağının vazgeçilmez lezzeti",
+        ingredients: ["Kıyma", "Soğan", "Maydanoz", "İnce pide hamuru"],
+        preparation: "İnce açılan hamur üzerine kıymalı harç sürülüp taş fırında pişirilir",
+        tips: "Yanında ayran ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/etli-ekmek.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/etli-ekmek.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ETLI%20EKMEK.jpg"
+        ],
+      }
+    },
+    {
+      name: "Mevlana Şekeri",
+      description: "Geleneksel Konya tatlısı.",
+      moreDetails: {
+        history: "Mevlevi geleneğinden gelen özel şekerleme",
+        ingredients: ["Şeker", "Nişasta", "Gül suyu"],
+        preparation: "Özel kalıplarda şekillendirilerek yapılır",
+        tips: "Hediyelik olarak tercih edilebilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/mevlana-sekeri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/mevlana-sekeri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20MEVLANA%20SEKERI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Konya Düğün Pilavı",
+      description: "Geleneksel düğün yemeği.",
+      moreDetails: {
+        history: "Konya düğünlerinin vazgeçilmez ikramı",
+        ingredients: ["Pirinç", "Kuzu eti", "Nohut", "Tereyağı"],
+        preparation: "Et suyu ile pişirilen pilav üzerine et parçaları konur",
+        tips: "Özel günlerde yapılır.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/dugun-pilavi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/dugun-pilavi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20DUGUN%20PILAVI.jpg"
+        ],
+      }
+    }
   ],
   43: [
     // Kütahya
