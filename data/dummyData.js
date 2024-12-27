@@ -361,132 +361,203 @@ export const culturalPlaces = {
       latitude: 41.008583,
       longitude: 28.980175,
     },
-  ],
-  "06": [
-    // Ankara
     {
-      name: "Anıtkabir",
-      description:
-        "Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'ün anıt mezarı.",
+      name: "Sultanahmet Camii",
+      description: "Mavi Camii olarak da bilinen, Osmanlı'nın en önemli camilerinden biri.",
       moreDetails: {
-        history:
-          "1944-1953 yılları arasında yapılmıştır. Atatürk'ün naaşı 10 Kasım 1953'te buraya taşınmıştır.",
-        architecture:
-          "Neoklasik ve modern Türk mimarisinin birleşimi, Tandoğan Anıt Bloku'ndan oluşur.",
+        history: "1609-1616 yılları arasında Sultan I. Ahmed tarafından yaptırılmıştır.",
+        architecture: "6 minareli, mavi İznik çinileriyle süslü, klasik Osmanlı mimarisi",
+        visitInfo: {
+          hours: "24 saat açık (namaz vakitleri hariç)",
+          price: "Ücretsiz",
+          bestTime: "Sabah erken saatler",
+          tips: "Ziyaret sırasında uygun kıyafet giyilmelidir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/sultanahmet-camii.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sultanahmet-camii.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20SULTANAHMET%20CAMII.jpg"
+        ],
+      },
+      location: "Fatih",
+      latitude: 41.0054,
+      longitude: 28.9768
+    },
+    {
+      name: "Kapalıçarşı",
+      description: "Dünyanın en eski ve en büyük kapalı çarşılarından biri.",
+      moreDetails: {
+        history: "1461 yılında Fatih Sultan Mehmet döneminde inşa edilmiştir.",
+        architecture: "61 sokak, 4000'den fazla dükkan, 2 bedesten",
+        visitInfo: {
+          hours: "09:00 - 19:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi sabah saatleri",
+          tips: "Pazarlık yapmayı unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/kapalicarsi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kapalicarsi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KAPALICARSI.jpg"
+        ],
+      },
+      location: "Fatih",
+      latitude: 41.0108,
+      longitude: 28.9682
+    },
+    {
+      name: "Galata Kulesi",
+      description: "İstanbul'un en önemli simgelerinden biri olan tarihi kule.",
+      moreDetails: {
+        history: "1348 yılında Cenevizliler tarafından inşa edilmiştir.",
+        architecture: "Silindirik formda, 63 metre yüksekliğinde",
+        visitInfo: {
+          hours: "09:00 - 00:00",
+          price: "100 TL",
+          bestTime: "Gün batımı",
+          tips: "Manzara fotoğrafları için en iyi zaman gün batımıdır.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/galata-kulesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/galata-kulesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20GALATA%20KULESI.jpg"
+        ],
+      },
+      location: "Beyoğlu",
+      latitude: 41.0256,
+      longitude: 28.9741
+    },
+    {
+      name: "Dolmabahçe Sarayı",
+      description: "Osmanlı'nın son dönem sarayı ve yönetim merkezi.",
+      moreDetails: {
+        history: "1843-1856 yılları arasında Sultan Abdülmecid tarafından yaptırılmıştır.",
+        architecture: "Barok, Rokoko ve Neo-klasik üslupların karışımı",
+        visitInfo: {
+          hours: "09:00 - 16:00 (Salı kapalı)",
+          price: "150 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Rehberli turlar zorunludur.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/dolmabahce-sarayi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/dolmabahce-sarayi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20DOLMABAHCE%20SARAYI.jpg"
+        ],
+      },
+      location: "Beşiktaş",
+      latitude: 41.0391,
+      longitude: 29.0007
+    },
+    {
+      name: "İstanbul Arkeoloji Müzeleri",
+      description: "Türkiye'nin en büyük arkeoloji müzesi.",
+      moreDetails: {
+        history: "1891 yılında kurulmuştur.",
+        exhibitions: "Antik dönem eserleri, İskender Lahdi, Sidon Lahitleri",
         visitInfo: {
           hours: "09:00 - 17:00",
-          price: "Ücretsiz",
-          bestTime:
-            "Milli bayram günlerinde özel törenlerle ziyaret edilebilir.",
-          tips: "Sessizlik kurallarına dikkat edilmesi önerilir.",
+          price: "75 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar önerilir.",
         },
       },
-      type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/d/d9/An%C4%B1tkabir.jpg",
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/d/d9/An%C4%B1tkabir.jpg",
-          "https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/9e928939-5c64-4adf-8b2c-1b01e82c4d09.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20ARKEOLOJI%20MUZESI.jpg"
         ],
       },
-      location: "Çankaya",
-      latitude: 39.925533,
-      longitude: 32.837222,
+      location: "Fatih",
+      latitude: 41.0116,
+      longitude: 28.9813
     },
     {
-      name: "Atatürk Orman Çiftliği",
-      description:
-        "Doğal güzellikleri ve hayvanat bahçesi ile Ankara'nın önemli yeşil alanlarından biri.",
+      name: "İstanbul Kebap",
+      description: "Geleneksel İstanbul kebap çeşitleri.",
       moreDetails: {
-        history: "1925 yılında Mustafa Kemal Atatürk tarafından kurulmuştur.",
-        activities: "Piknik, yürüyüş, çiftlik ürünleri alışverişi.",
-        visitInfo: {
-          hours: "08:00 - 18:00",
-          price: "Ücretsiz",
-          bestTime: "İlkbahar ve yaz ayları",
-          tips: "Çiftlik ürünlerini satın alabileceğiniz mağazalar bulunur.",
-        },
+        history: "Yüzyıllardır süregelen kebap kültürü",
+        varieties: ["Döner", "İskender", "Adana", "Beyti"],
+        preparation: "Özel baharatlarla marine edilmiş et, kömür ateşinde pişirilir",
+        tips: "Yanında yoğurt ve pide ile servis edilir.",
       },
-      type: "natural",
-      image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/AO%C3%87.jpg",
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/istanbul-kebap.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/3/3f/AO%C3%87.jpg",
-          "https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/90fef6e2-bd69-4d87-b16f-d8289ba5299f.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-kebap.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KEBAP.jpg"
         ],
-      },
-      location: "Yenimahalle",
-      latitude: 39.943056,
-      longitude: 32.859722,
+      }
     },
     {
-      name: "Kocatepe Camii",
-      description: "Ankara'nın en büyük camisi, şehrin simgelerinden biri.",
+      name: "Balık Ekmek",
+      description: "İstanbul'un meşhur sokak lezzeti.",
       moreDetails: {
-        history:
-          "1987 yılında tamamlanmıştır. 24 bin kişilik kapasitesi ile Türkiye'nin en büyük camisidir.",
-        architecture:
-          "Modern Türk mimarisinin en önemli örneklerinden biridir.",
-        visitInfo: {
-          hours: "09:00 - 18:00",
-          price: "Ücretsiz",
-          bestTime: "Her zaman",
-          tips: "Camiyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
-        },
+        history: "Eminönü'nün simgesi haline gelmiş geleneksel lezzet",
+        ingredients: ["Taze balık", "Yeşillik", "Soğan", "Limon"],
+        preparation: "Izgara balık, taze ekmek arasında servis edilir",
+        tips: "Eminönü'ndeki teknelerde taze olarak bulabilirsiniz.",
       },
-      type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kocatepe_Mosque.jpg",
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/balik-ekmek.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kocatepe_Mosque.jpg",
-          "https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/4b6b4b5d-7c5d-4b6d-8b2c-6b0b3e8e1d8e.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/balik-ekmek.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20BALIK%20EKMEK.jpg"
         ],
-      },
-      location: "Çankaya",
-      latitude: 39.933611,
-      longitude: 32.864444,
+      }
     },
     {
-      name: "Ankara Kalesi",
-      description:
-        "Şehrin tarihi simgelerinden biri, Ankara'nın en eski yerleşim alanı.",
+      name: "Kız Kulesi",
+      description: "İstanbul Boğazı'nın sembol yapılarından, tarihi kule.",
       moreDetails: {
-        history:
-          "M.Ö. 2. yüzyılda Galatlar tarafından yapılmıştır. Roma, Bizans ve Osmanlı dönemlerinde kullanılmıştır.",
-        activities:
-          "Kale çevresinde yürüyüş yapabilir, panoramik şehir manzarasını izleyebilirsiniz.",
+        history: "M.Ö. 410 yılına kadar uzanan tarihi, birçok kez yeniden inşa edilmiştir.",
+        architecture: "Deniz üzerinde küçük bir ada üzerine inşa edilmiş, silindirik formda kule",
         visitInfo: {
-          hours: "09:00 - 18:00",
-          price: "Ücretsiz",
+          hours: "09:00 - 00:00",
+          price: "80 TL",
           bestTime: "Gün batımı",
-          tips: "Kaleye çıkmak için rahat ayakkabı giymeniz önerilir.",
+          tips: "Teknelerle ulaşım sağlanmaktadır. Restoran ve kafe hizmeti vardır.",
         },
       },
       type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ankara_Castle.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/kiz-kulesi.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ankara_Castle.jpg",
-          "https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/3d7d5b7b-9b6d-4e7c-9b1f-0f6e5b2f7f3a.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/kiz-kulesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KIZ%20KULESI.jpg"
         ],
       },
-      location: "Altındağ",
-      latitude: 39.941944,
-      longitude: 32.864167,
+      location: "Üsküdar",
+      latitude: 41.0211,
+      longitude: 29.0041
     },
     {
-      name: "Atatürk Evi Müzesi",
-      description:
-        "Mustafa Kemal Atatürk'ün Ankara'da yaşadığı ev, müze olarak ziyarete açılmıştır.",
+      name: "Yerebatan Sarnıcı",
+      description: "Bizans döneminden kalma en büyük kapalı sarnıç.",
       moreDetails: {
-        history:
-          "1930-1938 yılları arasında Atatürk'ün ikametgahı olarak kullanılmıştır.",
-        activities:
-          "Atatürk'ün kişisel eşyalarını ve yaşam alanlarını görebilirsiniz.",
+        history: "527-565 yılları arasında I. Justinianus tarafından yaptırılmıştır.",
+        architecture: "336 sütun üzerine kurulu, 9,800 m² alan, Medusa başlı sütun kaideleri",
         visitInfo: {
+          hours: "09:00 - 17:30",
+          price: "90 TL",
+          bestTime: "Öğleden önce",
+          tips: "Fotoğraf çekmek için tripod kullanımı önerilir.",
           hours: "09:00 - 17:00",
           price: "Ücretsiz",
           bestTime: "Her zaman",
@@ -506,6 +577,56 @@ export const culturalPlaces = {
       latitude: 39.931944,
       longitude: 32.864167,
     },
+    {
+      name: "Rahmi M. Koç Müzesi",
+      description: "Sanayi, ulaşım ve iletişim tarihi müzesi.",
+      moreDetails: {
+        history: "1994 yılında açılmıştır.",
+        exhibitions: "Antika arabalar, uçaklar, tekneler, bilimsel aletler",
+        visitInfo: {
+          hours: "09:30 - 17:00 (Pazartesi kapalı)",
+          price: "70 TL",
+          bestTime: "Hafta içi",
+          tips: "Çocuklar için interaktif bölümler mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/rahmi-koc-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/rahmi-koc-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20RAHMI%20KOC%20MUZESI.jpg"
+        ],
+      },
+      location: "Beyoğlu",
+      latitude: 41.0422,
+      longitude: 28.9490
+    },
+    {
+      name: "İstanbul Modern",
+      description: "Türkiye'nin ilk modern ve çağdaş sanat müzesi.",
+      moreDetails: {
+        history: "2004 yılında kurulmuştur.",
+        exhibitions: "Modern sanat, fotoğraf, tasarım, video sanatı",
+        visitInfo: {
+          hours: "10:00 - 18:00 (Pazartesi kapalı)",
+          price: "100 TL",
+          bestTime: "Hafta içi",
+          tips: "Sergi programını önceden kontrol edin.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/istanbul-modern.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-modern.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20MODERN.jpg"
+        ],
+      },
+      location: "Beyoğlu",
+      latitude: 41.0295,
+      longitude: 28.9732
+    }
   ],
   "01": [
     // Adana
@@ -786,7 +907,7 @@ export const culturalPlaces = {
           "Adana kebap, tarihi boyunca şehrin en popüler yemeklerinden biridir.",
         ingredients: ["Kuzu eti", "Kuyruk yağı", "Acı biber", "Tuz"],
         preparation:
-          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda pi���������irilir.",
+          "Et, biber ve baharatlarla harmanlanır, şişe dizilir ve mangalda piirilir.",
         tips: "Kebabın yanında ayran ve salata servis edilir.",
       },
       type: "food",
@@ -2718,58 +2839,366 @@ export const culturalPlaces = {
     },
   ],
   53: [
-    // Rize
     {
       name: "Ayder Yaylası",
-      description: "Doğal güzellikleri ile ünlü bir yayla.",
+      description: "Kaçkar Dağları'nın eteklerinde yer alan ünlü yayla.",
       moreDetails: {
-        history: "Yayla, doğal bir oluşumdur.",
-        activities: "Doğa yürüyüşleri ve kamp için popüler bir yerdir.",
+        history: "Geleneksel Karadeniz yayla kültürünün yaşatıldığı yer",
+        activities: "Doğa yürüyüşü, kaplıca, fotoğrafçılık, yayla turizmi",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Kamp yaparken ateş yakmamaya dikkat edin.",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Haziran-Eylül arası",
+          tips: "Hava değişken olabilir, yanınızda yedek kıyafet bulundurun.",
         },
       },
       type: "natural",
-      image: "https://example.com/ayder_yaylasi.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/ayder-yaylasi.jpg",
       slider: {
         images: [
-          "https://example.com/ayder_yaylasi1.jpg",
-          "https://example.com/ayder_yaylasi2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/ayder-yaylasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20AYDER%20YAYLASI.jpg"
         ],
       },
-      location: "Rize",
-      latitude: 41.0,
-      longitude: 40.5,
+      location: "Çamlıhemşin",
+      latitude: 40.9514,
+      longitude: 41.0956
     },
+    {
+      name: "Zil Kalesi",
+      description: "Tarihi Doğu Roma kalesi.",
+      moreDetails: {
+        history: "14. yüzyılda inşa edilmiş, stratejik öneme sahip kale",
+        architecture: "Kesme taştan yapılmış, burçları ve surları bulunan kale",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları",
+          tips: "Kaleye çıkış yolu dik ve zorludur.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/zil-kalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/zil-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20ZIL%20KALESI.jpg"
+        ],
+      },
+      location: "Çamlıhemşin",
+      latitude: 41.0167,
+      longitude: 41.0000
+    },
+    {
+      name: "Fırtına Vadisi",
+      description: "Eşsiz doğal güzelliğe sahip vadi.",
+      moreDetails: {
+        history: "Buzul vadisi özelliği taşıyan doğal oluşum",
+        activities: "Rafting, doğa yürüyüşü, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz",
+          tips: "Rafting için profesyonel rehberlerle gidin.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/firtina-vadisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/firtina-vadisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20FIRTINA%20VADISI.jpg"
+        ],
+      },
+      location: "Çamlıhemşin",
+      latitude: 41.0000,
+      longitude: 41.0500
+    },
+    {
+      name: "Pokut Yaylası",
+      description: "Muhteşem manzarası ile ünlü yayla.",
+      moreDetails: {
+        history: "Geleneksel yayla yerleşimi",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, kamp",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Haziran-Eylül arası",
+          tips: "Sis fotoğrafçılığı için sabah erken saatler idealdir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/pokut-yaylasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/pokut-yaylasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20POKUT%20YAYLASI.jpg"
+        ],
+      },
+      location: "Çamlıhemşin",
+      latitude: 40.9500,
+      longitude: 41.0333
+    },
+    {
+      name: "Rize Kalesi",
+      description: "Şehre hakim konumda tarihi kale.",
+      moreDetails: {
+        history: "6. yüzyılda Doğu Roma döneminde inşa edilmiştir",
+        architecture: "Kesme taştan yapılmış, surları ve burçları olan kale",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Şehir manzarası fotoğrafı için ideal nokta.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/rize-kalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/rize-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20KALESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 41.0256,
+      longitude: 40.5178
+    },
+    {
+      name: "Rize Çayı",
+      description: "Dünyaca ünlü Rize çayı.",
+      moreDetails: {
+        history: "1940'lardan beri bölgede yetiştirilen özel çay",
+        production: "Mayıs-Ekim arası hasat edilir",
+        characteristics: "Kendine has aroması ve demi ile ünlü",
+        tips: "Taze demlenmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/rize-cayi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/rize-cayi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20CAY.jpg"
+        ],
+      }
+    },
+    {
+      name: "Rize Kavurması",
+      description: "Yöresel et yemeği.",
+      moreDetails: {
+        history: "Geleneksel Rize mutfağının önemli lezzeti",
+        ingredients: ["Dana eti", "Tereyağı", "Soğan"],
+        preparation: "Et küçük parçalar halinde tereyağında kavrulur",
+        tips: "Yanında pilav ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/rize-kavurma.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/rize-kavurma.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20KAVURMA.jpg"
+        ],
+      }
+    },
+    {
+      name: "Laz Böreği",
+      description: "Yöresel tatlı börek.",
+      moreDetails: {
+        history: "Karadeniz mutfağının meşhur tatlısı",
+        ingredients: ["Yufka", "Muhallebi", "Tereyağı"],
+        preparation: "Kat kat yufka arasına muhallebi konularak hazırlanır",
+        tips: "Ilık veya soğuk servis edilebilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/laz-boregi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/laz-boregi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20LAZ%20BOREGI.jpg"
+        ],
+      }
+    }
   ],
   54: [
-    // Sakarya
     {
       name: "Sapanca Gölü",
-      description: "Doğal güzellikleri ile ünlü bir göl.",
+      description: "Doğal güzelliği ile ünlü göl ve mesire alanı.",
       moreDetails: {
-        history: "Göl, doğal bir oluşumdur.",
-        activities: "Göl çevresinde yürüyüş ve piknik yapabilirsiniz.",
+        history: "Tektonik kökenli doğal göl",
+        activities: "Su sporları, piknik, fotoğrafçılık, göl kenarında yürüyüş",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Göl kenarında güneşlenmeyi unutmayın.",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz ayları",
+          tips: "Gün batımı fotoğrafları için ideal.",
         },
       },
       type: "natural",
-      image: "https://example.com/sapanca_golu.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/sapanca-golu.jpg",
       slider: {
         images: [
-          "https://example.com/sapanca_golu1.jpg",
-          "https://example.com/sapanca_golu2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/sapanca-golu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20SAPANCA%20GOLU.jpg"
         ],
       },
-      location: "Sakarya",
-      latitude: 40.7,
-      longitude: 30.4,
+      location: "Sapanca",
+      latitude: 40.6969,
+      longitude: 30.2597
     },
+    {
+      name: "Karasu Plajı",
+      description: "Karadeniz'in en uzun plajlarından biri.",
+      moreDetails: {
+        history: "Doğal kumsal",
+        activities: "Deniz turizmi, su sporları, plaj aktiviteleri",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları",
+          tips: "Hafta sonları kalabalık olabilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/karasu-plaji.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/karasu-plaji.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20KARASU%20PLAJI.jpg"
+        ],
+      },
+      location: "Karasu",
+      latitude: 41.1000,
+      longitude: 30.7667
+    },
+    {
+      name: "Taraklı Evleri",
+      description: "Osmanlı döneminden kalma tarihi evler.",
+      moreDetails: {
+        history: "18. ve 19. yüzyıldan kalma geleneksel Osmanlı evleri",
+        architecture: "Ahşap ve taş işçiliği, cumbalı evler",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Her mevsim",
+          tips: "Fotoğraf çekmek için sabah saatleri idealdir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/tarakli-evleri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/tarakli-evleri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20TARAKLI%20EVLERI.jpg"
+        ],
+      },
+      location: "Taraklı",
+      latitude: 40.3833,
+      longitude: 30.4833
+    },
+    {
+      name: "Acarlar Longozu",
+      description: "Türkiye'nin en büyük subasar ormanı.",
+      moreDetails: {
+        history: "Doğal oluşumlu subasar ormanı",
+        activities: "Doğa yürüyüşü, kuş gözlemciliği, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yürüyüş için uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/acarlar-longozu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/acarlar-longozu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20ACARLAR%20LONGOZU.jpg"
+        ],
+      },
+      location: "Karasu",
+      latitude: 41.0833,
+      longitude: 30.5667
+    },
+    {
+      name: "Sakarya Müzesi",
+      description: "Bölgenin tarihini ve kültürünü yansıtan müze.",
+      moreDetails: {
+        history: "1993 yılında açılmıştır",
+        exhibitions: "Arkeolojik eserler, etnografik malzemeler",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/sakarya-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sakarya-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20MUZESI.jpg"
+        ],
+      },
+      location: "Adapazarı",
+      latitude: 40.7833,
+      longitude: 30.4000
+    },
+    {
+      name: "Islama Köfte",
+      description: "Sakarya'nın meşhur köfte çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Sakarya mutfağının önemli lezzeti",
+        ingredients: ["Dana kıyma", "Soğan", "Maydanoz", "Baharatlar"],
+        preparation: "Özel sosla ıslatılıp kömür ateşinde pişirilir",
+        tips: "Yanında piyaz ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/islama-kofte.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/islama-kofte.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20ISLAMA%20KOFTE.jpg"
+        ],
+      }
+    },
+    {
+      name: "Dartılı Keşkek",
+      description: "Yöresel keşkek çeşidi.",
+      moreDetails: {
+        history: "Geleneksel düğün yemeği",
+        ingredients: ["Buğday", "Et", "Tereyağı"],
+        preparation: "Buğday ve et uzun süre pişirilir",
+        tips: "Özel günlerde yapılır.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/dartili-keskek.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/dartili-keskek.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20KESKEK.jpg"
+        ],
+      }
+    },
+    {
+      name: "Uhut Tatlısı",
+      description: "Sakarya'ya özgü geleneksel tatlı.",
+      moreDetails: {
+        history: "Yöresel bir tatlı çeşidi",
+        ingredients: ["Un", "Şeker", "Yağ", "Ceviz"],
+        preparation: "Hamur yoğrulup şekillendirilerek pişirilir",
+        tips: "Çay ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/uhut-tatlisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/uhut-tatlisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20UHUT%20TATLISI.jpg"
+        ],
+      }
+    }
   ],
   55: [
     // Samsun
@@ -2942,130 +3371,234 @@ export const culturalPlaces = {
   61: [
     // Trabzon
     {
-      name: "Uzungöl",
-      description: "Doğal güzellikleri ile ünlü bir göl.",
-      moreDetails: {
-        history: "Göl, doğal bir oluşumdur.",
-        activities: "Göl çevresinde yürüyüş ve piknik yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Göl kenarında güneşlenmeyi unutmayın.",
-        },
-      },
-      type: "natural",
-      image: "https://example.com/uzungol.jpg",
-      slider: {
-        images: [
-          "https://example.com/uzungol1.jpg",
-          "https://example.com/uzungol2.jpg",
-        ],
-      },
-      location: "Trabzon",
-      latitude: 40.5,
-      longitude: 39.0,
-    },
-    {
       name: "Sümela Manastırı",
-      description: "Tarihi bir manastır.",
+      description: "Kayadaki Meryem Ana Manastırı olarak da bilinen tarihi yapı.",
       moreDetails: {
-        history: "Manastır, 4. yüzyılda inşa edilmiştir.",
-        activities:
-          "Manastırı ziyaret edebilir ve tarihi yapıyı gezebilirsiniz.",
+        history: "M.S. 386 yılında inşa edilmiş, UNESCO Dünya Mirası Geçici Listesi'nde.",
+        architecture: "Kayalara oyulmuş manastır kompleksi, freskler ve şapeller",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Manastır yüksek bir noktada olduğu için rahat ayakkabı giyin.",
+          hours: "09:00 - 19:00",
+          price: "50 TL",
+          bestTime: "İlkbahar ve yaz ayları",
+          tips: "Yürüyüş için uygun ayakkabı giyilmesi önerilir.",
         },
       },
       type: "historical",
-      image:
-        "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SUMELA%20MANASTIRI%20TRABZON%20(6).jpg",
-
+      image: "https://www.kulturportali.gov.tr/contents/images/sumela-manastiri.jpg",
       slider: {
         images: [
-          "https://example.com/sumela1.jpg",
-          "https://example.com/sumela2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/sumela-manastiri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20SUMELA%20MANASTIRI.jpg"
         ],
       },
-      location: "Trabzon",
-      latitude: 40.8,
-      longitude: 39.6,
+      location: "Maçka",
+      latitude: 40.7889,
+      longitude: 39.6533
     },
     {
-      name: "Atatürk Köşkü",
-      description: "Atatürk'ün Trabzon'da kaldığı köşk.",
+      name: "Ayasofya Camii",
+      description: "13. yüzyıldan kalma, kiliseden camiye çevrilmiş tarihi yapı.",
       moreDetails: {
-        history: "Köşk, 20. yüzyılda inşa edilmiştir.",
-        activities: "Köşkü ziyaret edebilir ve tarihi yapıyı gezebilirsiniz.",
+        history: "1250-1260 yılları arasında kilise olarak inşa edilmiş, 1584'te camiye çevrilmiştir.",
+        architecture: "Komnen dönemi mimarisi, freskler ve mozaikler",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Köşk, yüksek bir noktada olduğu için rahat ayakkabı giyin.",
+          hours: "09:00 - 17:00",
+          price: "30 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Ziyaret sırasında uygun kıyafet giyilmelidir.",
         },
       },
       type: "historical",
-      image: "https://example.com/ataturk_kosku.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/trabzon-ayasofya.jpg",
       slider: {
         images: [
-          "https://example.com/ataturk_kosku1.jpg",
-          "https://example.com/ataturk_kosku2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/trabzon-ayasofya.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20AYASOFYA.jpg"
         ],
       },
-      location: "Trabzon",
-      latitude: 40.9,
-      longitude: 39.7,
+      location: "Merkez",
+      latitude: 41.0025,
+      longitude: 39.7019
     },
     {
-      name: "Boztepe",
-      description: "Şehrin manzarasını görebileceğiniz bir tepe.",
+      name: "Uzungöl",
+      description: "Doğal güzellikleriyle ünlü göl ve turizm merkezi.",
       moreDetails: {
-        history: "Boztepe, doğal bir oluşumdur.",
-        activities:
-          "Teleferik ile çıkabilir ve manzaranın tadını çıkarabilirsiniz.",
+        history: "Heyelan sonucu oluşmuş doğal göl",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, balık tutma",
         visitInfo: {
-          hours: "Her gün açık",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
           bestTime: "Yaz ayları",
-          tips: "Güneş kremi kullanmayı unutmayın.",
+          tips: "Hafta sonları çok kalabalık olabilir.",
         },
       },
       type: "natural",
-      image: "https://example.com/boztepe.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/uzungol.jpg",
       slider: {
         images: [
-          "https://example.com/boztepe1.jpg",
-          "https://example.com/boztepe2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/uzungol.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20UZUNGOL.jpg"
         ],
       },
-      location: "Trabzon",
-      latitude: 40.9,
-      longitude: 39.7,
+      location: "Çaykara",
+      latitude: 40.6197,
+      longitude: 40.2931
     },
     {
       name: "Trabzon Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
+      description: "Şehrin tarihi simgesi olan kale.",
       moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        history: "Roma döneminde inşa edilmiş, Bizans ve Osmanlı dönemlerinde kullanılmıştır.",
+        architecture: "Üç katlı surlar ve burçlar",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Manzara fotoğrafı için ideal noktalar bulunur.",
         },
       },
       type: "historical",
-      image: "https://example.com/trabzon_kalesi.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/trabzon-kalesi.jpg",
       slider: {
         images: [
-          "https://example.com/trabzon_kalesi1.jpg",
-          "https://example.com/trabzon_kalesi2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/trabzon-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20KALESI.jpg"
         ],
       },
-      location: "Trabzon",
-      latitude: 41.0,
-      longitude: 39.7333,
+      location: "Merkez",
+      latitude: 41.0058,
+      longitude: 39.7256
     },
+    {
+      name: "Atatürk Köşkü",
+      description: "Atatürk'ün Trabzon ziyaretlerinde konakladığı tarihi köşk.",
+      moreDetails: {
+        history: "1903 yılında inşa edilmiş, 1930'larda Atatürk'ün kullanımına sunulmuştur.",
+        architecture: "Art Nouveau tarzı, ahşap ve taş işçiliği",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "15 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/ataturk-kosku.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/ataturk-kosku.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20ATATURK%20KOSKU.jpg"
+        ],
+      },
+      location: "Soğuksu",
+      latitude: 41.0033,
+      longitude: 39.7153
+    },
+    {
+      name: "Akçaabat Köftesi",
+      description: "Trabzon'un meşhur köfte çeşidi.",
+      moreDetails: {
+        history: "Akçaabat ilçesine özgü geleneksel lezzet",
+        ingredients: ["Dana kıyma", "Soğan", "Maydanoz", "Baharatlar"],
+        preparation: "Özel harmanlanmış kıyma ile hazırlanır ve kömür ateşinde pişirilir",
+        tips: "Yanında piyaz ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/akcaabat-kofte.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/akcaabat-kofte.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20AKCAABAT%20KOFTE.jpg"
+        ],
+      }
+    },
+    {
+      name: "Trabzon Ekmeği",
+      description: "Vakfıkebir ekmeği olarak da bilinen meşhur ekmek.",
+      moreDetails: {
+        history: "Geleneksel mayalama ve pişirme yöntemiyle hazırlanan ekmek",
+        ingredients: ["Un", "Maya", "Tuz", "Su"],
+        preparation: "Uzun süre mayalandırılır ve taş fırında pişirilir",
+        tips: "Uzun süre tazeliğini korur.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/trabzon-ekmegi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/trabzon-ekmegi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20EKMEK.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kuymak",
+      description: "Trabzon'un meşhur peynirli yemeği.",
+      moreDetails: {
+        history: "Karadeniz mutfağının vazgeçilmez kahvaltılık lezzeti",
+        ingredients: ["Mısır unu", "Trabzon peyniri", "Tereyağı"],
+        preparation: "Malzemeler tel tel uzayacak kıvama gelene kadar pişirilir",
+        tips: "Sıcak servis edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kuymak.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kuymak.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20KUYMAK.jpg"
+        ],
+      }
+    },
+    {
+      name: "Zigana Geçidi",
+      description: "Karadeniz'in eşsiz doğa manzarasını sunan yüksek geçit.",
+      moreDetails: {
+        history: "Tarihi İpek Yolu güzergahında yer alan önemli bir geçit",
+        activities: "Doğa fotoğrafçılığı, dağ yürüyüşü, kış sporları",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları ve sonbahar",
+          tips: "Hava şartlarına göre kıyafet getirmeniz önerilir, yüksek rakımda hava aniden değişebilir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/zigana-gecidi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/zigana-gecidi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20ZIGANA%20GECIDI.jpg"
+        ],
+      },
+      location: "Torul-Maçka sınırı",
+      latitude: 40.6497,
+      longitude: 39.4019
+    },
+    {
+      name: "Boztepe",
+      description: "Trabzon şehrinin panoramik manzarasını sunan tarihi tepe.",
+      moreDetails: {
+        history: "Bizans döneminden beri şehrin gözetleme noktası olarak kullanılmıştır",
+        activities: "Manzara seyri, fotoğrafçılık, çay bahçelerinde dinlenme",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Özellikle gün batımında şehir manzarası muhteşemdir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/boztepe.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/boztepe.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20BOZTEPE.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 41.0075,
+      longitude: 39.7242
+    }
   ],
   62: [
     // Tunceli
