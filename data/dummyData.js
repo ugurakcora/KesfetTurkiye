@@ -784,7 +784,7 @@ export const culturalPlaces = {
         history: "Ulu Camii, 1541 yılında inşa edilmiştir.",
         activities: "Camiyi ziyaret edebilir, ibadet yapabilirsiniz.",
         visitInfo: {
-          hours: "Her zaman a��ık",
+          hours: "Her zaman açık",
           bestTime: "Her zaman",
           tips: "Camiyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
         },
@@ -810,7 +810,7 @@ export const culturalPlaces = {
         visitInfo: {
           hours: "Her zaman açık",
           bestTime: "Gün batımı",
-          tips: "K��prü üzerinde fotoğraf çekmeyi unutmayın.",
+          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
         },
       },
       type: "historical",
