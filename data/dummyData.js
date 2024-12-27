@@ -784,7 +784,7 @@ export const culturalPlaces = {
         history: "Ulu Camii, 1541 yılında inşa edilmiştir.",
         activities: "Camiyi ziyaret edebilir, ibadet yapabilirsiniz.",
         visitInfo: {
-          hours: "Her zaman açık",
+          hours: "Her zaman a��ık",
           bestTime: "Her zaman",
           tips: "Camiyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
         },
@@ -810,7 +810,7 @@ export const culturalPlaces = {
         visitInfo: {
           hours: "Her zaman açık",
           bestTime: "Gün batımı",
-          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
+          tips: "K��prü üzerinde fotoğraf çekmeyi unutmayın.",
         },
       },
       type: "historical",
@@ -1949,32 +1949,143 @@ export const culturalPlaces = {
     },
   ],
   32: [
-    // Isparta
     {
-      name: "Göller Bölgesi",
-      description: "Doğal güzellikleri ile ünlü bir bölge.",
+      name: "Eğirdir Gölü",
+      description: "Türkiye'nin dördüncü büyük gölü ve doğal güzelliği.",
       moreDetails: {
-        history: "Bölge, doğal güzellikleri ile ünlüdür.",
-        activities: "Doğa yürüyüşleri ve kamp için popüler bir yerdir.",
+        history: "Tektonik kökenli tatlı su gölü",
+        activities: "Su sporları, kuş gözlemciliği, doğa yürüyüşü, fotoğrafçılık",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Kamp yaparken ateş yakmamaya dikkat edin.",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz ayları",
+          tips: "Gün batımı fotoğrafları için ideal, Can Ada ve Yeşil Ada'yı ziyaret edebilirsiniz.",
         },
       },
       type: "natural",
-      image: "https://example.com/goller_bolgesi.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/egirdir-golu.jpg",
       slider: {
         images: [
-          "https://example.com/goller_bolgesi1.jpg",
-          "https://example.com/goller_bolgesi2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/egirdir-golu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20EGIRDIR%20GOLU.jpg"
         ],
       },
-      location: "Isparta",
-      latitude: 37.75,
-      longitude: 30.5,
+      location: "Eğirdir",
+      latitude: 37.8333,
+      longitude: 30.8500
     },
-  ],
+    {
+      name: "Davraz Kayak Merkezi",
+      description: "Isparta'nın önemli kış turizm merkezi.",
+      moreDetails: {
+        history: "2006 yılında hizmete açılmıştır",
+        activities: "Kayak, snowboard, dağcılık, doğa yürüyüşü",
+        visitInfo: {
+          hours: "08:00 - 17:00",
+          price: "Sezona göre değişken",
+          bestTime: "Aralık-Mart arası",
+          tips: "Ekipman kiralama imkanı mevcuttur.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/davraz-kayak.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/davraz-kayak.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20DAVRAZ.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 37.7500,
+      longitude: 30.7500
+    },
+    {
+      name: "Isparta Müzesi",
+      description: "Bölgenin arkeolojik ve etnografik eserlerini sergileyen müze.",
+      moreDetails: {
+        history: "1985 yılında açılmıştır",
+        exhibitions: "Arkeolojik eserler, etnografik malzemeler, sikke koleksiyonu",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/isparta-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/isparta-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20MUZESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 37.7667,
+      longitude: 30.5500
+    },
+    {
+      name: "Pisidia Antiokheia Antik Kenti",
+      description: "Roma döneminden kalma önemli antik kent.",
+      moreDetails: {
+        history: "M.Ö. 3. yüzyılda kurulmuştur",
+        architecture: "Roma tiyatrosu, su kemerleri, tapınak kalıntıları",
+        visitInfo: {
+          hours: "08:00 - 19:00",
+          price: "15 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Rahat yürüyüş ayakkabısı önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/antiokheia.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/antiokheia.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20ANTIOKHEIA.jpg"
+        ],
+      },
+      location: "Yalvaç",
+      latitude: 38.3000,
+      longitude: 31.1833
+    },
+    {
+      name: "Isparta Gülü",
+      description: "Dünyaca ünlü Isparta gülü ve gül ürünleri.",
+      moreDetails: {
+        history: "1870'lerden beri bölgede yetiştirilmektedir",
+        products: ["Gül yağı", "Gül suyu", "Gül kremi", "Gül lokumu"],
+        season: "Mayıs-Haziran ayları hasat dönemi",
+        tips: "Gül hasadı sabah erken saatlerde yapılır, gül bahçesi ziyaretleri için bu saatler tercih edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/isparta-gulu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/isparta-gulu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20GUL.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kabune Tatlısı",
+      description: "Isparta'nın geleneksel tatlısı.",
+      moreDetails: {
+        history: "Yöresel bir tatlı çeşidi",
+        ingredients: ["Un", "Yağ", "Şeker", "Ceviz"],
+        preparation: "Özel hamuru yoğrulup şekillendirilerek pişirilir",
+        tips: "Çay ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kabune-tatlisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kabune-tatlisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20KABUNE.jpg"
+        ],
+      }
+    }
+],
   33: [
     // Mersin
     {
