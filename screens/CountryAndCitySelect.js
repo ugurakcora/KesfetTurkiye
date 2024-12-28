@@ -30,7 +30,9 @@ export default function CountryAndCitySelect() {
   const [nearbyPlaces, setNearbyPlaces] = useState([]);
   const [address, setAddress] = useState({
     district: '',
-    city: ''
+    city: '',
+    region: '',
+    locationString: ''
   });
 
   useEffect(() => {
@@ -59,6 +61,8 @@ export default function CountryAndCitySelect() {
           });
         }
 
+        console.log('response', response);
+
       } catch (error) {
         console.error('Konum alınamadı:', error);
         setErrorMsg('Konum alınamadı');
@@ -66,12 +70,49 @@ export default function CountryAndCitySelect() {
     })();
   }, []);
 
-  // Mock nearby places - gerçek uygulamada API'den gelecek
   useEffect(() => {
     if (location) {
-      // Örnek olarak İstanbul'daki bazı yerleri gösteriyoruz
-      const nearby = Object.values(culturalPlaces['34']).slice(0, 5);
-      setNearbyPlaces(nearby);
+      const { latitude, longitude } = location.coords;
+  
+      (async () => {
+        let response = await Location.reverseGeocodeAsync({
+          latitude,
+          longitude
+        });
+  
+        console.log('Geocoding Response:', response); // Geocoding yanıtını konsola yazdır
+  
+        if (response && response[0]) {
+          const district = response[0].district || response[0].subregion; // İlçe bilgisini al
+          const city = response[0].city || ''; // Şehir bilgisini al
+          const region = response[0].region || ''; // İl bilgisini al (region)
+  
+          console.log('District:', district); // İlçe bilgisini konsola yazdır
+          console.log('City:', city); // Şehir bilgisini konsola yazdır
+          console.log('Region:', region); // İl bilgisini konsola yazdır
+  
+          // Lokasyon bilgisi formatı
+          const locationString = `${district} / ${region}`;
+          setAddress({
+            district: district,
+            city: city,
+            region: region,
+            locationString: locationString
+          });
+  
+          // Region ile dummyData'deki cities'i karşılaştır
+          const cityValue = cities.TR.find(cityObj => cityObj.label === region)?.value; // Eşleşen şehir değerini al
+          console.log('cityValue:', cityValue);
+          
+          if (cityValue) {
+            // Eşleşen şehir varsa culturalPlaces'dan verileri al
+            const nearby = Object.values(culturalPlaces[cityValue]).slice(0, 7);
+            setNearbyPlaces(nearby);
+          } else {
+            console.log('Eşleşen şehir bulunamadı');
+          }
+        }
+      })();
     }
   }, [location]);
 
@@ -156,16 +197,18 @@ export default function CountryAndCitySelect() {
         </View>
 
         {/* Nearby Places */}
-        <View style={styles.nearbyContainer}>
-          <Text style={styles.nearbyTitle}>Yakınınızdaki Yerler</Text>
-          <ScrollView 
-            horizontal 
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.cardsContainer}
-          >
-            {nearbyPlaces.map(renderNearbyPlace)}
-          </ScrollView>
-        </View>
+        {location && nearbyPlaces.length > 0 && ( // Konum bilgisi varsa ve nearbyPlaces doluysa
+          <View style={styles.nearbyContainer}>
+            <Text style={styles.nearbyTitle}>Yakınınızdaki Yerler</Text>
+            <ScrollView 
+              horizontal 
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.cardsContainer}
+            >
+              {nearbyPlaces.map(renderNearbyPlace)}
+            </ScrollView>
+          </View>
+        )}
 
         {/* Bottom padding için boş view */}
         <View style={styles.bottomPadding} />
@@ -282,7 +325,8 @@ const styles = StyleSheet.create({
   },
   errorText: {
     fontSize: 14,
-    color: '#FF385C',
+    //color: '#FF385C',
+    color: '#FFFFFF', // Rengi beyaz yaptım
     marginLeft: 4,
   },
   loadingText: {
