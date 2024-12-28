@@ -363,10 +363,13 @@ export const culturalPlaces = {
     },
     {
       name: "Sultanahmet Camii",
-      description: "Mavi Camii olarak da bilinen, Osmanlı'nın en önemli camilerinden biri.",
+      description:
+        "Mavi Camii olarak da bilinen, Osmanlı'nın en önemli camilerinden biri.",
       moreDetails: {
-        history: "1609-1616 yılları arasında Sultan I. Ahmed tarafından yaptırılmıştır.",
-        architecture: "6 minareli, mavi İznik çinileriyle süslü, klasik Osmanlı mimarisi",
+        history:
+          "1609-1616 yılları arasında Sultan I. Ahmed tarafından yaptırılmıştır.",
+        architecture:
+          "6 minareli, mavi İznik çinileriyle süslü, klasik Osmanlı mimarisi",
         visitInfo: {
           hours: "24 saat açık (namaz vakitleri hariç)",
           price: "Ücretsiz",
@@ -375,16 +378,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/sultanahmet-camii.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sultanahmet-camii.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sultanahmet-camii.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20SULTANAHMET%20CAMII.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20SULTANAHMET%20CAMII.jpg",
         ],
       },
       location: "Fatih",
       latitude: 41.0054,
-      longitude: 28.9768
+      longitude: 28.9768,
     },
     {
       name: "Kapalıçarşı",
@@ -404,12 +408,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kapalicarsi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KAPALICARSI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KAPALICARSI.jpg",
         ],
       },
       location: "Fatih",
       latitude: 41.0108,
-      longitude: 28.9682
+      longitude: 28.9682,
     },
     {
       name: "Galata Kulesi",
@@ -425,22 +429,24 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/galata-kulesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/galata-kulesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/galata-kulesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20GALATA%20KULESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20GALATA%20KULESI.jpg",
         ],
       },
       location: "Beyoğlu",
       latitude: 41.0256,
-      longitude: 28.9741
+      longitude: 28.9741,
     },
     {
       name: "Dolmabahçe Sarayı",
       description: "Osmanlı'nın son dönem sarayı ve yönetim merkezi.",
       moreDetails: {
-        history: "1843-1856 yılları arasında Sultan Abdülmecid tarafından yaptırılmıştır.",
+        history:
+          "1843-1856 yılları arasında Sultan Abdülmecid tarafından yaptırılmıştır.",
         architecture: "Barok, Rokoko ve Neo-klasik üslupların karışımı",
         visitInfo: {
           hours: "09:00 - 16:00 (Salı kapalı)",
@@ -450,16 +456,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/dolmabahce-sarayi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/dolmabahce-sarayi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/dolmabahce-sarayi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20DOLMABAHCE%20SARAYI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20DOLMABAHCE%20SARAYI.jpg",
         ],
       },
       location: "Beşiktaş",
       latitude: 41.0391,
-      longitude: 29.0007
+      longitude: 29.0007,
     },
     {
       name: "İstanbul Arkeoloji Müzeleri",
@@ -475,16 +482,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20ARKEOLOJI%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20ARKEOLOJI%20MUZESI.jpg",
         ],
       },
       location: "Fatih",
       latitude: 41.0116,
-      longitude: 28.9813
+      longitude: 28.9813,
     },
     {
       name: "İstanbul Kebap",
@@ -492,17 +500,19 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Yüzyıllardır süregelen kebap kültürü",
         varieties: ["Döner", "İskender", "Adana", "Beyti"],
-        preparation: "Özel baharatlarla marine edilmiş et, kömür ateşinde pişirilir",
+        preparation:
+          "Özel baharatlarla marine edilmiş et, kömür ateşinde pişirilir",
         tips: "Yanında yoğurt ve pide ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/istanbul-kebap.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-kebap.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/istanbul-kebap.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KEBAP.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KEBAP.jpg",
         ],
-      }
+      },
     },
     {
       name: "Balık Ekmek",
@@ -518,16 +528,18 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/balik-ekmek.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20BALIK%20EKMEK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20BALIK%20EKMEK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kız Kulesi",
       description: "İstanbul Boğazı'nın sembol yapılarından, tarihi kule.",
       moreDetails: {
-        history: "M.Ö. 410 yılına kadar uzanan tarihi, birçok kez yeniden inşa edilmiştir.",
-        architecture: "Deniz üzerinde küçük bir ada üzerine inşa edilmiş, silindirik formda kule",
+        history:
+          "M.Ö. 410 yılına kadar uzanan tarihi, birçok kez yeniden inşa edilmiştir.",
+        architecture:
+          "Deniz üzerinde küçük bir ada üzerine inşa edilmiş, silindirik formda kule",
         visitInfo: {
           hours: "09:00 - 00:00",
           price: "80 TL",
@@ -540,19 +552,21 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kiz-kulesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KIZ%20KULESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KIZ%20KULESI.jpg",
         ],
       },
       location: "Üsküdar",
       latitude: 41.0211,
-      longitude: 29.0041
+      longitude: 29.0041,
     },
     {
       name: "Yerebatan Sarnıcı",
       description: "Bizans döneminden kalma en büyük kapalı sarnıç.",
       moreDetails: {
-        history: "527-565 yılları arasında I. Justinianus tarafından yaptırılmıştır.",
-        architecture: "336 sütun üzerine kurulu, 9,800 m² alan, Medusa başlı sütun kaideleri",
+        history:
+          "527-565 yılları arasında I. Justinianus tarafından yaptırılmıştır.",
+        architecture:
+          "336 sütun üzerine kurulu, 9,800 m² alan, Medusa başlı sütun kaideleri",
         visitInfo: {
           hours: "09:00 - 17:30",
           price: "90 TL",
@@ -591,16 +605,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/rahmi-koc-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/rahmi-koc-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/rahmi-koc-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20RAHMI%20KOC%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20RAHMI%20KOC%20MUZESI.jpg",
         ],
       },
       location: "Beyoğlu",
       latitude: 41.0422,
-      longitude: 28.9490
+      longitude: 28.949,
     },
     {
       name: "İstanbul Modern",
@@ -616,17 +631,18 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/istanbul-modern.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-modern.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/istanbul-modern.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20MODERN.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20MODERN.jpg",
         ],
       },
       location: "Beyoğlu",
       latitude: 41.0295,
-      longitude: 28.9732
-    }
+      longitude: 28.9732,
+    },
   ],
   "01": [
     // Adana
@@ -1121,8 +1137,10 @@ export const culturalPlaces = {
       name: "Varda (Alman) Köprüsü",
       description: "1912 yılında yapılan tarihi demiryolu köprüsü.",
       moreDetails: {
-        history: "Osmanlı-Alman işbirliği ile Berlin-Bağdat demiryolu projesi kapsamında inşa edilmiştir.",
-        architecture: "172 metre uzunluğunda, 98 metre yüksekliğinde, taş kemer köprü",
+        history:
+          "Osmanlı-Alman işbirliği ile Berlin-Bağdat demiryolu projesi kapsamında inşa edilmiştir.",
+        architecture:
+          "172 metre uzunluğunda, 98 metre yüksekliğinde, taş kemer köprü",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz",
@@ -1131,16 +1149,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/varda-koprusu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/varda-koprusu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/varda-koprusu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20VARDA%20KOPRUSU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20VARDA%20KOPRUSU.jpg",
         ],
       },
       location: "Karaisalı",
       latitude: 37.2033,
-      longitude: 35.0089
+      longitude: 35.0089,
     },
     {
       name: "Sabancı Merkez Camii",
@@ -1156,16 +1175,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/sabanci-camii.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sabanci-camii.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sabanci-camii.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20SABANCI%20CAMII.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20SABANCI%20CAMII.jpg",
         ],
       },
       location: "Seyhan",
       latitude: 37.0014,
-      longitude: 35.3280
+      longitude: 35.328,
     },
     {
       name: "Adana Arkeoloji Müzesi",
@@ -1181,16 +1201,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/adana-arkeoloji.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/adana-arkeoloji.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/adana-arkeoloji.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20ARKEOLOJI%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20ARKEOLOJI%20MUZESI.jpg",
         ],
       },
       location: "Seyhan",
       latitude: 37.0589,
-      longitude: 35.2816
+      longitude: 35.2816,
     },
   ],
   "02": [
@@ -1221,8 +1242,8 @@ export const culturalPlaces = {
       longitude: 38.73333,
     },
     {
-      name: "Cendere Köprüsü"
-    }
+      name: "Cendere Köprüsü",
+    },
   ],
   "03": [
     // Afyonkarahisar
@@ -1555,9 +1576,11 @@ export const culturalPlaces = {
     // Bursa
     {
       name: "Ulu Cami",
-      description: "Osmanlı'nın erken dönem cami mimarisinin en önemli örneklerinden.",
+      description:
+        "Osmanlı'nın erken dönem cami mimarisinin en önemli örneklerinden.",
       moreDetails: {
-        history: "1396-1400 yılları arasında Yıldırım Bayezid tarafından yaptırılmıştır",
+        history:
+          "1396-1400 yılları arasında Yıldırım Bayezid tarafından yaptırılmıştır",
         architecture: "20 kubbeli, dikdörtgen planlı, çok ayaklı cami tipi",
         visitInfo: {
           hours: "24 saat açık",
@@ -1567,16 +1590,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/bursa-ulu-cami.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bursa-ulu-cami.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bursa-ulu-cami.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20ULU%20CAMI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20ULU%20CAMI.jpg",
         ],
       },
       location: "Osmangazi",
       latitude: 40.1833,
-      longitude: 29.0667
+      longitude: 29.0667,
     },
     {
       name: "Yeşil Türbe",
@@ -1596,12 +1620,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yesil-turbe.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20YESIL%20TURBE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20YESIL%20TURBE.jpg",
         ],
       },
       location: "Yıldırım",
       latitude: 40.1847,
-      longitude: 29.0764
+      longitude: 29.0764,
     },
     {
       name: "Uludağ",
@@ -1621,12 +1645,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/uludag.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20ULUDAG.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20ULUDAG.jpg",
         ],
       },
       location: "Osmangazi",
       latitude: 40.0933,
-      longitude: 29.2167
+      longitude: 29.2167,
     },
     {
       name: "Cumalıkızık Köyü",
@@ -1646,18 +1670,19 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/cumalikizik.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20CUMALIKIZIK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20CUMALIKIZIK.jpg",
         ],
       },
       location: "Yıldırım",
       latitude: 40.1822,
-      longitude: 29.1736
+      longitude: 29.1736,
     },
     {
       name: "Bursa Kalesi",
       description: "Antik dönemden kalma şehir surları.",
       moreDetails: {
-        history: "Roma döneminde inşa edilmiş, Bizans ve Osmanlı dönemlerinde genişletilmiştir",
+        history:
+          "Roma döneminde inşa edilmiş, Bizans ve Osmanlı dönemlerinde genişletilmiştir",
         architecture: "Taş örme surlar ve burçlar",
         visitInfo: {
           hours: "24 saat açık",
@@ -1667,23 +1692,26 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/bursa-kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bursa-kalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bursa-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KALE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KALE.jpg",
         ],
       },
       location: "Osmangazi",
       latitude: 40.1836,
-      longitude: 29.0556
+      longitude: 29.0556,
     },
     {
       name: "Muradiye Külliyesi",
-      description: "Osmanlı sultanlarının türbelerinin bulunduğu tarihi külliye.",
+      description:
+        "Osmanlı sultanlarının türbelerinin bulunduğu tarihi külliye.",
       moreDetails: {
         history: "1426 yılında II. Murad tarafından yaptırılmıştır",
-        architecture: "Cami, medrese, hamam, imaret ve 12 türbeden oluşan kompleks",
+        architecture:
+          "Cami, medrese, hamam, imaret ve 12 türbeden oluşan kompleks",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "Ücretsiz",
@@ -1692,16 +1720,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/muradiye-kulliyesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/muradiye-kulliyesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/muradiye-kulliyesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20MURADIYE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20MURADIYE.jpg",
         ],
       },
       location: "Osmangazi",
       latitude: 40.1867,
-      longitude: 29.0556
+      longitude: 29.0556,
     },
     {
       name: "Tophane Saat Kulesi",
@@ -1717,16 +1746,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/tophane-saat-kulesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/tophane-saat-kulesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/tophane-saat-kulesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20TOPHANE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20TOPHANE.jpg",
         ],
       },
       location: "Osmangazi",
       latitude: 40.1844,
-      longitude: 29.0556
+      longitude: 29.0556,
     },
     {
       name: "Oylat Kaplıcaları",
@@ -1742,16 +1772,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/oylat-kaplicalari.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/oylat-kaplicalari.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/oylat-kaplicalari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20OYLAT.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20OYLAT.jpg",
         ],
       },
       location: "İnegöl",
-      latitude: 40.0500,
-      longitude: 29.3167
+      latitude: 40.05,
+      longitude: 29.3167,
     },
     {
       name: "Mudanya",
@@ -1771,18 +1802,19 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/mudanya.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20MUDANYA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20MUDANYA.jpg",
         ],
       },
       location: "Mudanya",
       latitude: 40.3747,
-      longitude: 28.8828
+      longitude: 28.8828,
     },
     {
       name: "Gölyazı",
       description: "Uluabat Gölü kıyısında tarihi yarımada köyü.",
       moreDetails: {
-        history: "Antik Apollonia kenti kalıntılarının bulunduğu tarihi yerleşim",
+        history:
+          "Antik Apollonia kenti kalıntılarının bulunduğu tarihi yerleşim",
         activities: "Balıkçı tekneleri, fotoğrafçılık, tarihi ev gezileri",
         visitInfo: {
           hours: "24 saat açık",
@@ -1796,12 +1828,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/golyazi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20GOLYAZI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20GOLYAZI.jpg",
         ],
       },
       location: "Nilüfer",
       latitude: 40.1667,
-      longitude: 28.6833
+      longitude: 28.6833,
     },
     {
       name: "İskender Kebap",
@@ -1809,17 +1841,19 @@ export const culturalPlaces = {
       moreDetails: {
         history: "1867'de Mehmet İskender tarafından icat edilmiştir",
         preparation: "Özel marine edilmiş kuzu eti dikey şişte pişirilir",
-        serving: "Tereyağlı pide üzerine domates sosu ve yoğurtla servis edilir",
+        serving:
+          "Tereyağlı pide üzerine domates sosu ve yoğurtla servis edilir",
         tips: "Orijinal İskender için köklü restoranları tercih edin.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/iskender-kebap.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/iskender-kebap.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/iskender-kebap.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20ISKENDER.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20ISKENDER.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kestane Şekeri",
@@ -1831,13 +1865,14 @@ export const culturalPlaces = {
         tips: "Taze üretilmiş olanları tercih edin.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kestane-sekeri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kestane-sekeri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kestane-sekeri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KESTANE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KESTANE.jpg",
         ],
-      }
+      },
     },
     {
       name: "İnegöl Köfte",
@@ -1849,20 +1884,22 @@ export const culturalPlaces = {
         tips: "Yanında piyaz ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/inegol-kofte.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/inegol-kofte.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/inegol-kofte.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20INEGOL%20KOFTE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20INEGOL%20KOFTE.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bursa Kebabı",
       description: "Pideli köfte kebabı.",
       moreDetails: {
         history: "Osmanlı saray mutfağından günümüze ulaşan lezzet",
-        preparation: "Köfte ızgarada pişirilip, pide üzerinde tereyağı ile servis edilir",
+        preparation:
+          "Köfte ızgarada pişirilip, pide üzerinde tereyağı ile servis edilir",
         ingredients: ["Dana kıyma", "Pide", "Tereyağı", "Domates sosu"],
         tips: "Geleneksel kebapçılarda deneyimlenmesi önerilir.",
       },
@@ -1871,9 +1908,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bursa-kebap.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KEBAP.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KEBAP.jpg",
         ],
-      }
+      },
     },
     {
       name: "Cantık",
@@ -1889,9 +1926,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/cantik.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20CANTIK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20CANTIK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kemalpaşa Tatlısı",
@@ -1903,21 +1940,24 @@ export const culturalPlaces = {
         tips: "Sıcak şerbetle servis edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kemalpasa-tatlisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kemalpasa-tatlisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kemalpasa-tatlisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KEMALPASA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BURSA%20KEMALPASA.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   17: [
     {
       name: "Truva Antik Kenti",
-      description: "UNESCO Dünya Mirası Listesi'nde yer alan efsanevi antik kent.",
+      description:
+        "UNESCO Dünya Mirası Listesi'nde yer alan efsanevi antik kent.",
       moreDetails: {
-        history: "M.Ö. 3000'lerden kalma, Homeros'un İlyada destanına konu olan tarihi kent",
+        history:
+          "M.Ö. 3000'lerden kalma, Homeros'un İlyada destanına konu olan tarihi kent",
         architecture: "9 katmanlı yerleşim, surlar, Truva atı replikası",
         visitInfo: {
           hours: "08:00 - 19:00",
@@ -1927,22 +1967,24 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/truva-antik-kenti.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/truva-antik-kenti.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/truva-antik-kenti.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20TRUVA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20TRUVA.jpg",
         ],
       },
       location: "Merkez",
       latitude: 39.9575,
-      longitude: 26.2389
+      longitude: 26.2389,
     },
     {
       name: "Gelibolu Yarımadası Tarihi Milli Parkı",
       description: "Çanakkale Savaşları'nın yaşandığı tarihi alan.",
       moreDetails: {
-        history: "I. Dünya Savaşı'nda önemli muharebelere sahne olmuş tarihi bölge",
+        history:
+          "I. Dünya Savaşı'nda önemli muharebelere sahne olmuş tarihi bölge",
         activities: "Şehitlikleri ziyaret, müze gezisi, anıtları görme",
         visitInfo: {
           hours: "24 saat açık",
@@ -1952,22 +1994,24 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/gelibolu-yarimadasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/gelibolu-yarimadasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/gelibolu-yarimadasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20GELIBOLU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20GELIBOLU.jpg",
         ],
       },
       location: "Gelibolu",
       latitude: 40.3739,
-      longitude: 26.4847
+      longitude: 26.4847,
     },
     {
       name: "Assos Antik Kenti",
       description: "Antik Yunan döneminden kalma tarihi liman kenti.",
       moreDetails: {
-        history: "M.Ö. 6. yüzyılda kurulmuş, Aristo'nun felsefe okulu kurduğu yer",
+        history:
+          "M.Ö. 6. yüzyılda kurulmuş, Aristo'nun felsefe okulu kurduğu yer",
         architecture: "Akropol, Athena Tapınağı, antik tiyatro, nekropol alanı",
         visitInfo: {
           hours: "08:00 - 19:00",
@@ -1977,23 +2021,25 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/assos-antik-kenti.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/assos-antik-kenti.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/assos-antik-kenti.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20ASSOS.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20ASSOS.jpg",
         ],
       },
       location: "Ayvacık",
       latitude: 39.4833,
-      longitude: 26.3333
+      longitude: 26.3333,
     },
     {
       name: "Bozcaada",
       description: "Tarihi kalesi ve bağları ile ünlü ada.",
       moreDetails: {
         history: "Antik çağlardan beri yerleşim yeri olan tarihi ada",
-        activities: "Kale ziyareti, şarap tadımı, plaj aktiviteleri, tarihi sokakları gezme",
+        activities:
+          "Kale ziyareti, şarap tadımı, plaj aktiviteleri, tarihi sokakları gezme",
         visitInfo: {
           hours: "24 saat açık",
           price: "Feribot ücreti gerekli",
@@ -2006,16 +2052,17 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bozcaada.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20BOZCAADA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20BOZCAADA.jpg",
         ],
       },
       location: "Bozcaada",
       latitude: 39.8333,
-      longitude: 26.0667
+      longitude: 26.0667,
     },
     {
       name: "Gökçeada",
-      description: "Türkiye'nin en büyük adası, doğal ve kültürel zenginlikleriyle ünlü.",
+      description:
+        "Türkiye'nin en büyük adası, doğal ve kültürel zenginlikleriyle ünlü.",
       moreDetails: {
         history: "Antik dönemden kalma yerleşimleri ve Rum köyleri bulunan ada",
         activities: "Sörf, dalış, organik tarım, köy gezileri",
@@ -2031,19 +2078,21 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/gokceada.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20GOKCEADA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20GOKCEADA.jpg",
         ],
       },
       location: "Gökçeada",
-      latitude: 40.2000,
-      longitude: 25.9000
+      latitude: 40.2,
+      longitude: 25.9,
     },
     {
       name: "Çanakkale Arkeoloji Müzesi",
       description: "Bölgenin zengin arkeolojik mirasını sergileyen müze.",
       moreDetails: {
-        history: "1984'te açılmış, Troya ve çevre antik kentlerden buluntular sergiliyor",
-        exhibitions: "Arkeolojik eserler, sikke koleksiyonu, etnografik malzemeler",
+        history:
+          "1984'te açılmış, Troya ve çevre antik kentlerden buluntular sergiliyor",
+        exhibitions:
+          "Arkeolojik eserler, sikke koleksiyonu, etnografik malzemeler",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "20 TL",
@@ -2052,16 +2101,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20ARKEOLOJI%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20ARKEOLOJI%20MUZESI.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 40.1550,
-      longitude: 26.4086
+      latitude: 40.155,
+      longitude: 26.4086,
     },
     {
       name: "Ezine Peyniri",
@@ -2073,13 +2123,14 @@ export const culturalPlaces = {
         tips: "Orijinal Ezine peyniri için coğrafi işaretli ürünleri tercih edin.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/ezine-peyniri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/ezine-peyniri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/ezine-peyniri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20EZINE%20PEYNIRI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20EZINE%20PEYNIRI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bozcaada Şarabı",
@@ -2091,20 +2142,24 @@ export const culturalPlaces = {
         tips: "Yerel üreticilerden tadım yapabilirsiniz.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/bozcaada-sarabi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bozcaada-sarabi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bozcaada-sarabi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20BOZCAADA%20SARABI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20BOZCAADA%20SARABI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Çanakkale Kalesi (Kale-i Sultaniye)",
-      description: "Çanakkale Boğazı'nın en dar noktasında yer alan tarihi kale.",
+      description:
+        "Çanakkale Boğazı'nın en dar noktasında yer alan tarihi kale.",
       moreDetails: {
-        history: "1462-1463 yıllarında Fatih Sultan Mehmet tarafından inşa ettirilmiştir. Boğaz savunmasında önemli rol oynamıştır.",
-        architecture: "Deniz kıyısında dikdörtgen planlı, dört köşesinde burçları olan klasik Osmanlı kalesi",
+        history:
+          "1462-1463 yıllarında Fatih Sultan Mehmet tarafından inşa ettirilmiştir. Boğaz savunmasında önemli rol oynamıştır.",
+        architecture:
+          "Deniz kıyısında dikdörtgen planlı, dört köşesinde burçları olan klasik Osmanlı kalesi",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "20 TL",
@@ -2113,17 +2168,18 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/canakkale-kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/canakkale-kalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/canakkale-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20KALESI.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 40.1550,
-      longitude: 26.4086
-    }
+      latitude: 40.155,
+      longitude: 26.4086,
+    },
   ],
   18: [
     // Çankırı
@@ -2402,8 +2458,7 @@ export const culturalPlaces = {
       name: "Baksı Müzesi",
       description: "Bayburt'un tarihi eserlerini sergileyen müze.",
       moreDetails: {
-        history:
-          "Müze, 1975 yılında kurulmuştur.",
+        history: "Müze, 1975 yılında kurulmuştur.",
         activities: "Müze gezileri yapabilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
@@ -2430,7 +2485,8 @@ export const culturalPlaces = {
         history:
           "Peynir, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
         ingredients: ["Koyun sütü", "Tuz", "Karbonat"],
-        preparation: "Süt karıştırılır, tuz ve karbonat eklenir, kaynatılır ve süzülür.",
+        preparation:
+          "Süt karıştırılır, tuz ve karbonat eklenir, kaynatılır ve süzülür.",
         tips: "Soğuk servis edilir.",
       },
       type: "food",
@@ -2507,7 +2563,8 @@ export const culturalPlaces = {
       description: "Artuklu döneminden kalma tarihi cami.",
       moreDetails: {
         history: "1160 yılında Artuklu hükümdarı tarafından yaptırılmıştır.",
-        architecture: "Kesme taştan yapılmış, tek minareli, dikdörtgen planlı cami",
+        architecture:
+          "Kesme taştan yapılmış, tek minareli, dikdörtgen planlı cami",
         visitInfo: {
           hours: "24 saat açık (namaz vakitleri dışında ziyaret edilebilir)",
           price: "Ücretsiz",
@@ -2516,16 +2573,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/cizre-ulu-cami.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/cizre-ulu-cami.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/cizre-ulu-cami.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20CIZRE%20ULU%20CAMI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20CIZRE%20ULU%20CAMI.jpg",
         ],
       },
       location: "Cizre",
       latitude: 37.3275,
-      longitude: 42.1927
+      longitude: 42.1927,
     },
     {
       name: "Finik Antik Kenti",
@@ -2541,16 +2599,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/finik-antik-kenti.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/finik-antik-kenti.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/finik-antik-kenti.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20FINIK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20FINIK.jpg",
         ],
       },
       location: "Güçlükonak",
       latitude: 37.4692,
-      longitude: 41.9403
+      longitude: 41.9403,
     },
     {
       name: "Cudi Dağı",
@@ -2570,12 +2629,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/cudi-dagi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20CUDI%20DAGI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20CUDI%20DAGI.jpg",
         ],
       },
       location: "Silopi",
       latitude: 37.3689,
-      longitude: 42.3494
+      longitude: 42.3494,
     },
     {
       name: "Mem u Zin Türbesi",
@@ -2595,12 +2654,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/mem-u-zin.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20MEM%20U%20ZIN.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20MEM%20U%20ZIN.jpg",
         ],
       },
       location: "Cizre",
       latitude: 37.3275,
-      longitude: 42.1927
+      longitude: 42.1927,
     },
     {
       name: "Şırnak Büryan Kebabı",
@@ -2612,13 +2671,14 @@ export const culturalPlaces = {
         tips: "Sabah erken saatlerde tüketilmesi önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/buryan-kebabi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/buryan-kebabi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/buryan-kebabi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20BURYAN.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20BURYAN.jpg",
         ],
-      }
+      },
     },
     {
       name: "Perde Pilavı",
@@ -2630,13 +2690,14 @@ export const culturalPlaces = {
         tips: "Özel günlerde yapılır ve toplu olarak servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/perde-pilavi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/perde-pilavi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/perde-pilavi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20PERDE%20PILAVI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20PERDE%20PILAVI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Şırnak Şorbeşt",
@@ -2652,9 +2713,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sorbest.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20SORBEST.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20SORBEST.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kutlık",
@@ -2670,10 +2731,10 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kutlik.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20KUTLIK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20KUTLIK.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   32: [
     {
@@ -2681,7 +2742,8 @@ export const culturalPlaces = {
       description: "Türkiye'nin dördüncü büyük gölü ve doğal güzelliği.",
       moreDetails: {
         history: "Tektonik kökenli tatlı su gölü",
-        activities: "Su sporları, kuş gözlemciliği, doğa yürüyüşü, fotoğrafçılık",
+        activities:
+          "Su sporları, kuş gözlemciliği, doğa yürüyüşü, fotoğrafçılık",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz",
@@ -2690,16 +2752,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/egirdir-golu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/egirdir-golu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/egirdir-golu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20EGIRDIR%20GOLU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20EGIRDIR%20GOLU.jpg",
         ],
       },
       location: "Eğirdir",
       latitude: 37.8333,
-      longitude: 30.8500
+      longitude: 30.85,
     },
     {
       name: "Davraz Kayak Merkezi",
@@ -2715,23 +2778,26 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/davraz-kayak.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/davraz-kayak.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/davraz-kayak.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20DAVRAZ.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20DAVRAZ.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 37.7500,
-      longitude: 30.7500
+      latitude: 37.75,
+      longitude: 30.75,
     },
     {
       name: "Isparta Müzesi",
-      description: "Bölgenin arkeolojik ve etnografik eserlerini sergileyen müze.",
+      description:
+        "Bölgenin arkeolojik ve etnografik eserlerini sergileyen müze.",
       moreDetails: {
         history: "1985 yılında açılmıştır",
-        exhibitions: "Arkeolojik eserler, etnografik malzemeler, sikke koleksiyonu",
+        exhibitions:
+          "Arkeolojik eserler, etnografik malzemeler, sikke koleksiyonu",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "10 TL",
@@ -2740,16 +2806,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/isparta-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/isparta-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/isparta-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20MUZESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 37.7667,
-      longitude: 30.5500
+      longitude: 30.55,
     },
     {
       name: "Pisidia Antiokheia Antik Kenti",
@@ -2769,12 +2836,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/antiokheia.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20ANTIOKHEIA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20ANTIOKHEIA.jpg",
         ],
       },
       location: "Yalvaç",
-      latitude: 38.3000,
-      longitude: 31.1833
+      latitude: 38.3,
+      longitude: 31.1833,
     },
     {
       name: "Isparta Gülü",
@@ -2786,13 +2853,14 @@ export const culturalPlaces = {
         tips: "Gül hasadı sabah erken saatlerde yapılır, gül bahçesi ziyaretleri için bu saatler tercih edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/isparta-gulu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/isparta-gulu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/isparta-gulu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20GUL.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20GUL.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kabune Tatlısı",
@@ -2804,15 +2872,16 @@ export const culturalPlaces = {
         tips: "Çay ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kabune-tatlisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kabune-tatlisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kabune-tatlisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20KABUNE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISPARTA%20KABUNE.jpg",
         ],
-      }
-    }
-],
+      },
+    },
+  ],
   33: [
     // Mersin
     {
@@ -2897,10 +2966,13 @@ export const culturalPlaces = {
     },
     {
       name: "Ani Antik Kenti",
-      description: "UNESCO Dünya Mirası Listesi'nde yer alan tarihi İpek Yolu şehri.",
+      description:
+        "UNESCO Dünya Mirası Listesi'nde yer alan tarihi İpek Yolu şehri.",
       moreDetails: {
-        history: "M.Ö. 5. yüzyılda kurulmuş, Orta Çağ'da önemli bir ticaret merkezi olmuştur.",
-        architecture: "Ermeni, Selçuklu ve Gürcü mimarisinin izlerini taşıyan kilise, cami ve surlar",
+        history:
+          "M.Ö. 5. yüzyılda kurulmuş, Orta Çağ'da önemli bir ticaret merkezi olmuştur.",
+        architecture:
+          "Ermeni, Selçuklu ve Gürcü mimarisinin izlerini taşıyan kilise, cami ve surlar",
         visitInfo: {
           hours: "08:00 - 19:00",
           price: "20 TL",
@@ -2909,23 +2981,26 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/ani-antik-kenti.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/ani-antik-kenti.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/ani-antik-kenti.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20ANI%20ANTIK%20KENTI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20ANI%20ANTIK%20KENTI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 40.5086,
-      longitude: 43.5728
+      longitude: 43.5728,
     },
     {
       name: "Kars Kalesi",
       description: "Şehrin simgesi olan tarihi kale.",
       moreDetails: {
-        history: "M.S. 1153 yılında Saltuklu Sultanı tarafından yaptırılmıştır.",
-        architecture: "Bazalt taştan yapılmış, iç ve dış kale bölümlerinden oluşur",
+        history:
+          "M.S. 1153 yılında Saltuklu Sultanı tarafından yaptırılmıştır.",
+        architecture:
+          "Bazalt taştan yapılmış, iç ve dış kale bölümlerinden oluşur",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz",
@@ -2938,18 +3013,19 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kars-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KALESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 40.6167,
-      longitude: 43.1000
+      longitude: 43.1,
     },
     {
       name: "Baltık Mimarisi",
       description: "Rus döneminden kalma özgün mimari yapılar.",
       moreDetails: {
-        history: "1878-1918 yılları arasında Rus yönetimi döneminde inşa edilmiştir.",
+        history:
+          "1878-1918 yılları arasında Rus yönetimi döneminde inşa edilmiştir.",
         architecture: "Bazalt taştan yapılmış, Baltık tarzı binalar",
         visitInfo: {
           hours: "24 saat açık",
@@ -2959,16 +3035,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/baltik-mimarisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/baltik-mimarisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/baltik-mimarisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BALTIK%20MIMARISI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BALTIK%20MIMARISI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 40.6042,
-      longitude: 43.0975
+      longitude: 43.0975,
     },
     {
       name: "Sarıkamış Kayak Merkezi",
@@ -2984,20 +3061,22 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/sarikamis-kayak.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sarikamis-kayak.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sarikamis-kayak.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20SARIKAMIS.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20SARIKAMIS.jpg",
         ],
       },
       location: "Sarıkamış",
       latitude: 40.3333,
-      longitude: 42.5833
+      longitude: 42.5833,
     },
     {
       name: "Kars Müzesi",
-      description: "Bölgenin tarihini ve etnografik eserlerini sergileyen müze.",
+      description:
+        "Bölgenin tarihini ve etnografik eserlerini sergileyen müze.",
       moreDetails: {
         history: "1964 yılında açılmıştır.",
         exhibitions: "Arkeolojik eserler, etnografik malzemeler, el yazmaları",
@@ -3013,19 +3092,20 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kars-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20MUZESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 40.6042,
-      longitude: 43.0975
+      longitude: 43.0975,
     },
     {
       name: "Kars Kaşarı",
       description: "Yörenin meşhur gravyer tipi peyniri.",
       moreDetails: {
         history: "1800'lü yıllardan beri üretilen geleneksel peynir",
-        production: "Yüksek rakımlı meralarda otlayan ineklerin sütünden yapılır",
+        production:
+          "Yüksek rakımlı meralarda otlayan ineklerin sütünden yapılır",
         aging: "En az 3 ay olgunlaştırılır",
         tips: "Orijinal Kars kaşarı için güvenilir üreticileri tercih edin.",
       },
@@ -3034,9 +3114,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kars-kasari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KASAR.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KASAR.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kars Kazı",
@@ -3044,7 +3124,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel kış yemeği",
         ingredients: ["Kaz eti", "Bulgur", "Sarımsak"],
-        preparation: "Kaz eti fırında pişirilir, bulgur pilavı ile servis edilir",
+        preparation:
+          "Kaz eti fırında pişirilir, bulgur pilavı ile servis edilir",
         tips: "Kış aylarında tüketilmesi önerilir.",
       },
       type: "food",
@@ -3052,9 +3133,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kars-kazi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KAZ.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20KAZ.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kars Balı",
@@ -3070,10 +3151,10 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kars-bali.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BAL.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BAL.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   37: [
     // Kastamonu
@@ -3217,10 +3298,13 @@ export const culturalPlaces = {
   42: [
     {
       name: "Mevlana Müzesi",
-      description: "Hz. Mevlana'nın türbesi ve dergahı, UNESCO Dünya Mirası Listesi'nde.",
+      description:
+        "Hz. Mevlana'nın türbesi ve dergahı, UNESCO Dünya Mirası Listesi'nde.",
       moreDetails: {
-        history: "13. yüzyılda Mevlana'nın türbesi olarak inşa edilmiş, sonrasında dergah olarak genişletilmiştir.",
-        architecture: "Kubbeli türbe, semahane, derviş hücreleri ve müze bölümleri",
+        history:
+          "13. yüzyılda Mevlana'nın türbesi olarak inşa edilmiş, sonrasında dergah olarak genişletilmiştir.",
+        architecture:
+          "Kubbeli türbe, semahane, derviş hücreleri ve müze bölümleri",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "45 TL",
@@ -3229,23 +3313,27 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/mevlana-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/mevlana-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/mevlana-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20MEVLANA%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20MEVLANA%20MUZESI.jpg",
         ],
       },
       location: "Karatay",
       latitude: 37.8714,
-      longitude: 32.5050
+      longitude: 32.505,
     },
     {
       name: "Çatalhöyük",
-      description: "Neolitik dönemden kalma yerleşim yeri, UNESCO Dünya Mirası Listesi'nde.",
+      description:
+        "Neolitik dönemden kalma yerleşim yeri, UNESCO Dünya Mirası Listesi'nde.",
       moreDetails: {
-        history: "M.Ö. 7400 yıllarında kurulmuş, dünyanın en eski yerleşim yerlerinden biri.",
-        exhibitions: "Neolitik dönem evleri, duvar resimleri, arkeolojik buluntular",
+        history:
+          "M.Ö. 7400 yıllarında kurulmuş, dünyanın en eski yerleşim yerlerinden biri.",
+        exhibitions:
+          "Neolitik dönem evleri, duvar resimleri, arkeolojik buluntular",
         visitInfo: {
           hours: "08:00 - 19:00",
           price: "30 TL",
@@ -3258,19 +3346,21 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/catalhoyuk.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20CATALHOYUK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20CATALHOYUK.jpg",
         ],
       },
       location: "Çumra",
       latitude: 37.6667,
-      longitude: 32.8267
+      longitude: 32.8267,
     },
     {
       name: "Alâeddin Camii",
       description: "Selçuklu döneminin en önemli camilerinden biri.",
       moreDetails: {
-        history: "12. yüzyılda Selçuklu Sultanı Alâeddin Keykubad döneminde inşa edilmiştir.",
-        architecture: "Selçuklu mimarisinin özgün örneklerinden, ahşap direkli cami",
+        history:
+          "12. yüzyılda Selçuklu Sultanı Alâeddin Keykubad döneminde inşa edilmiştir.",
+        architecture:
+          "Selçuklu mimarisinin özgün örneklerinden, ahşap direkli cami",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz",
@@ -3279,16 +3369,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/alaeddin-camii.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/alaeddin-camii.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/alaeddin-camii.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ALAEDDIN%20CAMII.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ALAEDDIN%20CAMII.jpg",
         ],
       },
       location: "Selçuklu",
       latitude: 37.8719,
-      longitude: 32.4925
+      longitude: 32.4925,
     },
     {
       name: "Beyşehir Gölü",
@@ -3304,16 +3395,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/beysehir-golu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/beysehir-golu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/beysehir-golu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20BEYSEHIR%20GOLU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20BEYSEHIR%20GOLU.jpg",
         ],
       },
       location: "Beyşehir",
-      latitude: 37.7500,
-      longitude: 31.5000
+      latitude: 37.75,
+      longitude: 31.5,
     },
     {
       name: "Konya Arkeoloji Müzesi",
@@ -3329,16 +3421,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ARKEOLOJI%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ARKEOLOJI%20MUZESI.jpg",
         ],
       },
       location: "Meram",
       latitude: 37.8714,
-      longitude: 32.4925
+      longitude: 32.4925,
     },
     {
       name: "Etli Ekmek",
@@ -3346,7 +3439,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel Konya mutfağının vazgeçilmez lezzeti",
         ingredients: ["Kıyma", "Soğan", "Maydanoz", "İnce pide hamuru"],
-        preparation: "İnce açılan hamur üzerine kıymalı harç sürülüp taş fırında pişirilir",
+        preparation:
+          "İnce açılan hamur üzerine kıymalı harç sürülüp taş fırında pişirilir",
         tips: "Yanında ayran ile servis edilir.",
       },
       type: "food",
@@ -3354,9 +3448,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/etli-ekmek.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ETLI%20EKMEK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20ETLI%20EKMEK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Mevlana Şekeri",
@@ -3368,13 +3462,14 @@ export const culturalPlaces = {
         tips: "Hediyelik olarak tercih edilebilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/mevlana-sekeri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/mevlana-sekeri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/mevlana-sekeri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20MEVLANA%20SEKERI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20MEVLANA%20SEKERI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Konya Düğün Pilavı",
@@ -3386,14 +3481,15 @@ export const culturalPlaces = {
         tips: "Özel günlerde yapılır.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/dugun-pilavi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/dugun-pilavi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/dugun-pilavi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20DUGUN%20PILAVI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KONYA%20DUGUN%20PILAVI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   43: [
     // Kütahya
@@ -3691,16 +3787,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/ayder-yaylasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/ayder-yaylasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/ayder-yaylasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20AYDER%20YAYLASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20AYDER%20YAYLASI.jpg",
         ],
       },
       location: "Çamlıhemşin",
       latitude: 40.9514,
-      longitude: 41.0956
+      longitude: 41.0956,
     },
     {
       name: "Zil Kalesi",
@@ -3720,12 +3817,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/zil-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20ZIL%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20ZIL%20KALESI.jpg",
         ],
       },
       location: "Çamlıhemşin",
       latitude: 41.0167,
-      longitude: 41.0000
+      longitude: 41.0,
     },
     {
       name: "Fırtına Vadisi",
@@ -3741,16 +3838,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/firtina-vadisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/firtina-vadisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/firtina-vadisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20FIRTINA%20VADISI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20FIRTINA%20VADISI.jpg",
         ],
       },
       location: "Çamlıhemşin",
-      latitude: 41.0000,
-      longitude: 41.0500
+      latitude: 41.0,
+      longitude: 41.05,
     },
     {
       name: "Pokut Yaylası",
@@ -3766,16 +3864,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/pokut-yaylasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/pokut-yaylasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/pokut-yaylasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20POKUT%20YAYLASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20POKUT%20YAYLASI.jpg",
         ],
       },
       location: "Çamlıhemşin",
-      latitude: 40.9500,
-      longitude: 41.0333
+      latitude: 40.95,
+      longitude: 41.0333,
     },
     {
       name: "Rize Kalesi",
@@ -3795,12 +3894,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/rize-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20KALESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 41.0256,
-      longitude: 40.5178
+      longitude: 40.5178,
     },
     {
       name: "Rize Çayı",
@@ -3816,9 +3915,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/rize-cayi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20CAY.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20CAY.jpg",
         ],
-      }
+      },
     },
     {
       name: "Rize Kavurması",
@@ -3830,13 +3929,14 @@ export const culturalPlaces = {
         tips: "Yanında pilav ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/rize-kavurma.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/rize-kavurma.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/rize-kavurma.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20KAVURMA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20KAVURMA.jpg",
         ],
-      }
+      },
     },
     {
       name: "Laz Böreği",
@@ -3852,10 +3952,10 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/laz-boregi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20LAZ%20BOREGI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_RIZE%20LAZ%20BOREGI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   54: [
     {
@@ -3872,16 +3972,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/sapanca-golu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sapanca-golu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sapanca-golu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20SAPANCA%20GOLU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20SAPANCA%20GOLU.jpg",
         ],
       },
       location: "Sapanca",
       latitude: 40.6969,
-      longitude: 30.2597
+      longitude: 30.2597,
     },
     {
       name: "Karasu Plajı",
@@ -3897,16 +3998,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/karasu-plaji.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/karasu-plaji.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/karasu-plaji.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20KARASU%20PLAJI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20KARASU%20PLAJI.jpg",
         ],
       },
       location: "Karasu",
-      latitude: 41.1000,
-      longitude: 30.7667
+      latitude: 41.1,
+      longitude: 30.7667,
     },
     {
       name: "Taraklı Evleri",
@@ -3922,16 +4024,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/tarakli-evleri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/tarakli-evleri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/tarakli-evleri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20TARAKLI%20EVLERI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20TARAKLI%20EVLERI.jpg",
         ],
       },
       location: "Taraklı",
       latitude: 40.3833,
-      longitude: 30.4833
+      longitude: 30.4833,
     },
     {
       name: "Acarlar Longozu",
@@ -3947,16 +4050,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/acarlar-longozu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/acarlar-longozu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/acarlar-longozu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20ACARLAR%20LONGOZU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20ACARLAR%20LONGOZU.jpg",
         ],
       },
       location: "Karasu",
       latitude: 41.0833,
-      longitude: 30.5667
+      longitude: 30.5667,
     },
     {
       name: "Sakarya Müzesi",
@@ -3972,16 +4076,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/sakarya-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sakarya-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sakarya-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20MUZESI.jpg",
         ],
       },
       location: "Adapazarı",
       latitude: 40.7833,
-      longitude: 30.4000
+      longitude: 30.4,
     },
     {
       name: "Islama Köfte",
@@ -3993,13 +4098,14 @@ export const culturalPlaces = {
         tips: "Yanında piyaz ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/islama-kofte.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/islama-kofte.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/islama-kofte.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20ISLAMA%20KOFTE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20ISLAMA%20KOFTE.jpg",
         ],
-      }
+      },
     },
     {
       name: "Dartılı Keşkek",
@@ -4011,13 +4117,14 @@ export const culturalPlaces = {
         tips: "Özel günlerde yapılır.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/dartili-keskek.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/dartili-keskek.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/dartili-keskek.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20KESKEK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20KESKEK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Uhut Tatlısı",
@@ -4029,14 +4136,15 @@ export const culturalPlaces = {
         tips: "Çay ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/uhut-tatlisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/uhut-tatlisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/uhut-tatlisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20UHUT%20TATLISI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SAKARYA%20UHUT%20TATLISI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   55: [
     // Samsun
@@ -4210,10 +4318,13 @@ export const culturalPlaces = {
     // Trabzon
     {
       name: "Sümela Manastırı",
-      description: "Kayadaki Meryem Ana Manastırı olarak da bilinen tarihi yapı.",
+      description:
+        "Kayadaki Meryem Ana Manastırı olarak da bilinen tarihi yapı.",
       moreDetails: {
-        history: "M.S. 386 yılında inşa edilmiş, UNESCO Dünya Mirası Geçici Listesi'nde.",
-        architecture: "Kayalara oyulmuş manastır kompleksi, freskler ve şapeller",
+        history:
+          "M.S. 386 yılında inşa edilmiş, UNESCO Dünya Mirası Geçici Listesi'nde.",
+        architecture:
+          "Kayalara oyulmuş manastır kompleksi, freskler ve şapeller",
         visitInfo: {
           hours: "09:00 - 19:00",
           price: "50 TL",
@@ -4222,22 +4333,26 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/sumela-manastiri.jpg",
+      image:
+        "https://i.pinimg.com/736x/42/24/82/422482f4c44412989de74a98050e4d4b.jpg",
       slider: {
         images: [
-          "https://www.kulturportali.gov.tr/contents/images/sumela-manastiri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20SUMELA%20MANASTIRI.jpg"
+          "https://i.pinimg.com/736x/42/24/82/422482f4c44412989de74a98050e4d4b.jpg",
+          "https://i.pinimg.com/736x/3c/e6/d8/3ce6d8a05334a2fa781832293aa2332a.jpg",
+          "https://i.pinimg.com/736x/e3/3d/cc/e33dcc62b895de99a37db523f4e4cbd6.jpg",
         ],
       },
       location: "Maçka",
       latitude: 40.7889,
-      longitude: 39.6533
+      longitude: 39.6533,
     },
     {
       name: "Ayasofya Camii",
-      description: "13. yüzyıldan kalma, kiliseden camiye çevrilmiş tarihi yapı.",
+      description:
+        "13. yüzyıldan kalma, kiliseden camiye çevrilmiş tarihi yapı.",
       moreDetails: {
-        history: "1250-1260 yılları arasında kilise olarak inşa edilmiş, 1584'te camiye çevrilmiştir.",
+        history:
+          "1250-1260 yılları arasında kilise olarak inşa edilmiş, 1584'te camiye çevrilmiştir.",
         architecture: "Komnen dönemi mimarisi, freskler ve mozaikler",
         visitInfo: {
           hours: "09:00 - 17:00",
@@ -4247,16 +4362,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/trabzon-ayasofya.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/trabzon-ayasofya.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/trabzon-ayasofya.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20AYASOFYA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20AYASOFYA.jpg",
         ],
       },
       location: "Merkez",
       latitude: 41.0025,
-      longitude: 39.7019
+      longitude: 39.7019,
     },
     {
       name: "Uzungöl",
@@ -4276,18 +4392,19 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/uzungol.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20UZUNGOL.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20UZUNGOL.jpg",
         ],
       },
       location: "Çaykara",
       latitude: 40.6197,
-      longitude: 40.2931
+      longitude: 40.2931,
     },
     {
       name: "Trabzon Kalesi",
       description: "Şehrin tarihi simgesi olan kale.",
       moreDetails: {
-        history: "Roma döneminde inşa edilmiş, Bizans ve Osmanlı dönemlerinde kullanılmıştır.",
+        history:
+          "Roma döneminde inşa edilmiş, Bizans ve Osmanlı dönemlerinde kullanılmıştır.",
         architecture: "Üç katlı surlar ve burçlar",
         visitInfo: {
           hours: "24 saat açık",
@@ -4297,22 +4414,24 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/trabzon-kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/trabzon-kalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/trabzon-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20KALESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 41.0058,
-      longitude: 39.7256
+      longitude: 39.7256,
     },
     {
       name: "Atatürk Köşkü",
       description: "Atatürk'ün Trabzon ziyaretlerinde konakladığı tarihi köşk.",
       moreDetails: {
-        history: "1903 yılında inşa edilmiş, 1930'larda Atatürk'ün kullanımına sunulmuştur.",
+        history:
+          "1903 yılında inşa edilmiş, 1930'larda Atatürk'ün kullanımına sunulmuştur.",
         architecture: "Art Nouveau tarzı, ahşap ve taş işçiliği",
         visitInfo: {
           hours: "09:00 - 17:00",
@@ -4322,16 +4441,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/ataturk-kosku.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/ataturk-kosku.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/ataturk-kosku.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20ATATURK%20KOSKU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20ATATURK%20KOSKU.jpg",
         ],
       },
       location: "Soğuksu",
       latitude: 41.0033,
-      longitude: 39.7153
+      longitude: 39.7153,
     },
     {
       name: "Akçaabat Köftesi",
@@ -4339,17 +4459,19 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Akçaabat ilçesine özgü geleneksel lezzet",
         ingredients: ["Dana kıyma", "Soğan", "Maydanoz", "Baharatlar"],
-        preparation: "Özel harmanlanmış kıyma ile hazırlanır ve kömür ateşinde pişirilir",
+        preparation:
+          "Özel harmanlanmış kıyma ile hazırlanır ve kömür ateşinde pişirilir",
         tips: "Yanında piyaz ile servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/akcaabat-kofte.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/akcaabat-kofte.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/akcaabat-kofte.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20AKCAABAT%20KOFTE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20AKCAABAT%20KOFTE.jpg",
         ],
-      }
+      },
     },
     {
       name: "Trabzon Ekmeği",
@@ -4361,13 +4483,14 @@ export const culturalPlaces = {
         tips: "Uzun süre tazeliğini korur.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/trabzon-ekmegi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/trabzon-ekmegi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/trabzon-ekmegi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20EKMEK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20EKMEK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kuymak",
@@ -4375,7 +4498,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Karadeniz mutfağının vazgeçilmez kahvaltılık lezzeti",
         ingredients: ["Mısır unu", "Trabzon peyniri", "Tereyağı"],
-        preparation: "Malzemeler tel tel uzayacak kıvama gelene kadar pişirilir",
+        preparation:
+          "Malzemeler tel tel uzayacak kıvama gelene kadar pişirilir",
         tips: "Sıcak servis edilmelidir.",
       },
       type: "food",
@@ -4383,9 +4507,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kuymak.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20KUYMAK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20KUYMAK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Zigana Geçidi",
@@ -4401,22 +4525,24 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/zigana-gecidi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/zigana-gecidi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/zigana-gecidi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20ZIGANA%20GECIDI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20ZIGANA%20GECIDI.jpg",
         ],
       },
       location: "Torul-Maçka sınırı",
       latitude: 40.6497,
-      longitude: 39.4019
+      longitude: 39.4019,
     },
     {
       name: "Boztepe",
       description: "Trabzon şehrinin panoramik manzarasını sunan tarihi tepe.",
       moreDetails: {
-        history: "Bizans döneminden beri şehrin gözetleme noktası olarak kullanılmıştır",
+        history:
+          "Bizans döneminden beri şehrin gözetleme noktası olarak kullanılmıştır",
         activities: "Manzara seyri, fotoğrafçılık, çay bahçelerinde dinlenme",
         visitInfo: {
           hours: "24 saat açık",
@@ -4430,13 +4556,13 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/boztepe.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20BOZTEPE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_TRABZON%20BOZTEPE.jpg",
         ],
       },
       location: "Merkez",
       latitude: 41.0075,
-      longitude: 39.7242
-    }
+      longitude: 39.7242,
+    },
   ],
   62: [
     // Tunceli
@@ -4581,7 +4707,8 @@ export const culturalPlaces = {
       name: "Çapanoğlu Camii",
       description: "Osmanlı döneminin en önemli camilerinden biri.",
       moreDetails: {
-        history: "1779 yılında Çapanoğlu Mustafa Bey tarafından yaptırılmıştır.",
+        history:
+          "1779 yılında Çapanoğlu Mustafa Bey tarafından yaptırılmıştır.",
         architecture: "Klasik Osmanlı mimarisi, tek kubbeli ve çift minareli",
         visitInfo: {
           hours: "24 saat açık",
@@ -4591,16 +4718,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/capanoglu-camii.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/capanoglu-camii.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/capanoglu-camii.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20CAPANOGLU%20CAMII.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20CAPANOGLU%20CAMII.jpg",
         ],
       },
       location: "Merkez",
       latitude: 39.8197,
-      longitude: 34.8089
+      longitude: 34.8089,
     },
     {
       name: "Yozgat Saat Kulesi",
@@ -4620,12 +4748,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/saat-kulesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20SAAT%20KULESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20SAAT%20KULESI.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 39.8200,
-      longitude: 34.8086
+      latitude: 39.82,
+      longitude: 34.8086,
     },
     {
       name: "Kazankaya Kanyonu",
@@ -4641,16 +4769,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/kazankaya-kanyonu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kazankaya-kanyonu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kazankaya-kanyonu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20KAZANKAYA%20KANYONU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20KAZANKAYA%20KANYONU.jpg",
         ],
       },
       location: "Aydıncık",
       latitude: 40.1167,
-      longitude: 35.3000
+      longitude: 35.3,
     },
     {
       name: "Çamlık Milli Parkı",
@@ -4666,16 +4795,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/camlik-milli-parki.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/camlik-milli-parki.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/camlik-milli-parki.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20CAMLIK%20MILLI%20PARKI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20CAMLIK%20MILLI%20PARKI.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 39.8000,
-      longitude: 34.8167
+      latitude: 39.8,
+      longitude: 34.8167,
     },
     {
       name: "Yozgat Müzesi",
@@ -4691,16 +4821,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/yozgat-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/yozgat-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yozgat-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20MUZESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 39.8197,
-      longitude: 34.8089
+      longitude: 34.8089,
     },
     {
       name: "Yozgat Testi Kebabı",
@@ -4712,13 +4843,14 @@ export const culturalPlaces = {
         tips: "Servis sırasında testi kırılarak sunulur.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/testi-kebabi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/testi-kebabi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/testi-kebabi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20TESTI%20KEBABI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20TESTI%20KEBABI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Yozgat Arabaşı",
@@ -4734,9 +4866,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/arabasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20ARABASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20ARABASI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Yozgat Parmak Çöreği",
@@ -4748,14 +4880,15 @@ export const culturalPlaces = {
         tips: "Çay ile servis edilmesi önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/parmak-coregi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/parmak-coregi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/parmak-coregi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20PARMAK%20COREGI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YOZGAT%20PARMAK%20COREGI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   67: [
     // Zonguldak
@@ -4791,7 +4924,8 @@ export const culturalPlaces = {
       name: "Bayburt Kalesi",
       description: "Şehrin merkezinde yükselen tarihi kale.",
       moreDetails: {
-        history: "M.Ö. 3000'li yıllardan kalma, birçok medeniyete ev sahipliği yapmış tarihi kale",
+        history:
+          "M.Ö. 3000'li yıllardan kalma, birçok medeniyete ev sahipliği yapmış tarihi kale",
         architecture: "Kesme taştan yapılmış, üç kat surlu, burçlu yapı",
         visitInfo: {
           hours: "24 saat açık",
@@ -4801,22 +4935,24 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/bayburt-kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bayburt-kalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bayburt-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20KALESI.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 40.2500,
-      longitude: 40.2500
+      latitude: 40.25,
+      longitude: 40.25,
     },
     {
       name: "Aydıntepe Yeraltı Şehri",
       description: "Kayalara oyulmuş antik yeraltı yerleşimi.",
       moreDetails: {
-        history: "Tam tarihi bilinmemekle birlikte çok eski dönemlerde yapılmış",
+        history:
+          "Tam tarihi bilinmemekle birlikte çok eski dönemlerde yapılmış",
         architecture: "Kayalara oyulmuş odalar, dehlizler ve yaşam alanları",
         visitInfo: {
           hours: "09:00 - 17:00",
@@ -4826,16 +4962,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/aydintepe-yeralti.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/aydintepe-yeralti.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/aydintepe-yeralti.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20AYDINTEPE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20AYDINTEPE.jpg",
         ],
       },
       location: "Aydıntepe",
       latitude: 40.3833,
-      longitude: 40.1333
+      longitude: 40.1333,
     },
     {
       name: "Çoruh Vadisi",
@@ -4851,16 +4988,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/coruh-vadisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/coruh-vadisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/coruh-vadisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20CORUH.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20CORUH.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 40.2500,
-      longitude: 40.2500
+      latitude: 40.25,
+      longitude: 40.25,
     },
     {
       name: "Baksı Müzesi",
@@ -4876,16 +5014,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/baksi-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/baksi-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/baksi-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20BAKSI%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20BAKSI%20MUZESI.jpg",
         ],
       },
       location: "Merkez",
       latitude: 40.2556,
-      longitude: 40.2222
+      longitude: 40.2222,
     },
     {
       name: "Bayburt Civil Peyniri",
@@ -4897,13 +5036,14 @@ export const culturalPlaces = {
         tips: "Kahvaltıda veya böreklerde kullanılır.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20CIVIL.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20CIVIL.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bayburt Tatlı Çorbası",
@@ -4915,13 +5055,14 @@ export const culturalPlaces = {
         tips: "Sıcak servis edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/tatli-corbasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/tatli-corbasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/tatli-corbasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20TATLI%20CORBASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20TATLI%20CORBASI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bayburt Galacoşu",
@@ -4929,7 +5070,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel Bayburt mutfağının özel yemeği",
         ingredients: ["Kuzu eti", "Soğan", "Tereyağı", "Baharatlar"],
-        preparation: "Et küçük parçalar halinde pişirilir, özel sosu ile servis edilir",
+        preparation:
+          "Et küçük parçalar halinde pişirilir, özel sosu ile servis edilir",
         tips: "Yanında pilav ile servis edilir.",
       },
       type: "food",
@@ -4937,9 +5079,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/galacos.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20GALACOS.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20GALACOS.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bayburt Teleme Tatlısı",
@@ -4951,14 +5093,15 @@ export const culturalPlaces = {
         tips: "Soğuk servis edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/teleme-tatlisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/teleme-tatlisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/teleme-tatlisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20TELEME.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20TELEME.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   69: [
     // Karaman
@@ -5078,8 +5221,10 @@ export const culturalPlaces = {
       name: "Amasra Kalesi",
       description: "Antik dönemden kalma tarihi kale ve liman kenti.",
       moreDetails: {
-        history: "M.Ö. 3. yüzyılda Romalılar tarafından inşa edilmiş, Cenevizliler ve Osmanlılar döneminde de kullanılmıştır.",
-        architecture: "Kale, iki ana bölümden oluşur: Sormagir ve Boztepe. Surları ve burçları hala ayaktadır.",
+        history:
+          "M.Ö. 3. yüzyılda Romalılar tarafından inşa edilmiş, Cenevizliler ve Osmanlılar döneminde de kullanılmıştır.",
+        architecture:
+          "Kale, iki ana bölümden oluşur: Sormagir ve Boztepe. Surları ve burçları hala ayaktadır.",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz",
@@ -5088,11 +5233,12 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amasra_Castle_and_Port.jpg/1280px-Amasra_Castle_and_Port.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amasra_Castle_and_Port.jpg/1280px-Amasra_Castle_and_Port.jpg",
       slider: {
         images: [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Amasra_Castle_and_Port.jpg/1280px-Amasra_Castle_and_Port.jpg",
-          "https://live.staticflickr.com/65535/49890485878_7f63d6c6d8_b.jpg"
+          "https://live.staticflickr.com/65535/49890485878_7f63d6c6d8_b.jpg",
         ],
       },
       location: "Amasra",
@@ -5103,8 +5249,10 @@ export const culturalPlaces = {
       name: "Kuşkayası Yol Anıtı",
       description: "Roma döneminden kalma kaya üzerine işlenmiş yol anıtı.",
       moreDetails: {
-        history: "M.S. 1. yüzyılda Roma İmparatoru Claudius döneminde yapılmıştır.",
-        architecture: "Kayaya oyulmuş bir Roma askeri figürü ve Latin yazıtlar içerir.",
+        history:
+          "M.S. 1. yüzyılda Roma İmparatoru Claudius döneminde yapılmıştır.",
+        architecture:
+          "Kayaya oyulmuş bir Roma askeri figürü ve Latin yazıtlar içerir.",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz",
@@ -5113,11 +5261,12 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://kulturportali.gov.tr/repoKulturPortali/large/23022013/c05c2ad3-576c-4193-ae90-575490d210f4.jpg",
+      image:
+        "https://kulturportali.gov.tr/repoKulturPortali/large/23022013/c05c2ad3-576c-4193-ae90-575490d210f4.jpg",
       slider: {
         images: [
           "https://kulturportali.gov.tr/repoKulturPortali/large/23022013/c05c2ad3-576c-4193-ae90-575490d210f4.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KUSKAYASI%20YOL%20ANITI%20(3).jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KUSKAYASI%20YOL%20ANITI%20(3).jpg",
         ],
       },
       location: "Bartın Merkez",
@@ -5126,9 +5275,11 @@ export const culturalPlaces = {
     },
     {
       name: "İnkumu Plajı",
-      description: "Bartın'ın en popüler plajlarından biri, doğal güzelliği ile ünlü.",
+      description:
+        "Bartın'ın en popüler plajlarından biri, doğal güzelliği ile ünlü.",
       moreDetails: {
-        history: "Doğal bir kumsal olan İnkumu, adını ince kumlarından almıştır.",
+        history:
+          "Doğal bir kumsal olan İnkumu, adını ince kumlarından almıştır.",
         activities: "Yüzme, güneşlenme, su sporları ve kamp yapılabilir.",
         visitInfo: {
           hours: "24 saat açık",
@@ -5142,7 +5293,7 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/inkumu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20INKUMU%20(1).jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20INKUMU%20(1).jpg",
         ],
       },
       location: "Bartın Merkez",
@@ -5153,7 +5304,8 @@ export const culturalPlaces = {
       name: "Uluyayla",
       description: "Doğal güzellikleri ve yaylacılık kültürü ile ünlü yayla.",
       moreDetails: {
-        history: "Geleneksel yaylacılık kültürünün yaşatıldığı önemli bir bölge.",
+        history:
+          "Geleneksel yaylacılık kültürünün yaşatıldığı önemli bir bölge.",
         activities: "Doğa yürüyüşü, kamp, fotoğrafçılık, piknik yapılabilir.",
         visitInfo: {
           hours: "24 saat açık",
@@ -5167,7 +5319,7 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/uluyayla.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20ULUYAYLA%20(2).jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20ULUYAYLA%20(2).jpg",
         ],
       },
       location: "Ulus",
@@ -5188,11 +5340,12 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/gurcoluk-magarasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/gurcoluk-magarasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/gurcoluk-magarasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20GURCOLUK%20MAGARASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20GURCOLUK%20MAGARASI.jpg",
         ],
       },
       location: "Ulus",
@@ -5201,10 +5354,13 @@ export const culturalPlaces = {
     },
     {
       name: "Bartın Evleri",
-      description: "Geleneksel Osmanlı mimarisinin örnekleri olan tarihi evler.",
+      description:
+        "Geleneksel Osmanlı mimarisinin örnekleri olan tarihi evler.",
       moreDetails: {
-        history: "19. yüzyıl sonları ve 20. yüzyıl başlarında inşa edilmiş tarihi konutlar.",
-        architecture: "İki veya üç katlı, ahşap ve taş malzeme kullanılarak yapılmış evler.",
+        history:
+          "19. yüzyıl sonları ve 20. yüzyıl başlarında inşa edilmiş tarihi konutlar.",
+        architecture:
+          "İki veya üç katlı, ahşap ve taş malzeme kullanılarak yapılmış evler.",
         visitInfo: {
           hours: "Dışarıdan görülebilir",
           price: "Ücretsiz",
@@ -5213,11 +5369,12 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/bartin-evleri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bartin-evleri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bartin-evleri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20EVLERI%20(1).jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20EVLERI%20(1).jpg",
         ],
       },
       location: "Bartın Merkez",
@@ -5229,7 +5386,8 @@ export const culturalPlaces = {
       description: "Geleneksel Bartın el sanatı, özel teknikle yapılan işleme.",
       moreDetails: {
         history: "Yüzyıllardır devam eden geleneksel el sanatı.",
-        technique: "Gümüş veya altın renkli teller kullanılarak yapılan özel bir işleme tekniği.",
+        technique:
+          "Gümüş veya altın renkli teller kullanılarak yapılan özel bir işleme tekniği.",
         visitInfo: {
           hours: "Hediyelik eşya dükkanlarında bulunabilir",
           price: "Ürüne göre değişken",
@@ -5242,27 +5400,30 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/tel-kirma.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20TEL%20KIRMA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20TEL%20KIRMA.jpg",
         ],
       },
     },
     {
       name: "Bartın Çilek Tatlısı",
-      description: "Bartın'ın meşhur tatlısı, taze çilek ve kaymak ile yapılır.",
+      description:
+        "Bartın'ın meşhur tatlısı, taze çilek ve kaymak ile yapılır.",
       moreDetails: {
         history: "Yöresel bir tatlı olarak uzun yıllardır yapılmaktadır.",
         ingredients: ["Taze çilek", "Kaymak", "Şeker", "Un"],
-        preparation: "Çilekler şekerle kaynatılır, hamur ile birlikte pişirilir ve üzerine kaymak konulur.",
+        preparation:
+          "Çilekler şekerle kaynatılır, hamur ile birlikte pişirilir ve üzerine kaymak konulur.",
         tips: "Taze çilek mevsiminde yapılması önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/bartin-cilek-tatlisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bartin-cilek-tatlisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bartin-cilek-tatlisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20CILEK%20TATLISI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20CILEK%20TATLISI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bartın Pirinçli Mantısı",
@@ -5270,17 +5431,19 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Yöreye özgü bir mantı çeşidi olarak bilinir.",
         ingredients: ["Un", "Pirinç", "Kıyma", "Soğan", "Yoğurt"],
-        preparation: "Hamur açılır, içine pirinçli harç konur ve üçgen şeklinde kapatılır. Haşlanıp üzerine yoğurt ve tereyağı dökülür.",
+        preparation:
+          "Hamur açılır, içine pirinçli harç konur ve üçgen şeklinde kapatılır. Haşlanıp üzerine yoğurt ve tereyağı dökülür.",
         tips: "Sıcak servis edilmesi önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/bartin-mantisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bartin-mantisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bartin-mantisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20MANTISI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20MANTISI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kabak Burması",
@@ -5288,23 +5451,26 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel bir Bartın tatlısıdır.",
         ingredients: ["Kabak", "Ceviz", "Un", "Tereyağı", "Şeker"],
-        preparation: "İnce açılan yufkanın içine kabak ve ceviz konur, rulo yapılır ve kızartılır.",
+        preparation:
+          "İnce açılan yufkanın içine kabak ve ceviz konur, rulo yapılır ve kızartılır.",
         tips: "Üzerine pudra şekeri serpilerek servis edilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kabak-burmasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kabak-burmasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kabak-burmasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KABAK%20BURMASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KABAK%20BURMASI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Bartın Kent Müzesi",
       description: "Bartın'ın tarihini ve kültürünü yansıtan müze.",
       moreDetails: {
-        history: "2013 yılında açılan müze, tarihi bir konakta hizmet vermektedir.",
+        history:
+          "2013 yılında açılan müze, tarihi bir konakta hizmet vermektedir.",
         exhibitions: "Etnografik eserler, geleneksel kıyafetler, el sanatları.",
         visitInfo: {
           hours: "09:00 - 17:00",
@@ -5314,22 +5480,24 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/bartin-kent-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/bartin-kent-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/bartin-kent-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KENT%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20KENT%20MUZESI.jpg",
         ],
       },
       location: "Bartın Merkez",
       latitude: 41.6344,
-      longitude: 32.3375
+      longitude: 32.3375,
     },
     {
       name: "Amasra Müzesi",
       description: "Arkeolojik ve etnografik eserlerin sergilendiği müze.",
       moreDetails: {
-        history: "1982'de kurulmuş olup, bölgenin zengin tarihini yansıtmaktadır.",
+        history:
+          "1982'de kurulmuş olup, bölgenin zengin tarihini yansıtmaktadır.",
         exhibitions: "Roma, Bizans ve Osmanlı dönemlerine ait eserler.",
         visitInfo: {
           hours: "08:30 - 17:30",
@@ -5339,16 +5507,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/amasra-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/amasra-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/amasra-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20AMASRA%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20AMASRA%20MUZESI.jpg",
         ],
       },
       location: "Amasra",
       latitude: 41.7458,
-      longitude: 32.3867
+      longitude: 32.3867,
     },
     {
       name: "Hasankadı Kanyonu",
@@ -5364,16 +5533,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/hasankadi-kanyonu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/hasankadi-kanyonu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/hasankadi-kanyonu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20HASANKADI%20KANYONU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20HASANKADI%20KANYONU.jpg",
         ],
       },
       location: "Hasankadı",
       latitude: 41.5833,
-      longitude: 32.4167
+      longitude: 32.4167,
     },
     {
       name: "Çobanoğlu Çeşmesi",
@@ -5389,16 +5559,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/cobanoglu-cesmesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/cobanoglu-cesmesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/cobanoglu-cesmesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20COBANOGLU%20CESMESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20COBANOGLU%20CESMESI.jpg",
         ],
       },
       location: "Bartın Merkez",
       latitude: 41.6344,
-      longitude: 32.3375
+      longitude: 32.3375,
     },
     {
       name: "Sipahiler Konağı",
@@ -5414,24 +5585,26 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/sipahiler-konagi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sipahiler-konagi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sipahiler-konagi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20SIPAHILER%20KONAGI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BARTIN%20SIPAHILER%20KONAGI.jpg",
         ],
       },
       location: "Bartın Merkez",
       latitude: 41.6344,
-      longitude: 32.3375
-    }
+      longitude: 32.3375,
+    },
   ],
   76: [
     {
       name: "Ağrı Dağı Manzarası",
       description: "Iğdır'dan Ağrı Dağı'nın eşsiz manzarası.",
       moreDetails: {
-        history: "5137 metre yüksekliğindeki Ağrı Dağı, Iğdır Ovası'ndan net bir şekilde görülebilmektedir.",
+        history:
+          "5137 metre yüksekliğindeki Ağrı Dağı, Iğdır Ovası'ndan net bir şekilde görülebilmektedir.",
         activities: "Fotoğrafçılık, manzara seyri",
         visitInfo: {
           hours: "24 saat açık",
@@ -5441,22 +5614,24 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/agri-dagi-igdir.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/agri-dagi-igdir.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/agri-dagi-igdir.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20AGRI%20DAGI%20MANZARASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20AGRI%20DAGI%20MANZARASI.jpg",
         ],
       },
       location: "Iğdır Ovası",
       latitude: 39.7016,
-      longitude: 44.2988
+      longitude: 44.2988,
     },
     {
       name: "Iğdır Soykırım Anıt ve Müzesi",
       description: "1915-1920 yılları arasında yaşanan olayları anlatan müze.",
       moreDetails: {
-        history: "2010 yılında açılan müze, tarihi belgeleri ve eserleri sergiliyor.",
+        history:
+          "2010 yılında açılan müze, tarihi belgeleri ve eserleri sergiliyor.",
         exhibitions: "Tarihi belgeler, fotoğraflar ve eserler",
         visitInfo: {
           hours: "09:00 - 17:00",
@@ -5466,16 +5641,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/soykirim-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/soykirim-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/soykirim-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20SOYKIRIM%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20SOYKIRIM%20MUZESI.jpg",
         ],
       },
       location: "Iğdır Merkez",
       latitude: 39.9167,
-      longitude: 44.0333
+      longitude: 44.0333,
     },
     {
       name: "Korhan Kalesi",
@@ -5491,16 +5667,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/korhan-kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/korhan-kalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/korhan-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KORHAN%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KORHAN%20KALESI.jpg",
         ],
       },
       location: "Karakoyunlu",
       latitude: 39.9833,
-      longitude: 43.6333
+      longitude: 43.6333,
     },
     {
       name: "Meteor Çukuru",
@@ -5516,16 +5693,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/meteor-cukuru.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/meteor-cukuru.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/meteor-cukuru.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20METEOR%20CUKURU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20METEOR%20CUKURU.jpg",
         ],
       },
       location: "Melekli",
       latitude: 39.9167,
-      longitude: 44.0500
+      longitude: 44.05,
     },
     {
       name: "Iğdır Kervansarayı",
@@ -5545,12 +5723,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kervansaray.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KERVANSARAY.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KERVANSARAY.jpg",
         ],
       },
       location: "Iğdır Merkez",
       latitude: 39.9167,
-      longitude: 44.0333
+      longitude: 44.0333,
     },
     {
       name: "Iğdır Boz Helva",
@@ -5558,7 +5736,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Yüzyıllardır yapılan geleneksel bir tatlı",
         ingredients: ["Un", "Tereyağı", "Şeker", "Ceviz"],
-        preparation: "Un kavrulur, tereyağı ve şekerle karıştırılır, içine ceviz konur.",
+        preparation:
+          "Un kavrulur, tereyağı ve şekerle karıştırılır, içine ceviz konur.",
         tips: "Taze yapıldığında daha lezzetlidir.",
       },
       type: "food",
@@ -5566,9 +5745,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/boz-helva.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20BOZ%20HELVA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20BOZ%20HELVA.jpg",
         ],
-      }
+      },
     },
     {
       name: "Iğdır Taş Köfte",
@@ -5576,7 +5755,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel bir Iğdır yemeği",
         ingredients: ["Kıyma", "Bulgur", "Soğan", "Baharatlar"],
-        preparation: "Malzemeler yoğrulur, şekil verilir ve taş fırında pişirilir.",
+        preparation:
+          "Malzemeler yoğrulur, şekil verilir ve taş fırında pişirilir.",
         tips: "Yanında ayran ile servis edilir.",
       },
       type: "food",
@@ -5584,35 +5764,43 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/tas-kofte.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20TAS%20KOFTE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20TAS%20KOFTE.jpg",
         ],
-      }
+      },
     },
     {
       name: "Iğdır Kayısısı",
       description: "Iğdır'ın meşhur kayısıları ve kayısı ürünleri.",
       moreDetails: {
         history: "Bölgenin mikroklima özelliği sayesinde özel bir tada sahip",
-        products: ["Taze kayısı", "Kuru kayısı", "Kayısı reçeli", "Kayısı pestili"],
+        products: [
+          "Taze kayısı",
+          "Kuru kayısı",
+          "Kayısı reçeli",
+          "Kayısı pestili",
+        ],
         season: "Haziran-Temmuz ayları",
         tips: "Taze kayısı mevsiminde tadılmalıdır.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/igdir-kayisi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/igdir-kayisi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/igdir-kayisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KAYISI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_IGDIR%20KAYISI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   77: [
     {
       name: "Yürüyen Köşk",
-      description: "Atatürk'ün emriyle ağaç kesilmesin diye raylar üzerinde kaydırılan tarihi köşk.",
+      description:
+        "Atatürk'ün emriyle ağaç kesilmesin diye raylar üzerinde kaydırılan tarihi köşk.",
       moreDetails: {
-        history: "1929 yılında Atatürk'ün talimatıyla, çınar ağacına zarar vermemek için 4.80 metre kaydırılmıştır.",
+        history:
+          "1929 yılında Atatürk'ün talimatıyla, çınar ağacına zarar vermemek için 4.80 metre kaydırılmıştır.",
         architecture: "İki katlı ahşap yapı, cumbalı ve geniş pencereli",
         visitInfo: {
           hours: "09:00 - 17:00",
@@ -5622,16 +5810,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/yuruyen-kosk.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/yuruyen-kosk.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yuruyen-kosk.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20YURUYEN%20KOSK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20YURUYEN%20KOSK.jpg",
         ],
       },
       location: "Yalova Merkez",
       latitude: 40.6573,
-      longitude: 29.2773
+      longitude: 29.2773,
     },
     {
       name: "Termal Kaplıcaları",
@@ -5647,16 +5836,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/termal-kaplicalari.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/termal-kaplicalari.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/termal-kaplicalari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20TERMAL.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20TERMAL.jpg",
         ],
       },
       location: "Termal",
       latitude: 40.6333,
-      longitude: 29.2333
+      longitude: 29.2333,
     },
     {
       name: "Karaca Arboretumu",
@@ -5672,16 +5862,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/karaca-arboretum.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/karaca-arboretum.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/karaca-arboretum.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20KARACA%20ARBORETUM.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20KARACA%20ARBORETUM.jpg",
         ],
       },
       location: "Yalova Merkez",
       latitude: 40.6559,
-      longitude: 29.2862
+      longitude: 29.2862,
     },
     {
       name: "Yalova Kent Müzesi",
@@ -5697,16 +5888,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/yalova-kent-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/yalova-kent-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yalova-kent-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20KENT%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20KENT%20MUZESI.jpg",
         ],
       },
       location: "Yalova Merkez",
-      latitude: 40.6550,
-      longitude: 29.2767
+      latitude: 40.655,
+      longitude: 29.2767,
     },
     {
       name: "Sudüşen Şelalesi",
@@ -5722,16 +5914,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/sudusen-selalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/sudusen-selalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/sudusen-selalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20SUDUSEN%20SELALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20SUDUSEN%20SELALESI.jpg",
         ],
       },
       location: "Çınarcık",
       latitude: 40.6431,
-      longitude: 29.3097
+      longitude: 29.3097,
     },
     {
       name: "Yalova Enginar",
@@ -5743,13 +5936,14 @@ export const culturalPlaces = {
         tips: "Taze enginar mevsiminde tadılmalıdır.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/yalova-enginar.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/yalova-enginar.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yalova-enginar.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20ENGINAR.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20ENGINAR.jpg",
         ],
-      }
+      },
     },
     {
       name: "Yalova Böreği",
@@ -5757,26 +5951,31 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel bir Yalova lezzeti",
         ingredients: ["Un", "Yumurta", "Süt", "Peynir", "Maydanoz"],
-        preparation: "İnce açılan yufkalar arasına peynirli harç konur ve fırında pişirilir.",
+        preparation:
+          "İnce açılan yufkalar arasına peynirli harç konur ve fırında pişirilir.",
         tips: "Sıcak servis edilmesi önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/yalova-boregi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/yalova-boregi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yalova-boregi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20BOREGI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_YALOVA%20BOREGI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   78: [
     {
       name: "Safranbolu Evleri",
-      description: "UNESCO Dünya Mirası Listesi'nde yer alan tarihi Osmanlı evleri.",
+      description:
+        "UNESCO Dünya Mirası Listesi'nde yer alan tarihi Osmanlı evleri.",
       moreDetails: {
-        history: "18. ve 19. yüzyılda inşa edilmiş, Türk mimarisinin en güzel örnekleri.",
-        architecture: "Üç katlı, ahşap ve taş yapı, çıkmalı cumbalar, avlulu sistem",
+        history:
+          "18. ve 19. yüzyılda inşa edilmiş, Türk mimarisinin en güzel örnekleri.",
+        architecture:
+          "Üç katlı, ahşap ve taş yapı, çıkmalı cumbalar, avlulu sistem",
         visitInfo: {
           hours: "24 saat açık",
           price: "Ücretsiz (Müze evler için ayrı ücret)",
@@ -5785,16 +5984,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/safranbolu-evleri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/safranbolu-evleri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/safranbolu-evleri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20SAFRANBOLU%20EVLERI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20SAFRANBOLU%20EVLERI.jpg",
         ],
       },
       location: "Safranbolu",
       latitude: 41.2533,
-      longitude: 32.6933
+      longitude: 32.6933,
     },
     {
       name: "Kristal Teras",
@@ -5810,16 +6010,17 @@ export const culturalPlaces = {
         },
       },
       type: "cultural",
-      image: "https://www.kulturportali.gov.tr/contents/images/kristal-teras.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kristal-teras.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kristal-teras.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KRISTAL%20TERAS.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KRISTAL%20TERAS.jpg",
         ],
       },
       location: "Safranbolu",
       latitude: 41.2486,
-      longitude: 32.6842
+      longitude: 32.6842,
     },
     {
       name: "İncekaya Su Kemeri",
@@ -5835,16 +6036,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/incekaya-su-kemeri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/incekaya-su-kemeri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/incekaya-su-kemeri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20INCEKAYA%20SU%20KEMERI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20INCEKAYA%20SU%20KEMERI.jpg",
         ],
       },
       location: "Safranbolu",
-      latitude: 41.2500,
-      longitude: 32.6833
+      latitude: 41.25,
+      longitude: 32.6833,
     },
     {
       name: "Karabük Demir Çelik Müzesi",
@@ -5860,16 +6062,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/demir-celik-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/demir-celik-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/demir-celik-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20DEMIR%20CELIK%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20DEMIR%20CELIK%20MUZESI.jpg",
         ],
       },
       location: "Karabük Merkez",
-      latitude: 41.2000,
-      longitude: 32.6333
+      latitude: 41.2,
+      longitude: 32.6333,
     },
     {
       name: "Safranbolu Kent Tarihi Müzesi",
@@ -5885,22 +6088,24 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/kent-tarihi-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kent-tarihi-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kent-tarihi-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KENT%20TARIHI%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KENT%20TARIHI%20MUZESI.jpg",
         ],
       },
       location: "Safranbolu",
       latitude: 41.2533,
-      longitude: 32.6933
+      longitude: 32.6933,
     },
     {
       name: "Yenice Ormanları",
       description: "Doğal güzellikleri ile ünlü yürüyüş parkurları.",
       moreDetails: {
-        history: "Dünya Doğayı Koruma Vakfı tarafından koruma altına alınmıştır.",
+        history:
+          "Dünya Doğayı Koruma Vakfı tarafından koruma altına alınmıştır.",
         activities: "Doğa yürüyüşü, fotoğrafçılık, kamp",
         visitInfo: {
           hours: "24 saat açık",
@@ -5910,16 +6115,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/yenice-ormanlari.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/yenice-ormanlari.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/yenice-ormanlari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20YENICE%20ORMANLARI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20YENICE%20ORMANLARI.jpg",
         ],
       },
       location: "Yenice",
-      latitude: 41.2000,
-      longitude: 32.3333
+      latitude: 41.2,
+      longitude: 32.3333,
     },
     {
       name: "Safranbolu Safranı",
@@ -5935,13 +6141,14 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/safran.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20SAFRAN.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20SAFRAN.jpg",
         ],
-      }
+      },
     },
     {
       name: "Safranbolu Lokumu",
-      description: "Geleneksel Safranbolu lokumu, safran aromalı çeşitleri meşhur.",
+      description:
+        "Geleneksel Safranbolu lokumu, safran aromalı çeşitleri meşhur.",
       moreDetails: {
         history: "Yüzyıllardır üretilen geleneksel şekerleme",
         ingredients: ["Nişasta", "Şeker", "Su", "Safran"],
@@ -5949,13 +6156,14 @@ export const culturalPlaces = {
         tips: "Taze üretilmiş lokum tercih edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/safranbolu-lokumu.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/safranbolu-lokumu.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/safranbolu-lokumu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20LOKUM.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20LOKUM.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kuyu Kebabı",
@@ -5971,10 +6179,10 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kuyu-kebabi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KUYU%20KEBABI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARABUK%20KUYU%20KEBABI.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   79: [
     {
@@ -5991,16 +6199,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/ravanda-kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/ravanda-kalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/ravanda-kalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20RAVANDA%20KALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20RAVANDA%20KALESI.jpg",
         ],
       },
       location: "Polateli",
       latitude: 36.8167,
-      longitude: 37.1167
+      longitude: 37.1167,
     },
     {
       name: "Kilis Mevlevihanesi",
@@ -6020,12 +6229,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/mevlevihane.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20MEVLEVIHANE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20MEVLEVIHANE.jpg",
         ],
       },
       location: "Kilis Merkez",
       latitude: 36.7167,
-      longitude: 37.1167
+      longitude: 37.1167,
     },
     {
       name: "Kilis Kent Müzesi",
@@ -6041,16 +6250,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/kilis-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kilis-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kilis-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KENT%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KENT%20MUZESI.jpg",
         ],
       },
       location: "Kilis Merkez",
       latitude: 36.7167,
-      longitude: 37.1167
+      longitude: 37.1167,
     },
     {
       name: "Beşkazalı Konağı",
@@ -6066,16 +6276,17 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/beskazali-konagi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/beskazali-konagi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/beskazali-konagi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20BESKAZALI%20KONAGI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20BESKAZALI%20KONAGI.jpg",
         ],
       },
       location: "Kilis Merkez",
       latitude: 36.7167,
-      longitude: 37.1167
+      longitude: 37.1167,
     },
     {
       name: "Kilis Kartalsuyu Şelalesi",
@@ -6091,16 +6302,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/kartalsuyu-selalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kartalsuyu-selalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kartalsuyu-selalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KARTALSUYU%20SELALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KARTALSUYU%20SELALESI.jpg",
         ],
       },
       location: "Musabeyli",
       latitude: 36.8833,
-      longitude: 36.9500
+      longitude: 36.95,
     },
     {
       name: "Kilis Tava",
@@ -6116,9 +6328,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kilis-tava.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20TAVA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20TAVA.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kilis Katmeri",
@@ -6130,17 +6342,19 @@ export const culturalPlaces = {
         tips: "Sıcak servis edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kilis-katmeri.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kilis-katmeri.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kilis-katmeri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KATMER.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KATMER.jpg",
         ],
-      }
+      },
     },
     {
       name: "Kilis Cennet Kahvesi",
-      description: "Özel yapım tekniği ile hazırlanan geleneksel Kilis kahvesi.",
+      description:
+        "Özel yapım tekniği ile hazırlanan geleneksel Kilis kahvesi.",
       moreDetails: {
         history: "Yöreye özgü kahve hazırlama tekniği",
         preparation: "Özel değirmenlerde çekilen kahve, köz üzerinde pişirilir",
@@ -6148,19 +6362,21 @@ export const culturalPlaces = {
         tips: "Geleneksel kahvehanelerde tadılması önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kilis-kahvesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kilis-kahvesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kilis-kahvesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KAHVE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KILIS%20KAHVE.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   80: [
     {
       name: "Karatepe-Aslantaş Açık Hava Müzesi",
-      description: "Hitit dönemine ait kalıntıların sergilendiği açık hava müzesi.",
+      description:
+        "Hitit dönemine ait kalıntıların sergilendiği açık hava müzesi.",
       moreDetails: {
         history: "M.Ö. 8. yüzyılda Geç Hitit döneminde inşa edilmiştir.",
         exhibitions: "Hitit kabartmaları, yazıtlar ve arkeolojik buluntular",
@@ -6172,22 +6388,24 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/karatepe-aslantas.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/karatepe-aslantas.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/karatepe-aslantas.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KARATEPE%20ASLANTAS.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KARATEPE%20ASLANTAS.jpg",
         ],
       },
       location: "Kadirli",
       latitude: 37.2964,
-      longitude: 36.2547
+      longitude: 36.2547,
     },
     {
       name: "Kastabala Antik Kenti",
       description: "Roma döneminden kalma antik kent kalıntıları.",
       moreDetails: {
-        history: "M.Ö. 1. yüzyılda kurulmuş, Roma ve Bizans dönemlerinde gelişmiştir.",
+        history:
+          "M.Ö. 1. yüzyılda kurulmuş, Roma ve Bizans dönemlerinde gelişmiştir.",
         architecture: "Sütunlu cadde, tiyatro, hamam ve tapınak kalıntıları",
         visitInfo: {
           hours: "24 saat açık",
@@ -6201,12 +6419,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kastabala.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KASTABALA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KASTABALA.jpg",
         ],
       },
       location: "Osmaniye Merkez",
-      latitude: 37.1500,
-      longitude: 36.1833
+      latitude: 37.15,
+      longitude: 36.1833,
     },
     {
       name: "Zorkun Yaylası",
@@ -6222,16 +6440,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/zorkun-yaylasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/zorkun-yaylasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/zorkun-yaylasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20ZORKUN%20YAYLASI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20ZORKUN%20YAYLASI.jpg",
         ],
       },
       location: "Osmaniye Merkez",
       latitude: 37.0556,
-      longitude: 36.2611
+      longitude: 36.2611,
     },
     {
       name: "Osmaniye Kent Müzesi",
@@ -6247,16 +6466,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/osmaniye-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/osmaniye-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/osmaniye-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KENT%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KENT%20MUZESI.jpg",
         ],
       },
       location: "Osmaniye Merkez",
       latitude: 37.0741,
-      longitude: 36.2463
+      longitude: 36.2463,
     },
     {
       name: "Düziçi Haruniye Kaplıcaları",
@@ -6272,16 +6492,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/haruniye-kaplicalari.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/haruniye-kaplicalari.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/haruniye-kaplicalari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20HARUNIYE%20KAPLICALARI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20HARUNIYE%20KAPLICALARI.jpg",
         ],
       },
       location: "Düziçi",
       latitude: 37.2508,
-      longitude: 36.4447
+      longitude: 36.4447,
     },
     {
       name: "Osmaniye Fıstığı",
@@ -6293,13 +6514,14 @@ export const culturalPlaces = {
         tips: "Taze kavrulmuş fıstık tercih edilmelidir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/osmaniye-fistigi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/osmaniye-fistigi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/osmaniye-fistigi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20FISTIK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20FISTIK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Osmaniye Tirşik Çorbası",
@@ -6311,13 +6533,14 @@ export const culturalPlaces = {
         tips: "Kış aylarında içilmesi önerilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/tirsik-corbasi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/tirsik-corbasi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/tirsik-corbasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20TIRSIK.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20TIRSIK.jpg",
         ],
-      }
+      },
     },
     {
       name: "Osmaniye Kömbe",
@@ -6333,17 +6556,18 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kombe.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KOMBE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_OSMANIYE%20KOMBE.jpg",
         ],
-      }
-    }
+      },
+    },
   ],
   81: [
     {
       name: "Konuralp Antik Tiyatro",
       description: "Roma döneminden kalma antik tiyatro kalıntıları.",
       moreDetails: {
-        history: "M.S. 2. yüzyılda inşa edilmiş, Prusias ad Hypium antik kentinin tiyatrosu.",
+        history:
+          "M.S. 2. yüzyılda inşa edilmiş, Prusias ad Hypium antik kentinin tiyatrosu.",
         architecture: "3000 kişilik oturma kapasitesi, yarım daire formunda",
         visitInfo: {
           hours: "24 saat açık",
@@ -6353,23 +6577,26 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/konuralp-tiyatro.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/konuralp-tiyatro.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/konuralp-tiyatro.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KONURALP%20ANTIK%20TIYATRO.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KONURALP%20ANTIK%20TIYATRO.jpg",
         ],
       },
       location: "Konuralp",
       latitude: 40.9039,
-      longitude: 31.1486
+      longitude: 31.1486,
     },
     {
       name: "Konuralp Müzesi",
-      description: "Bölgenin tarihini ve arkeolojik eserlerini sergileyen müze.",
+      description:
+        "Bölgenin tarihini ve arkeolojik eserlerini sergileyen müze.",
       moreDetails: {
         history: "2003 yılında açılmıştır.",
-        exhibitions: "Roma dönemi eserleri, etnografik eserler, sikke koleksiyonu",
+        exhibitions:
+          "Roma dönemi eserleri, etnografik eserler, sikke koleksiyonu",
         visitInfo: {
           hours: "09:00 - 17:00",
           price: "10 TL",
@@ -6378,16 +6605,17 @@ export const culturalPlaces = {
         },
       },
       type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/konuralp-muzesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/konuralp-muzesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/konuralp-muzesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KONURALP%20MUZESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KONURALP%20MUZESI.jpg",
         ],
       },
       location: "Konuralp",
       latitude: 40.9039,
-      longitude: 31.1486
+      longitude: 31.1486,
     },
     {
       name: "Güzeldere Şelalesi",
@@ -6403,16 +6631,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/guzeldere-selalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/guzeldere-selalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/guzeldere-selalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20GUZELDERE%20SELALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20GUZELDERE%20SELALESI.jpg",
         ],
       },
       location: "Gölyaka",
       latitude: 40.7333,
-      longitude: 31.0000
+      longitude: 31.0,
     },
     {
       name: "Efteni Gölü",
@@ -6432,12 +6661,12 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/efteni-golu.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20EFTENI%20GOLU.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20EFTENI%20GOLU.jpg",
         ],
       },
       location: "Gölyaka",
       latitude: 40.7667,
-      longitude: 31.0333
+      longitude: 31.0333,
     },
     {
       name: "Samandere Şelalesi",
@@ -6453,16 +6682,17 @@ export const culturalPlaces = {
         },
       },
       type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/samandere-selalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/samandere-selalesi.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/samandere-selalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20SAMANDERE%20SELALESI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20SAMANDERE%20SELALESI.jpg",
         ],
       },
       location: "Merkez",
-      latitude: 40.7000,
-      longitude: 31.2667
+      latitude: 40.7,
+      longitude: 31.2667,
     },
     {
       name: "Düzce Acıka",
@@ -6478,9 +6708,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/acika.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20ACIKA.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20ACIKA.jpg",
         ],
-      }
+      },
     },
     {
       name: "Düzce Kestane Balı",
@@ -6492,13 +6722,14 @@ export const culturalPlaces = {
         tips: "Kahvaltıda veya şifa amaçlı tüketilebilir.",
       },
       type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kestane-bali.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kestane-bali.jpg",
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kestane-bali.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KESTANE%20BALI.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KESTANE%20BALI.jpg",
         ],
-      }
+      },
     },
     {
       name: "Düzce Köftesi",
@@ -6506,7 +6737,8 @@ export const culturalPlaces = {
       moreDetails: {
         history: "Geleneksel bir Düzce lezzeti",
         ingredients: ["Dana kıyma", "Soğan", "Sarımsak", "Baharatlar"],
-        preparation: "Özel harmanlanmış kıyma ile hazırlanır ve kömür ateşinde pişirilir",
+        preparation:
+          "Özel harmanlanmış kıyma ile hazırlanır ve kömür ateşinde pişirilir",
         tips: "Yanında piyaz ile servis edilir.",
       },
       type: "food",
@@ -6514,9 +6746,9 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/duzce-kofte.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KOFTE.jpg"
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_DUZCE%20KOFTE.jpg",
         ],
-      }
-    }
-  ]
-}; 
+      },
+    },
+  ],
+};
