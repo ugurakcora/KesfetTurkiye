@@ -2247,6 +2247,359 @@ export const culturalPlaces = {
       longitude: 36.16,
     },
   ],
+  68: [
+    // Bayburt
+    {
+      name: "Bayburt Kalesi",
+      description: "Şehrin tarihi simgelerinden biri.",
+      moreDetails: {
+        history:
+          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş batarken manzara harika.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/bayburt_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/bayburt_kalesi1.jpg",
+          "https://example.com/bayburt_kalesi2.jpg",
+        ],
+      },
+      location: "Bayburt",
+      latitude: 40.25,
+      longitude: 40.22,
+    },
+    {
+      name: "Aydıntepe Yeraltı Şehri",
+      description: "Antik dönemden kalma yeraltı şehri.",
+      moreDetails: {
+        history:
+          "M.Ö. 2. yüzyılda kurulmuş, Roma döneminde büyük bir şehir haline gelmiştir.",
+        activities: "Yeraltı şehri gezileri yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş kremi kullanmayı unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/aydintepe.jpg",
+      slider: {
+        images: [
+          "https://example.com/aydintepe1.jpg",
+          "https://example.com/aydintepe2.jpg",
+        ],
+      },
+      location: "Aydıntepe",
+      latitude: 40.22,
+      longitude: 40.25,
+    },
+    {
+      name: "Çoruh Vadisi",
+      description: "Doğal güzellikleri ile ünlü vadi.",
+      moreDetails: {
+        history:
+          "Vadi, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Doğa yürüyüşü, kamp yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş kremi kullanmayı unutmayın.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/coruh_vadisi.jpg",
+      slider: {
+        images: [
+          "https://example.com/coruh_vadisi1.jpg",
+          "https://example.com/coruh_vadisi2.jpg",
+        ],
+      },
+      location: "Çoruh",
+      latitude: 40.27,
+      longitude: 40.22,
+    },
+    {
+      name: "Baksı Müzesi",
+      description: "Bayburt'un tarihi eserlerini sergileyen müze.",
+      moreDetails: {
+        history:
+          "Müze, 1975 yılında kurulmuştur.",
+        activities: "Müze gezileri yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş kremi kullanmayı unutmayın.",
+        },
+      },
+      type: "museum",
+      image: "https://example.com/baksi_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/baksi_muzesi1.jpg",
+          "https://example.com/baksi_muzesi2.jpg",
+        ],
+      },
+      location: "Bayburt",
+      latitude: 40.25,
+      longitude: 40.22,
+    },
+    {
+      name: "Civil Peyniri",
+      description: "Bayburt'un meşhur peyniri.",
+      moreDetails: {
+        history:
+          "Peynir, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        ingredients: ["Koyun sütü", "Tuz", "Karbonat"],
+        preparation: "Süt karıştırılır, tuz ve karbonat eklenir, kaynatılır ve süzülür.",
+        tips: "Soğuk servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/civil_peyniri.jpg",
+      slider: {
+        images: [
+          "https://example.com/civil_peyniri1.jpg",
+          "https://example.com/civil_peyniri2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Tatlı Çorbası",
+      description: "Bayburt'un meşhur çorbası.",
+      moreDetails: {
+        history:
+          "Çorba, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        ingredients: ["Pirinç", "Şeker", "Kuş üzümü", "Kayısı", "Kabak"],
+        preparation: "Malzemeler kaynatılır, karıştırılır ve servis edilir.",
+        tips: "Soğuk servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/tatli_corbasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/tatli_corbasi1.jpg",
+          "https://example.com/tatli_corbasi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Galacoş",
+      description: "Bayburt'un meşhur tatlısı.",
+      moreDetails: {
+        history:
+          "Tatlı, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        ingredients: ["Un", "Şeker", "Tereyağı", "Süt", "Kabak"],
+        preparation: "Malzemeler kaynatılır, karıştırılır ve servis edilir.",
+        tips: "Soğuk servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/galacos.jpg",
+      slider: {
+        images: [
+          "https://example.com/galacos1.jpg",
+          "https://example.com/galacos2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Teleme Tatlısı",
+      description: "Bayburt'un meşhur tatlısı.",
+      moreDetails: {
+        history:
+          "Tatlı, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        ingredients: ["Un", "Şeker", "Tereyağı", "Süt", "Kabak"],
+        preparation: "Malzemeler kaynatılır, karıştırılır ve servis edilir.",
+        tips: "Soğuk servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/teleme_tatlisi.jpg",
+      slider: {
+        images: [
+          "https://example.com/teleme_tatlisi1.jpg",
+          "https://example.com/teleme_tatlisi2.jpg",
+        ],
+      },
+    },
+  ],
+  73: [
+    {
+      name: "Cizre Ulu Camii",
+      description: "Artuklu döneminden kalma tarihi cami.",
+      moreDetails: {
+        history: "1160 yılında Artuklu hükümdarı tarafından yaptırılmıştır.",
+        architecture: "Kesme taştan yapılmış, tek minareli, dikdörtgen planlı cami",
+        visitInfo: {
+          hours: "24 saat açık (namaz vakitleri dışında ziyaret edilebilir)",
+          price: "Ücretsiz",
+          bestTime: "Sabah saatleri",
+          tips: "Ziyaret sırasında uygun kıyafet giyilmelidir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/cizre-ulu-cami.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/cizre-ulu-cami.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20CIZRE%20ULU%20CAMI.jpg"
+        ],
+      },
+      location: "Cizre",
+      latitude: 37.3275,
+      longitude: 42.1927
+    },
+    {
+      name: "Finik Antik Kenti",
+      description: "Antik dönemden kalma yerleşim yeri.",
+      moreDetails: {
+        history: "M.Ö. 2000'li yıllara dayanan tarihi bir yerleşim",
+        architecture: "Kaya mezarları, su sarnıçları ve antik yapı kalıntıları",
+        visitInfo: {
+          hours: "Gün doğumu-gün batımı",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Arazi aracı ile ulaşım önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/finik-antik-kenti.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/finik-antik-kenti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20FINIK.jpg"
+        ],
+      },
+      location: "Güçlükonak",
+      latitude: 37.4692,
+      longitude: 41.9403
+    },
+    {
+      name: "Cudi Dağı",
+      description: "Tarihi ve doğal güzelliği ile önemli bir dağ.",
+      moreDetails: {
+        history: "Nuh'un Gemisi'nin karaya oturduğu yer olarak bilinir",
+        activities: "Dağcılık, doğa yürüyüşü, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Mayıs-Ekim arası",
+          tips: "Tırmanış için rehber ve izin gereklidir.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/cudi-dagi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/cudi-dagi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20CUDI%20DAGI.jpg"
+        ],
+      },
+      location: "Silopi",
+      latitude: 37.3689,
+      longitude: 42.3494
+    },
+    {
+      name: "Mem u Zin Türbesi",
+      description: "Efsanevi aşk hikayesinin kahramanlarının türbesi.",
+      moreDetails: {
+        history: "17. yüzyılda yaşanmış bir aşk hikayesinin sembolü",
+        architecture: "Kesme taştan yapılmış türbe",
+        visitInfo: {
+          hours: "08:00-17:00",
+          price: "Ücretsiz",
+          bestTime: "Her zaman",
+          tips: "Ziyaret sırasında sessiz olunması önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/mem-u-zin.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/mem-u-zin.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20MEM%20U%20ZIN.jpg"
+        ],
+      },
+      location: "Cizre",
+      latitude: 37.3275,
+      longitude: 42.1927
+    },
+    {
+      name: "Şırnak Büryan Kebabı",
+      description: "Geleneksel pişirme yöntemiyle hazırlanan et yemeği.",
+      moreDetails: {
+        history: "Yüzyıllardır süregelen geleneksel pişirme yöntemi",
+        ingredients: ["Kuzu eti"],
+        preparation: "Toprağa gömülü özel fırınlarda pişirilir",
+        tips: "Sabah erken saatlerde tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/buryan-kebabi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/buryan-kebabi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20BURYAN.jpg"
+        ],
+      }
+    },
+    {
+      name: "Perde Pilavı",
+      description: "Şırnak'ın meşhur pilav yemeği.",
+      moreDetails: {
+        history: "Geleneksel düğün yemeği",
+        ingredients: ["Pirinç", "Kuzu eti", "Badem", "Kuş üzümü", "Yufka"],
+        preparation: "Yufka ile kaplı tencerede özel olarak pişirilir",
+        tips: "Özel günlerde yapılır ve toplu olarak servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/perde-pilavi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/perde-pilavi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20PERDE%20PILAVI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Şırnak Şorbeşt",
+      description: "Yöresel tatlı çeşidi.",
+      moreDetails: {
+        history: "Geleneksel bir tatlı",
+        ingredients: ["Un", "Şeker", "Tereyağı", "Süt"],
+        preparation: "Malzemeler kaynatılarak muhallebi kıvamına getirilir",
+        tips: "Soğuk servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/sorbest.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sorbest.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20SORBEST.jpg"
+        ],
+      }
+    },
+    {
+      name: "Kutlık",
+      description: "Geleneksel bir hamur yemeği.",
+      moreDetails: {
+        history: "Yöresel bir hamur işi",
+        ingredients: ["Un", "Kıyma", "Soğan", "Baharatlar"],
+        preparation: "Hamur açılıp içine harç konur ve özel şekilde pişirilir",
+        tips: "Sıcak servis edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kutlik.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kutlik.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_SIRNAK%20KUTLIK.jpg"
+        ],
+      }
+    }
+  ],
   32: [
     {
       name: "Eğirdir Gölü",
