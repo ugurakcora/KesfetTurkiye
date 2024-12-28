@@ -1117,7 +1117,81 @@ export const culturalPlaces = {
         ],
       },
     },
-    {},
+    {
+      name: "Varda (Alman) Köprüsü",
+      description: "1912 yılında yapılan tarihi demiryolu köprüsü.",
+      moreDetails: {
+        history: "Osmanlı-Alman işbirliği ile Berlin-Bağdat demiryolu projesi kapsamında inşa edilmiştir.",
+        architecture: "172 metre uzunluğunda, 98 metre yüksekliğinde, taş kemer köprü",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün doğumu ve batımı",
+          tips: "Fotoğraf çekmek için en iyi noktalar işaretlenmiştir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/varda-koprusu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/varda-koprusu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20VARDA%20KOPRUSU.jpg"
+        ],
+      },
+      location: "Karaisalı",
+      latitude: 37.2033,
+      longitude: 35.0089
+    },
+    {
+      name: "Sabancı Merkez Camii",
+      description: "Modern Osmanlı mimarisinin en büyük örneklerinden biri.",
+      moreDetails: {
+        history: "1998 yılında ibadete açılmıştır",
+        architecture: "6 minareli, 54 kubbeli, 28.500 kişilik ibadet alanı",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Namaz vakitleri dışında",
+          tips: "Ziyaret sırasında uygun kıyafet giyilmelidir.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/sabanci-camii.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/sabanci-camii.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20SABANCI%20CAMII.jpg"
+        ],
+      },
+      location: "Seyhan",
+      latitude: 37.0014,
+      longitude: 35.3280
+    },
+    {
+      name: "Adana Arkeoloji Müzesi",
+      description: "Çukurova bölgesinin zengin tarihini sergileyen müze.",
+      moreDetails: {
+        history: "1924 yılında kurulmuştur",
+        exhibitions: "Hitit, Roma, Bizans dönemlerine ait eserler",
+        visitInfo: {
+          hours: "08:30-17:30 (Pazartesi kapalı)",
+          price: "15 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/adana-arkeoloji.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/adana-arkeoloji.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ADANA%20ARKEOLOJI%20MUZESI.jpg"
+        ],
+      },
+      location: "Seyhan",
+      latitude: 37.0589,
+      longitude: 35.2816
+    },
   ],
   "02": [
     // Adıyaman
