@@ -2427,6 +2427,7 @@ export const culturalPlaces = {
     },
   ],
   73: [
+    // Şırnak
     {
       name: "Cizre Ulu Camii",
       description: "Artuklu döneminden kalma tarihi cami.",
@@ -4970,7 +4971,7 @@ export const culturalPlaces = {
     },
   ],
   72: [
-    // Şırnak
+    // Batman
     {
       name: "Şırnak Kalesi",
       description: "Şehrin tarihi simgelerinden biri.",
