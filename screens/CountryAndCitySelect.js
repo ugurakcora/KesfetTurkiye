@@ -105,7 +105,14 @@ export default function CountryAndCitySelect() {
 
   return (
     <LinearGradient
-      colors={['#00B4DB', '#0083B0']}
+      // colors={['#A8E0D4', '#F0F4C3']}
+      // colors={['#FFB74D', '#FF8A65']}
+      // colors={['#81C784', '#64B5F6']}
+      // colors={['#FFCCBC', '#D1C4E9']}
+      // colors={['#B2EBF2', '#80DEEA']}
+      // colors={['#C8102E', '#FFFFFF']}
+      // colors={['#C8102E', '#FF6F61']}
+       colors={['#C8102E', '#D3D3D3']}
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 1 }}
       style={styles.container}
@@ -262,14 +269,16 @@ const styles = StyleSheet.create({
     marginBottom: 4,
   },
   cardLocation: {
-    fontSize: 14,
+    fontSize: 16,
     color: '#6c757d',
     marginLeft: 4,
   },
   distanceText: {
     fontSize: 14,
-    color: '#007BFF',
+    color: '#6c757d',
     marginTop: 4,
+    fontWeight: 'normal',
+    fontStyle: 'italic',
   },
   errorText: {
     fontSize: 14,

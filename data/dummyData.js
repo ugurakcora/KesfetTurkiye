@@ -322,10 +322,10 @@ export const culturalPlaces = {
       },
       type: "historical",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/6/6a/Topkapi_Palace.jpg",
+        "https://i.pinimg.com/736x/eb/32/cd/eb32cd11c02ed7fb2ffbc322912d60bb.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/6/6a/Topkapi_Palace.jpg",
+          "https://i.pinimg.com/736x/eb/32/cd/eb32cd11c02ed7fb2ffbc322912d60bb.jpg",
           "https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/37ac8a17-8127-4f06-b97b-62ab0bce8a18.jpg",
         ],
       },
@@ -350,10 +350,10 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ayasofya.jpg",
+      image: "https://i.pinimg.com/736x/be/64/2b/be642b3b0028761cf16d9bebd89a54ae.jpg",
       slider: {
         images: [
-          "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ayasofya.jpg",
+          "https://i.pinimg.com/736x/be/64/2b/be642b3b0028761cf16d9bebd89a54ae.jpg",
           "https://cdn.kulturportali.gov.tr/repoKulturPortali/large/Eser/65025e94-7e6a-4ae5-baa8-7d2a3579d918.jpg",
         ],
       },
