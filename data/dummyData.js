@@ -927,7 +927,7 @@ export const culturalPlaces = {
           "Ciğer kebap, Adana mutfağının en sevilen yemeklerinden biridir.",
         ingredients: ["Kuzu ciğeri", "Kuyruk yağı", "Tuz", "Baharatlar"],
         preparation:
-          "Ciğerler, baharatlarla harmanlanır, şişe dizilir ve mangalda pişirilir.",
+          "Ciğerler, baharatlar eklenir, şişe dizilir ve mangalda pişirilir.",
         tips: "Kebabın yanında ayran ve salata servis edilir.",
       },
       type: "food",
@@ -1839,31 +1839,217 @@ export const culturalPlaces = {
     }
   ],
   17: [
-    // Çanakkale
     {
       name: "Truva Antik Kenti",
-      description: "Dünya Mirası Listesi'nde yer alan antik kent.",
+      description: "UNESCO Dünya Mirası Listesi'nde yer alan efsanevi antik kent.",
       moreDetails: {
-        history: "Truva, efsanelere ev sahipliği yapmaktadır.",
-        activities: "Antik kalıntıları gezmek için popüler bir yerdir.",
+        history: "M.Ö. 3000'lerden kalma, Homeros'un İlyada destanına konu olan tarihi kent",
+        architecture: "9 katmanlı yerleşim, surlar, Truva atı replikası",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş kremi kullanmayı unutmayın.",
+          hours: "08:00 - 19:00",
+          price: "50 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Rehberli tur almanız önerilir. Geniş alan için rahat ayakkabı giyilmeli.",
         },
       },
       type: "historical",
-      image: "https://example.com/truva.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/truva-antik-kenti.jpg",
       slider: {
         images: [
-          "https://example.com/truva1.jpg",
-          "https://example.com/truva2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/truva-antik-kenti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20TRUVA.jpg"
         ],
       },
-      location: "Çanakkale",
-      latitude: 39.9469,
-      longitude: 26.4092,
+      location: "Merkez",
+      latitude: 39.9575,
+      longitude: 26.2389
     },
+    {
+      name: "Gelibolu Yarımadası Tarihi Milli Parkı",
+      description: "Çanakkale Savaşları'nın yaşandığı tarihi alan.",
+      moreDetails: {
+        history: "I. Dünya Savaşı'nda önemli muharebelere sahne olmuş tarihi bölge",
+        activities: "Şehitlikleri ziyaret, müze gezisi, anıtları görme",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Tüm yıl",
+          tips: "57. Alay Şehitliği ve Conkbayırı mutlaka görülmeli.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/gelibolu-yarimadasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/gelibolu-yarimadasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20GELIBOLU.jpg"
+        ],
+      },
+      location: "Gelibolu",
+      latitude: 40.3739,
+      longitude: 26.4847
+    },
+    {
+      name: "Assos Antik Kenti",
+      description: "Antik Yunan döneminden kalma tarihi liman kenti.",
+      moreDetails: {
+        history: "M.Ö. 6. yüzyılda kurulmuş, Aristo'nun felsefe okulu kurduğu yer",
+        architecture: "Akropol, Athena Tapınağı, antik tiyatro, nekropol alanı",
+        visitInfo: {
+          hours: "08:00 - 19:00",
+          price: "30 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Gün batımını Athena Tapınağı'ndan izleyin.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/assos-antik-kenti.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/assos-antik-kenti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20ASSOS.jpg"
+        ],
+      },
+      location: "Ayvacık",
+      latitude: 39.4833,
+      longitude: 26.3333
+    },
+    {
+      name: "Bozcaada",
+      description: "Tarihi kalesi ve bağları ile ünlü ada.",
+      moreDetails: {
+        history: "Antik çağlardan beri yerleşim yeri olan tarihi ada",
+        activities: "Kale ziyareti, şarap tadımı, plaj aktiviteleri, tarihi sokakları gezme",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Feribot ücreti gerekli",
+          bestTime: "Yaz ve sonbahar",
+          tips: "Şarap tadımı ve yerel restoranları deneyimlemelisiniz.",
+        },
+      },
+      type: "cultural",
+      image: "https://www.kulturportali.gov.tr/contents/images/bozcaada.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/bozcaada.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20BOZCAADA.jpg"
+        ],
+      },
+      location: "Bozcaada",
+      latitude: 39.8333,
+      longitude: 26.0667
+    },
+    {
+      name: "Gökçeada",
+      description: "Türkiye'nin en büyük adası, doğal ve kültürel zenginlikleriyle ünlü.",
+      moreDetails: {
+        history: "Antik dönemden kalma yerleşimleri ve Rum köyleri bulunan ada",
+        activities: "Sörf, dalış, organik tarım, köy gezileri",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Feribot ücreti gerekli",
+          bestTime: "Yaz ayları",
+          tips: "Zeytinyağı ve organik ürünleri tadın.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/gokceada.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/gokceada.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20GOKCEADA.jpg"
+        ],
+      },
+      location: "Gökçeada",
+      latitude: 40.2000,
+      longitude: 25.9000
+    },
+    {
+      name: "Çanakkale Arkeoloji Müzesi",
+      description: "Bölgenin zengin arkeolojik mirasını sergileyen müze.",
+      moreDetails: {
+        history: "1984'te açılmış, Troya ve çevre antik kentlerden buluntular sergiliyor",
+        exhibitions: "Arkeolojik eserler, sikke koleksiyonu, etnografik malzemeler",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/arkeoloji-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20ARKEOLOJI%20MUZESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.1550,
+      longitude: 26.4086
+    },
+    {
+      name: "Ezine Peyniri",
+      description: "Yöreye özgü beyaz peynir çeşidi.",
+      moreDetails: {
+        history: "Geleneksel üretim yöntemiyle yapılan meşhur peynir",
+        production: "Koyun, keçi ve inek sütü karışımından yapılır",
+        characteristics: "Kendine has aroması ve dokusu",
+        tips: "Orijinal Ezine peyniri için coğrafi işaretli ürünleri tercih edin.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/ezine-peyniri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/ezine-peyniri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20EZINE%20PEYNIRI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Bozcaada Şarabı",
+      description: "Ada'nın meşhur üzümlerinden yapılan şaraplar.",
+      moreDetails: {
+        history: "Antik çağlardan beri süregelen şarap üretimi geleneği",
+        production: "Kuntra, Karalahna ve Çavuş üzümlerinden üretilir",
+        characteristics: "Kendine özgü aroması ve tadı",
+        tips: "Yerel üreticilerden tadım yapabilirsiniz.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/bozcaada-sarabi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/bozcaada-sarabi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20BOZCAADA%20SARABI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Çanakkale Kalesi (Kale-i Sultaniye)",
+      description: "Çanakkale Boğazı'nın en dar noktasında yer alan tarihi kale.",
+      moreDetails: {
+        history: "1462-1463 yıllarında Fatih Sultan Mehmet tarafından inşa ettirilmiştir. Boğaz savunmasında önemli rol oynamıştır.",
+        architecture: "Deniz kıyısında dikdörtgen planlı, dört köşesinde burçları olan klasik Osmanlı kalesi",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "20 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Kale Müzesi'ni de ziyaret edebilirsiniz. Boğaz manzarası için fotoğraf çekmeyi unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/canakkale-kalesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/canakkale-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_CANAKKALE%20KALESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.1550,
+      longitude: 26.4086
+    }
   ],
   18: [
     // Çankırı
@@ -1976,481 +2162,6 @@ export const culturalPlaces = {
       location: "Diyarbakır",
       latitude: 37.91,
       longitude: 40.74,
-    },
-  ],
-  22: [
-    // Edirne
-    {
-      name: "Selimiye Camii",
-      description: "Mimar Sinan'ın ustalık eseri olan cami.",
-      moreDetails: {
-        history: "Cami, 1568-1575 yılları arasında inşa edilmiştir.",
-        activities:
-          "Cami içinde ibadet edebilir ve mimarisini inceleyebilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Cami içinde sessiz olun.",
-        },
-      },
-      type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Selimiye_Mosque.jpg",
-      slider: {
-        images: [
-          "https://upload.wikimedia.org/wikipedia/commons/4/4e/Selimiye_Mosque.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/5/5e/Selimiye_Mosque_in_Edirne.jpg",
-        ],
-      },
-      location: "Edirne",
-      latitude: 41.6764,
-      longitude: 26.555,
-    },
-  ],
-  23: [
-    // Elazığ
-    {
-      name: "Elazığ Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
-      moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/elazig_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/elazig_kalesi1.jpg",
-          "https://example.com/elazig_kalesi2.jpg",
-        ],
-      },
-      location: "Elazığ",
-      latitude: 38.674,
-      longitude: 39.223,
-    },
-  ],
-  24: [
-    // Erzincan
-    {
-      name: "Erzincan Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
-      moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/erzincan_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/erzincan_kalesi1.jpg",
-          "https://example.com/erzincan_kalesi2.jpg",
-        ],
-      },
-      location: "Erzincan",
-      latitude: 39.75,
-      longitude: 39.5,
-    },
-  ],
-  25: [
-    // Erzurum
-    {
-      name: "Erzurum Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
-      moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/erzurum_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/erzurum_kalesi1.jpg",
-          "https://example.com/erzurum_kalesi2.jpg",
-        ],
-      },
-      location: "Erzurum",
-      latitude: 39.9334,
-      longitude: 41.2764,
-    },
-    {
-      name: "Yakutiye Medresesi",
-      description: "İlhanlı döneminden kalma tarihi medrese.",
-      moreDetails: {
-        history: "1310 yılında Gazan Han ve Bolugan Hatun zamanında inşa edilmiştir",
-        architecture: "İlhanlı mimarisinin en güzel örneklerinden, taç kapısı geometrik süslemeli",
-        visitInfo: {
-          hours: "09:00 - 17:00",
-          price: "Ücretsiz",
-          bestTime: "Gündüz saatleri",
-          tips: "Medresenin içindeki müzeyi de gezebilirsiniz.",
-        },
-      },
-      type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/yakutiye-medresesi.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/yakutiye-medresesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20YAKUTIYE%20MEDRESESI.jpg"
-        ],
-      },
-      location: "Yakutiye",
-      latitude: 39.9086,
-      longitude: 41.2783
-    },
-    {
-      name: "Aziziye Tabyaları",
-      description: "93 Harbi'nin önemli savunma yapılarından.",
-      moreDetails: {
-        history: "1877-1878 Osmanlı-Rus Savaşı sırasında önemli rol oynamıştır",
-        architecture: "Taş yapı, siperleri ve top mazgalları ile askeri mimari örneği",
-        visitInfo: {
-          hours: "09:00 - 17:00",
-          price: "Ücretsiz",
-          bestTime: "Bahar ayları",
-          tips: "Ziyaret için rehber eşliğinde gezmek önerilir.",
-        },
-      },
-      type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/aziziye-tabyalari.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/aziziye-tabyalari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20AZIZIYE%20TABYALARI.jpg"
-        ],
-      },
-      location: "Aziziye",
-      latitude: 39.9419,
-      longitude: 41.2510
-    },
-    {
-      name: "Oltu Taşı Çarşısı",
-      description: "Geleneksel Oltu taşı işlemeciliğinin merkezi.",
-      moreDetails: {
-        history: "Yüzyıllardır süregelen Oltu taşı işlemeciliği geleneği",
-        activities: "Alışveriş, zanaatkarları izleme, hediyelik eşya",
-        visitInfo: {
-          hours: "09:00 - 19:00",
-          price: "Ücretsiz",
-          bestTime: "Hafta içi",
-          tips: "Pazarlık yapılabilir, sertifikalı ürünleri tercih edin.",
-        },
-      },
-      type: "special",
-      image: "https://www.kulturportali.gov.tr/contents/images/oltu-tasi-carsisi.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/oltu-tasi-carsisi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20OLTU%20TASI.jpg"
-        ],
-      },
-      location: "Oltu",
-      latitude: 40.5500,
-      longitude: 41.9833
-    },
-    {
-      name: "Narman Peribacaları",
-      description: "Kırmızı renkli doğal oluşumlar.",
-      moreDetails: {
-        history: "Doğal erozyon sonucu oluşmuş peribacaları",
-        activities: "Fotoğrafçılık, doğa yürüyüşü",
-        visitInfo: {
-          hours: "24 saat açık",
-          price: "Ücretsiz",
-          bestTime: "Gün doğumu ve batımı",
-          tips: "Arazi aracı ile ulaşım önerilir.",
-        },
-      },
-      type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/narman-peribacalari.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/narman-peribacalari.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20NARMAN.jpg"
-        ],
-      },
-      location: "Narman",
-      latitude: 40.3500,
-      longitude: 41.8833
-    },
-    {
-      name: "Çifte Minareli Medrese",
-      description: "Selçuklu döneminin en önemli eğitim yapılarından biri.",
-      moreDetails: {
-        history: "1271 yılında inşa edilmiş, Selçuklu mimarisinin şaheseri",
-        architecture: "Çift minareli, taç kapılı, avlulu medrese yapısı",
-        visitInfo: {
-          hours: "09:00 - 17:00",
-          price: "Ücretsiz",
-          bestTime: "Gün içi",
-          tips: "Fotoğraf çekimi için sabah saatleri idealdir.",
-        },
-      },
-      type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/cifte-minareli-medrese.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/cifte-minareli-medrese.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20CIFTE%20MINARELI%20MEDRESE.jpg"
-        ],
-      },
-      location: "Merkez",
-      latitude: 39.9086,
-      longitude: 41.2783
-    },
-    {
-      name: "Palandöken Kayak Merkezi",
-      description: "Türkiye'nin en önemli kış sporları merkezlerinden biri.",
-      moreDetails: {
-        history: "1993'te uluslararası statü kazanmıştır",
-        activities: "Kayak, snowboard, kış sporları, dağcılık",
-        visitInfo: {
-          hours: "08:00 - 16:30",
-          price: "Sezona göre değişken",
-          bestTime: "Aralık-Mart arası",
-          tips: "Ekipman kiralama imkanı mevcuttur.",
-        },
-      },
-      type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/palandoken.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/palandoken.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20PALANDOKEN.jpg"
-        ],
-      },
-      location: "Palandöken",
-      latitude: 39.8375,
-      longitude: 41.2850
-    },
-    {
-      name: "Üç Kümbetler",
-      description: "Selçuklu döneminden kalma anıt mezarlar.",
-      moreDetails: {
-        history: "13. yüzyılda inşa edilmiş türbeler",
-        architecture: "Kesme taştan yapılmış, silindirik gövdeli kümbetler",
-        visitInfo: {
-          hours: "24 saat açık",
-          price: "Ücretsiz",
-          bestTime: "Gündüz saatleri",
-          tips: "Üç kümbetin de fotoğrafını çekmeyi unutmayın.",
-        },
-      },
-      type: "historical",
-      image: "https://www.kulturportali.gov.tr/contents/images/uc-kumbetler.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/uc-kumbetler.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20UC%20KUMBETLER.jpg"
-        ],
-      },
-      location: "Merkez",
-      latitude: 39.9100,
-      longitude: 41.2783
-    },
-    {
-      name: "Atatürk Evi Müzesi",
-      description: "Atatürk'ün Erzurum Kongresi sırasında kaldığı ev.",
-      moreDetails: {
-        history: "1919 yılında Erzurum Kongresi sırasında kullanılmıştır",
-        exhibitions: "Atatürk'e ait eşyalar, kongre belgeleri, dönem eşyaları",
-        visitInfo: {
-          hours: "09:00 - 17:00",
-          price: "10 TL",
-          bestTime: "Hafta içi",
-          tips: "Rehberli turlar mevcuttur.",
-        },
-      },
-      type: "museum",
-      image: "https://www.kulturportali.gov.tr/contents/images/ataturk-evi.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/ataturk-evi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20ATATURK%20EVI.jpg"
-        ],
-      },
-      location: "Merkez",
-      latitude: 39.9067,
-      longitude: 41.2756
-    },
-    {
-      name: "Tortum Şelalesi",
-      description: "Türkiye'nin en yüksek şelalelerinden biri.",
-      moreDetails: {
-        history: "Doğal heyelan sonucu oluşmuş şelale",
-        activities: "Doğa yürüyüşü, fotoğrafçılık, piknik",
-        visitInfo: {
-          hours: "24 saat açık",
-          price: "Ücretsiz",
-          bestTime: "İlkbahar ve yaz",
-          tips: "Şelale çevresinde dikkatli olunmalıdır.",
-        },
-      },
-      type: "natural",
-      image: "https://www.kulturportali.gov.tr/contents/images/tortum-selalesi.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/tortum-selalesi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20TORTUM%20SELALESI.jpg"
-        ],
-      },
-      location: "Tortum",
-      latitude: 40.5097,
-      longitude: 41.6389
-    },
-    {
-      name: "Cağ Kebabı",
-      description: "Erzurum'un meşhur et yemeği.",
-      moreDetails: {
-        history: "Yüzyıllardır süregelen geleneksel lezzet",
-        preparation: "Özel marine edilmiş kuzu eti yatay şişte pişirilir",
-        serving: "İnce dilimler halinde, lavaş ekmek ile servis edilir",
-        tips: "Geleneksel cağ kebapçılarında yenilmesi önerilir.",
-      },
-      type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/cag-kebabi.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/cag-kebabi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20CAG%20KEBABI.jpg"
-        ],
-      }
-    },
-    {
-      name: "Kadayıf Dolması",
-      description: "Erzurum'un meşhur tatlısı.",
-      moreDetails: {
-        history: "Geleneksel Erzurum mutfağının özel tatlısı",
-        ingredients: ["Tel kadayıf", "Ceviz", "Tereyağı", "Şerbet"],
-        preparation: "Kadayıf cevizle doldurulup kızartılır ve şerbetlenir",
-        tips: "Sıcak servis edilmelidir.",
-      },
-      type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/kadayif-dolmasi.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/kadayif-dolmasi.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20KADAYIF%20DOLMASI.jpg"
-        ],
-      }
-    },
-    {
-      name: "Civil Peyniri",
-      description: "Erzurum'un geleneksel tel tel peyniri.",
-      moreDetails: {
-        history: "Yöreye özgü üretim tekniğiyle yapılan peynir",
-        production: "Yağsız sütten yapılır ve tel tel ayrılır",
-        characteristics: "Tuzsuz, tel tel ayrılan yapısı",
-        tips: "Kahvaltıda taze olarak tüketilmesi önerilir.",
-      },
-      type: "food",
-      image: "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
-      slider: {
-        images: [
-          "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
-          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ERZURUM%20CIVIL%20PEYNIRI.jpg"
-        ],
-      }
-    }
-  ],
-  26: [
-    // Eskişehir
-    {
-      name: "Odunpazarı Evleri",
-      description: "Tarihi Osmanlı evleri ile ünlü bir bölge.",
-      moreDetails: {
-        history: "Bölge, Osmanlı dönemine aittir.",
-        activities: "Tarihi evleri gezebilir ve fotoğraf çekebilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş kremi kullanmayı unutmayın.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/odunpazari.jpg",
-      slider: {
-        images: [
-          "https://example.com/odunpazari1.jpg",
-          "https://example.com/odunpazari2.jpg",
-        ],
-      },
-      location: "Eskişehir",
-      latitude: 39.7767,
-      longitude: 30.5206,
-    },
-  ],
-  27: [
-    // Gaziantep
-    {
-      name: "Gaziantep Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
-      moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/gaziantep_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/gaziantep_kalesi1.jpg",
-          "https://example.com/gaziantep_kalesi2.jpg",
-        ],
-      },
-      location: "Gaziantep",
-      latitude: 37.0662,
-      longitude: 37.3833,
-    },
-  ],
-  28: [
-    // Giresun
-    {
-      name: "Giresun Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
-      moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/giresun_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/giresun_kalesi1.jpg",
-          "https://example.com/giresun_kalesi2.jpg",
-        ],
-      },
-      location: "Giresun",
-      latitude: 40.9122,
-      longitude: 38.3925,
     },
   ],
   29: [
@@ -4647,62 +4358,181 @@ export const culturalPlaces = {
     },
   ],
   68: [
-    // Aksaray
-    {
-      name: "Aksaray Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
-      moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
-        visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
-        },
-      },
-      type: "historical",
-      image: "https://example.com/aksaray_kalesi.jpg",
-      slider: {
-        images: [
-          "https://example.com/aksaray_kalesi1.jpg",
-          "https://example.com/aksaray_kalesi2.jpg",
-        ],
-      },
-      location: "Aksaray",
-      latitude: 38.4,
-      longitude: 34.0,
-    },
-  ],
-  69: [
     // Bayburt
     {
       name: "Bayburt Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
+      description: "Şehrin merkezinde yükselen tarihi kale.",
       moreDetails: {
-        history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        history: "M.Ö. 3000'li yıllardan kalma, birçok medeniyete ev sahipliği yapmış tarihi kale",
+        architecture: "Kesme taştan yapılmış, üç kat surlu, burçlu yapı",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün doğumu ve batımı",
+          tips: "Kaleye çıkış yolu dik, uygun ayakkabı giyilmesi önerilir.",
         },
       },
       type: "historical",
-      image: "https://example.com/bayburt_kalesi.jpg",
+      image: "https://www.kulturportali.gov.tr/contents/images/bayburt-kalesi.jpg",
       slider: {
         images: [
-          "https://example.com/bayburt_kalesi1.jpg",
-          "https://example.com/bayburt_kalesi2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/bayburt-kalesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20KALESI.jpg"
         ],
       },
-      location: "Bayburt",
-      latitude: 40.25,
-      longitude: 40.25,
+      location: "Merkez",
+      latitude: 40.2500,
+      longitude: 40.2500
     },
+    {
+      name: "Aydıntepe Yeraltı Şehri",
+      description: "Kayalara oyulmuş antik yeraltı yerleşimi.",
+      moreDetails: {
+        history: "Tam tarihi bilinmemekle birlikte çok eski dönemlerde yapılmış",
+        architecture: "Kayalara oyulmuş odalar, dehlizler ve yaşam alanları",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "15 TL",
+          bestTime: "Her mevsim",
+          tips: "Rehberli turlar önerilir, fotoğraf makinesi getirin.",
+        },
+      },
+      type: "historical",
+      image: "https://www.kulturportali.gov.tr/contents/images/aydintepe-yeralti.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/aydintepe-yeralti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20AYDINTEPE.jpg"
+        ],
+      },
+      location: "Aydıntepe",
+      latitude: 40.3833,
+      longitude: 40.1333
+    },
+    {
+      name: "Çoruh Vadisi",
+      description: "Doğal güzelliği ile ünlü vadi.",
+      moreDetails: {
+        history: "Jeolojik oluşumlu doğal vadi",
+        activities: "Rafting, doğa yürüyüşü, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz (Rafting için ayrı ücret)",
+          bestTime: "İlkbahar ve yaz",
+          tips: "Rafting için profesyonel rehberlerle gidilmeli.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/coruh-vadisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/coruh-vadisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20CORUH.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.2500,
+      longitude: 40.2500
+    },
+    {
+      name: "Baksı Müzesi",
+      description: "Çağdaş sanat ve etnografya müzesi.",
+      moreDetails: {
+        history: "2010 yılında açılmış modern bir müze",
+        exhibitions: "Çağdaş sanat eserleri, etnografik malzemeler",
+        visitInfo: {
+          hours: "10:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar için önceden randevu alınabilir.",
+        },
+      },
+      type: "museum",
+      image: "https://www.kulturportali.gov.tr/contents/images/baksi-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/baksi-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20BAKSI%20MUZESI.jpg"
+        ],
+      },
+      location: "Merkez",
+      latitude: 40.2556,
+      longitude: 40.2222
+    },
+    {
+      name: "Bayburt Civil Peyniri",
+      description: "Yöreye özgü tel tel açılan peynir çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Bayburt mutfağının önemli lezzeti",
+        ingredients: ["İnek sütü", "Maya", "Tuz"],
+        preparation: "Özel teknikle tel tel açılarak hazırlanır",
+        tips: "Kahvaltıda veya böreklerde kullanılır.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/civil-peyniri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20CIVIL.jpg"
+        ],
+      }
+    },
+    {
+      name: "Bayburt Tatlı Çorbası",
+      description: "Geleneksel tatlı çorba.",
+      moreDetails: {
+        history: "Yöresel bir çorba çeşidi",
+        ingredients: ["Buğday", "Kuru üzüm", "Ceviz", "Pekmez"],
+        preparation: "Malzemeler kaynatılarak hazırlanır",
+        tips: "Sıcak servis edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/tatli-corbasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/tatli-corbasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20TATLI%20CORBASI.jpg"
+        ],
+      }
+    },
+    {
+      name: "Bayburt Galacoşu",
+      description: "Yöresel et yemeği.",
+      moreDetails: {
+        history: "Geleneksel Bayburt mutfağının özel yemeği",
+        ingredients: ["Kuzu eti", "Soğan", "Tereyağı", "Baharatlar"],
+        preparation: "Et küçük parçalar halinde pişirilir, özel sosu ile servis edilir",
+        tips: "Yanında pilav ile servis edilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/galacos.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/galacos.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20GALACOS.jpg"
+        ],
+      }
+    },
+    {
+      name: "Bayburt Teleme Tatlısı",
+      description: "Geleneksel süt tatlısı.",
+      moreDetails: {
+        history: "Yöresel bir tatlı çeşidi",
+        ingredients: ["Süt", "Şeker", "Un", "Tereyağı"],
+        preparation: "Süt mayalanır, pişirilir ve şerbetle tatlandırılır",
+        tips: "Soğuk servis edilmelidir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/teleme-tatlisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/teleme-tatlisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_BAYBURT%20TELEME.jpg"
+        ],
+      }
+    }
   ],
-  70: [
+  69: [
     // Karaman
     {
       name: "Karaman Kalesi",
@@ -4730,7 +4560,7 @@ export const culturalPlaces = {
       longitude: 33.2,
     },
   ],
-  71: [
+  70: [
     // Kırıkkale
     {
       name: "Kırıkkale Kalesi",
@@ -4758,7 +4588,7 @@ export const culturalPlaces = {
       longitude: 33.6,
     },
   ],
-  72: [
+  71: [
     // Batman
     {
       name: "Batman Kalesi",
@@ -4786,7 +4616,7 @@ export const culturalPlaces = {
       longitude: 40.15,
     },
   ],
-  73: [
+  72: [
     // Şırnak
     {
       name: "Şırnak Kalesi",
@@ -5360,7 +5190,7 @@ export const culturalPlaces = {
           hours: "09:00 - 17:00",
           price: "Ücretsiz",
           bestTime: "Hafta içi",
-          tips: "Rehberli turlar için önceden randevu al��nabilir.",
+          tips: "Rehberli turlar için önceden randevu alınabilir.",
         },
       },
       type: "historical",
