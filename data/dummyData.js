@@ -350,7 +350,8 @@ export const culturalPlaces = {
         },
       },
       type: "historical",
-      image: "https://i.pinimg.com/736x/be/64/2b/be642b3b0028761cf16d9bebd89a54ae.jpg",
+      image:
+        "https://i.pinimg.com/736x/be/64/2b/be642b3b0028761cf16d9bebd89a54ae.jpg",
       slider: {
         images: [
           "https://i.pinimg.com/736x/be/64/2b/be642b3b0028761cf16d9bebd89a54ae.jpg",
@@ -1213,6 +1214,34 @@ export const culturalPlaces = {
       latitude: 37.0589,
       longitude: 35.2816,
     },
+    {
+      name: "Büyük Saat Kulesi",
+      description:
+        "1882 yılında Vali Ziya Paşa tarafından yaptırılan, Adana'nın sembol yapılarından biri olan tarihi saat kulesi.",
+      moreDetails: {
+        history:
+          "Osmanlı döneminin son zamanlarında şehrin modernleşme çabalarının bir simgesi olarak inşa edilmiştir.",
+        architecture:
+          "Kesme taştan yapılmış, 32 metre yüksekliğinde neo-klasik tarzda bir yapıdır. 2015 yılında kapsamlı bir restorasyon geçirmiştir.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Gün batımında fotoğraf çekmek için ideal, çevresindeki tarihi yapılarla birlikte gezilebilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/buyuk_saat.jpg",
+      slider: {
+        images: [
+          "https://example.com/buyuk_saat1.jpg",
+          "https://example.com/buyuk_saat2.jpg",
+        ],
+      },
+      location: "Seyhan",
+      latitude: 37.0,
+      longitude: 35.32133,
+    },
   ],
   "02": [
     // Adıyaman
@@ -1438,7 +1467,8 @@ export const culturalPlaces = {
       name: "Balıkesir Kalesi",
       description: "Şehrin tarihi simgelerinden biri.",
       moreDetails: {
-        history: "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        history:
+          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
         activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
@@ -1460,10 +1490,13 @@ export const culturalPlaces = {
     },
     {
       name: "Saraylar Köyü Açık Hava Müzesi",
-      description: "Köy yaşamını ve geleneksel yapıları sergileyen açık hava müzesi.",
+      description:
+        "Köy yaşamını ve geleneksel yapıları sergileyen açık hava müzesi.",
       moreDetails: {
-        history: "Müze, köy yaşamını ve geleneksel mimariyi yansıtan yapılar içermektedir.",
-        activities: "Açık hava müzesini gezebilir ve köy yaşamını deneyimleyebilirsiniz.",
+        history:
+          "Müze, köy yaşamını ve geleneksel mimariyi yansıtan yapılar içermektedir.",
+        activities:
+          "Açık hava müzesini gezebilir ve köy yaşamını deneyimleyebilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
           bestTime: "Yaz ayları",
@@ -1484,10 +1517,13 @@ export const culturalPlaces = {
     },
     {
       name: "Karesi Atatürk Evi",
-      description: "Mustafa Kemal Atatürk'ün Balıkesir ziyaretlerinde kaldığı ev.",
+      description:
+        "Mustafa Kemal Atatürk'ün Balıkesir ziyaretlerinde kaldığı ev.",
       moreDetails: {
-        history: "Atatürk, 1923 yılında Balıkesir'i ziyaret ettiğinde bu evde konaklamıştır.",
-        activities: "Evin içini gezebilir ve Atatürk'ün yaşamına dair bilgiler edinebilirsiniz.",
+        history:
+          "Atatürk, 1923 yılında Balıkesir'i ziyaret ettiğinde bu evde konaklamıştır.",
+        activities:
+          "Evin içini gezebilir ve Atatürk'ün yaşamına dair bilgiler edinebilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
           bestTime: "Yaz ayları",
@@ -1510,8 +1546,10 @@ export const culturalPlaces = {
       name: "Balıkesir Kuva-yi Milliye Müzesi",
       description: "Kurtuluş Savaşı dönemine ait eserlerin sergilendiği müze.",
       moreDetails: {
-        history: "Müze, Kurtuluş Savaşı'na katılan yerel kahramanları anmak amacıyla kurulmuştur.",
-        activities: "Sergileri gezebilir ve tarihi belgeleri inceleyebilirsiniz.",
+        history:
+          "Müze, Kurtuluş Savaşı'na katılan yerel kahramanları anmak amacıyla kurulmuştur.",
+        activities:
+          "Sergileri gezebilir ve tarihi belgeleri inceleyebilirsiniz.",
         visitInfo: {
           hours: "Her gün açık",
           bestTime: "Yaz ayları",
@@ -1579,7 +1617,8 @@ export const culturalPlaces = {
       name: "Balıkesir Zeytinyağı",
       description: "Balıkesir'in meşhur zeytinyağı.",
       moreDetails: {
-        history: "Bölgenin zeytin ağaçları ile ünlü olması nedeniyle zeytinyağı üretimi yaygındır.",
+        history:
+          "Bölgenin zeytin ağaçları ile ünlü olması nedeniyle zeytinyağı üretimi yaygındır.",
         uses: "Salatalarda, yemeklerde ve mezelerde kullanılır.",
         tips: "Taze zeytinyağı tercih edilmelidir.",
       },
