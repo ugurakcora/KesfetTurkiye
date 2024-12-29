@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { useState, useRef } from "react";
 import {
   View,
   Text,
@@ -6,6 +6,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   Image,
+  Platform,
+  Animated,
 } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { culturalPlaces } from "../data/dummyData";
@@ -16,6 +18,18 @@ const Tab = createBottomTabNavigator();
 const CulturalPlaces = ({ route, navigation }) => {
   const { cityCode } = route.params;
   const places = culturalPlaces[cityCode] || [];
+  const [activeTab, setActiveTab] = useState(0);
+  const slideAnim = useRef(new Animated.Value(0)).current;
+
+  const animateSlide = (index) => {
+    setActiveTab(index);
+    Animated.spring(slideAnim, {
+      toValue: index * 85,
+      useNativeDriver: true,
+      tension: 68, 
+      friction: 10, 
+    }).start();
+  };
 
   const renderPlaces = (type) => {
     const filteredPlaces = places.filter((place) => place.type === type);
@@ -39,47 +53,96 @@ const CulturalPlaces = ({ route, navigation }) => {
             Bu kategori için veri bulunmamaktadır.
           </Text>
         )}
-        {/* Bottom padding için boş view */}
         <View style={styles.bottomPadding} />
       </ScrollView>
     );
   };
 
   return (
-    <Tab.Navigator
-      screenOptions={{
-        headerShown: false, // Tüm ekranlar için başlıkları gizler
-      }}
-    >
-      <Tab.Screen
-        name="Historical"
-        children={() => renderPlaces("historical")}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Icon name="history" color={color} size={size} />
-          ),
-        }}
+    <>
+      <Animated.View
+        style={[
+          styles.activeBackground,
+          {
+            transform: [{ translateX: slideAnim }],
+          },
+        ]}
       />
-      <Tab.Screen
-        name="Natural"
-        children={() => renderPlaces("natural")}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Icon name="nature" color={color} size={size} />
-          ),
+      <Tab.Navigator
+        screenOptions={{
+          headerShown: false,
+          tabBarLabelStyle: {
+            fontSize: 12,
+            fontWeight: "600",
+            paddingBottom: Platform.OS === "ios" ? 0 : 8,
+          },
+          tabBarStyle: {
+            backgroundColor: "white",
+            height: Platform.OS === "ios" ? 85 : 70,
+            paddingTop: Platform.OS === "ios" ? 15 : 12,
+            paddingHorizontal: 16,
+            position: "absolute",
+            bottom: Platform.OS === "ios" ? 30 : 25,
+            left: 20,
+            right: 20,
+            borderRadius: 16,
+            shadowColor: "#000",
+            shadowOffset: {
+              width: 0,
+              height: 4,
+            },
+            shadowOpacity: 0.1,
+            shadowRadius: 8,
+            elevation: 8,
+            borderTopWidth: 0,
+          },
+          tabBarActiveTintColor: "#FF385C",
+          tabBarInactiveTintColor: "rgba(0,0,0,0.4)",
         }}
-      />
-      <Tab.Screen
-        name="Food"
-        children={() => renderPlaces("food")}
-        options={{
-          tabBarIcon: ({ color, size }) => (
-            <Icon name="restaurant" color={color} size={size} />
-          ),
+        screenListeners={{
+          tabPress: (e) => {
+            const tabIndex = ["Tarihi", "Doğa", "Yemek"].indexOf(
+              e.target.split("-")[0]
+            );
+            animateSlide(tabIndex);
+          },
         }}
-      />
-      {/* Diğer türler için ekleyin */}
-    </Tab.Navigator>
+      >
+        <Tab.Screen
+          name="Tarihi"
+          children={() => renderPlaces("historical")}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <View style={styles.iconWrapper}>
+                <Icon name="account-balance" color={color} size={24} />
+              </View>
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="Doğa"
+          children={() => renderPlaces("natural")}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <View style={styles.iconWrapper}>
+                <Icon name="nature" color={color} size={24} />
+              </View>
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="Yemek"
+          children={() => renderPlaces("food")}
+          options={{
+            tabBarIcon: ({ color }) => (
+              <View style={styles.iconWrapper}>
+                <Icon name="restaurant" color={color} size={24} />
+              </View>
+            ),
+          }}
+        />
+      </Tab.Navigator>
+    </>
   );
 };
 
@@ -132,8 +195,25 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   bottomPadding: {
-    height: 20,
-  }
+    height: 120,
+  },
+  activeBackground: {
+    position: "absolute",
+    width: 45,
+    height: 45,
+    backgroundColor: "rgba(255,56,92,0.1)",
+    borderRadius: 12,
+    zIndex: 0,
+    bottom: 12,
+    left: 32,
+  },
+  iconWrapper: {
+    width: 45,
+    height: 45,
+    justifyContent: "center",
+    alignItems: "center",
+    zIndex: 1,
+  },
 });
 
 export default CulturalPlaces;
