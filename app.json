@@ -4,28 +4,32 @@
     "slug": "kultur",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/p.jpg",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/p.jpg",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/p.jpg",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ugurakcora.kultur"
     },
     "web": {
-      "favicon": "./assets/p.jpg"
+      "favicon": "./assets/logo.png"
     },
-    "plugins": [
-      "expo-localization"
-    ]
+    "plugins": ["expo-localization"],
+    "extra": {
+      "eas": {
+        "projectId": "e453a7bd-0fbd-4feb-98d7-974c17b3cba8"
+      }
+    }
   }
 }
