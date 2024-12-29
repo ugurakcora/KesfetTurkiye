@@ -39,6 +39,8 @@ const CulturalPlaces = ({ route, navigation }) => {
             Bu kategori için veri bulunmamaktadır.
           </Text>
         )}
+        {/* Bottom padding için boş view */}
+        <View style={styles.bottomPadding} />
       </ScrollView>
     );
   };
@@ -85,36 +87,37 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: "#eaeaea",
   },
   placeImage: {
     width: "100%",
-    height: 200,
-    borderRadius: 8,
+    height: 180,
+    borderRadius: 12,
     marginBottom: 8,
   },
   placeCard: {
     backgroundColor: "white",
-    borderRadius: 8,
+    borderRadius: 12,
     padding: 16,
     marginBottom: 16,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
+    shadowOpacity: 0.3,
+    shadowRadius: 6,
+    elevation: 6,
   },
   placeName: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: "bold",
     marginBottom: 8,
+    color: "#333",
   },
   placeDescription: {
-    fontSize: 14,
-    color: "#666",
+    fontSize: 16,
+    color: "#555",
     marginBottom: 8,
   },
   placeLocation: {
@@ -123,11 +126,14 @@ const styles = StyleSheet.create({
     fontStyle: "italic",
   },
   noDataText: {
-    fontSize: 16,
+    fontSize: 18,
     color: "#666",
     textAlign: "center",
     marginTop: 20,
   },
+  bottomPadding: {
+    height: 20,
+  }
 });
 
 export default CulturalPlaces;

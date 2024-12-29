@@ -800,7 +800,7 @@ export const culturalPlaces = {
         history: "Ulu Camii, 1541 yılında inşa edilmiştir.",
         activities: "Camiyi ziyaret edebilir, ibadet yapabilirsiniz.",
         visitInfo: {
-          hours: "Her zaman a��ık",
+          hours: "Her zaman açık",
           bestTime: "Her zaman",
           tips: "Camiyi ziyaret ederken uygun kıyafetler giymeniz önerilir.",
         },
@@ -826,7 +826,7 @@ export const culturalPlaces = {
         visitInfo: {
           hours: "Her zaman açık",
           bestTime: "Gün batımı",
-          tips: "K��prü üzerinde fotoğraf çekmeyi unutmayın.",
+          tips: "Köprü üzerinde fotoğraf çekmeyi unutmayın.",
         },
       },
       type: "historical",
@@ -1433,6 +1433,188 @@ export const culturalPlaces = {
       location: "Balıkesir",
       latitude: 39.5,
       longitude: 27.0,
+    },
+    {
+      name: "Balıkesir Kalesi",
+      description: "Şehrin tarihi simgelerinden biri.",
+      moreDetails: {
+        history: "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş batarken manzara harika.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/balikesir_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/balikesir_kalesi1.jpg",
+          "https://example.com/balikesir_kalesi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.65,
+      longitude: 27.88,
+    },
+    {
+      name: "Saraylar Köyü Açık Hava Müzesi",
+      description: "Köy yaşamını ve geleneksel yapıları sergileyen açık hava müzesi.",
+      moreDetails: {
+        history: "Müze, köy yaşamını ve geleneksel mimariyi yansıtan yapılar içermektedir.",
+        activities: "Açık hava müzesini gezebilir ve köy yaşamını deneyimleyebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Giriş ücreti vardır.",
+        },
+      },
+      type: "special",
+      image: "https://example.com/saraylar_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/saraylar_muzesi1.jpg",
+          "https://example.com/saraylar_muzesi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.65,
+      longitude: 27.88,
+    },
+    {
+      name: "Karesi Atatürk Evi",
+      description: "Mustafa Kemal Atatürk'ün Balıkesir ziyaretlerinde kaldığı ev.",
+      moreDetails: {
+        history: "Atatürk, 1923 yılında Balıkesir'i ziyaret ettiğinde bu evde konaklamıştır.",
+        activities: "Evin içini gezebilir ve Atatürk'ün yaşamına dair bilgiler edinebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Giriş ücreti vardır.",
+        },
+      },
+      type: "special",
+      image: "https://example.com/karesi_ataturk_evi.jpg",
+      slider: {
+        images: [
+          "https://example.com/karesi_ataturk_evi1.jpg",
+          "https://example.com/karesi_ataturk_evi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.64,
+      longitude: 27.88,
+    },
+    {
+      name: "Balıkesir Kuva-yi Milliye Müzesi",
+      description: "Kurtuluş Savaşı dönemine ait eserlerin sergilendiği müze.",
+      moreDetails: {
+        history: "Müze, Kurtuluş Savaşı'na katılan yerel kahramanları anmak amacıyla kurulmuştur.",
+        activities: "Sergileri gezebilir ve tarihi belgeleri inceleyebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Giriş ücreti vardır.",
+        },
+      },
+      type: "special",
+      image: "https://example.com/kuva-yi-milliye-muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kuva-yi-milliye-muzesi1.jpg",
+          "https://example.com/kuva-yi-milliye-muzesi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.64,
+      longitude: 27.88,
+    },
+    {
+      name: "Balıkesir Müzesi",
+      description: "Şehrin tarihini ve kültürünü sergileyen bir müze.",
+      moreDetails: {
+        history: "Müze, yerel tarih ve kültür hakkında bilgi vermektedir.",
+        activities: "Sergileri gezebilir ve etkinliklere katılabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Giriş ücreti vardır.",
+        },
+      },
+      type: "special",
+      image: "https://example.com/balikesir_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/balikesir_muzesi1.jpg",
+          "https://example.com/balikesir_muzesi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.64,
+      longitude: 27.88,
+    },
+    {
+      name: "Balıkesir Kaymaklısı",
+      description: "Balıkesir'in meşhur tatlısı.",
+      moreDetails: {
+        history: "Yöresel bir tatlı çeşidi.",
+        ingredients: ["Un", "Süt", "Şeker", "Kaymak"],
+        preparation: "Özel hamuru yoğrulup fırında pişirilir.",
+        tips: "Sıcak servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/balikesir_kaymaklisi.jpg",
+      slider: {
+        images: [
+          "https://example.com/balikesir_kaymaklisi1.jpg",
+          "https://example.com/balikesir_kaymaklisi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.65,
+      longitude: 27.88,
+    },
+    {
+      name: "Balıkesir Zeytinyağı",
+      description: "Balıkesir'in meşhur zeytinyağı.",
+      moreDetails: {
+        history: "Bölgenin zeytin ağaçları ile ünlü olması nedeniyle zeytinyağı üretimi yaygındır.",
+        uses: "Salatalarda, yemeklerde ve mezelerde kullanılır.",
+        tips: "Taze zeytinyağı tercih edilmelidir.",
+      },
+      type: "food",
+      image: "https://example.com/balikesir_zeytinyagi.jpg",
+      slider: {
+        images: [
+          "https://example.com/balikesir_zeytinyagi1.jpg",
+          "https://example.com/balikesir_zeytinyagi2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.65,
+      longitude: 27.88,
+    },
+    {
+      name: "Balıkesir Kızartması",
+      description: "Balıkesir'in meşhur kızartma çeşitleri.",
+      moreDetails: {
+        history: "Bölgeye özgü kızartma tarifleri ile yapılır.",
+        ingredients: ["Patates", "Biber", "Aubergine"],
+        preparation: "Sebzeler kızartılarak servis edilir.",
+        tips: "Sıcak servis edilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://example.com/balikesir_kizartma.jpg",
+      slider: {
+        images: [
+          "https://example.com/balikesir_kizartma1.jpg",
+          "https://example.com/balikesir_kizartma2.jpg",
+        ],
+      },
+      location: "Balıkesir",
+      latitude: 39.65,
+      longitude: 27.88,
     },
   ],
   11: [
