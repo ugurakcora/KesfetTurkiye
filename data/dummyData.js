@@ -1271,7 +1271,82 @@ export const culturalPlaces = {
       longitude: 38.73333,
     },
     {
+      name: "Çiğ Köfte",
+      description: "Adıyaman'ın meşhur çiğ köftesi.",
+      moreDetails: {
+        history: "Adıyaman'a özgü bir lezzettir.",
+        ingredients: [
+          "Bulgur",
+          "Kıyma",
+          "Biber salçası",
+          "Ceviz",
+          "Baharatlar",
+        ],
+        preparation: "İnce bulgur, kıyma ve baharatlarla yoğrulur.",
+        tips: "Yanında ayran ile servis edilir.",
+      },
+      type: "food",
+      image:
+        "https://i.pinimg.com/564x/a1/a0/9f/a1a09f9e9e9e9e9e9e9e9e9e9e9e9e9e.jpg",
+      slider: {
+        images: [
+          "https://i.pinimg.com/564x/a1/a0/9f/a1a09f9e9e9e9e9e9e9e9e9e9e9e9e9e.jpg",
+          "https://i.pinimg.com/564x/b2/b1/b0/b2b1b0b0b0b0b0b0b0b0b0b0b0b0b0b0.jpg",
+        ],
+      },
+      location: "Adıyaman",
+      latitude: 37.88333,
+      longitude: 38.73333,
+    },
+    {
       name: "Cendere Köprüsü",
+      description: "Roma dönemine ait tarihi bir kemer köprü.",
+      moreDetails: {
+        history: "Kommagene Krallığı döneminde inşa edilmiştir.",
+        architecture: "Taş kemer köprü, 120 metre uzunluğunda.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Köprü üzerinde yürüyüş yapabilirsiniz.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/cendere_koprusu.jpg",
+      slider: {
+        images: [
+          "https://example.com/cendere_koprusu1.jpg",
+          "https://example.com/cendere_koprusu2.jpg",
+        ],
+      },
+      location: "Adıyaman",
+      latitude: 37.88333,
+      longitude: 38.73333,
+    },
+    {
+      name: "Balıklıgöl",
+      description: "Adıyaman'ın tarihi ve doğal güzelliklerinden biri.",
+      moreDetails: {
+        history:
+          "Balıklıgöl, Hz. İbrahim'in ateşe atıldığı yer olarak bilinir.",
+        activities:
+          "Göl çevresinde yürüyüş yapabilir, balıkları besleyebilirsiniz.",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Göl çevresinde piknik yapabilirsiniz.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/balikligol.jpg",
+      slider: {
+        images: [
+          "https://example.com/balikligol1.jpg",
+          "https://example.com/balikligol2.jpg",
+        ],
+      },
+      location: "Adıyaman",
+      latitude: 37.88333,
+      longitude: 38.73333,
     },
   ],
   "03": [
@@ -1294,6 +1369,27 @@ export const culturalPlaces = {
         images: [
           "https://example.com/afyon_kalesi1.jpg",
           "https://example.com/afyon_kalesi2.jpg",
+        ],
+      },
+      location: "Afyonkarahisar",
+      latitude: 38.75,
+      longitude: 30.55,
+    },
+    {
+      name: "Afyon Sucuğu",
+      description: "Afyonkarahisar'ın meşhur sucuğu.",
+      moreDetails: {
+        history: "Afyonkarahisar'a özgü bir lezzettir.",
+        ingredients: ["Dana eti", "Baharatlar", "Tuz"],
+        preparation: "Et ve baharatlar karıştırılarak sucuk haline getirilir.",
+        tips: "Sucuğu kahvaltıda veya yemeklerde kullanabilirsiniz.",
+      },
+      type: "food",
+      image: "https://example.com/afyon_sucugu.jpg",
+      slider: {
+        images: [
+          "https://example.com/afyon_sucugu1.jpg",
+          "https://example.com/afyon_sucugu2.jpg",
         ],
       },
       location: "Afyonkarahisar",
@@ -1327,6 +1423,30 @@ export const culturalPlaces = {
       latitude: 39.7,
       longitude: 43.1,
     },
+    {
+      name: "İshak Paşa Sarayı",
+      description: "Osmanlı dönemi sarayı, tarihi ve mimari açıdan önemli.",
+      moreDetails: {
+        history: "Saray, 18. yüzyılda inşa edilmiştir.",
+        architecture: "Osmanlı ve İran mimarisinin etkilerini taşır.",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          bestTime: "Gün ışığında",
+          tips: "Sarayın tarihi ve mimari detaylarını inceleyin.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/ishak_pasa_sarayi.jpg",
+      slider: {
+        images: [
+          "https://example.com/ishak_pasa_sarayi1.jpg",
+          "https://example.com/ishak_pasa_sarayi2.jpg",
+        ],
+      },
+      location: "Ağrı",
+      latitude: 39.7,
+      longitude: 43.1,
+    },
   ],
   "05": [
     // Amasya
@@ -1348,6 +1468,72 @@ export const culturalPlaces = {
         images: [
           "https://example.com/amasya_kalesi1.jpg",
           "https://example.com/amasya_kalesi2.jpg",
+        ],
+      },
+      location: "Amasya",
+      latitude: 40.65,
+      longitude: 35.8333,
+    },
+    {
+      name: "Amasya Elması",
+      description: "Amasya'nın meşhur elma çeşidi.",
+      moreDetails: {
+        history: "Amasya'ya özgü bir lezzettir.",
+        ingredients: ["Elma", "Şeker", "Tarçın"],
+        preparation: "Elmalar dilimlenir, şeker ve tarçınla pişirilir.",
+        tips: "Elmayı tatlı veya reçel olarak tüketebilirsiniz.",
+      },
+      type: "food",
+      image: "https://example.com/amasya_elmasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/amasya_elmasi1.jpg",
+          "https://example.com/amasya_elmasi2.jpg",
+        ],
+      },
+      location: "Amasya",
+      latitude: 40.65,
+      longitude: 35.8333,
+    },
+    {
+      name: "Ferhat ile Şirin Mağarası",
+      description: "Aşk hikayesine konu olan tarihi mağara.",
+      moreDetails: {
+        history: "Ferhat ile Şirin efsanesi burada geçer.",
+        activities: "Mağarayı ziyaret edebilir, efsaneyi öğrenebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Gün ışığında",
+          tips: "Rehber eşliğinde ziyaret etmek daha anlamlı olabilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/ferhat_sirin_magarasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/ferhat_sirin_magarasi1.jpg",
+          "https://example.com/ferhat_sirin_magarasi2.jpg",
+        ],
+      },
+      location: "Amasya",
+      latitude: 40.65,
+      longitude: 35.8333,
+    },
+    {
+      name: "Amasya Çöreği",
+      description: "Amasya'nın meşhur çörek çeşidi.",
+      moreDetails: {
+        history: "Amasya'ya özgü bir lezzettir.",
+        ingredients: ["Un", "Şeker", "Tereyağı", "Tarçın"],
+        preparation: "Un, şeker ve tereyağı yoğrularak hazırlanır.",
+        tips: "Çöreği kahvaltıda veya çay saatlerinde tüketebilirsiniz.",
+      },
+      type: "food",
+      image: "https://example.com/amasya_coregi.jpg",
+      slider: {
+        images: [
+          "https://example.com/amasya_coregi1.jpg",
+          "https://example.com/amasya_coregi2.jpg",
         ],
       },
       location: "Amasya",
