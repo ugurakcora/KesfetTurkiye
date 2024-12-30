@@ -1,5 +1,13 @@
 import React from "react";
-import { View, Text, ScrollView, StyleSheet, Animated } from "react-native";
+import {
+  View,
+  Text,
+  ScrollView,
+  StyleSheet,
+  Animated,
+  SafeAreaView,
+  StatusBar,
+} from "react-native";
 import { culturalPlaces } from "../data/dummyData";
 import PlaceCard from "../components/PlaceCard";
 import CulturalPlacesTabs from "../components/CulturalPlacesTabs";
@@ -13,7 +21,11 @@ const CulturalPlaces = ({ route, navigation }) => {
   const renderPlaces = (type) => {
     const filteredPlaces = places.filter((place) => place.type === type);
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={styles.contentContainer}
+        showsVerticalScrollIndicator={false}
+      >
         {filteredPlaces.length > 0 ? (
           filteredPlaces.map((place, index) => (
             <PlaceCard
@@ -23,25 +35,19 @@ const CulturalPlaces = ({ route, navigation }) => {
             />
           ))
         ) : (
-          <Text style={styles.noDataText}>
-            Bu kategori için veri bulunmamaktadır.
-          </Text>
+          <View style={styles.noDataContainer}>
+            <Text style={styles.noDataText}>
+              Bu kategori için veri bulunmamaktadır.
+            </Text>
+          </View>
         )}
-        <View style={styles.bottomPadding} />
       </ScrollView>
     );
   };
 
   return (
     <>
-      <Animated.View
-        style={[
-          styles.activeBackground,
-          {
-            transform: [{ translateX: slideAnim }],
-          },
-        ]}
-      />
+      <StatusBar barStyle="dark-content" />
       <CulturalPlacesTabs onTabPress={handleTabPress}>
         {renderPlaces}
       </CulturalPlacesTabs>
@@ -52,27 +58,23 @@ const CulturalPlaces = ({ route, navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: "#f8f8f8",
+  },
+  contentContainer: {
     padding: 16,
-    backgroundColor: "#eaeaea",
+    paddingTop: 8,
+  },
+  noDataContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingTop: 100,
   },
   noDataText: {
-    fontSize: 18,
+    fontSize: 16,
     color: "#666",
     textAlign: "center",
-    marginTop: 20,
-  },
-  bottomPadding: {
-    height: 120,
-  },
-  activeBackground: {
-    position: "absolute",
-    width: 45,
-    height: 45,
-    backgroundColor: "rgba(255,56,92,0.1)",
-    borderRadius: 12,
-    zIndex: 0,
-    bottom: 12,
-    left: 32,
+    lineHeight: 24,
   },
 });
 
