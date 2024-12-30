@@ -1542,126 +1542,513 @@ export const culturalPlaces = {
     },
   ],
   "06": [
-        // Ankara için tarihî yerler
-        {
-          name: "Anıtkabir",
-          description: "Mustafa Kemal Atatürk'ün anıt mezarı.",
-          moreDetails: {
-            history: "Anıtkabir, 1944 yılında tamamlanmıştır.",
-            architecture: "Modern mimari ile inşa edilmiş, büyük bir anıt.",
-            visitInfo: {
-              hours: "08:00 - 17:00",
-              price: "Ücretsiz",
-              bestTime: "Gündüz saatleri",
-              tips: "Ziyaret sırasında saygılı olunması önemlidir.",
-            },
-          },
-          type: "historical",
-          image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anitkabir_Ankara.jpg",
-          slider: {
-            images: [
-              "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anitkabir_Ankara.jpg",
-              "https://upload.wikimedia.org/wikipedia/commons/1/1e/Anitkabir_Ankara_2.jpg",
-            ],
-          },
-          location: "Ankara",
-          latitude: 39.9334,
-          longitude: 32.8597,
+    // Ankara için tarihî yerler
+    {
+      name: "Anıtkabir",
+      description: "Mustafa Kemal Atatürk'ün anıt mezarı.",
+      moreDetails: {
+        history: "Anıtkabir, 1944 yılında tamamlanmıştır.",
+        architecture: "Modern mimari ile inşa edilmiş, büyük bir anıt.",
+        visitInfo: {
+          hours: "08:00 - 17:00",
+          price: "Ücretsiz",
+          bestTime: "Gündüz saatleri",
+          tips: "Ziyaret sırasında saygılı olunması önemlidir.",
         },
-        {
-          name: "Kocatepe Camii",
-          description: "Ankara'nın en büyük camisi.",
-          moreDetails: {
-            history: "1987 yılında inşaatına başlanmış, 1999 yılında tamamlanmıştır.",
-            architecture: "Osmanlı mimarisinin modern bir yorumu.",
-            visitInfo: {
-              hours: "Her gün açık",
-              bestTime: "Gündüz saatleri",
-              tips: "Cami içinde sessiz olunması önemlidir.",
-            },
-          },
-          type: "historical",
-          image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kocatepe_Mosque_Ankara.jpg",
-          slider: {
-            images: [
-              "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kocatepe_Mosque_Ankara.jpg",
-              "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kocatepe_Mosque_Interior.jpg",
-            ],
-          },
-          location: "Ankara",
-          latitude: 39.9334,
-          longitude: 32.8597,
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anitkabir_Ankara.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anitkabir_Ankara.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1e/Anitkabir_Ankara_2.jpg",
+        ],
+      },
+      location: "Ankara",
+      latitude: 39.9334,
+      longitude: 32.8597,
+    },
+    {
+      name: "Ankara Kalesi",
+      description: "Ankara'nın tarihi sembolü olan antik kale",
+      moreDetails: {
+        history:
+          "MÖ 2. yüzyılda Galatlar tarafından inşa edilmiş, Selçuklu ve Osmanlı dönemlerinde genişletilmiştir",
+        architecture: "Dış kale ve iç kale olmak üzere iki bölümden oluşur",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Kale içindeki tarihi evleri ve müzeleri de ziyaret edin",
         },
-        // Ankara için doğal yerler
-        {
-          name: "Eymir Gölü",
-          description: "Ankara'nın doğal güzelliklerinden biri.",
-          moreDetails: {
-            history: "Göl, doğal bir oluşumdur ve çevresi piknik alanı olarak kullanılır.",
-            activities: "Yürüyüş, bisiklet sürme ve piknik yapma imkanı.",
-            visitInfo: {
-              hours: "Her gün açık",
-              bestTime: "Yaz ayları",
-              tips: "Göl çevresinde yürüyüş yaparken doğayı korumaya özen gösterin.",
-            },
-          },
-          type: "natural",
-          image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Eymir_Lake.jpg",
-          slider: {
-            images: [
-              "https://upload.wikimedia.org/wikipedia/commons/4/4e/Eymir_Lake.jpg",
-              "https://upload.wikimedia.org/wikipedia/commons/3/3e/Eymir_Lake_Sunset.jpg",
-            ],
-          },
-          location: "Ankara",
-          latitude: 39.8833,
-          longitude: 32.8667,
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Ankara_castle.jpg/1280px-Ankara_castle.jpg",
+      location: "Altındağ, Ankara",
+      latitude: 39.9372,
+      longitude: 32.8644,
+    },
+    {
+      name: "Augustus Tapınağı",
+      description: "Roma İmparatoru Augustus adına yapılmış antik tapınak",
+      moreDetails: {
+        history:
+          "MÖ 25-20 yılları arasında inşa edilmiş, Roma döneminin önemli yapılarından",
+        architecture: "Mermer sütunlu, Roma mimarisi örneği",
+        visitInfo: {
+          hours: "09:00-17:00",
+          price: "15 TL",
+          bestTime: "Öğleden önce",
+          tips: "Hacı Bayram Camii ile birlikte ziyaret edilebilir",
         },
-        // Ankara için özel alanlar
-        {
-          name: "CerModern",
-          description: "Ankara'nın modern sanat merkezi.",
-          moreDetails: {
-            history: "Eski bir sanayi binası olarak inşa edilmiş, 2010 yılında sanat merkezi olarak açılmıştır.",
-            activities: "Sergiler, atölye çalışmaları ve etkinlikler.",
-            visitInfo: {
-              hours: "10:00 - 19:00",
-              price: "Ücretli",
-              bestTime: "Hafta sonları",
-              tips: "Etkinlik takvimini kontrol etmeyi unutmayın.",
-            },
-          },
-          type: "museum",
-          image: "https://upload.wikimedia.org/wikipedia/commons/1/1e/CerModern_Ankara.jpg",
-          slider: {
-            images: [
-              "https://upload.wikimedia.org/wikipedia/commons/1/1e/CerModern_Ankara.jpg",
-              "https://upload.wikimedia.org/wikipedia/commons/2/2e/CerModern_Interior.jpg",
-            ],
-          },
-          location: "Ankara",
-          latitude: 39.9334,
-          longitude: 32.8597,
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Temple_of_Augustus%2C_Ankara.jpg/1280px-Temple_of_Augustus%2C_Ankara.jpg",
+      location: "Altındağ, Ankara",
+      latitude: 39.9436,
+      longitude: 32.8597,
+    },
+    {
+      name: "Kocatepe Camii",
+      description: "Ankara'nın en büyük camisi.",
+      moreDetails: {
+        history:
+          "1987 yılında inşaatına başlanmış, 1999 yılında tamamlanmıştır.",
+        architecture: "Osmanlı mimarisinin modern bir yorumu.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Gündüz saatleri",
+          tips: "Cami içinde sessiz olunması önemlidir.",
         },
-        // Ankara'nın yemekleri
-        {
-          name: "Ankara Tava",
-          description: "Ankara'nın meşhur et yemeği.",
-          moreDetails: {
-            history: "Ankara Tava, yöresel bir lezzettir.",
-            ingredients: ["Kuzu eti", "Patates", "Soğan", "Biber", "Baharatlar"],
-            preparation: "Malzemeler bir arada pişirilir.",
-            tips: "Yanında yoğurt ile servis edilmesi önerilir.",
-          },
-          type: "food",
-          image: "https://example.com/ankara_tava.jpg",
-          slider: {
-            images: [
-              "https://example.com/ankara_tava1.jpg",
-              "https://example.com/ankara_tava2.jpg",
-            ],
-          },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kocatepe_Mosque_Ankara.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kocatepe_Mosque_Ankara.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kocatepe_Mosque_Interior.jpg",
+        ],
+      },
+      location: "Ankara",
+      latitude: 39.9334,
+      longitude: 32.8597,
+    },
+    // Doğal Yerler
+    {
+      name: "Eymir Gölü",
+      description: "ODTÜ'nün koruması altındaki doğal göl",
+      moreDetails: {
+        history: "Tektonik kökenli doğal bir göl",
+        features: "9.2 km²'lik yüzölçümü, bisiklet ve yürüyüş parkurları",
+        visitInfo: {
+          hours: "07:00-22:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi sabah saatleri",
+          tips: "Bisiklet kiralayabilir, piknik yapabilirsiniz",
         },
+      },
+      type: "natural",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eymir_Lake.jpg/1280px-Eymir_Lake.jpg",
+      location: "Gölbaşı, Ankara",
+      latitude: 39.8149,
+      longitude: 32.834,
+    },
+    {
+      name: "Karagöl Tabiat Parkı",
+      description: "Doğal güzellikleriyle ünlü tabiat parkı",
+      moreDetails: {
+        history: "Heyelan sonucu oluşmuş doğal bir göl ve çevresi",
+        features: "Göl, orman, kamp alanları",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Giriş ücretsiz, kamp ücretli",
+          bestTime: "Yaz ayları",
+          tips: "Kamp malzemelerinizi getirin",
+        },
+      },
+      type: "natural",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Karagol_Nature_Park.jpg/1280px-Karagol_Nature_Park.jpg",
+      location: "Kızılcahamam, Ankara",
+      latitude: 40.4972,
+      longitude: 32.6161,
+    },
+    // Özel Alanlar
+    {
+      name: "Anadolu Medeniyetleri Müzesi",
+      description: "Anadolu'nun tarih öncesi eserlerinin sergilendiği müze",
+      moreDetails: {
+        history: "1921'de kurulmuş, 1967'de Avrupa'da Yılın Müzesi seçilmiş",
+        collections: "Paleolitik dönemden Osmanlı'ya uzanan geniş koleksiyon",
+        visitInfo: {
+          hours: "08:30-17:30",
+          price: "65 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Rehberli tur alabilirsiniz",
+        },
+      },
+      type: "museum",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Museum_of_Anatolian_Civilizations.jpg/1280px-Museum_of_Anatolian_Civilizations.jpg",
+      location: "Altındağ, Ankara",
+      latitude: 39.9372,
+      longitude: 32.8644,
+    },
+    {
+      name: "Tunalı Hilmi Caddesi",
+      description: "Ankara'nın en canlı alışveriş ve eğlence caddesi",
+      moreDetails: {
+        history: "1960'lardan beri Ankara'nın modern yüzü",
+        features: "Kafeler, restoranlar, mağazalar",
+        visitInfo: {
+          hours: "Dükkanlar 10:00-22:00",
+          bestTime: "Akşamüstü",
+          tips: "Kuğulu Park'ı da ziyaret edin",
+        },
+      },
+      type: "special",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tunali_Hilmi_Street.jpg/1280px-Tunali_Hilmi_Street.jpg",
+      location: "Çankaya, Ankara",
+      latitude: 39.9075,
+      longitude: 32.8637,
+    },
+    // Yemekler
+    {
+      name: "Ankara Tava",
+      description: "Ankara'nın meşhur kuzu eti yemeği",
+      moreDetails: {
+        history: "Geleneksel Ankara mutfağının en önemli yemeklerinden",
+        preparation: "Kuzu eti, soğan ve patates özel baharatlarla pişirilir",
+        tasteInfo: {
+          bestPlaces: [
+            "Hacı Arif Bey",
+            "Çiftlik Restaurant",
+            "Ankara Tava Evi",
+          ],
+          price: "100-200 TL",
+          tips: "Yanında Ankara simidi ile servis edilir",
+        },
+      },
+      type: "food",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ankara_Tava.jpg/1280px-Ankara_Tava.jpg",
+      location: "Ankara geneli",
+    },
+    {
+      name: "İşkembe Çorbası",
+      description: "Ankara'nın meşhur işkembe çorbası",
+      moreDetails: {
+        history: "Geleneksel Türk mutfağının vazgeçilmezi",
+        preparation: "İşkembe özel teknikle temizlenir ve saatlerce pişirilir",
+        tasteInfo: {
+          bestPlaces: [
+            "Ulus İşkembecisi",
+            "Sabah Çorbacısı",
+            "Meşhur İşkembeci",
+          ],
+          price: "40-60 TL",
+          tips: "Sarımsaklı sirke ve kırmızı biber ile servis edilir",
+        },
+      },
+      type: "food",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Iskembe_Corbasi.jpg/1280px-Iskembe_Corbasi.jpg",
+      location: "Ankara geneli",
+    },
+    {
+      name: "Ankara Simidi",
+      description: "Ankara'ya özgü susamsız simit çeşidi",
+      moreDetails: {
+        history: "Yüzyıllardır Ankara'nın geleneksel hamur işi",
+        preparation: "Özel hamuru mayalandırılarak şekillendirilir",
+        tasteInfo: {
+          bestPlaces: ["Ulus Simitçileri", "Kızılay Fırını", "Simit Sarayı"],
+          price: "5-10 TL",
+          tips: "Taze taze, sıcak tüketilmesi önerilir",
+        },
+      },
+      type: "food",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ankara_Simit.jpg/1280px-Ankara_Simit.jpg",
+      location: "Ankara geneli",
+    },
+    // Ankara için özel alanlar
+    {
+      name: "CerModern",
+      description: "Ankara'nın modern sanat merkezi.",
+      moreDetails: {
+        history:
+          "Eski bir sanayi binası olarak inşa edilmiş, 2010 yılında sanat merkezi olarak açılmıştır.",
+        activities: "Sergiler, atölye çalışmaları ve etkinlikler.",
+        visitInfo: {
+          hours: "10:00 - 19:00",
+          price: "Ücretli",
+          bestTime: "Hafta sonları",
+          tips: "Etkinlik takvimini kontrol etmeyi unutmayın.",
+        },
+      },
+      type: "museum",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/1/1e/CerModern_Ankara.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1e/CerModern_Ankara.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2e/CerModern_Interior.jpg",
+        ],
+      },
+      location: "Ankara",
+      latitude: 39.9334,
+      longitude: 32.8597,
+    },
+    // Tarihi Yerler bölümüne eklenecek yeni yerler
+    {
+      name: "Ulucanlar Cezaevi Müzesi",
+      description:
+        "Cumhuriyet tarihine tanıklık etmiş, müzeye dönüştürülmüş tarihi cezaevi",
+      moreDetails: {
+        history:
+          "1925 yılında inşa edilen ve 2006 yılına kadar cezaevi olarak kullanılan yapı, 2011'de müze olarak açılmıştır. Deniz Gezmiş, Yılmaz Güney, Bülent Ecevit gibi önemli isimler burada tutuklu kalmıştır.",
+        architecture:
+          "Erken Cumhuriyet dönemi mimari özelliklerini taşıyan tarihi yapı",
+        visitInfo: {
+          hours: "09:30-17:00 (Pazartesi günleri kapalı)",
+          price: "20 TL",
+          bestTime: "Hafta içi öğleden önce",
+          tips: "Rehberli turlar ile gezmek daha bilgilendirici olacaktır",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ulucanlar_Prison_Museum.jpg/1280px-Ulucanlar_Prison_Museum.jpg",
+      location: "Altındağ, Ankara",
+      latitude: 39.9372,
+      longitude: 32.8644,
+    },
+    {
+      name: "I. TBMM Binası",
+      description:
+        "Türkiye Cumhuriyeti'nin ilk meclis binası, şimdi müze olarak hizmet vermektedir",
+      moreDetails: {
+        history:
+          "1920-1924 yılları arasında Türkiye Büyük Millet Meclisi olarak kullanılmış, Kurtuluş Savaşı'nın yönetildiği tarihi bina",
+        architecture:
+          "İttihat ve Terakki Cemiyeti'nin kulüp binası olarak inşa edilmiş, iki katlı tarihi yapı",
+        visitInfo: {
+          hours: "09:00-16:30 (Pazartesi günleri kapalı)",
+          price: "Ücretsiz",
+          bestTime: "Sabah saatleri",
+          tips: "Meclis'in açılış günü olan 23 Nisan'da özel etkinlikler düzenlenir",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/First_Parliament_Building_of_Turkey.jpg/1280px-First_Parliament_Building_of_Turkey.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9377,
+      longitude: 32.8539,
+    },
+    {
+      name: "II. TBMM Binası",
+      description:
+        "1924-1960 yılları arasında meclis binası olarak kullanılan tarihi yapı",
+      moreDetails: {
+        history:
+          "Cumhuriyet'in ilk yıllarında Vedat Tek tarafından tasarlanan bina, önemli tarihi kararlara ev sahipliği yapmıştır",
+        architecture: "Birinci Ulusal Mimarlık Akımı'nın önemli örneklerinden",
+        visitInfo: {
+          hours: "09:00-16:30 (Pazartesi günleri kapalı)",
+          price: "Ücretsiz",
+          bestTime: "Öğleden önce",
+          tips: "Cumhuriyet Müzesi olarak hizmet vermektedir, rehberli turlar mevcuttur",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Second_Parliament_Building_of_Turkey.jpg/1280px-Second_Parliament_Building_of_Turkey.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9382,
+      longitude: 32.8542,
+    },
+    {
+      name: "Etnografya Müzesi",
+      description: "Türk kültürünü ve etnografyasını sergileyen önemli müze",
+      moreDetails: {
+        history:
+          "1927'de açılan müze, 1938-1953 yılları arasında Atatürk'ün geçici kabri olarak kullanılmıştır",
+        collections:
+          "Türk kültürüne ait etnografik eserler, el sanatları, geleneksel kıyafetler",
+        visitInfo: {
+          hours: "08:30-17:30 (Pazartesi günleri kapalı)",
+          price: "45 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Müzenin bahçesinden Ankara manzarası izlenebilir",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ethnography_Museum_of_Ankara.jpg/1280px-Ethnography_Museum_of_Ankara.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9365,
+      longitude: 32.8547,
+    },
+    {
+      name: "Hacı Bayram-ı Veli Camii",
+      description: "15. yüzyıldan kalma tarihi cami ve türbe kompleksi",
+      moreDetails: {
+        history:
+          "1427-1428 yıllarında inşa edilmiş, Ankara'nın en önemli manevi merkezlerinden",
+        architecture: "Selçuklu ve Osmanlı mimarisinin izlerini taşıyan yapı",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Namaz vakitleri dışında",
+          tips: "Augustus Tapınağı ile yan yana bulunmaktadır, birlikte ziyaret edilebilir",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Haci_Bayram_Mosque.jpg/1280px-Haci_Bayram_Mosque.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9436,
+      longitude: 32.8597,
+    },
+    // Ankara'nın yemekleri
+    {
+      name: "Ankara Tava",
+      description: "Ankara'nın meşhur et yemeği.",
+      moreDetails: {
+        history: "Ankara Tava, yöresel bir lezzettir.",
+        ingredients: ["Kuzu eti", "Patates", "Soğan", "Biber", "Baharatlar"],
+        preparation: "Malzemeler bir arada pişirilir.",
+        tips: "Yanında yoğurt ile servis edilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://example.com/ankara_tava.jpg",
+      slider: {
+        images: [
+          "https://example.com/ankara_tava1.jpg",
+          "https://example.com/ankara_tava2.jpg",
+        ],
+      },
+    },
+    // Tarihi Yerler bölümüne eklenecek yeni yerler
+    {
+      name: "Ulucanlar Cezaevi Müzesi",
+      description:
+        "Cumhuriyet tarihine tanıklık etmiş, müzeye dönüştürülmüş tarihi cezaevi",
+      moreDetails: {
+        history:
+          "1925 yılında inşa edilen ve 2006 yılına kadar cezaevi olarak kullanılan yapı, 2011'de müze olarak açılmıştır. Deniz Gezmiş, Yılmaz Güney, Bülent Ecevit gibi önemli isimler burada tutuklu kalmıştır.",
+        architecture:
+          "Erken Cumhuriyet dönemi mimari özelliklerini taşıyan tarihi yapı",
+        visitInfo: {
+          hours: "09:30-17:00 (Pazartesi günleri kapalı)",
+          price: "20 TL",
+          bestTime: "Hafta içi öğleden önce",
+          tips: "Rehberli turlar ile gezmek daha bilgilendirici olacaktır",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ulucanlar_Prison_Museum.jpg/1280px-Ulucanlar_Prison_Museum.jpg",
+      location: "Altındağ, Ankara",
+      latitude: 39.9372,
+      longitude: 32.8644,
+    },
+    {
+      name: "I. TBMM Binası",
+      description:
+        "Türkiye Cumhuriyeti'nin ilk meclis binası, şimdi müze olarak hizmet vermektedir",
+      moreDetails: {
+        history:
+          "1920-1924 yılları arasında Türkiye Büyük Millet Meclisi olarak kullanılmış, Kurtuluş Savaşı'nın yönetildiği tarihi bina",
+        architecture:
+          "İttihat ve Terakki Cemiyeti'nin kulüp binası olarak inşa edilmiş, iki katlı tarihi yapı",
+        visitInfo: {
+          hours: "09:00-16:30 (Pazartesi günleri kapalı)",
+          price: "Ücretsiz",
+          bestTime: "Sabah saatleri",
+          tips: "Meclis'in açılış günü olan 23 Nisan'da özel etkinlikler düzenlenir",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/First_Parliament_Building_of_Turkey.jpg/1280px-First_Parliament_Building_of_Turkey.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9377,
+      longitude: 32.8539,
+    },
+    {
+      name: "II. TBMM Binası",
+      description:
+        "1924-1960 yılları arasında meclis binası olarak kullanılan tarihi yapı",
+      moreDetails: {
+        history:
+          "Cumhuriyet'in ilk yıllarında Vedat Tek tarafından tasarlanan bina, önemli tarihi kararlara ev sahipliği yapmıştır",
+        architecture: "Birinci Ulusal Mimarlık Akımı'nın önemli örneklerinden",
+        visitInfo: {
+          hours: "09:00-16:30 (Pazartesi günleri kapalı)",
+          price: "Ücretsiz",
+          bestTime: "Öğleden önce",
+          tips: "Cumhuriyet Müzesi olarak hizmet vermektedir, rehberli turlar mevcuttur",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Second_Parliament_Building_of_Turkey.jpg/1280px-Second_Parliament_Building_of_Turkey.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9382,
+      longitude: 32.8542,
+    },
+    {
+      name: "Etnografya Müzesi",
+      description: "Türk kültürünü ve etnografyasını sergileyen önemli müze",
+      moreDetails: {
+        history:
+          "1927'de açılan müze, 1938-1953 yılları arasında Atatürk'ün geçici kabri olarak kullanılmıştır",
+        collections:
+          "Türk kültürüne ait etnografik eserler, el sanatları, geleneksel kıyafetler",
+        visitInfo: {
+          hours: "08:30-17:30 (Pazartesi günleri kapalı)",
+          price: "45 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Müzenin bahçesinden Ankara manzarası izlenebilir",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ethnography_Museum_of_Ankara.jpg/1280px-Ethnography_Museum_of_Ankara.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9365,
+      longitude: 32.8547,
+    },
+    {
+      name: "Hacı Bayram-ı Veli Camii",
+      description: "15. yüzyıldan kalma tarihi cami ve türbe kompleksi",
+      moreDetails: {
+        history:
+          "1427-1428 yıllarında inşa edilmiş, Ankara'nın en önemli manevi merkezlerinden",
+        architecture: "Selçuklu ve Osmanlı mimarisinin izlerini taşıyan yapı",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Namaz vakitleri dışında",
+          tips: "Augustus Tapınağı ile yan yana bulunmaktadır, birlikte ziyaret edilebilir",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Haci_Bayram_Mosque.jpg/1280px-Haci_Bayram_Mosque.jpg",
+      location: "Ulus, Ankara",
+      latitude: 39.9436,
+      longitude: 32.8597,
+    },
   ],
   "07": [
     // Antaly
