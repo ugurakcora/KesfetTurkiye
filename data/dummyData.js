@@ -1541,6 +1541,128 @@ export const culturalPlaces = {
       longitude: 35.8333,
     },
   ],
+  "06": [
+        // Ankara için tarihî yerler
+        {
+          name: "Anıtkabir",
+          description: "Mustafa Kemal Atatürk'ün anıt mezarı.",
+          moreDetails: {
+            history: "Anıtkabir, 1944 yılında tamamlanmıştır.",
+            architecture: "Modern mimari ile inşa edilmiş, büyük bir anıt.",
+            visitInfo: {
+              hours: "08:00 - 17:00",
+              price: "Ücretsiz",
+              bestTime: "Gündüz saatleri",
+              tips: "Ziyaret sırasında saygılı olunması önemlidir.",
+            },
+          },
+          type: "historical",
+          image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anitkabir_Ankara.jpg",
+          slider: {
+            images: [
+              "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anitkabir_Ankara.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/1/1e/Anitkabir_Ankara_2.jpg",
+            ],
+          },
+          location: "Ankara",
+          latitude: 39.9334,
+          longitude: 32.8597,
+        },
+        {
+          name: "Kocatepe Camii",
+          description: "Ankara'nın en büyük camisi.",
+          moreDetails: {
+            history: "1987 yılında inşaatına başlanmış, 1999 yılında tamamlanmıştır.",
+            architecture: "Osmanlı mimarisinin modern bir yorumu.",
+            visitInfo: {
+              hours: "Her gün açık",
+              bestTime: "Gündüz saatleri",
+              tips: "Cami içinde sessiz olunması önemlidir.",
+            },
+          },
+          type: "historical",
+          image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kocatepe_Mosque_Ankara.jpg",
+          slider: {
+            images: [
+              "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kocatepe_Mosque_Ankara.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kocatepe_Mosque_Interior.jpg",
+            ],
+          },
+          location: "Ankara",
+          latitude: 39.9334,
+          longitude: 32.8597,
+        },
+        // Ankara için doğal yerler
+        {
+          name: "Eymir Gölü",
+          description: "Ankara'nın doğal güzelliklerinden biri.",
+          moreDetails: {
+            history: "Göl, doğal bir oluşumdur ve çevresi piknik alanı olarak kullanılır.",
+            activities: "Yürüyüş, bisiklet sürme ve piknik yapma imkanı.",
+            visitInfo: {
+              hours: "Her gün açık",
+              bestTime: "Yaz ayları",
+              tips: "Göl çevresinde yürüyüş yaparken doğayı korumaya özen gösterin.",
+            },
+          },
+          type: "natural",
+          image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Eymir_Lake.jpg",
+          slider: {
+            images: [
+              "https://upload.wikimedia.org/wikipedia/commons/4/4e/Eymir_Lake.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/3/3e/Eymir_Lake_Sunset.jpg",
+            ],
+          },
+          location: "Ankara",
+          latitude: 39.8833,
+          longitude: 32.8667,
+        },
+        // Ankara için özel alanlar
+        {
+          name: "CerModern",
+          description: "Ankara'nın modern sanat merkezi.",
+          moreDetails: {
+            history: "Eski bir sanayi binası olarak inşa edilmiş, 2010 yılında sanat merkezi olarak açılmıştır.",
+            activities: "Sergiler, atölye çalışmaları ve etkinlikler.",
+            visitInfo: {
+              hours: "10:00 - 19:00",
+              price: "Ücretli",
+              bestTime: "Hafta sonları",
+              tips: "Etkinlik takvimini kontrol etmeyi unutmayın.",
+            },
+          },
+          type: "museum",
+          image: "https://upload.wikimedia.org/wikipedia/commons/1/1e/CerModern_Ankara.jpg",
+          slider: {
+            images: [
+              "https://upload.wikimedia.org/wikipedia/commons/1/1e/CerModern_Ankara.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/2/2e/CerModern_Interior.jpg",
+            ],
+          },
+          location: "Ankara",
+          latitude: 39.9334,
+          longitude: 32.8597,
+        },
+        // Ankara'nın yemekleri
+        {
+          name: "Ankara Tava",
+          description: "Ankara'nın meşhur et yemeği.",
+          moreDetails: {
+            history: "Ankara Tava, yöresel bir lezzettir.",
+            ingredients: ["Kuzu eti", "Patates", "Soğan", "Biber", "Baharatlar"],
+            preparation: "Malzemeler bir arada pişirilir.",
+            tips: "Yanında yoğurt ile servis edilmesi önerilir.",
+          },
+          type: "food",
+          image: "https://example.com/ankara_tava.jpg",
+          slider: {
+            images: [
+              "https://example.com/ankara_tava1.jpg",
+              "https://example.com/ankara_tava2.jpg",
+            ],
+          },
+        },
+  ],
   "07": [
     // Antaly
     {
