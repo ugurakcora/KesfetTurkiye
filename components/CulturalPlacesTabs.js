@@ -61,15 +61,19 @@ const CulturalPlacesTabs = ({ children, onTabPress }) => {
 };
 
 const styles = StyleSheet.create({
-  tabBar: {
+  container: {
+    flex: 1,
     backgroundColor: "white",
+  },
+  tabBar: {
+    flexDirection: "row",
+    paddingTop: Platform.OS === "ios" ? 50 : 20,
+    paddingHorizontal: 16,
+    backgroundColor: "white",
+    borderBottomWidth: 1,
+    borderBottomColor: "#eee",
     elevation: 0,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 3,
-    borderBottomWidth: 0,
-    height: 80,
+    shadowOpacity: 0,
   },
   tabLabel: {
     fontSize: 13,
@@ -81,8 +85,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#FF385C",
     height: 3,
     borderRadius: 3,
-    width: width / 9,
-    marginLeft: width / 9,
+    width: width / 8,
+    marginLeft: width / 7,
   },
   iconWrapper: {
     width: 40,

@@ -1,50 +1,30 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import CitySelect from './screens/CountryAndCitySelect';
-import CulturalPlaces from './screens/CulturalPlaces';
-import PlaceDetails from './screens/PlaceDetails';
-import { translate } from './translations';
-
-const Stack = createNativeStackNavigator();
+import React, { useEffect } from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { Provider } from "react-redux";
+import { store } from "./store";
+import AppNavigator from "./navigation/AppNavigator";
+import { checkUser } from "./store/authSlice";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { StyleSheet } from "react-native";
 
 export default function App() {
+  useEffect(() => {
+    store.dispatch(checkUser());
+  }, []);
+
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen 
-          name="Home" 
-          component={CitySelect} 
-          options={{ 
-            headerShown: false // Başlığı gizle
-          }}
-        />
-        <Stack.Screen 
-          name="CulturalPlaces" 
-          component={CulturalPlaces} 
-          options={{
-            headerTransparent: false,
-            headerTintColor: '#000', // Geri butonunun rengi siyah
-            headerTitle: translate('culturalPlaces'),
-            headerBackTitle: translate('back'),
-            headerShadowVisible: true,
-            headerBlurEffect: 'light',
-            headerBackTitleStyle: { color: '#000' }, // Geri butonunun yazı rengi siyah
-          }}
-        />
-        <Stack.Screen 
-          name="PlaceDetails" 
-          component={PlaceDetails} 
-          options={{
-            headerTransparent: true,
-            headerTintColor: '#000', // Geri butonunun rengi siyah
-            headerTitle: '',
-            headerBackTitle: translate('back'),
-            headerShadowVisible: false,
-            headerBlurEffect: 'dark',
-            headerBackTitleStyle: { color: '#000' }, // Geri butonunun yazı rengi siyah
-          }}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Provider store={store}>
+      <GestureHandlerRootView style={styles.container}>
+        <NavigationContainer>
+          <AppNavigator />
+        </NavigationContainer>
+      </GestureHandlerRootView>
+    </Provider>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
