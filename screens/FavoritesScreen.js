@@ -5,7 +5,6 @@ import {
   StyleSheet,
   FlatList,
   ActivityIndicator,
-  Animated,
   Platform,
   SafeAreaView,
   Dimensions,
@@ -24,26 +23,12 @@ const FavoritesScreen = ({ navigation }) => {
     (state) => state.favorites
   );
 
-  console.log("Favoriler knk:", favorites);
-
-  // Animation value for fade in
-  const fadeAnim = new Animated.Value(0);
-
   useEffect(() => {
-    // Fetch favorites when component mounts
     if (user) {
       dispatch(fetchUserFavorites(user.id));
     }
-
-    // Start fade in animation
-    Animated.timing(fadeAnim, {
-      toValue: 1,
-      duration: 1000,
-      useNativeDriver: true,
-    }).start();
   }, [user]);
 
-  // Render empty state
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
       <Icon
@@ -61,7 +46,6 @@ const FavoritesScreen = ({ navigation }) => {
     </View>
   );
 
-  // Render loading state
   if (isLoading) {
     return (
       <View style={styles.loadingContainer}>
@@ -70,7 +54,6 @@ const FavoritesScreen = ({ navigation }) => {
     );
   }
 
-  // Render error state
   if (error) {
     return (
       <View style={styles.errorContainer}>
@@ -80,7 +63,6 @@ const FavoritesScreen = ({ navigation }) => {
     );
   }
 
-  // Render empty state if no favorites
   if (!favorites || favorites.length === 0) {
     return (
       <SafeAreaView style={styles.container}>
@@ -95,36 +77,29 @@ const FavoritesScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Animated.View style={[styles.container, { opacity: fadeAnim }]}>
-        <View style={styles.header}>
-          <Text style={styles.title}>Favorilerim</Text>
-          <Text style={styles.subtitle}>
-            {favorites.length} favori yeriniz bulunuyor
-          </Text>
-        </View>
+      <View style={styles.header}>
+        <Text style={styles.title}>Favorilerim</Text>
+        <Text style={styles.subtitle}>
+          {favorites.length} favori yeriniz bulunuyor
+        </Text>
+      </View>
 
-        <FlatList
-          data={favorites}
-          keyExtractor={(item) => item.id || item.place_id}
-          renderItem={({ item }) => (
-            <View style={styles.cardContainer}>
-              <PlaceCard
-                place={item.place_data}
-                onPress={() =>
-                  navigation.navigate("PlaceDetails", {
-                    place: item.place_data,
-                  })
-                }
-              />
-            </View>
-          )}
-          contentContainerStyle={[
-            styles.listContainer,
-            { minHeight: favorites.length === 0 ? height - 200 : "auto" },
-          ]}
-          showsVerticalScrollIndicator={false}
-        />
-      </Animated.View>
+      <FlatList
+        data={favorites}
+        keyExtractor={(item) => item.id || item.place_id}
+        renderItem={({ item }) => (
+          <PlaceCard
+            place={item.place_data}
+            onPress={() =>
+              navigation.navigate("PlaceDetails", {
+                place: item.place_data,
+              })
+            }
+          />
+        )}
+        contentContainerStyle={styles.listContainer}
+        showsVerticalScrollIndicator={false}
+      />
     </SafeAreaView>
   );
 };
@@ -132,12 +107,11 @@ const FavoritesScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f8f8f8",
+    backgroundColor: "white",
   },
   header: {
-    backgroundColor: "white",
     padding: 20,
-    paddingTop: Platform.OS === "ios" ? 60 : 20,
+    paddingTop: Platform.OS === "ios" ? 20 : 60,
     borderBottomWidth: 1,
     borderBottomColor: "#eee",
   },
@@ -154,20 +128,6 @@ const styles = StyleSheet.create({
   listContainer: {
     padding: 16,
     paddingTop: 8,
-  },
-  cardContainer: {
-    marginBottom: 16,
-    backgroundColor: "white",
-    borderRadius: 12,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.1,
-    shadowRadius: 3.84,
-    elevation: 5,
-    overflow: "hidden",
   },
   loadingContainer: {
     flex: 1,
