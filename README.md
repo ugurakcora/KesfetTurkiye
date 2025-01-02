@@ -105,5 +105,6 @@ Eğer bu projeyi beğendiyseniz, ⭐️ vermeyi unutmayın!
 - [Supabase](https://supabase.com/)
 
 ```
-Made with ❤️ by Uğur Akçora
+Made with ❤️ by Uğur Akçora - 2024
+
 ```
