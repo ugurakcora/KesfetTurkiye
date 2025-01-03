@@ -6,6 +6,8 @@ import SignupScreen from "../screens/SignupScreen";
 import BottomTabNavigator from "./BottomTabNavigator";
 import CulturalPlaces from "../screens/CulturalPlaces";
 import PlaceDetails from "../screens/PlaceDetails";
+import HelpScreen from "../screens/HelpScreen";
+import AboutScreen from "../screens/AboutScreen";
 
 const Stack = createStackNavigator();
 
@@ -26,6 +28,8 @@ const AppNavigator = () => {
           <Stack.Screen name="MainApp" component={BottomTabNavigator} />
           <Stack.Screen name="CulturalPlaces" component={CulturalPlaces} />
           <Stack.Screen name="PlaceDetails" component={PlaceDetails} />
+          <Stack.Screen name="Help" component={HelpScreen} />
+          <Stack.Screen name="About" component={AboutScreen} />
         </>
       )}
     </Stack.Navigator>
