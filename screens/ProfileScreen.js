@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { Icon } from "react-native-elements";
 import { useDispatch, useSelector } from "react-redux";
-import { signOut } from "../store/authSlice";
+import { logoutUser } from "../store/authSlice";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const MENU_ITEMS = [
@@ -65,7 +65,7 @@ const ProfileScreen = ({ navigation }) => {
           {
             text: "Çıkış Yap",
             style: "destructive",
-            onPress: () => dispatch(signOut()),
+            onPress: () => dispatch(logoutUser()),
           },
         ],
         { cancelable: true }
