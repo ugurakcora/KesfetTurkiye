@@ -21,6 +21,7 @@ const MENU_ITEMS = [
     icon: "favorite-border",
     type: "material",
     screen: "Favorites",
+    params: { fromProfile: true },
   },
   {
     id: "help",
@@ -49,6 +50,7 @@ const ProfileScreen = ({ navigation }) => {
   const dispatch = useDispatch();
   const insets = useSafeAreaInsets();
   const { user } = useSelector((state) => state.auth);
+  console.log("user:", user);
 
   const handleMenuPress = (item) => {
     if (item.id === "logout") {
@@ -117,11 +119,21 @@ const ProfileScreen = ({ navigation }) => {
           <View style={styles.profileInfo}>
             <View style={styles.avatarContainer}>
               <Text style={styles.avatarText}>
-                {user?.email?.charAt(0).toUpperCase()}
+                {user?.user_metadata?.full_name
+                  ? user?.user_metadata?.full_name
+                      .split(" ")
+                      .slice(0, 2)
+                      .map((name) => name.charAt(0).toUpperCase())
+                      .join("")
+                  : user?.email?.charAt(0).toUpperCase()}
               </Text>
             </View>
             <View style={styles.userInfo}>
-              <Text style={styles.userName}>{user?.email}</Text>
+              <Text style={styles.userName}>
+                {user?.user_metadata?.full_name
+                  ? user?.user_metadata?.full_name
+                  : user?.email}
+              </Text>
               <TouchableOpacity
                 style={styles.editButton}
                 onPress={() => navigation.navigate("EditProfile")}

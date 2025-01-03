@@ -8,6 +8,8 @@ import CulturalPlaces from "../screens/CulturalPlaces";
 import PlaceDetails from "../screens/PlaceDetails";
 import HelpScreen from "../screens/HelpScreen";
 import AboutScreen from "../screens/AboutScreen";
+import FavoritesScreen from "../screens/FavoritesScreen";
+import EditProfileScreen from "../screens/EditProfileScreen";
 
 const Stack = createStackNavigator();
 
@@ -30,6 +32,8 @@ const AppNavigator = () => {
           <Stack.Screen name="PlaceDetails" component={PlaceDetails} />
           <Stack.Screen name="Help" component={HelpScreen} />
           <Stack.Screen name="About" component={AboutScreen} />
+          <Stack.Screen name="Favorites" component={FavoritesScreen} />
+          <Stack.Screen name="EditProfile" component={EditProfileScreen} />
         </>
       )}
     </Stack.Navigator>
