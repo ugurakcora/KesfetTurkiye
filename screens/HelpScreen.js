@@ -63,22 +63,12 @@ const CONTACT_OPTIONS = [
 
 const AccordionItem = ({ item, index }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const animatedHeight = new Animated.Value(0);
-
-  const toggleAccordion = () => {
-    setIsOpen(!isOpen);
-    Animated.timing(animatedHeight, {
-      toValue: isOpen ? 0 : 1,
-      duration: 300,
-      useNativeDriver: false,
-    }).start();
-  };
 
   return (
     <View style={styles.accordionItem}>
       <TouchableOpacity
         style={styles.accordionHeader}
-        onPress={toggleAccordion}
+        onPress={() => setIsOpen(!isOpen)}
         activeOpacity={0.7}
       >
         <Text style={styles.accordionTitle}>{item.question}</Text>
@@ -89,19 +79,11 @@ const AccordionItem = ({ item, index }) => {
           color="#666"
         />
       </TouchableOpacity>
-      <Animated.View
-        style={[
-          styles.accordionContent,
-          {
-            maxHeight: animatedHeight.interpolate({
-              inputRange: [0, 1],
-              outputRange: [0, 500],
-            }),
-          },
-        ]}
-      >
-        <Text style={styles.accordionText}>{item.answer}</Text>
-      </Animated.View>
+      {isOpen && (
+        <View style={styles.accordionContent}>
+          <Text style={styles.accordionText}>{item.answer}</Text>
+        </View>
+      )}
     </View>
   );
 };
@@ -226,14 +208,14 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   accordionContent: {
-    overflow: "hidden",
+    padding: 16,
+    paddingTop: 0,
+    backgroundColor: "#fff",
   },
   accordionText: {
     fontSize: 14,
     color: "#666",
     lineHeight: 20,
-    padding: 16,
-    paddingTop: 0,
   },
   contactContainer: {
     backgroundColor: "#fff",
