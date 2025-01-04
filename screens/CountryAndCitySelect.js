@@ -120,6 +120,48 @@ const NearbyPlaces = ({ places, navigation, location }) => {
         renderItem={renderItem}
         contentContainerStyle={styles.nearbyPlacesList}
       />
+      <Modal
+        isVisible={showAuthModal}
+        onBackdropPress={() => setShowAuthModal(false)}
+        animationIn="fadeIn"
+        animationOut="fadeOut"
+        backdropOpacity={0.5}
+        style={styles.modal}
+      >
+        <View style={styles.modalContent}>
+          <Icon
+            name="favorite"
+            type="material"
+            size={50}
+            color="#FF385C"
+            style={styles.modalIcon}
+          />
+          <Text style={styles.modalTitle}>Favorilere Ekle</Text>
+          <Text style={styles.modalText}>
+            Favori yerlerinizi kaydetmek için giriş yapın veya kayıt olun.
+          </Text>
+          <TouchableOpacity
+            style={[styles.modalButton, styles.loginButton]}
+            onPress={() => {
+              setShowAuthModal(false);
+              navigation.navigate("Login");
+            }}
+          >
+            <Text style={styles.buttonText}>Giriş Yap</Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.modalButton, styles.signupButton]}
+            onPress={() => {
+              setShowAuthModal(false);
+              navigation.navigate("Signup");
+            }}
+          >
+            <Text style={[styles.buttonText, styles.signupButtonText]}>
+              Kayıt Ol
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </Modal>
     </View>
   );
 };
@@ -134,8 +176,6 @@ export default function CountryAndCitySelect() {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [nearbyPlaces, setNearbyPlaces] = useState([]);
-  const [showAuthModal, setShowAuthModal] = useState(false);
-  const [selectedPlace, setSelectedPlace] = useState(null);
   const [address, setAddress] = useState({
     district: "",
     city: "",
@@ -264,47 +304,6 @@ export default function CountryAndCitySelect() {
 
         <View style={styles.bottomPadding} />
       </ScrollView>
-
-      <Modal
-        isVisible={showAuthModal}
-        onBackdropPress={() => setShowAuthModal(false)}
-        animationIn="fadeIn"
-        animationOut="fadeOut"
-        backdropOpacity={0.5}
-        style={styles.modal}
-      >
-        <View style={styles.modalContent}>
-          <Icon
-            name="favorite"
-            type="material"
-            size={50}
-            color="#FF385C"
-            style={styles.modalIcon}
-          />
-          <Text style={styles.modalTitle}>Favorilere Ekle</Text>
-          <Text style={styles.modalText}>
-            Favori yerlerinizi kaydetmek için giriş yapın veya kayıt olun.
-          </Text>
-          <TouchableOpacity
-            style={[styles.modalButton, styles.loginButton]}
-            onPress={() => {
-              setShowAuthModal(false);
-              navigation.navigate("Login");
-            }}
-          >
-            <Text style={styles.buttonText}>Giriş Yap</Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[styles.modalButton, styles.signupButton]}
-            onPress={() => {
-              setShowAuthModal(false);
-              navigation.navigate("Signup");
-            }}
-          >
-            <Text style={styles.buttonText}>Kayıt Ol</Text>
-          </TouchableOpacity>
-        </View>
-      </Modal>
     </LinearGradient>
   );
 }
