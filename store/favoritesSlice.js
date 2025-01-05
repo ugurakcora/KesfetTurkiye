@@ -22,7 +22,7 @@ export const fetchUserFavorites = createAsyncThunk(
 // Add favorite
 export const addFavorite = createAsyncThunk(
   "favorites/addFavorite",
-  async ({ userId, placeId, placeData }, { rejectWithValue }) => {
+  async ({ userId, placeId, placeData }, { rejectWithValue, getState }) => {
     try {
       console.log("Adding favorite to Supabase:", {
         userId,
@@ -30,6 +30,35 @@ export const addFavorite = createAsyncThunk(
         placeData,
       });
 
+      // Önce favorilerde var mı kontrol et
+      const { data: existingFavorite, error: checkError } = await supabase
+        .from("favorites")
+        .select("*")
+        .eq("user_id", userId)
+        .eq("place_id", placeId)
+        .single();
+
+      if (checkError && checkError.code !== "PGRST116") {
+        console.error("Supabase check error:", checkError);
+        return rejectWithValue(checkError.message);
+      }
+
+      // Eğer zaten favorilerdeyse, silme işlemi yap
+      if (existingFavorite) {
+        const { error: deleteError } = await supabase
+          .from("favorites")
+          .delete()
+          .match({ user_id: userId, place_id: placeId });
+
+        if (deleteError) {
+          console.error("Supabase delete error:", deleteError);
+          return rejectWithValue(deleteError.message);
+        }
+
+        return { placeId, removed: true };
+      }
+
+      // Favorilerde yoksa, yeni favori ekle
       const { data, error } = await supabase
         .from("favorites")
         .insert([
@@ -47,7 +76,7 @@ export const addFavorite = createAsyncThunk(
       }
 
       console.log("Successfully added favorite:", data[0]);
-      return data[0];
+      return { ...data[0], removed: false };
     } catch (error) {
       console.error("Error adding favorite:", error);
       return rejectWithValue(error.message);
@@ -116,7 +145,13 @@ const favoritesSlice = createSlice({
       })
       .addCase(addFavorite.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.favorites.push(action.payload);
+        if (action.payload.removed) {
+          state.favorites = state.favorites.filter(
+            (fav) => fav.place_id !== action.payload.placeId
+          );
+        } else {
+          state.favorites.push(action.payload);
+        }
       })
       .addCase(addFavorite.rejected, (state, action) => {
         state.isLoading = false;

@@ -53,18 +53,18 @@ const LoginScreen = ({ navigation }) => {
       navigation.dispatch(
         CommonActions.reset({
           index: 0,
-          routes: [{ name: "MainApp" }],
+          routes: [{ name: "BottomTabs" }],
         })
       );
     }
-  }, [isAuthenticated]);
+  }, [isAuthenticated, navigation]);
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   };
 
-  const handleLogin = async () => {
+  const handleLogin = () => {
     const emailValid = validateEmail(email);
     const passwordValid = password.length >= 6;
 

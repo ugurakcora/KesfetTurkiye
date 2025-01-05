@@ -13,7 +13,7 @@ import {
   ScrollView,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUserFavorites } from "../store/favoritesSlice";
+import { fetchUserFavorites, removeFavorite } from "../store/favoritesSlice";
 import PlaceCard from "../components/PlaceCard";
 import { Icon } from "react-native-elements";
 import { cities } from "../data/dummyData";
@@ -109,6 +109,11 @@ const FavoritesScreen = ({ navigation }) => {
       setFilteredFavorites(filtered);
     }
   }, [favorites, selectedCities, selectedCategories]);
+
+  const handleFavorite = (place) => {
+    const placeId = place.name.toLowerCase().replace(/\s+/g, "-");
+    dispatch(removeFavorite({ userId: user.id, placeId }));
+  };
 
   const renderEmptyState = () => (
     <View style={styles.emptyContainer}>
@@ -251,15 +256,22 @@ const FavoritesScreen = ({ navigation }) => {
     <SafeAreaView style={styles.container}>
       <FlatList
         data={filteredFavorites}
-        keyExtractor={(item) => item.id || item.place_id}
+        keyExtractor={(item) => item.place_id}
         renderItem={({ item }) => (
           <PlaceCard
-            place={item.place_data}
+            place={{
+              ...item.place_data,
+              id: item.place_data.name.toLowerCase().replace(/\s+/g, "-"),
+            }}
             onPress={() =>
               navigation.navigate("PlaceDetails", {
-                place: item.place_data,
+                place: {
+                  ...item.place_data,
+                  id: item.place_data.name.toLowerCase().replace(/\s+/g, "-"),
+                },
               })
             }
+            onFavorite={() => handleFavorite(item.place_data)}
           />
         )}
         contentContainerStyle={styles.listContainer}

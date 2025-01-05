@@ -32,7 +32,9 @@ const SignupScreen = ({ navigation }) => {
   const [keyboardStatus, setKeyboardStatus] = useState(false);
 
   const dispatch = useDispatch();
-  const { isLoading, error } = useSelector((state) => state.auth);
+  const { isLoading, error, isAuthenticated } = useSelector(
+    (state) => state.auth
+  );
 
   useEffect(() => {
     const showSubscription = Keyboard.addListener("keyboardDidShow", () => {
@@ -54,11 +56,11 @@ const SignupScreen = ({ navigation }) => {
       navigation.dispatch(
         CommonActions.reset({
           index: 0,
-          routes: [{ name: "MainApp" }],
+          routes: [{ name: "BottomTabs" }],
         })
       );
     }
-  }, [isAuthenticated]);
+  }, [isAuthenticated, navigation]);
 
   const validateEmail = (email) => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

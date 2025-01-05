@@ -14,7 +14,20 @@ import BottomTabNavigator from "./BottomTabNavigator";
 const Stack = createStackNavigator();
 
 const AppNavigator = () => {
-  const { user } = useSelector((state) => state.auth);
+  const { isAuthenticated } = useSelector((state) => state.auth);
+
+  if (isAuthenticated) {
+    return (
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="BottomTabs" component={BottomTabNavigator} />
+        <Stack.Screen name="CulturalPlaces" component={CulturalPlaces} />
+        <Stack.Screen name="PlaceDetails" component={PlaceDetails} />
+        <Stack.Screen name="EditProfile" component={EditProfileScreen} />
+        <Stack.Screen name="Help" component={HelpScreen} />
+        <Stack.Screen name="About" component={AboutScreen} />
+      </Stack.Navigator>
+    );
+  }
 
   return (
     <Stack.Navigator
@@ -27,20 +40,8 @@ const AppNavigator = () => {
       />
       <Stack.Screen name="CulturalPlaces" component={CulturalPlaces} />
       <Stack.Screen name="PlaceDetails" component={PlaceDetails} />
-
-      {!user ? (
-        <>
-          <Stack.Screen name="Login" component={LoginScreen} />
-          <Stack.Screen name="Signup" component={SignupScreen} />
-        </>
-      ) : (
-        <>
-          <Stack.Screen name="BottomTabs" component={BottomTabNavigator} />
-          <Stack.Screen name="EditProfile" component={EditProfileScreen} />
-          <Stack.Screen name="Help" component={HelpScreen} />
-          <Stack.Screen name="About" component={AboutScreen} />
-        </>
-      )}
+      <Stack.Screen name="Login" component={LoginScreen} />
+      <Stack.Screen name="Signup" component={SignupScreen} />
     </Stack.Navigator>
   );
 };

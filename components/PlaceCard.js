@@ -13,7 +13,7 @@ import { addFavorite, removeFavorite } from "../store/favoritesSlice";
 import { useNavigation } from "@react-navigation/native";
 import Modal from "react-native-modal";
 
-const PlaceCard = ({ place, onPress }) => {
+const PlaceCard = ({ place, onPress, onFavorite }) => {
   const dispatch = useDispatch();
   const navigation = useNavigation();
   const { user } = useSelector((state) => state.auth);
@@ -23,12 +23,11 @@ const PlaceCard = ({ place, onPress }) => {
 
   useEffect(() => {
     if (user && favorites) {
-      const isPlaceFavorite = favorites.some(
-        (fav) => fav.place_id === place.id
-      );
+      const placeId = place.name.toLowerCase().replace(/\s+/g, "-");
+      const isPlaceFavorite = favorites.some((fav) => fav.place_id === placeId);
       setIsFavorite(isPlaceFavorite);
     }
-  }, [favorites, place.id, user]);
+  }, [favorites, place, user]);
 
   const handleFavorite = () => {
     if (!user) {
@@ -36,18 +35,8 @@ const PlaceCard = ({ place, onPress }) => {
       return;
     }
 
-    const isPlaceFavorite = favorites?.some((fav) => fav.place_id === place.id);
-
-    if (isPlaceFavorite) {
-      dispatch(removeFavorite({ userId: user.id, placeId: place.id }));
-    } else {
-      dispatch(
-        addFavorite({
-          userId: user.id,
-          placeId: place.id,
-          placeData: place,
-        })
-      );
+    if (onFavorite) {
+      onFavorite();
     }
   };
 

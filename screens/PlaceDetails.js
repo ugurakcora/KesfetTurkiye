@@ -31,12 +31,11 @@ const PlaceDetails = ({ route, navigation }) => {
   // Favori durumunu kontrol et
   useEffect(() => {
     if (user && favorites) {
-      const isPlaceFavorite = favorites.some(
-        (fav) => fav.place_id === place.id
-      );
+      const placeId = place.name.toLowerCase().replace(/\s+/g, "-");
+      const isPlaceFavorite = favorites.some((fav) => fav.place_id === placeId);
       setIsFavorite(isPlaceFavorite);
     }
-  }, [favorites, place.id, user]);
+  }, [favorites, place, user]);
 
   const handleFavoritePress = () => {
     if (!user) {
@@ -44,26 +43,12 @@ const PlaceDetails = ({ route, navigation }) => {
       return;
     }
 
-    // Eğer place.id yoksa, name'den bir id oluştur
-    const placeId = place.id || place.name.toLowerCase().replace(/\s+/g, "-");
+    const placeId = place.name.toLowerCase().replace(/\s+/g, "-");
     const placeWithId = { ...place, id: placeId };
 
-    console.log("Current place:", placeWithId);
-    console.log("Current user:", user);
-    console.log("Current favorites:", favorites);
-
-    const isPlaceFavorite = favorites?.some((fav) => fav.place_id === placeId);
-    console.log("Is place already favorite?", isPlaceFavorite);
-
-    if (isPlaceFavorite) {
-      console.log("Removing from favorites:", { userId: user.id, placeId });
+    if (isFavorite) {
       dispatch(removeFavorite({ userId: user.id, placeId }));
     } else {
-      console.log("Adding to favorites:", {
-        userId: user.id,
-        placeId,
-        placeData: placeWithId,
-      });
       dispatch(
         addFavorite({
           userId: user.id,

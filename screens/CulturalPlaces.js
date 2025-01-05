@@ -32,25 +32,14 @@ const CulturalPlaces = ({ route, navigation }) => {
       return;
     }
 
-    const placeId = place.id || place.name.toLowerCase().replace(/\s+/g, "-");
+    const placeId = place.name.toLowerCase().replace(/\s+/g, "-");
     const placeWithId = { ...place, id: placeId };
 
-    console.log("Current place:", placeWithId);
-    console.log("Current user:", user);
-    console.log("Current favorites:", favorites);
-
     const isPlaceFavorite = favorites?.some((fav) => fav.place_id === placeId);
-    console.log("Is place already favorite?", isPlaceFavorite);
 
     if (isPlaceFavorite) {
-      console.log("Removing from favorites:", { userId: user.id, placeId });
       dispatch(removeFavorite({ userId: user.id, placeId }));
     } else {
-      console.log("Adding to favorites:", {
-        userId: user.id,
-        placeId,
-        placeData: placeWithId,
-      });
       dispatch(
         addFavorite({
           userId: user.id,
@@ -73,8 +62,18 @@ const CulturalPlaces = ({ route, navigation }) => {
           filteredPlaces.map((place, index) => (
             <PlaceCard
               key={index}
-              place={place}
-              onPress={() => navigation.navigate("PlaceDetails", { place })}
+              place={{
+                ...place,
+                id: place.name.toLowerCase().replace(/\s+/g, "-"),
+              }}
+              onPress={() =>
+                navigation.navigate("PlaceDetails", {
+                  place: {
+                    ...place,
+                    id: place.name.toLowerCase().replace(/\s+/g, "-"),
+                  },
+                })
+              }
               onFavorite={() => handleFavorite(place)}
             />
           ))
