@@ -3210,6 +3210,406 @@ export const culturalPlaces = {
       longitude: 40.74,
     },
   ],
+  22: [
+    // Edirne
+    {
+      name: "Selimiye Camii",
+      description: "Mimar Sinan'ın başyapıtı olan tarihi cami.",
+      moreDetails: {
+        history:
+          "Cami, 1575 yılında Osmanlı padişahı II. Selim tarafından yaptırılmıştır.",
+        architecture: "Klasik Osmanlı mimarisinin en güzel örneklerinden biri",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Sabah saatleri",
+          tips: "Camiyi ziyaret etmek için uygun kıyafetler giyin.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/selimiye_camii.jpg",
+      slider: {
+        images: [
+          "https://example.com/selimiye_camii1.jpg",
+          "https://example.com/selimiye_camii2.jpg",
+        ],
+      },
+      location: "Edirne",
+      latitude: 41.675,
+      longitude: 26.556,
+    },
+    {
+      name: "Edirne Sarayı",
+      description: "Osmanlı dönemine ait tarihi saray kompleksi.",
+      moreDetails: {
+        history:
+          "Saray, 15. yüzyılda Osmanlı padişahı II. Murad tarafından inşa edilmiştir.",
+        architecture: "Klasik Osmanlı mimarisinin en önemli eserlerinden biri",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Sabah saatleri",
+          tips: "Sarayın bahçesinde yürüyüş yapmayı unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/edirne_sarayi.jpg",
+      slider: {
+        images: [
+          "https://example.com/edirne_sarayi1.jpg",
+          "https://example.com/edirne_sarayi2.jpg",
+        ],
+      },
+      location: "Edirne",
+      latitude: 41.675,
+      longitude: 26.556,
+    },
+  ],
+  23: [
+    // Elazığ
+    {
+      name: "Harput Kalesi",
+      description: "Şehrin tarihi simgelerinden biri.",
+      moreDetails: {
+        history:
+          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş batarken manzara harika.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/harput_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/harput_kalesi1.jpg",
+          "https://example.com/harput_kalesi2.jpg",
+        ],
+      },
+      location: "Elazığ",
+      latitude: 38.681,
+      longitude: 39.226,
+    },
+  ],
+  24: [
+    // Erzincan
+    {
+      name: "Erzincan Kalesi",
+      description: "Şehrin tarihi simgelerinden biri.",
+      moreDetails: {
+        history:
+          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş batarken manzara harika.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/erzincan_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzincan_kalesi1.jpg",
+          "https://example.com/erzincan_kalesi2.jpg",
+        ],
+      },
+      location: "Erzincan",
+      latitude: 39.736,
+      longitude: 39.491,
+    },
+    {
+      name: "Kemah Kalesi",
+      description: "Tarihi kale ve çevresindeki antik yerleşim.",
+      moreDetails: {
+        history:
+          "Kale, 12. yüzyılda Saltuklu Beyliği tarafından inşa edilmiştir.",
+        activities: "Kale ve çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Kaleye tırmanış için rahat ayakkabı giyin.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/kemah_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kemah_kalesi1.jpg",
+          "https://example.com/kemah_kalesi2.jpg",
+        ],
+      },
+      location: "Erzincan",
+      latitude: 39.267,
+      longitude: 39.383,
+    },
+    {
+      name: "Kemaliye (Eğin)",
+      description: "Fırat Nehri kıyısında yer alan tarihi kasaba.",
+      moreDetails: {
+        history:
+          "Osmanlı döneminden kalma tarihi evleri ve sokakları ile ünlüdür.",
+        activities:
+          "Kasaba sokaklarında yürüyüş yapabilir ve fotoğraf çekebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Kasaba pazar günleri daha canlıdır.",
+        },
+      },
+      type: "cultural",
+      image: "https://example.com/kemaliye.jpg",
+      slider: {
+        images: [
+          "https://example.com/kemaliye1.jpg",
+          "https://example.com/kemaliye2.jpg",
+        ],
+      },
+      location: "Erzincan",
+      latitude: 39.146,
+      longitude: 38.741,
+    },
+  ],
+  25: [
+    // Erzurum
+    {
+      name: "Erzurum Kalesi",
+      description: "Şehrin tarihi simgelerinden biri.",
+      moreDetails: {
+        history:
+          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş batarken manzara harika.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/erzurum_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_kalesi1.jpg",
+          "https://example.com/erzurum_kalesi2.jpg",
+        ],
+      },
+      location: "Erzurum",
+      latitude: 39.9086,
+      longitude: 41.2769,
+    },
+    {
+      name: "Çifte Minareli Medrese",
+      description: "Selçuklu dönemi medrese yapısı.",
+      moreDetails: {
+        history:
+          "1253 yılında inşa edilen medrese, Erzurum'un simgelerinden biridir.",
+        architecture: "Çifte minaresi ve süslemeleri ile dikkat çeker.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Sabah saatleri",
+          tips: "Medresenin içini de ziyaret etmeyi unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/cifte_minareli_medrese.jpg",
+      slider: {
+        images: [
+          "https://example.com/cifte_minareli_medrese1.jpg",
+          "https://example.com/cifte_minareli_medrese2.jpg",
+        ],
+      },
+      location: "Erzurum",
+      latitude: 39.9086,
+      longitude: 41.2769,
+    },
+    {
+      name: "Palandöken Kayak Merkezi",
+      description: "Erzurum'un popüler kayak merkezi.",
+      moreDetails: {
+        history:
+          "Palandöken, 3188 metre yüksekliği ile Türkiye'nin en yüksek kayak merkezlerinden biridir.",
+        activities: "Kayak, snowboard, kızak ve diğer kış sporları",
+        visitInfo: {
+          hours: "08:00 - 17:00",
+          bestTime: "Kış ayları",
+          tips: "Kayak ekipmanlarını önceden kiralamayı unutmayın.",
+        },
+      },
+      type: "sports",
+      image: "https://example.com/palandoken.jpg",
+      slider: {
+        images: [
+          "https://example.com/palandoken1.jpg",
+          "https://example.com/palandoken2.jpg",
+        ],
+      },
+      location: "Erzurum",
+      latitude: 39.9086,
+      longitude: 41.2769,
+    },
+    {
+      name: "Erzurum Leblebisi",
+      description: "Yöreye özgü kavrulmuş nohut lezzeti.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir atıştırmalık",
+        production: "Nohut kavrularak hazırlanır ve tuzlanır",
+        characteristics: "Kızartılmış ve tuzlu bir lezzete sahiptir",
+        tips: "Taze ve kaliteli leblebi tercih edin.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_leblebi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_leblebi.jpg",
+          "https://example.com/erzurum_leblebi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Cağ Kebabı",
+      description: "Yöreye özgü tandır kebabı çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir kebap",
+        ingredients: ["Kuzu eti", "Soğan", "Domates", "Biber"],
+        preparation: "Kuzu eti şişlere dizilir ve tandırda pişirilir",
+        tips: "Taze ve kaliteli et kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_cag_kebabi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_cag_kebabi.jpg",
+          "https://example.com/erzurum_cag_kebabi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Pidesi",
+      description: "Yöreye özgü kıymalı pide çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir hamur işi",
+        ingredients: ["Un", "Kıyma", "Domates", "Biber"],
+        preparation: "Hamur açılır, iç malzemesi konur ve fırında pişirilir",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_pidesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_pidesi.jpg",
+          "https://example.com/erzurum_pidesi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Cevizi",
+      description: "Yöreye özgü lezzetli ceviz çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yetiştirilen geleneksel bir ceviz",
+        characteristics: "Kabuğu ince, içi dolgun ve lezzetlidir",
+        tips: "Taze ve kaliteli ceviz tercih edin.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_cevizi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_cevizi.jpg",
+          "https://example.com/erzurum_cevizi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Ketesi",
+      description: "Yöreye özgü tatlı çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir tatlı",
+        ingredients: ["Un", "Pekmez", "Tereyağı", "Ceviz"],
+        preparation: "Hamur açılır, iç malzemesi konur ve fırında pişirilir",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_ketesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_ketesi.jpg",
+          "https://example.com/erzurum_ketesi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Pehlivan Turşusu",
+      description: "Yöreye özgü turşu çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir turşu",
+        ingredients: ["Lahana", "Havuç", "Kırmızı biber", "Sirke"],
+        preparation: "Sebzeler doğranır, sirke ve tuz ile fermente edilir",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_tursusu.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurom_tursusu.jpg",
+          "https://example.com/erzurom_tursusu.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Kadayıfı",
+      description: "Yöreye özgü tatlı çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir tatlı",
+        ingredients: ["Kadayıf", "Pekmez", "Tereyağı", "Ceviz"],
+        preparation: "Kadayıf açılır, iç malzemesi konur ve fırında pişirilir",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_kadayifi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_kadayifi.jpg",
+          "https://example.com/erzurum_kadayifi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Helvası",
+      description: "Yöreye özgü helva çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir helva",
+        ingredients: ["Un", "Şeker", "Tereyağı", "Ceviz"],
+        preparation: "Un kavrulur, şeker ve tereyağı eklenir, cevizle süslenir",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_helvasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_helvasi.jpg",
+          "https://example.com/erzurum_helvasi.jpg",
+        ],
+      },
+    },
+    {
+      name: "Erzurum Lokumu",
+      description: "Yöreye özgü lokum çeşidi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan geleneksel bir lokum",
+        ingredients: ["Şeker", "Su", "Nişasta", "Ceviz"],
+        preparation:
+          "Şeker ve su kaynatılır, nişasta eklenir, cevizle süslenir",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/erzurum_lokumu.jpg",
+      slider: {
+        images: [
+          "https://example.com/erzurum_lokumu.jpg",
+          "https://example.com/erzurum_lokumu.jpg",
+        ],
+      },
+    },
+  ],
   29: [
     // Gümüşhane
     {
