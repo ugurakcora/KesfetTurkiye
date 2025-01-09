@@ -20,7 +20,7 @@ const SOCIAL_LINKS = [
     name: "Instagram",
     icon: "instagram",
     type: "font-awesome",
-    url: "https://instagram.com/kesfetturkiye",
+    url: "https://instagram.com/kesfetturkiyeapp",
     color: "#E1306C",
   },
   {
@@ -28,7 +28,7 @@ const SOCIAL_LINKS = [
     name: "Twitter",
     icon: "twitter",
     type: "font-awesome",
-    url: "https://twitter.com/kesfetturkiye",
+    url: "https://twitter.com/kesfetturkiyeapp",
     color: "#1DA1F2",
   },
   {
@@ -36,7 +36,7 @@ const SOCIAL_LINKS = [
     name: "Facebook",
     icon: "facebook",
     type: "font-awesome",
-    url: "https://facebook.com/kesfetturkiye",
+    url: "https://facebook.com/kesfetturkiyeapp",
     color: "#4267B2",
   },
   {
@@ -44,28 +44,16 @@ const SOCIAL_LINKS = [
     name: "YouTube",
     icon: "youtube",
     type: "font-awesome",
-    url: "https://youtube.com/kesfetturkiye",
+    url: "https://youtube.com/kesfetturkiyeapp",
     color: "#FF0000",
   },
 ];
 
 const TEAM_MEMBERS = [
   {
-    name: "Ahmet Yılmaz",
+    name: "Uğur Akçora",
     role: "Kurucu & CEO",
     // image: require("../assets/team/ahmet.png"),
-    image: require("../assets/logo.png"),
-  },
-  {
-    name: "Ayşe Demir",
-    role: "Tasarım Direktörü",
-    //image: require("../assets/team/ayse.png"),
-    image: require("../assets/logo.png"),
-  },
-  {
-    name: "Mehmet Kaya",
-    role: "Teknoloji Direktörü",
-    //image: require("../assets/team/mehmet.png"),
     image: require("../assets/logo.png"),
   },
 ];
@@ -215,6 +203,8 @@ const styles = StyleSheet.create({
   },
   teamContainer: {
     paddingHorizontal: 5,
+    justifyContent: "center",
+    flex: 1,
   },
   teamMember: {
     alignItems: "center",
