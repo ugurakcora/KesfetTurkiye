@@ -3610,6 +3610,88 @@ export const culturalPlaces = {
       },
     },
   ],
+  26: [
+    // Eskişehir
+    {
+      name: "Odunpazarı Evleri",
+      description: "Eskişehir'in tarihi evleri ve sokakları.",
+      moreDetails: {
+        history: "Osmanlı döneminden kalma tarihi evler ve sokaklar",
+        architecture: "Ahşap ve çini işçiliği ile süslenmiş geleneksel evler",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Sabah saatleri",
+          tips: "Evlerin içini de ziyaret etmeyi unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/odunpazari_evleri.jpg",
+      slider: {
+        images: [
+          "https://example.com/odunpazari_evleri1.jpg",
+          "https://example.com/odunpazari_evleri2.jpg",
+        ],
+      },
+      location: "Eskişehir",
+      latitude: 39.7667,
+      longitude: 30.525,
+    },
+  ],
+  27: [
+    // Gaziantep
+    {
+      name: "Gaziantep Kalesi",
+      description: "Şehrin tarihi simgelerinden biri.",
+      moreDetails: {
+        history:
+          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
+        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş batarken manzara harika.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/gaziantep_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/gaziantep_kalesi1.jpg",
+          "https://example.com/gaziantep_kalesi2.jpg",
+        ],
+      },
+      location: "Gaziantep",
+      latitude: 37.0662,
+      longitude: 37.3833,
+    },
+  ],
+  28: [
+    // Giresun
+    {
+      name: "Giresun Adası",
+      description: "Şehir merkezinin karşısında yer alan doğal ada.",
+      moreDetails: {
+        history: "Antik dönemlerden beri yerleşim yeri olarak kullanılmıştır.",
+        activities: "Ada etrafında tekne turları düzenlenmektedir.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Tekne turu için erken rezervasyon yaptırın.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/giresun_adasi.jpg",
+      slider: {
+        images: [
+          "https://example.com/giresun_adasi1.jpg",
+          "https://example.com/giresun_adasi2.jpg",
+        ],
+      },
+      location: "Giresun",
+      latitude: 40.9167,
+      longitude: 38.4,
+    },
+  ],
   29: [
     // Gümüşhane
     {
