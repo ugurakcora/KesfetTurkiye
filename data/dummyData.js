@@ -2597,6 +2597,30 @@ export const culturalPlaces = {
       latitude: 40.5667,
       longitude: 31.5,
     },
+    {
+      name: "Bolu Müzesi",
+      description: "Şehrin tarihini ve kültürünü sergileyen bir müze.",
+      moreDetails: {
+        history: "Müze, yerel tarih ve kültür hakkında bilgi vermektedir.",
+        activities: "Sergileri gezebilir ve etkinliklere katılabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Giriş ücreti vardır.",
+        },
+      },
+      type: "special",
+      image: "https://example.com/bolu_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/bolu_muzesi1.jpg",
+          "https://example.com/bolu_muzesi2.jpg",
+        ],
+      },
+      location: "Bolu",
+      latitude: 40.6667,
+      longitude: 31.6,
+    },
   ],
   15: [
     // Burdur
