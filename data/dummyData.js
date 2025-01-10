@@ -301,6 +301,26 @@ export const culturalPlaces = {
         ],
       },
     },
+    {
+      name: "Ardahan Çorbası",
+      description: "Ardahan'a özgü, kış aylarında sıkça yapılan çorba.",
+      moreDetails: {
+        history:
+          "Ardahan Çorbası, bölgenin soğuk kış aylarında sıkça yapılan bir çorbadır.",
+        ingredients: ["Kuzu eti", "Un", "Tereyağı", "Baharatlar"],
+        preparation:
+          "Et suyuna un eklenerek hazırlanır ve tereyağı ile servis edilir.",
+        tips: "Çorba sıcak servis edilir ve yanında ekmekle servis edilir.",
+      },
+      type: "food",
+      image: "https://i.ytimg.com/vi/1Z9Z9Z9Z9Z9/hqdefault.jpg",
+      slider: {
+        images: [
+          "https://i.ytimg.com/vi/1Z9Z9Z9Z9Z9/hqdefault.jpg",
+          "https://i.ytimg.com/vi/1Z9Z9Z9Z9Z9/hqdefault.jpg",
+        ],
+      },
+    },
   ],
   34: [
     // İstanbul
@@ -1447,6 +1467,27 @@ export const culturalPlaces = {
       latitude: 39.7,
       longitude: 43.1,
     },
+    {
+      name: "Ağrı Balı",
+      description: "Ağrı'nın meşhur balı, doğal ve lezzetli.",
+      moreDetails: {
+        history: "Ağrı'nın doğal bitki örtüsünden elde edilir.",
+        ingredients: ["Çiçek nektarı", "Polen", "Arılar"],
+        preparation: "Arılar tarafından çiçeklerden toplanarak üretilir.",
+        tips: "Balı kahvaltıda veya tatlı yapımında kullanabilirsiniz.",
+      },
+      type: "food",
+      image: "https://example.com/agri_bali.jpg",
+      slider: {
+        images: [
+          "https://example.com/agri_bali1.jpg",
+          "https://example.com/agri_bali2.jpg",
+        ],
+      },
+      location: "Ağrı",
+      latitude: 39.7,
+      longitude: 43.1,
+    },
   ],
   "05": [
     // Amasya
@@ -2076,6 +2117,30 @@ export const culturalPlaces = {
       latitude: 36.88414,
       longitude: 30.70563,
     },
+    {
+      name: "Düden Şelalesi",
+      description: "Antalya'nın en ünlü şelalesi.",
+      moreDetails: {
+        history: "Doğal bir şelaledir.",
+        activities: "Doğa yürüyüşü, fotoğraf çekimi.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Şelalenin altında yürüyüş yapabilirsiniz.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/duden.jpg",
+      slider: {
+        images: [
+          "https://example.com/duden1.jpg",
+          "https://example.com/duden2.jpg",
+        ],
+      },
+      location: "Antalya",
+      latitude: 36.88414,
+      longitude: 30.70563,
+    },
   ],
   "08": [
     // Artvin
@@ -2098,6 +2163,30 @@ export const culturalPlaces = {
         images: [
           "https://example.com/artvin_kalesi1.jpg",
           "https://example.com/artvin_kalesi2.jpg",
+        ],
+      },
+      location: "Artvin",
+      latitude: 41.1829,
+      longitude: 41.1802,
+    },
+    {
+      name: "Şavşat Karagöl",
+      description: "Doğal güzellikleri ile ünlü bir göl.",
+      moreDetails: {
+        history: "Glasyal bir göldür.",
+        activities: "Doğa yürüyüşleri ve kamp için popüler bir yerdir.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Kamp yaparken ateş yakmamaya dikkat edin.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/karagol.jpg",
+      slider: {
+        images: [
+          "https://example.com/karagol1.jpg",
+          "https://example.com/karagol2.jpg",
         ],
       },
       location: "Artvin",
@@ -2130,6 +2219,54 @@ export const culturalPlaces = {
       location: "Aydın",
       latitude: 37.6833,
       longitude: 27.8497,
+    },
+    {
+      name: "Didim",
+      description: "Tatil beldesi ve antik kent.",
+      moreDetails: {
+        history: "Antik dönemde Didyma adıyla anılan kenttir.",
+        activities: "Deniz, kum, güneş turizmi ve antik kalıntıları gezmek.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Deniz keyfi yapmayı unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/didim.jpg",
+      slider: {
+        images: [
+          "https://example.com/didim1.jpg",
+          "https://example.com/didim2.jpg",
+        ],
+      },
+      location: "Aydın",
+      latitude: 37.3872,
+      longitude: 27.2579,
+    },
+    {
+      name: "Milet Antik Kenti",
+      description: "Antik dönemin önemli kentlerinden biri.",
+      moreDetails: {
+        history: "M.Ö. 7. yüzyılda kurulmuştur.",
+        activities: "Antik kalıntıları gezmek için popüler bir yerdir.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş kremi kullanmayı unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/milet.jpg",
+      slider: {
+        images: [
+          "https://example.com/milet1.jpg",
+          "https://example.com/milet2.jpg",
+        ],
+      },
+      location: "Aydın",
+      latitude: 37.51,
+      longitude: 27.26,
     },
   ],
   10: [
@@ -4550,6 +4687,117 @@ export const culturalPlaces = {
         images: [
           "https://www.kulturportali.gov.tr/contents/images/kars-bali.jpg",
           "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20BAL.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kars Lor Peyniri",
+      description: "Yöresel lor peyniri.",
+      moreDetails: {
+        history: "Yöresel bir peynir çeşidi",
+        production: "İnek sütünden yapılır",
+        characteristics: "Taze ve yumuşak bir peynir",
+        tips: "Kahvaltıda tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-lor.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-lor.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20LOR.jpg",
+        ],
+      },
+    },
+
+    {
+      name: "Kars Gravyeri",
+      description: "Yöresel gravyer peyniri.",
+      moreDetails: {
+        history: "Yöresel bir peynir çeşidi",
+        production: "İnek sütünden yapılır",
+        characteristics: "Olgunlaştırılmış, sert bir peynir",
+        tips: "Kahvaltıda tüketilmesi önerilir.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kars-gravyeri.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-gravyeri.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20GRAVYERI.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kars Otlu Peyniri",
+      description: "Yöresel otlu peynir çeşidi.",
+      moreDetails: {
+        history: "Yöresel bir peynir çeşidi",
+        production: "İnek sütünden yapılır",
+        characteristics: "Otlarla karıştırılmış, taze bir peynir",
+        tips: "Kahvaltıda tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-otlu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-otlu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20OTLU.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kars Çökelek",
+      description: "Yöresel çökelek peyniri.",
+      moreDetails: {
+        history: "Yöresel bir peynir çeşidi",
+        production: "İnek sütünden yapılır",
+        characteristics: "Taze ve yumuşak bir peynir",
+        tips: "Kahvaltıda tüketilmesi önerilir.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/kars-cokelek.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-cokelek.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20COKELEK.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kars Üzdü Peyniri",
+      description: "Yöresel üzdü peynir çeşidi.",
+      moreDetails: {
+        history: "Yöresel bir peynir çeşidi",
+        production: "İnek sütünden yapılır",
+        characteristics: "Taze ve yumuşak bir peynir",
+        tips: "Kahvaltıda tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-uzdu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-uzdu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20UZDU.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kars Tulum Peyniri",
+      description: "Yöresel tulum peynir çeşidi.",
+      moreDetails: {
+        history: "Yöresel bir peynir çeşidi",
+        production: "İnek sütünden yapılır",
+        characteristics: "Olgunlaştırılmış, sert bir peynir",
+        tips: "Kahvaltıda tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://www.kulturportali.gov.tr/contents/images/kars-tulum.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/kars-tulum.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_KARS%20TULUM.jpg",
         ],
       },
     },
