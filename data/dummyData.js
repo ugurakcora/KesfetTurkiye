@@ -664,6 +664,120 @@ export const culturalPlaces = {
       latitude: 41.0295,
       longitude: 28.9732,
     },
+    {
+      name: "İstanbul Deniz Müzesi",
+      description: "Denizcilik tarihi ve gemi modelleri müzesi.",
+      moreDetails: {
+        history: "1897 yılında kurulmuştur.",
+        exhibitions: "Gemi modelleri, denizcilik tarihi, haritalar",
+        visitInfo: {
+          hours: "09:00 - 17:00 (Pazartesi kapalı)",
+          price: "80 TL",
+          bestTime: "Hafta içi",
+          tips: "Müze ziyaretlerinde sessiz olunması önemlidir.",
+        },
+      },
+      type: "museum",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-deniz-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-deniz-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20DENIZ%20MUZE.jpg",
+        ],
+      },
+      location: "Beşiktaş",
+      latitude: 41.0425,
+      longitude: 29.0079,
+    },
+    {
+      name: "İstanbul Boğazı",
+      description: "Avrupa ve Asya'yı birbirine bağlayan tarihi su yoludur.",
+      moreDetails: {
+        history: "Binlerce yıllık tarihi, stratejik konumu",
+        activities: "Tekne turu, yürüyüş, balık ekmek",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "Gün batımı",
+          tips: "Tekne turu yaparken fotoğraf makinenizi yanınıza alın.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-bogazi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-bogazi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20BOGAZI.jpg",
+        ],
+      },
+      location: "Beşiktaş",
+      latitude: 41.1864,
+      longitude: 29.018,
+    },
+    {
+      name: "İstanbul Adaları",
+      description: "İstanbul açıklarındaki 9 adadan oluşan doğal güzellikler.",
+      moreDetails: {
+        history: "Antik dönemlerden beri yerleşim yeri olmuştur.",
+        activities: "Bisiklet turu, at arabası turu, deniz manzarası",
+        visitInfo: {
+          hours: "Her zaman açık",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Bisiklet kiralayarak adaları keşfedin.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-adalari.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-adalari.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20ADALARI.jpg",
+        ],
+      },
+      location: "Adalar",
+      latitude: 40.865,
+      longitude: 29.09,
+    },
+    {
+      name: "İstanbul Kahvaltısı",
+      description: "Geleneksel Türk kahvaltısı ve İstanbul'a özgü lezzetler.",
+      moreDetails: {
+        history: "Yüzyıllardır süregelen kahvaltı kültürü",
+        varieties: ["Simit", "Çay", "Zeytin", "Peynir", "Bal"],
+        preparation: "Taze ekmek, zeytin, peynir ve çaydan oluşur",
+        tips: "Kahvaltıda taze ekmek ve çay olmazsa olmazdır.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-kahvalti.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-kahvalti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20KAHVALTI.jpg",
+        ],
+      },
+    },
+    {
+      name: "İstanbul Balıkçısı",
+      description: "Boğaz manzaralı balık restoranları ve meyhaneler.",
+      moreDetails: {
+        history: "Yüzyıllardır süregelen balıkçılık kültürü",
+        varieties: ["Levrek", "Çupra", "Barbunya", "Hamsi"],
+        preparation: "Taze balık, ızgara veya tava olarak servis edilir",
+        tips: "Balık restoranlarında rezervasyon yaptırmanız önerilir.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/istanbul-balikcisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/istanbul-balikcisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_ISTANBUL%20BALIKCISI.jpg",
+        ],
+      },
+    },
   ],
   "01": [
     // Adana
@@ -1959,25 +2073,6 @@ export const culturalPlaces = {
       latitude: 39.9436,
       longitude: 32.8597,
     },
-    // Ankara'nın yemekleri
-    {
-      name: "Ankara Tava",
-      description: "Ankara'nın meşhur et yemeği.",
-      moreDetails: {
-        history: "Ankara Tava, yöresel bir lezzettir.",
-        ingredients: ["Kuzu eti", "Patates", "Soğan", "Biber", "Baharatlar"],
-        preparation: "Malzemeler bir arada pişirilir.",
-        tips: "Yanında yoğurt ile servis edilmesi önerilir.",
-      },
-      type: "food",
-      image: "https://example.com/ankara_tava.jpg",
-      slider: {
-        images: [
-          "https://example.com/ankara_tava1.jpg",
-          "https://example.com/ankara_tava2.jpg",
-        ],
-      },
-    },
     // Tarihi Yerler bölümüne eklenecek yeni yerler
     {
       name: "Ulucanlar Cezaevi Müzesi",
@@ -2001,51 +2096,6 @@ export const culturalPlaces = {
       location: "Altındağ, Ankara",
       latitude: 39.9372,
       longitude: 32.8644,
-    },
-    {
-      name: "I. TBMM Binası",
-      description:
-        "Türkiye Cumhuriyeti'nin ilk meclis binası, şimdi müze olarak hizmet vermektedir",
-      moreDetails: {
-        history:
-          "1920-1924 yılları arasında Türkiye Büyük Millet Meclisi olarak kullanılmış, Kurtuluş Savaşı'nın yönetildiği tarihi bina",
-        architecture:
-          "İttihat ve Terakki Cemiyeti'nin kulüp binası olarak inşa edilmiş, iki katlı tarihi yapı",
-        visitInfo: {
-          hours: "09:00-16:30 (Pazartesi günleri kapalı)",
-          price: "Ücretsiz",
-          bestTime: "Sabah saatleri",
-          tips: "Meclis'in açılış günü olan 23 Nisan'da özel etkinlikler düzenlenir",
-        },
-      },
-      type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/First_Parliament_Building_of_Turkey.jpg/1280px-First_Parliament_Building_of_Turkey.jpg",
-      location: "Ulus, Ankara",
-      latitude: 39.9377,
-      longitude: 32.8539,
-    },
-    {
-      name: "II. TBMM Binası",
-      description:
-        "1924-1960 yılları arasında meclis binası olarak kullanılan tarihi yapı",
-      moreDetails: {
-        history:
-          "Cumhuriyet'in ilk yıllarında Vedat Tek tarafından tasarlanan bina, önemli tarihi kararlara ev sahipliği yapmıştır",
-        architecture: "Birinci Ulusal Mimarlık Akımı'nın önemli örneklerinden",
-        visitInfo: {
-          hours: "09:00-16:30 (Pazartesi günleri kapalı)",
-          price: "Ücretsiz",
-          bestTime: "Öğleden önce",
-          tips: "Cumhuriyet Müzesi olarak hizmet vermektedir, rehberli turlar mevcuttur",
-        },
-      },
-      type: "historical",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Second_Parliament_Building_of_Turkey.jpg/1280px-Second_Parliament_Building_of_Turkey.jpg",
-      location: "Ulus, Ankara",
-      latitude: 39.9382,
-      longitude: 32.8542,
     },
     {
       name: "Etnografya Müzesi",
@@ -2090,9 +2140,35 @@ export const culturalPlaces = {
       latitude: 39.9436,
       longitude: 32.8597,
     },
+    {
+      name: "Roma Hamamı",
+      description: "Antik Roma dönemine ait tarihi hamam",
+      moreDetails: {
+        history:
+          "3. yüzyılda inşa edilmiş, Bizans ve Osmanlı dönemlerinde de kullanılmıştır",
+        architecture: "Roma mimarisinin tipik özelliklerini taşıyan yapı",
+        visitInfo: {
+          hours: "09:00-17:00",
+          price: "20 TL",
+          bestTime: "Öğleden önce",
+          tips: "Hamamın tarihi hakkında rehberden bilgi alabilirsiniz",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/roma_hamami.jpg",
+      slider: {
+        images: [
+          "https://example.com/roma_hamami1.jpg",
+          "https://example.com/roma_hamami2.jpg",
+        ],
+      },
+      location: "Ulus, Ankara",
+      latitude: 39.9436,
+      longitude: 32.8597,
+    },
   ],
   "07": [
-    // Antaly
+    // Antalya
     {
       name: "Kaleiçi",
       description: "Antalya'nın tarihi merkezi.",
@@ -2642,6 +2718,30 @@ export const culturalPlaces = {
         images: [
           "https://example.com/salda_golu1.jpg",
           "https://example.com/salda_golu2.jpg",
+        ],
+      },
+      location: "Burdur",
+      latitude: 37.5,
+      longitude: 30.0,
+    },
+    {
+      name: "Burdur Müzesi",
+      description: "Şehrin tarihini ve kültürünü sergileyen bir müze.",
+      moreDetails: {
+        history: "Müze, yerel tarih ve kültür hakkında bilgi vermektedir.",
+        activities: "Sergileri gezebilir ve etkinliklere katılabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Giriş ücreti vardır.",
+        },
+      },
+      type: "special",
+      image: "https://example.com/burdur_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/burdur_muzesi1.jpg",
+          "https://example.com/burdur_muzesi2.jpg",
         ],
       },
       location: "Burdur",
