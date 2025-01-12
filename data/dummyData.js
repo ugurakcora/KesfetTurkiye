@@ -2269,6 +2269,30 @@ export const culturalPlaces = {
       latitude: 41.1829,
       longitude: 41.1802,
     },
+    {
+      name: "Cmerki Manastırı",
+      description: "Ortodoks Hristiyanlar için kutsal bir yer.",
+      moreDetails: {
+        history: "Ortaçağ'da inşa edilmiştir.",
+        activities: "Manastırı ziyaret edebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Manastırın tarihi hakkında rehberden bilgi alabilirsiniz.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/cmerki.jpg",
+      slider: {
+        images: [
+          "https://example.com/cmerki1.jpg",
+          "https://example.com/cmerki2.jpg",
+        ],
+      },
+      location: "Artvin",
+      latitude: 41.1829,
+      longitude: 41.1802,
+    },
   ],
   "09": [
     // Aydın
@@ -4035,6 +4059,66 @@ export const culturalPlaces = {
       latitude: 36.2,
       longitude: 36.16,
     },
+    {
+      name: "Antakya Mozaik Müzesi",
+      description: "Antik dönem mozaiklerini sergileyen müze.",
+      moreDetails: {
+        history: "Müze, 1932 yılında kurulmuştur.",
+        activities: "Müze gezileri yapabilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Sabah saatleri",
+          tips: "Müze kartı ile indirimli giriş yapabilirsiniz.",
+        },
+      },
+      type: "museum",
+      image: "https://example.com/antakya_mozaik.jpg",
+      slider: {
+        images: [
+          "https://example.com/antakya_mozaik1.jpg",
+          "https://example.com/antakya_mozaik2.jpg",
+        ],
+      },
+      location: "Hatay",
+      latitude: 36.2,
+      longitude: 36.16,
+    },
+    {
+      name: "Hatay Usulü Humus",
+      description: "Hatay mutfağının en ünlü lezzeti.",
+      moreDetails: {
+        history: "Humus, Hatay mutfağının en eski yemeklerinden biridir.",
+        ingredients: ["Nohut", "Tahin", "Limon", "Zeytinyağı"],
+        preparation: "Nohut haşlanır, tahin ve diğer malzemeler eklenir.",
+        tips: "Taze ve kaliteli malzemeler kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/hatay_humus.jpg",
+      slider: {
+        images: [
+          "https://example.com/hatay_humus1.jpg",
+          "https://example.com/hatay_humus2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Hatay Usulü Kebap",
+      description: "Hatay mutfağının en ünlü kebap çeşidi.",
+      moreDetails: {
+        history: "Kebap, Hatay mutfağının en eski yemeklerinden biridir.",
+        ingredients: ["Kuzu eti", "Soğan", "Domates", "Biber"],
+        preparation: "Et şişlere dizilir ve mangaldan pişirilir.",
+        tips: "Taze ve kaliteli et kullanarak yapın.",
+      },
+      type: "food",
+      image: "https://example.com/hatay_kebap.jpg",
+      slider: {
+        images: [
+          "https://example.com/hata_kebap1.jpg",
+          "https://example.com/hata_kebap2.jpg",
+        ],
+      },
+    },
   ],
   68: [
     // Bayburt
@@ -5371,6 +5455,104 @@ export const culturalPlaces = {
       location: "Kahramanmaraş",
       latitude: 37.5733,
       longitude: 36.9375,
+    },
+    {
+      name: "Kahramanmaraş Arkeoloji Müzesi",
+      description: "Bölgenin zengin arkeolojik mirasını sergileyen müze.",
+      moreDetails: {
+        history: "1971 yılında kurulmuştur.",
+        exhibitions: "Hitit, Roma, Bizans dönemlerine ait eserler koleksiyonu",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://example.com/kahramanmaras_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kahramanmaras_muzesi1.jpg",
+          "https://example.com/kahramanmaras_muzesi2.jpg",
+        ],
+      },
+      location: "Kahramanmaraş",
+      latitude: 37.5733,
+      longitude: 36.9375,
+    },
+    {
+      name: "Kahramanmaraş Tarhana Çorbası",
+      description: "Yöresel tarhana çorbası.",
+      moreDetails: {
+        history: "Geleneksel Kahramanmaraş mutfağının vazgeçilmez lezzeti",
+        ingredients: ["Tarhana", "Yoğurt", "Tereyağı", "Nane"],
+        preparation: "Tarhana çorbası malzemeleri kaynatılarak yapılır",
+        tips: "Kış aylarında tüketilmesi önerilir.",
+      },
+      type: "food",
+      image: "https://example.com/kahramanmaras_tarhana.jpg",
+      slider: {
+        images: [
+          "https://example.com/kahramanmaras_tarhana1.jpg",
+          "https://example.com/kahramanmaras_tarhana2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kahramanmaraş Künefe",
+      description: "Yöresel tatlı çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Kahramanmaraş tatlılarından biri",
+        ingredients: ["Kadayıf", "Peynir", "Şerbet"],
+        preparation: "Kadayıf ve peynir arasına şerbet dökülerek yapılır",
+        tips: "Sıcak servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/kahramanmaras_kunefe.jpg",
+      slider: {
+        images: [
+          "https://example.com/kahramanmaras_kunefe1.jpg",
+          "https://example.com/kahramanmaras_kunefe2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kahramanmaraş Dondurma",
+      description: "Yöresel dondurma çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Kahramanmaraş dondurması",
+        ingredients: ["Süt", "Şeker", "Salep", "Dondurma makinesi"],
+        preparation: "Salep ve süt karışımı dondurma makinesinde yapılır",
+        tips: "Salep oranı yüksek ve katı bir dondurmadır.",
+      },
+      type: "food",
+      image: "https://example.com/kahramanmaras_dondurma.jpg",
+      slider: {
+        images: [
+          "https://example.com/kahramanmaras_dondurma1.jpg",
+          "https://example.com/kahramanmaras_dondurma2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Kahramanmaraş Katmeri",
+      description: "Yöresel tatlı çeşidi.",
+      moreDetails: {
+        history: "Geleneksel Kahramanmaraş tatlılarından biri",
+        ingredients: ["Yufka", "Peynir", "Tereyağı", "Şerbet"],
+        preparation:
+          "Yufka ve peynir katmanları arasına şerbet dökülerek yapılır",
+        tips: "Sıcak servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/kahramanmaras_katmer.jpg",
+      slider: {
+        images: [
+          "https://example.com/kahramanmaras_katmer1.jpg",
+          "https://example.com/kahramanmaras_katmer2.jpg",
+        ],
+      },
     },
   ],
   47: [
