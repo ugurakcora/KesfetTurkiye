@@ -5610,6 +5610,104 @@ export const culturalPlaces = {
       latitude: 37.0333,
       longitude: 27.4333,
     },
+    {
+      name: "Ölüdeniz",
+      description: "Ünlü plaj ve doğal güzellikler.",
+      moreDetails: {
+        history: "Doğal bir plaj ve deniz kıyısı",
+        activities: "Deniz, kum, güneş, su sporları",
+        visitInfo: {
+          hours: "24 saat açık",
+          bestTime: "Yaz ayları",
+          tips: "Deniz ayakkabısı kullanmayı unutmayın.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/oludeniz.jpg",
+      slider: {
+        images: [
+          "https://example.com/oludeniz1.jpg",
+          "https://example.com/oludeniz2.jpg",
+        ],
+      },
+      location: "Fethiye, Muğla",
+      latitude: 36.62,
+      longitude: 29.1167,
+    },
+    {
+      name: "Marmaris Kalesi",
+      description: "Tarihi bir kale ve müze.",
+      moreDetails: {
+        history: "Kale, 11. yüzyılda inşa edilmiştir.",
+        activities: "Kale içinde müze gezilebilir.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Güneş kremi kullanmayı unutmayın.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/marmaris_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/marmaris_kalesi1.jpg",
+          "https://example.com/marmaris_kalesi2.jpg",
+        ],
+      },
+      location: "Marmaris, Muğla",
+      latitude: 36.855,
+      longitude: 28.2742,
+    },
+    {
+      name: "Kaunos Antik Kenti",
+      description: "Antik kent kalıntıları ve doğal güzellikler.",
+      moreDetails: {
+        history: "Karya dönemine ait antik kent",
+        activities: "Arkeolojik kazılar, doğa yürüyüşleri",
+        visitInfo: {
+          hours: "09:00 - 19:00",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Rahat yürüyüş ayakkabısı giyin.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/kaunos.jpg",
+      slider: {
+        images: [
+          "https://example.com/kaunos1.jpg",
+          "https://example.com/kaunos2.jpg",
+        ],
+      },
+      location: "Dalyan, Muğla",
+      latitude: 36.8275,
+      longitude: 28.6464,
+    },
+    {
+      name: "Muğla Arkeoloji Müzesi",
+      description: "Bölgenin zengin arkeolojik mirasını sergileyen müze.",
+      moreDetails: {
+        history: "1969 yılında kurulmuştur.",
+        exhibitions:
+          "Karya, Likya, Helenistik dönemlere ait eserler koleksiyonu",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://example.com/mugla_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/mugla_muzesi1.jpg",
+          "https://example.com/mugla_muzesi2.jpg",
+        ],
+      },
+      location: "Muğla",
+      latitude: 37.2167,
+      longitude: 28.3667,
+    },
   ],
   49: [
     // Muş
