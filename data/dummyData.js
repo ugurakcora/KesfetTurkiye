@@ -4651,6 +4651,30 @@ export const culturalPlaces = {
       latitude: 36.8,
       longitude: 34.65,
     },
+    {
+      name: "Silifke Kalesi",
+      description: "Tarihi bir kale.",
+      moreDetails: {
+        history: "Kale, tarihi bir yapıdır.",
+        activities: "Kaleyi ziyaret edebilirsiniz.",
+        visitInfo: {
+          hours: "Her gün açık",
+          bestTime: "Yaz ayları",
+          tips: "Rahat ayakkabı giymeniz önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/silifke_kalesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/silifke_kalesi1.jpg",
+          "https://example.com/silifke_kalesi2.jpg",
+        ],
+      },
+      location: "Silifke",
+      latitude: 36.3778,
+      longitude: 33.9364,
+    },
   ],
   35: [
     // İzmir
@@ -4678,6 +4702,133 @@ export const culturalPlaces = {
       location: "Selçuk, İzmir",
       latitude: 37.9425,
       longitude: 27.3622,
+    },
+    {
+      name: "İzmir Saat Kulesi",
+      description: "Şehrin simgesi olan tarihi saat kulesi.",
+      moreDetails: {
+        history: "Saat kulesi, 1901 yılında inşa edilmiştir.",
+        architecture: "Osmanlı dönemi mimarisine sahip",
+        visitInfo: {
+          hours: "24 saat açık",
+          bestTime: "Gün doğumu ve batımı",
+          tips: "Saat kulesine çıkış yolu dik, uygun ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/izmir_saat_kulesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/izmir_saat_kulesi1.jpg",
+          "https://example.com/izmir_saat_kulesi2.jpg",
+        ],
+      },
+      location: "Konak, İzmir",
+      latitude: 38.4189,
+      longitude: 27.1287,
+    },
+    {
+      name: "Kemeraltı Çarşısı",
+      description: "Tarihi çarşı ve alışveriş merkezi.",
+      moreDetails: {
+        history: "Çarşı, 17. yüzyılda inşa edilmiştir.",
+        activities: "Alışveriş, yemek, kahve keyfi yapabilirsiniz.",
+        visitInfo: {
+          hours: "09:00 - 20:00",
+          bestTime: "Gündüz saatleri",
+          tips: "Çarşıda pazarlık yapabilirsiniz.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/kemeralti_carsisi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kemeralti_carsisi1.jpg",
+          "https://example.com/kemeralti_carsisi2.jpg",
+        ],
+      },
+      location: "Konak, İzmir",
+      latitude: 38.4189,
+      longitude: 27.1287,
+    },
+    {
+      name: "İzmir Kordon",
+      description: "Şehir merkezinde yer alan sahil bandı.",
+      moreDetails: {
+        history: "Kordon, 19. yüzyılda inşa edilmiştir.",
+        activities: "Yürüyüş, bisiklet sürme, deniz manzarası",
+        visitInfo: {
+          hours: "24 saat açık",
+          bestTime: "Gün batımı",
+          tips: "Kordon boyunca yürüyüş yapabilirsiniz.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/izmir_kordon.jpg",
+      slider: {
+        images: [
+          "https://example.com/izmir_kordon1.jpg",
+          "https://example.com/izmir_kordon2.jpg",
+        ],
+      },
+      location: "Konak, İzmir",
+      latitude: 38.4189,
+      longitude: 27.1287,
+    },
+    {
+      name: "Boyoz",
+      description: "İzmir'in meşhur hamur işi.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan bir hamur işi",
+        ingredients: ["Un", "Yağ", "Yumurta", "Sirke"],
+        preparation: "Hamur yoğrulur, şekillendirilir ve fırında pişirilir",
+        tips: "Kahvaltıda tüketilir.",
+      },
+      type: "food",
+      image: "https://example.com/boyoz.jpg",
+      slider: {
+        images: [
+          "https://example.com/boyoz1.jpg",
+          "https://example.com/boyoz2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Lokma",
+      description: "İzmir'in meşhur tatlısı.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan bir tatlı",
+        ingredients: ["Un", "Şeker", "Maya", "Yağ"],
+        preparation: "Hamur yoğrulur, kızgın yağda kızartılır ve şerbetlenir",
+        tips: "Sıcak servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/lokma.jpg",
+      slider: {
+        images: [
+          "https://example.com/lokma1.jpg",
+          "https://example.com/lokma2.jpg",
+        ],
+      },
+    },
+    {
+      name: "İzmir Köfte",
+      description: "İzmir'in meşhur et yemeği.",
+      moreDetails: {
+        history: "Osmanlı döneminden beri yapılan bir yemek",
+        ingredients: ["Kıyma", "Soğan", "Baharatlar"],
+        preparation:
+          "Kıyma ve baharatlar karıştırılır, şekillendirilir ve kızartılır",
+        tips: "Sıcak servis edilir.",
+      },
+      type: "food",
+      image: "https://example.com/izmir_kofte.jpg",
+      slider: {
+        images: [
+          "https://example.com/izmir.jpg",
+          "https://example.com/izmir.jpg",
+        ],
+      },
     },
   ],
   36: [
