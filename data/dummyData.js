@@ -5244,6 +5244,31 @@ export const culturalPlaces = {
       latitude: 41.7333,
       longitude: 27.2167,
     },
+    {
+      name: "Kırklareli Müzesi",
+      description: "Şehrin tarihini ve kültürünü sergileyen müze.",
+      moreDetails: {
+        history: "Müze, 1980 yılında açılmıştır.",
+        exhibitions: "Arkeolojik eserler, etnografik malzemeler, el yazmaları",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "15 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://example.com/kirklareli_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/kirklareli_muzesi1.jpg",
+          "https://example.com/kirklareli_muzesi2.jpg",
+        ],
+      },
+      location: "Kırklareli",
+      latitude: 41.7333,
+      longitude: 27.2167,
+    },
   ],
   40: [
     // Kırşehir
@@ -5938,6 +5963,81 @@ export const culturalPlaces = {
         images: [
           "https://example.com/nigde_kalesi1.jpg",
           "https://example.com/nigde_kalesi2.jpg",
+        ],
+      },
+      location: "Niğde",
+      latitude: 37.9667,
+      longitude: 34.6833,
+    },
+    {
+      name: "Niğde Müzesi",
+      description: "Bölgenin zengin arkeolojik mirasını sergileyen müze.",
+      moreDetails: {
+        history: "1975 yılında kurulmuştur.",
+        exhibitions: "Hitit, Roma, Bizans dönemlerine ait eserler koleksiyonu",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "museum",
+      image: "https://example.com/nigde_muzesi.jpg",
+      slider: {
+        images: [
+          "https://example.com/nigde_muzesi1.jpg",
+          "https://example.com/nigde_muzesi2.jpg",
+        ],
+      },
+      location: "Niğde",
+      latitude: 37.9667,
+      longitude: 34.6833,
+    },
+    {
+      name: "Niğde Eğriçimen Yaylası",
+      description: "Doğal güzelliklere sahip yayla.",
+      moreDetails: {
+        history: "Geleneksel yayla yerleşimi",
+        activities: "Doğa yürüyüşü, fotoğrafçılık, kamp",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve yaz",
+          tips: "Yayla evlerinde konaklama imkanı mevcuttur.",
+        },
+      },
+      type: "natural",
+      image: "https://example.com/nigde_yayla.jpg",
+      slider: {
+        images: [
+          "https://example.com/nigde.jpg",
+          "https://example.com/nigde.jpg",
+        ],
+      },
+      location: "Niğde",
+      latitude: 37.9667,
+      longitude: 34.6833,
+    },
+    {
+      name: "Niğde Şıhlar Konağı",
+      description: "Geleneksel Niğde evi.",
+      moreDetails: {
+        history: "Osmanlı dönemi konak mimarisi",
+        architecture: "Taş ve ahşap malzemelerle yapılmıştır",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar mevcuttur.",
+        },
+      },
+      type: "historical",
+      image: "https://example.com/nigde_konak.jpg",
+      slider: {
+        images: [
+          "https://example.com/nigde.jpg",
+          "https://example.com/nigde.jpg",
         ],
       },
       location: "Niğde",
