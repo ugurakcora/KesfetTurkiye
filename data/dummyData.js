@@ -7136,15 +7136,18 @@ export const culturalPlaces = {
     // Şanlıurfa
     {
       name: "Göbeklitepe",
-      description: "Dünya'nın bilinen en eski tapınak kompleksi.",
+      description:
+        "Dünyanın bilinen en eski tapınak kompleksi ve UNESCO Dünya Mirası Listesi'nde yer alan arkeolojik alan",
       moreDetails: {
         history:
-          "Göbeklitepe, M.Ö. 9600 yıllarına kadar uzanan bir geçmişe sahiptir.",
-        activities: "Antik kalıntıları gezmek için popüler bir yerdir.",
+          "Yaklaşık 12.000 yıl önce, MÖ 10.000 civarında inşa edilmiş olan Göbeklitepe, insanlık tarihinin bilinen en eski ve en büyük ibadet merkezidir. Keşfi ile tarih yeniden yazılmış ve yerleşik hayata geçiş teorileri değişmiştir.",
+        architecture:
+          "T biçimli dikilitaşlar, dairesel ve dikdörtgen yapılar, hayvan kabartmaları ve çeşitli sembolik motifler içermektedir.",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş kremi kullanmayı unutmayın.",
+          hours: "Yaz: 08:00-19:00, Kış: 08:00-17:00",
+          price: "100 TL",
+          bestTime: "İlkbahar ve sonbahar ayları",
+          tips: "Şemsiye ve su bulundurmanız, rahat yürüyüş ayakkabıları giymeniz önerilir. Ziyaret için en az 2-3 saat ayırın.",
         },
       },
       type: "historical",
@@ -7153,12 +7156,132 @@ export const culturalPlaces = {
       slider: {
         images: [
           "https://upload.wikimedia.org/wikipedia/commons/4/4e/G%C3%B6beklitepe.jpg",
-          "https://upload.wikimedia.org/wikipedia/commons/5/5e/G%C3%B6beklitepe_2.jpg",
+          "https://arkeofili.com/wp-content/uploads/2021/12/gobeklitepe-2.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20190129133439001_Gobeklitepe%20Sanliurfa%20(2).jpg",
         ],
       },
-      location: "Şanlıurfa",
+      location: "Örencik, Merkez",
       latitude: 37.2233,
-      longitude: 38.92,
+      longitude: 38.9217,
+    },
+    {
+      name: "Balıklıgöl (Halil-ür Rahman Gölü)",
+      description:
+        "Hz. İbrahim'in ateşe atıldığı rivayet edilen ve kutsal sayılan göl kompleksi",
+      moreDetails: {
+        history:
+          "Hz. İbrahim'in Nemrut tarafından ateşe atıldığında, ateşin suya, odunların da balığa dönüştüğüne inanılan göl, yüzyıllardır kutsal bir mekan olarak kabul edilmektedir.",
+        activities:
+          "İbadet, balık besleme, tarihi yapıları gezme, fotoğraf çekme",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Her mevsim",
+          tips: "Balıkları beslemek için yem satın alabilirsiniz. Özellikle akşam saatlerinde çok kalabalık olabilir.",
+        },
+      },
+      type: "religious",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Balikligol.jpg/1280px-Balikligol.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Balikligol.jpg/1280px-Balikligol.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Balikli%20Gol%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Balikli%20Gol%202.jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 37.15,
+      longitude: 38.791,
+    },
+    {
+      name: "Harran Antik Kenti",
+      description:
+        "Kubbe evleri ve tarihi üniversitesiyle ünlü antik yerleşim yeri",
+      moreDetails: {
+        history:
+          "İlk yerleşimin MÖ 6000'lere dayandığı Harran, dünyanın ilk İslam üniversitesine ev sahipliği yapmış, astronomi, tıp ve felsefe alanında önemli bir merkez olmuştur.",
+        architecture:
+          "Konik kubbeli evler, antik üniversite kalıntıları, surlar ve tarihi camiler",
+        visitInfo: {
+          hours: "08:00-17:00",
+          price: "30 TL",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Yaz aylarında çok sıcak olduğu için şapka ve su bulundurmanız önemlidir. Geleneksel evlerin içini gezebilirsiniz.",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Harran_houses_2.jpg/1280px-Harran_houses_2.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Harran_houses_2.jpg/1280px-Harran_houses_2.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Harran%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Harran%202.jpg",
+        ],
+      },
+      location: "Harran",
+      latitude: 36.8657,
+      longitude: 39.0319,
+    },
+    {
+      name: "Şanlıurfa Kalesi",
+      description: "Şehre hakim konumdaki tarihi kale ve burçları",
+      moreDetails: {
+        history:
+          "MÖ 9500'lü yıllara kadar uzanan tarihi olan kale, Urfa'nın en eski yerleşim yerlerinden biridir. Hz. İbrahim'in ateşe atıldığı rivayetine konu olan mekanın burası olduğuna inanılır.",
+        architecture:
+          "İki burç ve surlardan oluşan kale, kesme taştan inşa edilmiştir.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Gün batımı",
+          tips: "Manzara fotoğrafı çekmek için en ideal zaman gün batımıdır. Kaleye çıkış yolu diktir, rahat ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Urfa_Castle_and_City_Walls_5789.jpg/1280px-Urfa_Castle_and_City_Walls_5789.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Urfa_Castle_and_City_Walls_5789.jpg/1280px-Urfa_Castle_and_City_Walls_5789.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Urfa%20Kalesi%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Urfa%20Kalesi%202.jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 37.1478,
+      longitude: 38.7922,
+    },
+    {
+      name: "Şanlıurfa Arkeoloji ve Mozaik Müzesi",
+      description:
+        "Göbeklitepe ve bölgenin diğer önemli arkeolojik eserlerinin sergilendiği modern müze kompleksi",
+      moreDetails: {
+        history:
+          "2015 yılında açılan müze, Türkiye'nin en büyük müze komplekslerinden biridir. Göbeklitepe başta olmak üzere bölgedeki önemli arkeolojik buluntuları sergiler.",
+        exhibitions:
+          "Göbeklitepe buluntuları, Roma dönemi mozaikleri, Neolitik dönem eserleri",
+        visitInfo: {
+          hours: "08:30-17:30 (Pazartesi kapalı)",
+          price: "50 TL",
+          bestTime: "Hafta içi sabah saatleri",
+          tips: "Müzeyi gezmek için en az 2-3 saat ayırmanız önerilir. Fotoğraf çekmek serbesttir.",
+        },
+      },
+      type: "museum",
+      image:
+        "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20190129133439001_Sanliurfa%20Arkeoloji%20Muzesi%20(1).jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20190129133439001_Sanliurfa%20Arkeoloji%20Muzesi%20(1).jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20190129133439001_Sanliurfa%20Arkeoloji%20Muzesi%20(2).jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20190129133439001_Sanliurfa%20Arkeoloji%20Muzesi%20(3).jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 37.167,
+      longitude: 38.7924,
     },
   ],
   64: [
@@ -7193,28 +7316,177 @@ export const culturalPlaces = {
     // Van
     {
       name: "Van Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
+      description:
+        "Urartu Krallığı'ndan kalma, Van Gölü kıyısında yükselen muhteşem kale",
       moreDetails: {
         history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+          "MÖ 9. yüzyılda Urartu Kralı I. Sarduri tarafından inşa edilen kale, 1800 metre uzunluğunda ve 120 metre yüksekliğindedir. Urartular'ın başkenti Tuşpa'nın merkeziydi.",
+        architecture:
+          "Kesme taştan yapılmış surlar, burçlar, tapınak ve saray kalıntıları bulunmaktadır. Urartu kaya mezarları ve çivi yazılı kitabeler görülebilir.",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
+          hours: "08:00 - 19:00",
+          price: "30 TL",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Güneş batımında manzara fotoğrafı çekmek için ideal. Tırmanış için rahat ayakkabı giyilmesi önerilir.",
         },
       },
       type: "historical",
-      image: "https://example.com/van_kalesi.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Van_Kalesi_2.jpg/1280px-Van_Kalesi_2.jpg",
       slider: {
         images: [
-          "https://example.com/van_kalesi1.jpg",
-          "https://example.com/van_kalesi2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Van_Kalesi_2.jpg/1280px-Van_Kalesi_2.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Van%20Kalesi%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Van%20Kalesi%202.jpg",
         ],
       },
-      location: "Van",
-      latitude: 38.4192,
-      longitude: 43.3662,
+      location: "Merkez",
+      latitude: 38.4972,
+      longitude: 43.3803,
+    },
+    {
+      name: "Akdamar Adası ve Kilisesi",
+      description:
+        "Van Gölü'nün içindeki adada bulunan 10. yüzyıldan kalma Ermeni kilisesi",
+      moreDetails: {
+        history:
+          "915-921 yılları arasında Vaspurakan Kralı I. Gagik tarafından yaptırılan kilise, Ermeni mimarisinin en önemli örneklerindendir.",
+        architecture:
+          "Dış cephesinde İncil'den sahneleri tasvir eden kabartmalar ve freskler bulunmaktadır.",
+        visitInfo: {
+          hours: "08:00 - 18:00",
+          price: "45 TL",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Adaya tekne ile ulaşılıyor. Fotoğraf çekmek serbest. Badem ağaçlarının çiçek açtığı ilkbahar özellikle güzel.",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Akdamar_Island.jpg/1280px-Akdamar_Island.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Akdamar_Island.jpg/1280px-Akdamar_Island.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Akdamar%20Kilisesi%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Akdamar%20Kilisesi%202.jpg",
+        ],
+      },
+      location: "Gevaş",
+      latitude: 38.3411,
+      longitude: 43.0369,
+    },
+    {
+      name: "Van Gölü",
+      description: "Türkiye'nin en büyük gölü ve dünyanın en büyük sodalı gölü",
+      moreDetails: {
+        history:
+          "Tektonik hareketler sonucu oluşan göl, binlerce yıldır bölgenin en önemli su kaynağıdır.",
+        activities: "Yüzme, tekne turu, fotoğrafçılık, kuş gözlemciliği",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz (tekne turları ücretli)",
+          bestTime: "Haziran-Eylül arası",
+          tips: "Göl suyu sodalı olduğu için yüzerken dikkatli olunmalı. Gün batımı manzarası muhteşem.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Van_G%C3%B6l%C3%BC.jpg/1280px-Van_G%C3%B6l%C3%BC.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Van_G%C3%B6l%C3%BC.jpg/1280px-Van_G%C3%B6l%C3%BC.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Van%20Golu%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Van%20Golu%202.jpg",
+        ],
+      },
+      location: "Van Gölü Havzası",
+      latitude: 38.6463,
+      longitude: 42.8232,
+    },
+    {
+      name: "Van Kedisi Araştırma Merkezi",
+      description: "Dünyaca ünlü Van kedilerinin koruma ve araştırma merkezi",
+      moreDetails: {
+        history:
+          "2005 yılında Yüzüncü Yıl Üniversitesi bünyesinde kurulan merkez, Van kedilerinin soyunun devamını sağlamak ve araştırma yapmak amacıyla hizmet vermektedir.",
+        activities: "Van kedilerini gözlemleme, fotoğraf çekme, bilgi alma",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "15 TL",
+          bestTime: "Her mevsim",
+          tips: "Kedileri beslemek yasak. Fotoğraf çekmek serbest.",
+        },
+      },
+      type: "cultural",
+      image: "https://www.kulturportali.gov.tr/contents/images/van-kedisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/van-kedisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/20171104012854543_VAN%20KEDISI.jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 38.5484,
+      longitude: 43.2877,
+    },
+    {
+      name: "Van Kahvaltısı",
+      description: "Türkiye'nin en zengin ve meşhur kahvaltı kültürü",
+      moreDetails: {
+        history:
+          "Yüzyıllardır süregelen kahvaltı kültürü, Van'ın en önemli gastronomik değerlerinden biridir.",
+        ingredients: [
+          "Otlu peynir",
+          "Kavurmalı cacık",
+          "Murtuğa",
+          "Van balı",
+          "Tereyağı",
+          "Kaymak",
+          "Zeytin",
+          "Domates",
+          "Salatalık",
+          "Yumurta çeşitleri",
+        ],
+        preparation:
+          "30'dan fazla çeşit ile hazırlanan geleneksel kahvaltı sofrası",
+        tips: "Sabah erken saatlerde kahvaltı yapılması önerilir. Meşhur kahvaltı salonlarında rezervasyon gerekebilir.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/van-kahvaltisi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/van-kahvaltisi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/van-kahvaltisi2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Van Otlu Peyniri",
+      description: "Yöreye özgü, çeşitli otlarla yapılan geleneksel peynir",
+      moreDetails: {
+        history:
+          "Yüzyıllardır üretilen otlu peynir, Van'ın coğrafi işaretli ürünüdür.",
+        ingredients: [
+          "Koyun sütü",
+          "Sirmo",
+          "Mendi",
+          "Heliz",
+          "Kekik",
+          "Yabani nane",
+        ],
+        preparation:
+          "Baharda toplanan otlar peynir yapımı sırasında katılır ve salamurada bekletilir",
+        tips: "Orijinal Van otlu peyniri coğrafi işaret tescilli satıcılardan alınmalıdır.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/van-otlu-peynir.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/van-otlu-peynir.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/van-otlu-peynir2.jpg",
+        ],
+      },
     },
   ],
   66: [
