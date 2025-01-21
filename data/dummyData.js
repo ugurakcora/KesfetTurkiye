@@ -6994,28 +6994,142 @@ export const culturalPlaces = {
   62: [
     // Tunceli
     {
-      name: "Munzur Dağları",
-      description: "Doğal güzellikleri ile ünlü bir dağ.",
+      name: "Munzur Vadisi Milli Parkı",
+      description:
+        "Türkiye'nin en büyük milli parklarından biri, eşsiz doğal güzelliklere sahip vadi",
       moreDetails: {
-        history: "Dağ, doğal bir oluşumdur.",
-        activities: "Doğa yürüyüşleri ve kamp için popüler bir yerdir.",
+        history:
+          "1971 yılında milli park ilan edilen alan, zengin flora ve faunasıyla dikkat çekmektedir. Munzur Çayı boyunca uzanan vadi, dağcılık ve doğa sporları için ideal bir konumdadır.",
+        activities:
+          "Rafting, kano, dağcılık, trekking, foto safari, kamp, yaban hayatı gözlemciliği",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Kamp yaparken ateş yakmamaya dikkat edin.",
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Kamp yapmak için önceden izin alınması gereklidir. Yaban hayatı açısından dikkatli olunmalıdır.",
         },
       },
       type: "natural",
-      image: "https://example.com/munzur.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/c/c8/Munzur_Vadisi_Milli_Park%C4%B1.jpg",
       slider: {
         images: [
-          "https://example.com/munzur1.jpg",
-          "https://example.com/munzur2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c8/Munzur_Vadisi_Milli_Park%C4%B1.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Munzur%20Vadisi%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Munzur%20Vadisi%202.jpg",
         ],
       },
-      location: "Tunceli",
-      latitude: 39.2,
-      longitude: 39.5,
+      location: "Ovacık",
+      latitude: 39.3472,
+      longitude: 39.4139,
+    },
+    {
+      name: "Peri Suyu Kanyonu",
+      description:
+        "Keban Baraj Gölü'ne dökülen Peri Suyu'nun oluşturduğu muhteşem kanyon",
+      moreDetails: {
+        history:
+          "Doğal oluşumlu kanyon, binlerce yıllık jeolojik süreçler sonucu oluşmuştur.",
+        activities: "Foto safari, doğa yürüyüşü, manzara seyri",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar",
+          tips: "Kanyon kenarlarında dikkatli olunmalı, güvenlik mesafesi korunmalıdır.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/PeriSuyu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/PeriSuyu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/PeriSuyu2.jpg",
+        ],
+      },
+      location: "Pertek",
+      latitude: 38.8736,
+      longitude: 39.3228,
+    },
+    {
+      name: "Tunceli Müzesi",
+      description:
+        "Bölgenin tarihini ve kültürel mirasını sergileyen modern müze",
+      moreDetails: {
+        history:
+          "2016 yılında açılan müze, bölgenin tarihi ve kültürel zenginliklerini sergilemektedir.",
+        exhibitions:
+          "Arkeolojik eserler, etnografik malzemeler, yerel kültür öğeleri",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "10 TL",
+          bestTime: "Hafta içi",
+          tips: "Rehberli turlar için önceden randevu alınabilir.",
+        },
+      },
+      type: "museum",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/TunceliMuzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/TunceliMuzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/TunceliMuzesi2.jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 39.1067,
+      longitude: 39.5481,
+    },
+    {
+      name: "Düzgün Baba Türbesi",
+      description: "Halk inancında önemli yeri olan kutsal ziyaret mekanı",
+      moreDetails: {
+        history:
+          "Alevi-Bektaşi geleneğinde önemli bir ziyaret yeri olan türbe, yüksek bir dağın zirvesinde yer almaktadır.",
+        activities: "Ziyaret, ibadet, manzara seyri",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Yaz ayları",
+          tips: "Yüksek rakım nedeniyle uygun kıyafet ve su bulundurulmalıdır.",
+        },
+      },
+      type: "religious",
+      image: "https://www.kulturportali.gov.tr/contents/images/DuzgunBaba.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/DuzgunBaba.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/DuzgunBaba2.jpg",
+        ],
+      },
+      location: "Nazımiye",
+      latitude: 39.1819,
+      longitude: 39.9156,
+    },
+    {
+      name: "Halvori Gözeleri",
+      description: "Munzur Dağları'ndan çıkan doğal su kaynakları",
+      moreDetails: {
+        history:
+          "Binlerce yıldır akan bu su kaynakları, bölge halkı için kutsal sayılmaktadır.",
+        activities: "Piknik, doğa yürüyüşü, fotoğrafçılık",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Suların soğuk olduğu unutulmamalı, dikkatli olunmalıdır.",
+        },
+      },
+      type: "natural",
+      image: "https://www.kulturportali.gov.tr/contents/images/Halvori.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/Halvori.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/Halvori2.jpg",
+        ],
+      },
+      location: "Ovacık",
+      latitude: 39.3528,
+      longitude: 39.2139,
     },
   ],
   63: [
