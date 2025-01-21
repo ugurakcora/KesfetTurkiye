@@ -5192,29 +5192,155 @@ export const culturalPlaces = {
   38: [
     // Kayseri
     {
-      name: "Kayseri Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
+      name: "Erciyes Dağı",
+      description:
+        "Türkiye'nin en önemli kış turizm merkezlerinden biri olan 3.917 metre yüksekliğindeki sönmüş volkanik dağ",
       moreDetails: {
         history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahiplii yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+          "Erciyes Dağı, antik çağlardan beri bölgenin en önemli simgelerinden biri olmuştur. Eski Hitit metinlerinde 'Harkasos' olarak geçen dağ, sönmüş bir volkandır.",
+        activities:
+          "Kış sporları, dağcılık, hiking, kampçılık, yamaç paraşütü gibi birçok aktivite yapılabilmektedir. Modern tesisleriyle kayak tutkunlarına hizmet vermektedir.",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
+          hours: "24 saat açık",
+          price: "Kayak pistleri için günlük bilet gerekli",
+          bestTime:
+            "Kayak için Aralık-Mart arası, yaz aktiviteleri için Haziran-Eylül arası",
+          tips: "Kış aylarında zincir bulundurulması önerilir. Yüksek rakım nedeniyle yanınızda su ve uygun kıyafet bulundurun.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Erciyes_Mountain.jpg/1280px-Erciyes_Mountain.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Erciyes_Mountain.jpg/1280px-Erciyes_Mountain.jpg",
+          "https://www.kayserierciyes.com.tr/wp-content/uploads/2021/12/erciyes-kayak-merkezi-4.jpg",
+          "https://www.kayserierciyes.com.tr/wp-content/uploads/2021/12/erciyes-kayak-merkezi-2.jpg",
+        ],
+      },
+      location: "Kayseri Merkez",
+      latitude: 38.5307,
+      longitude: 35.4477,
+    },
+    {
+      name: "Hunat Hatun Külliyesi",
+      description:
+        "1238 yılında Selçuklu Sultanı I. Alaeddin Keykubad'ın eşi Mahperi Hunat Hatun tarafından yaptırılan tarihi külliye",
+      moreDetails: {
+        history:
+          "Anadolu Selçuklu döneminin en önemli yapılarından biri olan külliye, cami, medrese, hamam ve türbeden oluşmaktadır. Selçuklu mimarisinin en güzel örneklerindendir.",
+        architecture:
+          "Külliye, tipik Selçuklu mimarisi özelliklerini taşımaktadır. Taç kapısındaki taş işçiliği ve geometrik süslemeler dikkat çekicidir.",
+        visitInfo: {
+          hours: "08:00 - 18:00",
+          price: "Ücretsiz",
+          bestTime: "Hafta içi sabah saatleri",
+          tips: "Cami ziyareti için uygun kıyafet giyilmesi önerilir. Fotoğraf çekmek için en iyi ışık öğleden önce alınır.",
         },
       },
       type: "historical",
-      image: "https://example.com/kayseri_kalesi.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hunat_Hatun_Complex_8426.jpg/1280px-Hunat_Hatun_Complex_8426.jpg",
       slider: {
         images: [
-          "https://example.com/kayseri_kalesi1.jpg",
-          "https://example.com/kayseri_kalesi2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Hunat_Hatun_Complex_8426.jpg/1280px-Hunat_Hatun_Complex_8426.jpg",
+          "https://live.staticflickr.com/7456/9586275710_4cca1d2c76_b.jpg",
+          "https://gezilmesigerekenyerler.com/wp-content/uploads/2017/09/Hunat-Hatun-Kulliyesi.jpg",
         ],
       },
-      location: "Kayseri",
-      latitude: 38.731,
-      longitude: 35.478,
+      location: "Kayseri Merkez",
+      latitude: 38.7208,
+      longitude: 35.4875,
+    },
+    {
+      name: "Kayseri Kalesi",
+      description:
+        "Roma İmparatorluğu döneminde inşa edilen ve şehrin merkezinde yer alan tarihi kale",
+      moreDetails: {
+        history:
+          "İlk olarak Roma döneminde inşa edilen kale, Bizans, Selçuklu ve Osmanlı dönemlerinde de kullanılmış ve çeşitli onarımlar görmüştür.",
+        architecture:
+          "Dikdörtgen planlı olan kale, kesme taştan yapılmış olup, iç ve dış kale olmak üzere iki bölümden oluşmaktadır.",
+        visitInfo: {
+          hours: "09:00 - 17:00",
+          price: "15 TL",
+          bestTime: "Sabah saatleri",
+          tips: "Kalenin üst kısmına çıkmak için merdivenler vardır, rahat ayakkabı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kayseri_Castle_-_panoramio.jpg/1280px-Kayseri_Castle_-_panoramio.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Kayseri_Castle_-_panoramio.jpg/1280px-Kayseri_Castle_-_panoramio.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Kayseri%20Ic%20Kale%204.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133720871_Kayseri%20Ic%20Kale%201.jpg",
+        ],
+      },
+      location: "Kayseri Merkez",
+      latitude: 38.7224,
+      longitude: 35.4873,
+    },
+    {
+      name: "Kapuzbaşı Şelaleleri",
+      description:
+        "Aladağlar Milli Parkı içerisinde bulunan, dünyanın en yüksek debili ikinci şelalesi",
+      moreDetails: {
+        history:
+          "Doğal güzelliğiyle ünlü olan şelaleler, yedi ayrı düşüşten oluşmaktadır ve yaklaşık 30-76 metre yükseklikten düşmektedir.",
+        activities:
+          "Doğa yürüyüşü, fotoğrafçılık, piknik ve kamp yapma imkanları bulunmaktadır.",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Mayıs-Ekim arası",
+          tips: "Yol durumu mevsime göre değişebilir, arazi aracı önerilir. Yanınızda yedek kıyafet bulundurmanız tavsiye edilir.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kapuzba%C5%9F%C4%B1_%C5%9Eelaleleri_3.jpg/1280px-Kapuzba%C5%9F%C4%B1_%C5%9Eelaleleri_3.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Kapuzba%C5%9F%C4%B1_%C5%9Eelaleleri_3.jpg/1280px-Kapuzba%C5%9F%C4%B1_%C5%9Eelaleleri_3.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133720808_Kapuzbasi%20Selaleleri%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133720839_Kapuzbasi%20Selaleleri%202.jpg",
+        ],
+      },
+      location: "Yahyalı",
+      latitude: 37.9833,
+      longitude: 35.4167,
+    },
+    {
+      name: "Sultan Sazlığı Milli Parkı",
+      description:
+        "Türkiye'nin en önemli kuş cennetlerinden biri olan doğal yaşam alanı",
+      moreDetails: {
+        history:
+          "1988 yılında milli park ilan edilen alan, göçmen kuşların önemli durak noktalarından biridir ve 301 kuş türüne ev sahipliği yapmaktadır.",
+        activities:
+          "Kuş gözlemciliği, fotoğrafçılık, doğa yürüyüşü ve bilimsel araştırmalar yapılabilmektedir.",
+        visitInfo: {
+          hours: "Gün doğumu-gün batımı arası",
+          price: "Ücretsiz",
+          bestTime: "İlkbahar ve sonbahar (kuş göçü dönemleri)",
+          tips: "Dürbün ve fotoğraf makinesi getirmeniz önerilir. Sessiz olunması ve doğal yaşama saygı gösterilmesi önemlidir.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Sultan_Sazl%C4%B1%C4%9F%C4%B1_Ku%C5%9F_Cenneti.jpg/1280px-Sultan_Sazl%C4%B1%C4%9F%C4%B1_Ku%C5%9F_Cenneti.jpg",
+      slider: {
+        images: [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Sultan_Sazl%C4%B1%C4%9F%C4%B1_Ku%C5%9F_Cenneti.jpg/1280px-Sultan_Sazl%C4%B1%C4%9F%C4%B1_Ku%C5%9F_Cenneti.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721043_Sultan%20Sazligi%201.jpg",
+          "https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180319133721074_Sultan%20Sazligi%202.jpg",
+        ],
+      },
+      location: "Yeşilhisar",
+      latitude: 38.3333,
+      longitude: 35.2167,
     },
   ],
   39: [
