@@ -7706,29 +7706,168 @@ export const culturalPlaces = {
   67: [
     // Zonguldak
     {
-      name: "Zonguldak Kalesi",
-      description: "Şehrin tarihi simgelerinden biri.",
+      name: "Gökgöl Mağarası",
+      description:
+        "Türkiye'nin en uzun mağaralarından biri ve eşsiz doğal güzelliğe sahip turistik mağara",
       moreDetails: {
         history:
-          "Kale, tarihi boyunca birçok medeniyete ev sahipliği yapmıştır.",
-        activities: "Kale çevresinde yürüyüş yapabilirsiniz.",
+          "Yaklaşık 3 milyon yıl önce oluşmaya başlayan mağara, 1936 yılında keşfedilmiş ve 2017'de turizme açılmıştır.",
+        activities: "Mağara turu, fotoğraf çekimi, jeolojik gözlem",
         visitInfo: {
-          hours: "Her gün açık",
-          bestTime: "Yaz ayları",
-          tips: "Güneş batarken manzara harika.",
+          hours: "09:00 - 19:00",
+          price: "30 TL",
+          bestTime: "Tüm yıl boyunca",
+          tips: "Mağara içi sıcaklığı 12-14 derece arasındadır, yanınıza hırka almanız önerilir. Fotoğraf çekmek serbesttir.",
+        },
+      },
+      type: "natural",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/gokgol-magarasi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/gokgol-magarasi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/gokgol-magarasi2.jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 41.4569,
+      longitude: 31.7844,
+    },
+    {
+      name: "Cehennemağzı Mağaraları",
+      description:
+        "Tarihi ve mitolojik öneme sahip üç mağaradan oluşan kompleks",
+      moreDetails: {
+        history:
+          "Antik dönemde tapınak olarak kullanılan mağaralar, Hristiyanlığın ilk dönemlerinde kilise olarak kullanılmıştır. Mitolojide Herkül'ün yeraltı dünyasına buradan indiğine inanılır.",
+        activities:
+          "Mağara gezisi, tarihi ve arkeolojik gözlem, fotoğraf çekimi",
+        visitInfo: {
+          hours: "08:00 - 17:00",
+          price: "20 TL",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Üç mağarayı da görmek için en az 1 saat ayırın. Mağara içi nemli olabilir.",
         },
       },
       type: "historical",
-      image: "https://example.com/zonguldak_kalesi.jpg",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/cehennemagzi-magaralari.jpg",
       slider: {
         images: [
-          "https://example.com/zonguldak_kalesi1.jpg",
-          "https://example.com/zonguldak_kalesi2.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/cehennemagzi-magaralari.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/cehennemagzi-magaralari2.jpg",
         ],
       },
-      location: "Zonguldak",
-      latitude: 41.45,
-      longitude: 31.8,
+      location: "Ereğli",
+      latitude: 41.285,
+      longitude: 31.417,
+    },
+    {
+      name: "Maden Müzesi",
+      description:
+        "Türkiye'nin ilk madencilik müzesi ve yeraltı simülasyon galerisi",
+      moreDetails: {
+        history:
+          "2016 yılında açılan müze, bölgenin madencilik tarihini ve kültürünü yaşatmak amacıyla kurulmuştur.",
+        exhibitions:
+          "Madencilik ekipmanları, kömür örnekleri, simülasyon galerisi, madenci kıyafetleri",
+        visitInfo: {
+          hours: "09:00 - 17:00 (Pazartesi kapalı)",
+          price: "15 TL",
+          bestTime: "Hafta içi",
+          tips: "Simülasyon galerisini mutlaka görün. Fotoğraf çekmek serbesttir.",
+        },
+      },
+      type: "museum",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/maden-muzesi.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/maden-muzesi.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/maden-muzesi2.jpg",
+        ],
+      },
+      location: "Merkez",
+      latitude: 41.4531,
+      longitude: 31.7889,
+    },
+    {
+      name: "Filyos Antik Kenti",
+      description:
+        "MÖ 7. yüzyıla dayanan tarihi geçmişe sahip antik kent kalıntıları",
+      moreDetails: {
+        history:
+          "Antik dönemde Tios olarak bilinen kent, önemli bir liman ve ticaret merkeziydi. Roma ve Bizans dönemlerinde de önemini korumuştur.",
+        activities: "Arkeolojik gezi, fotoğraf çekimi, tarihi inceleme",
+        visitInfo: {
+          hours: "24 saat açık",
+          price: "Ücretsiz",
+          bestTime: "Nisan-Ekim arası",
+          tips: "Antik tiyatro ve liman kalıntılarını mutlaka görün. Rahat yürüyüş ayakkabısı giyilmesi önerilir.",
+        },
+      },
+      type: "historical",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/filyos-antik-kenti.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/filyos-antik-kenti.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/filyos-antik-kenti2.jpg",
+        ],
+      },
+      location: "Çaycuma",
+      latitude: 41.5733,
+      longitude: 32.0267,
+    },
+    {
+      name: "Zonguldak Pide",
+      description:
+        "Yöreye özgü, özel hamuru ve malzemeleriyle meşhur pide çeşidi",
+      moreDetails: {
+        history:
+          "Madenci şehri Zonguldak'ın vazgeçilmez lezzeti olan pide, yıllardır bölgenin en önemli yemek kültürü öğelerinden biridir.",
+        ingredients: [
+          "Özel pide hamuru",
+          "Kıyma",
+          "Kuşbaşı et",
+          "Kaşar peyniri",
+          "Yumurta",
+          "Tereyağı",
+        ],
+        preparation:
+          "İnce açılan özel hamur üzerine malzemeler yerleştirilir ve taş fırında pişirilir",
+        tips: "En iyi pideciler merkez ve Kozlu bölgesinde bulunur. Yumurtalı ve kaşarlı çeşitlerini denemelisiniz.",
+      },
+      type: "food",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/zonguldak-pide.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/zonguldak-pide.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/zonguldak-pide2.jpg",
+        ],
+      },
+    },
+    {
+      name: "Devrek Bastonu",
+      description: "El işçiliği ile üretilen, dünyaca ünlü geleneksel baston",
+      moreDetails: {
+        history:
+          "Yüzyıllardır süregelen baston yapım geleneği, Devrek ilçesinin en önemli el sanatlarından biridir.",
+        production: "Kızılcık ağacından yapılır ve özel motiflerle süslenir",
+        characteristics:
+          "Her baston benzersiz el işçiliğine sahiptir ve koleksiyon değeri taşır",
+        tips: "Orijinal Devrek bastonu almak için sertifikalı üreticileri tercih edin.",
+      },
+      type: "cultural",
+      image:
+        "https://www.kulturportali.gov.tr/contents/images/devrek-bastonu.jpg",
+      slider: {
+        images: [
+          "https://www.kulturportali.gov.tr/contents/images/devrek-bastonu.jpg",
+          "https://www.kulturportali.gov.tr/contents/images/devrek-bastonu2.jpg",
+        ],
+      },
     },
   ],
   68: [
